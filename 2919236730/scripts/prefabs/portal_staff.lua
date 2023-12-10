@@ -38,7 +38,7 @@ local function Portal(inst, caster, pos, options)
     -- Spawn Portal
     else
         local marker_pos = inst.marker:GetPosition()
-        local portal = SpawnPrefab("pocketwatch_portal_entrance") 
+        local portal = SpawnPrefab("pocketwatch_portal_entrance")
         portal.Transform:SetPosition(pos:Get())
         portal:SpawnExit(TheShard:GetShardId(), marker_pos.x, marker_pos.y, marker_pos.z)
         inst.SoundEmitter:PlaySound("wanda1/wanda/portal_entrance_pre")

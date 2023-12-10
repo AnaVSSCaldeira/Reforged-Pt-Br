@@ -859,6 +859,7 @@ function LavaarenaEvent:End(victory)
 
 	self.inst.net.components.lavaarenaeventstate:PushPopup(victory)
 	self.victory = victory
+	self.inst.net.components.lavaarenaeventstate.is_match_complete:set(true)
 	self.duration = math.floor(GetTime() - self.start_time + 0.5)
 	if self.waveset_data then
 		local endgame_speech = self.waveset_data.endgame_speech
@@ -956,6 +957,10 @@ end
 
 function LavaarenaEvent:IsIntermission()
 	return #TheWorld.components.forgemobtracker:GetAllLiveMobs() == 0
+end
+
+function LavaarenaEvent:IsMatchComplete()
+	return self.victory ~= nil
 end
 
 -- TODO move to a different component

@@ -320,7 +320,7 @@ end
 ------------
 local function webber_master_postinit(inst)
 	inst.talker_path_override = "dontstarve_DLC001/characters/" --Because for some reason player talker values don't get set in forge, might let Klei know of this. Remove this if they fix it.
-	inst.components.itemtyperestrictions:SetRestrictions({"staves", "books"})
+	inst.components.itemtyperestrictions:SetRestrictions({"melees", "staves", "books"})
 end
 ------------
 -- Winona --
@@ -368,7 +368,7 @@ end
 -- Walter --
 ------------
 local function walter_master_postinit(inst)
-	inst.components.itemtyperestrictions:SetRestrictions({"melees", "staves"})
+	inst.components.itemtyperestrictions:SetRestrictions({"books", "melees", "staves"})
 end
 ------------
 -- Wanda  --

@@ -79,10 +79,10 @@ local PassiveBloom = Class(function(self, inst)
 	self.skin_overrides = skin_overrides -- this dictates the amount of stages
 	self.time_per_stage = 10
 	self.decay_time_per_stage = 1
-	self.pollen_period = 14
-	self.pollen_range = 9
-	self.pollen_attack_mult_debuff = 0.85
-	self.pollen_debuff_duration = 12
+	self.pollen_period = 10
+	self.pollen_range = 3
+	self.pollen_attack_mult_debuff = 0.9
+	self.pollen_debuff_duration = 5
 	self.bloom_speed_mult = 1.2
 	self.default_build = "wilson"
 
