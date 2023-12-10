@@ -21,12 +21,12 @@ directory. If not, please refer to
 TODO
     Is there a way to retrieve strings from a string file? Wondering if there is a way to translate these strings? if it's the same as in the main files?
  --]]
-name = "ReForged"
-version = "2.03.12"
+name = "ReForged - PT BR"
+version = "1.0"
 
 description = "Fight the system! Play the Forge on your own server!\n\nVersion: "..version
 
-author = "ReForged Team"
+author = "Vector & ReForged Team"
 
 forumthread = "/topic/114488-reforged-forged-forge-reworked/"
 

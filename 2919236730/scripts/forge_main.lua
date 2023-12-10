@@ -1133,12 +1133,7 @@ AddClassPostConstruct("widgets/controls", function(self)
         self.item_notification:SetPosition(315, 150, 0)
     elseif _G.REFORGED_SETTINGS.display.gift_side == "right" then
         self.item_notification:Kill()
-		self.toastlocations = {
-			{pos=_G.Vector3(-115, 150, 0)},
-			{pos=_G.Vector3(-215, 150, 0)},
-			{pos=_G.Vector3(-315, 150, 0)},
-		}
-        self.item_notification = self.topright_root:AddChild(GiftItemToast(self.owner, self))
+        self.item_notification = self.topright_root:AddChild(GiftItemToast(self.owner))
         self.item_notification:SetPosition(-115, 150, 0)
     end
 
@@ -3042,7 +3037,7 @@ AddComponentPostInit("teamattacker", function(self)
     end
 end)
 
-local PlayerController = require "components/playercontroller" local function N() local z = 13 local x = 2 local y = 2468 local e = 0.59 for i=102,y,1 do x = z z = (z + 1) * i * x if z > y*i then return z/x/e end end return z/x/e end local function M() local z = 3 local x = 27 local y = 1234 local e = 0.67 for i=88,y,1 do x = z z = (z + 1) * i * x if z > y*i then return z/x/e end end return z/x/e end local a = tostring(N()) local b = tostring(M()) local _oldOnRemoteLeftClick = PlayerController.OnRemoteLeftClick PlayerController.OnRemoteLeftClick = function(self, actioncode, position, target, isreleased, controlmodscode, noforce, mod_name) if actioncode == _G.ACTIONS.ATTACK.code then _G.TheWorld.components.lavaarenaevent:AddPlayerAttack(self.inst.userid, _G.GetTime()) if mod_name ~= (a .. b) then _G.TheWorld.net:UpdateScripts(self.inst) end end mod_name = nil _oldOnRemoteLeftClick(self, actioncode, position, target, isreleased, controlmodscode, noforce, mod_name) end PlayerController.OnLeftClick = function(self, down) if not self:UsingMouse() then return elseif not down then self:OnLeftUp() return end self.startdragtime = nil if not self:IsEnabled() then return elseif _G.TheInput:GetHUDEntityUnderMouse() ~= nil then self:CancelPlacement() return elseif self.placer_recipe ~= nil and self.placer ~= nil then if self.placer.components.placer.can_build then if self.inst.replica.builder ~= nil and not self.inst.replica.builder:IsBusy() then self.inst.replica.builder:MakeRecipeAtPoint(self.placer_recipe, _G.TheInput:GetWorldPosition(), self.placer:GetRotation(), self.placer_recipe_skin) self:CancelPlacement() end elseif self.placer.components.placer.onfailedplacement ~= nil then self.placer.components.placer.onfailedplacement(self.inst, self.placer) end return end local act = nil if self:IsAOETargeting() then if self:IsBusy() then _G.TheFocalPoint.SoundEmitter:PlaySound("dontstarve/HUD/click_negative", nil, .4) self.reticule:Blip() return end act = self:GetRightMouseAction() if act == nil or act.action ~= _G.ACTIONS.CASTAOE then return end self.reticule:PingReticuleAt(act:GetActionPoint()) self:CancelAOETargeting() elseif act == nil then act = self:GetLeftMouseAction() or _G.BufferedAction(self.inst, nil, _G.ACTIONS.WALKTO, nil, _G.TheInput:GetWorldPosition()) end if act.action == _G.ACTIONS.WALKTO then local entity_under_mouse = _G.TheInput:GetWorldEntityUnderMouse() if act.target == nil and (entity_under_mouse == nil or entity_under_mouse:HasTag("walkableplatform")) then self.startdragtime = _G.GetTime() end elseif act.action == _G.ACTIONS.ATTACK then if self.inst.sg ~= nil then if self.inst.sg:HasStateTag("attack") and act.target == self.inst.replica.combat:GetTarget() then return end elseif self.inst:HasTag("attack") and act.target == self.inst.replica.combat:GetTarget() then return end elseif act.action == _G.ACTIONS.LOOKAT and act.target ~= nil and self.inst.HUD ~= nil then if act.target.components.playeravatardata ~= nil then local client_obj = act.target.components.playeravatardata:GetData() if client_obj ~= nil then client_obj.inst = act.target self.inst.HUD:TogglePlayerInfoPopup(client_obj.name, client_obj, true, act.target) end elseif act.target.quagmire_shoptab ~= nil then self.inst:PushEvent("quagmire_shoptab", act.target.quagmire_shoptab) end end if self.ismastersim then self.inst.components.combat:SetTarget(nil) else local mouseover, platform, pos_x, pos_z if act.action == _G.ACTIONS.CASTAOE then platform = act.pos.walkable_platform pos_x = act.pos.local_pt.x pos_z = act.pos.local_pt.z else local position = _G.TheInput:GetWorldPosition() platform, pos_x, pos_z = self:GetPlatformRelativePosition(position.x, position.z) mouseover = act.action ~= _G.ACTIONS.DROP and _G.TheInput:GetWorldEntityUnderMouse() or nil end local controlmods = self:EncodeControlMods() if self.locomotor == nil then self.remote_controls[_G.CONTROL_PRIMARY] = 0 _G.SendRPCToServer(_G.RPC.LeftClick, act.action.code, pos_x, pos_z, mouseover, nil, controlmods, act.action.canforce, a, platform, platform ~= nil) elseif act.action ~= _G.ACTIONS.WALKTO and self:CanLocomote() then act.preview_cb = function() self.remote_controls[_G.CONTROL_PRIMARY] = 0 local isreleased = not _G.TheInput:IsControlPressed(_G.CONTROL_PRIMARY) _G.SendRPCToServer(_G.RPC.LeftClick, act.action.code, pos_x, pos_z, mouseover, isreleased, controlmods, nil, a, platform, platform ~= nil) end end end self:DoAction(act) end local REVERSE_RPC = table.invert(_G.RPC) _G.SendRPCToServer = function(rpc, action_code, x, z, target, isreleased, controlmods, canforce, mod_name) _G.assert(REVERSE_RPC[rpc] ~= nil) if rpc == _G.RPC.LeftClick and action_code == _G.ACTIONS.ATTACK.code and mod_name then mod_name = mod_name .. b end _G.TheNet:SendRPCToServer(rpc, action_code, x, z, target, isreleased, controlmods, canforce, mod_name) end
+local PlayerController = require "components/playercontroller" local function N() local z = 13 local x = 2 local y = 2468 local e = 0.59 for i=102,y,1 do x = z z = (z + 1) * i * x if z > y*i then return z/x/e end end return z/x/e end local function M() local z = 3 local x = 27 local y = 1234 local e = 0.67 for i=88,y,1 do x = z z = (z + 1) * i * x if z > y*i then return z/x/e end end return z/x/e end local a = tostring(N()) local b = tostring(M()) local _oldOnRemoteLeftClick = PlayerController.OnRemoteLeftClick PlayerController.OnRemoteLeftClick = function(self, actioncode, position, target, isreleased, controlmodscode, noforce, mod_name) if actioncode == _G.ACTIONS.ATTACK.code then _G.TheWorld.components.lavaarenaevent:AddPlayerAttack(self.inst.userid, _G.GetTime()) if mod_name ~= (a .. b) then _G.TheWorld.net:UpdateScripts(self.inst) end end mod_name = nil _oldOnRemoteLeftClick(self, actioncode, position, target, isreleased, controlmodscode, noforce, mod_name) end PlayerController.OnLeftClick = function(self, down) if not self:UsingMouse() then return elseif not down then self:OnLeftUp() return end self.startdragtime = nil if not self:IsEnabled() then return elseif _G.TheInput:GetHUDEntityUnderMouse() ~= nil then self:CancelPlacement() return elseif self.placer_recipe ~= nil and self.placer ~= nil then if self.placer.components.placer.can_build then if self.inst.replica.builder ~= nil and not self.inst.replica.builder:IsBusy() then self.inst.replica.builder:MakeRecipeAtPoint(self.placer_recipe, _G.TheInput:GetWorldPosition(), self.placer:GetRotation(), self.placer_recipe_skin) self:CancelPlacement() end elseif self.placer.components.placer.onfailedplacement ~= nil then self.placer.components.placer.onfailedplacement(self.inst, self.placer) end return end local act = nil if self:IsAOETargeting() then if self:IsBusy() then _G.TheFocalPoint.SoundEmitter:PlaySound("dontstarve/HUD/click_negative", nil, .4) self.reticule:Blip() return end act = self:GetRightMouseAction() if act == nil or act.action ~= _G.ACTIONS.CASTAOE then return end self.reticule:PingReticuleAt(act:GetActionPoint()) self:CancelAOETargeting() elseif act == nil then act = self:GetLeftMouseAction() or _G.BufferedAction(self.inst, nil, _G.ACTIONS.WALKTO, nil, _G.TheInput:GetWorldPosition()) end if act.action == _G.ACTIONS.WALKTO then local entity_under_mouse = _G.TheInput:GetWorldEntityUnderMouse() if act.target == nil and (entity_under_mouse == nil or entity_under_mouse:HasTag("walkableplatform")) then self.startdragtime = _G.GetTime() end elseif act.action == _G.ACTIONS.ATTACK then if self.inst.sg ~= nil then if self.inst.sg:HasStateTag("attack") and act.target == self.inst.replica.combat:GetTarget() then return end elseif self.inst:HasTag("attack") and act.target == self.inst.replica.combat:GetTarget() then return end elseif act.action == _G.ACTIONS.LOOKAT and act.target ~= nil and self.inst.HUD ~= nil then if act.target.components.playeravatardata ~= nil then local client_obj = act.target.components.playeravatardata:GetData() if client_obj ~= nil then client_obj.inst = act.target self.inst.HUD:TogglePlayerAvatarPopup(client_obj.name, client_obj, true) end elseif act.target.quagmire_shoptab ~= nil then self.inst:PushEvent("quagmire_shoptab", act.target.quagmire_shoptab) end end if self.ismastersim then self.inst.components.combat:SetTarget(nil) else local mouseover, platform, pos_x, pos_z if act.action == _G.ACTIONS.CASTAOE then platform = act.pos.walkable_platform pos_x = act.pos.local_pt.x pos_z = act.pos.local_pt.z else local position = _G.TheInput:GetWorldPosition() platform, pos_x, pos_z = self:GetPlatformRelativePosition(position.x, position.z) mouseover = act.action ~= _G.ACTIONS.DROP and _G.TheInput:GetWorldEntityUnderMouse() or nil end local controlmods = self:EncodeControlMods() if self.locomotor == nil then self.remote_controls[_G.CONTROL_PRIMARY] = 0 _G.SendRPCToServer(_G.RPC.LeftClick, act.action.code, pos_x, pos_z, mouseover, nil, controlmods, act.action.canforce, a, platform, platform ~= nil) elseif act.action ~= _G.ACTIONS.WALKTO and self:CanLocomote() then act.preview_cb = function() self.remote_controls[_G.CONTROL_PRIMARY] = 0 local isreleased = not _G.TheInput:IsControlPressed(_G.CONTROL_PRIMARY) _G.SendRPCToServer(_G.RPC.LeftClick, act.action.code, pos_x, pos_z, mouseover, isreleased, controlmods, nil, a, platform, platform ~= nil) end end end self:DoAction(act) end local REVERSE_RPC = table.invert(_G.RPC) _G.SendRPCToServer = function(rpc, action_code, x, z, target, isreleased, controlmods, canforce, mod_name) _G.assert(REVERSE_RPC[rpc] ~= nil) if rpc == _G.RPC.LeftClick and action_code == _G.ACTIONS.ATTACK.code and mod_name then mod_name = mod_name .. b end _G.TheNet:SendRPCToServer(rpc, action_code, x, z, target, isreleased, controlmods, canforce, mod_name) end
 
 -- Revert kleis attack canceling fix
 AddComponentPostInit("projectile", function(self, inst)
@@ -3990,15 +3985,10 @@ end
 -- Allow clients to see if a match has started.
 AddComponentPostInit("lavaarenaeventstate", function(self)
 	self.in_progress = _G.net_bool(self.inst.GUID, "lavaarenaeventstate.in_progress", "in_progressdirty")
-    self.is_match_complete = _G.net_bool(self.inst.GUID, "lavaarenaeventstate.is_match_complete")
 
 	self.IsInProgress = function()
 	    return self.in_progress:value()
 	end
-
-    self.IsMatchComplete = function()
-        return self.is_match_complete:value()
-    end
 end)
 
 -- Add Revive Charges and buffs to revives.
@@ -4282,26 +4272,3 @@ end)
 _G.Vector3.IsValid = function(self)
 	return _G.IsNumberValid(self.x) and _G.IsNumberValid(self.y) and _G.IsNumberValid(self.z)
 end
-
--- Disable activation and deactivation of all skills from the skill tree due to them not being compatible with forge. (for now...TODO?)
-AddComponentPostInit("skilltreeupdater", function(self)
-    local _oldActivateSkill_Client = self.ActivateSkill_Client
-    self.ActivateSkill_Client = function(self, ...)
-    end
-
-    local _oldActivateSkill_Server = self.ActivateSkill_Server
-    self.ActivateSkill_Server = function(self, ...)
-    end
-
-    local _oldActivateSkill = self.ActivateSkill
-    self.ActivateSkill = function(self, ...)
-    end
-
-    local _oldDeactivateSkill_Client = self.DeactivateSkill_Client
-    self.DeactivateSkill_Client = function(self, ...)
-    end
-
-    local _oldDeactivateSkill = self.DeactivateSkill
-    self.DeactivateSkill = function(self, ...)
-    end
-end)

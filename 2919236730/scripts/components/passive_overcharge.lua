@@ -11,9 +11,9 @@ end
 local PassiveOvercharge = Class(function(self, player)
     self.player       = player
     self.overcharged  = false
-    self.duration     = 10
-    self.speed_bonus  = 0.1 -- percent increase
-    self.light_radius = 3
+    self.duration     = 50
+    self.speed_bonus  = 0.25 -- percent increase
+    self.light_radius = 8
 
     self.player:AddTag("shockable")
 
@@ -32,6 +32,10 @@ function PassiveOvercharge:Overcharge(attacker, weapon)
     self.player.Light:Enable(true)
     self.player.Light:SetRadius(self.light_radius)
     self.player.components.locomotor:SetExternalSpeedMultiplier(self, "passive_overcharge", 1 + self.speed_bonus)
+	
+	local heal_plus = 17.5
+	self.player.components.health:DoDelta(heal_plus)
+	
     self.overcharge_timer = self.player:DoTaskInTime(self.duration, function(inst)
         self:RemoveOvercharge()
     end)

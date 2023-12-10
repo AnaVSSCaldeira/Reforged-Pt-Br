@@ -25,19 +25,25 @@ local hat_values = {
 }
 --------------------------------------------------------------------------
 local function fn()
-    local inst = COMMON_FNS.EQUIPMENT.HelmInit("lavaarena_chefhat", nil, "anim", hat_values, tuning_values)
-	------------------------------------------
+    local inst = COMMON_FNS.EQUIPMENT.HelmInit("lavaarena_chefhat", nil, "anim", nil, nil, nil, hat_values, tuning_values)
+    ------------------------------------------
     if not TheWorld.ismastersim then
         return inst
     end
     ------------------------------------------
 	inst.components.inventoryitem.atlasname = "images/reforged.xml"
 	--inst.components.inventoryitem.imagename = "lavaarena_"..name.."hat"
-	--inst.components.itemtype:SetType("cooldown_hats") --TODO: maybe make this cookhats?
+	inst.components.itemtype:SetType("cooldown_hats") --TODO: maybe make this cookhats?
     ------------------------------------------
-    inst.components.equippable:AddUniqueBuff({{name = "chef_mastery", val = 1, type = "flat"}})
+	
+    inst.components.equippable:AddUniqueBuff({
+	{name = "chef_mastery", val = 1, type = "flat"},
+	{name = "cooldown", val = TUNING.FORGE.LAVAARENA_CHEFHAT.BONUS_COOLDOWNRATE, type = "add"}
+	})
+
     ------------------------------------------
 	return inst
 end
+
 --------------------------------------------------------------------------
 return ForgePrefab("lavaarena_chefhat", fn, assets, nil, nil, tuning_values.ENTITY_TYPE, nil, "images/reforged.xml", "lavaarena_chefhat.tex", "lavaarena_chefhat", "common_head1")

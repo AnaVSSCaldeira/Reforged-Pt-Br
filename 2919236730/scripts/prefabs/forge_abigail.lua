@@ -110,7 +110,7 @@ local function UpdatePetLevel(inst, level, force_level)
 		-- Update Health
         inst.components.health:AddHealthBuff("pet_level", inst.current_level, "mult")
 		CheckFunction("SetMaxHealth", {inst, inst.components.health.maxhealth}, inst.components.follower, "leader", "components", "pethealthbars")
-		inst.components.health:StartRegen(inst.current_level, 1) -- TODO was a 2, level 1 is 1...so does this match level?
+		inst.components.health:StartRegen(inst.current_level*2, 1) -- TODO was a 2, level 1 is 1...so does this match level?
 		-- Update Damage
         inst.components.combat:AddDamageBuff("pet_level", {buff = inst.current_level}, nil, true) -- TODO double check this
 		-- Update Size
