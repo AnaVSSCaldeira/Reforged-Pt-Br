@@ -22,7 +22,7 @@ TODO
     Is there a way to retrieve strings from a string file? Wondering if there is a way to translate these strings? if it's the same as in the main files?
  --]]
 name = "ReForged - PT BR"
-version = "1.1"
+version = "1.2"
 
 description = "Sobreviva nesse modo de modo de waves! Jogue o Forge no seu próprio servidor!\n\nVersão: "..version
 

@@ -237,7 +237,7 @@ local icon = {atlas = "images/reforged.xml", tex = "forge_icon.tex"}
 AddPerk("wickerbottom", "amplify", amplify_fn, nil, def_icon, 0)
 -------------------------------------------------------------------------------
 local function bookers_fn(inst)
-	inst.components.buffable:AddBuff("rewind", {{name = "spell_duration", val = 1.40, type = "mult"}})
+	inst.components.buffable:AddBuff("rewind", {{name = "spell_duration", val = 1.3, type = "mult"}})
     inst.reforged_items = {[1] = {"bacontome"}}
 	inst:AddComponent("corpsereviver")
 	inst.components.corpsereviver:SetReviverSpeedMult(0.75)
@@ -266,7 +266,7 @@ AddPerk("wes", "aggro", aggro_fn, nil, def_icon, 0)
 -------------
 local function shadows_fn(inst)
     inst:AddComponent("passive_shadows")
-	inst.components.combat:AddDamageBuff("magedmgbuff", {buff = 1.10, damagetype = 2 }, false) --O damagetype = 2 (Magia)
+	--inst.components.combat:AddDamageBuff("magedmgbuff", {buff = 1.10, damagetype = 2 }, false) --O damagetype = 2 (Magia)
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
 AddPerk("waxwell", "shadows", shadows_fn, nil, def_icon, 0)

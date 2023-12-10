@@ -70,8 +70,8 @@ local LAVAARENA_SEEDDARTS_STRINGS = {
 	WARLY        = "Weaponized seeds?",
 	WURT         = "Not a vegetable...?",
 }
-STRINGS.NAMES.LAVAARENA_SEEDDARTS = "Seedling Darts"
-STRINGS.ACTIONS.CASTAOE.LAVAARENA_SEEDDARTS = "Plant Seedling"
+STRINGS.NAMES.LAVAARENA_SEEDDARTS = "Dardos de Semente"
+STRINGS.ACTIONS.CASTAOE.LAVAARENA_SEEDDARTS = "Invocar Planta"
 SetItemsDescribeStrings("LAVAARENA_SEEDDARTS", LAVAARENA_SEEDDARTS_STRINGS)
 
 local MEAN_FLYTRAP_STRINGS = {
@@ -111,8 +111,8 @@ local LAVAARENA_SEEDDART2_STRINGS = {
 	WARLY        = "I must blow thrice as hard for this one.",
 	WURT         = "Should be careful with this. Not gonna.",
 }
-STRINGS.NAMES.LAVAARENA_SEEDDART2 = "Scattertooth"
-STRINGS.ACTIONS.CASTAOE.LAVAARENA_SEEDDART2 = "Plant Snaptooth"
+STRINGS.NAMES.LAVAARENA_SEEDDART2 = "Dardo Triplo"
+STRINGS.ACTIONS.CASTAOE.LAVAARENA_SEEDDART2 = "Plantar"
 SetItemsDescribeStrings("LAVAARENA_SEEDDART2", LAVAARENA_SEEDDART2_STRINGS)
 
 local ADULT_FLYTRAP_STRINGS = {
@@ -152,8 +152,8 @@ local LAVAARENA_SPATULA_STRINGS = {
 	WARLY        = "Ah, oui! Just the tool for the job, non?",
 	WURT         = "Food fight, florpt!",
 }
-STRINGS.NAMES.LAVAARENA_SPATULA = "Spatula"
-STRINGS.ACTIONS.CASTAOE.LAVAARENA_SPATULA = "Summon Cookpot"
+STRINGS.NAMES.LAVAARENA_SPATULA = "Espatula"
+STRINGS.ACTIONS.CASTAOE.LAVAARENA_SPATULA = "Cozinhar"
 SetItemsDescribeStrings("LAVAARENA_SPATULA", LAVAARENA_SPATULA_STRINGS)
 
 local FORGE_COOKPOT_STRINGS = {
@@ -173,14 +173,14 @@ local FORGE_COOKPOT_STRINGS = {
 	WARLY        = "I'm in my element!",
 	WURT         = "Food for us soon!",
 }
-STRINGS.NAMES.FORGE_COOKPOT = "Crockpot"
+STRINGS.NAMES.FORGE_COOKPOT = "Panela"
 SetItemsDescribeStrings("FORGE_COOKPOT", FORGE_COOKPOT_STRINGS)
 
-STRINGS.NAMES.SPICE_BOMB = "Spice Bomb"
-STRINGS.ACTIONS.CASTAOE.SPICE_BOMB_HEAL    = "Heal Bomb"
-STRINGS.ACTIONS.CASTAOE.SPICE_BOMB_ATTACK  = "Attack Bomb"
-STRINGS.ACTIONS.CASTAOE.SPICE_BOMB_DEFENSE = "Defense Bomb"
-STRINGS.ACTIONS.CASTAOE.SPICE_BOMB_SPEED   = "Speed Bomb"
+STRINGS.NAMES.SPICE_BOMB = "Bomba de Tompêro"
+STRINGS.ACTIONS.CASTAOE.SPICE_BOMB_HEAL    = "Regeneração"
+STRINGS.ACTIONS.CASTAOE.SPICE_BOMB_ATTACK  = "Ataque"
+STRINGS.ACTIONS.CASTAOE.SPICE_BOMB_DEFENSE = "Defensa"
+STRINGS.ACTIONS.CASTAOE.SPICE_BOMB_SPEED   = "Velocidade"
 
 local TELEPORT_STAFF_STRINGS = {
 	GENERIC      = "I can hop out of trouble with this.",
@@ -199,8 +199,8 @@ local TELEPORT_STAFF_STRINGS = {
 	WARLY        = "This magic is deuced unsettling.",
 	WURT         = "It tickles to use, flort!",
 }
-STRINGS.NAMES.TELEPORT_STAFF = "Soul Scepter"
-STRINGS.ACTIONS.CASTAOE.TELEPORT_STAFF = "Teleport"
+STRINGS.NAMES.TELEPORT_STAFF = "Machado de Teletransporte"
+STRINGS.ACTIONS.CASTAOE.TELEPORT_STAFF = "Teletransporte"
 SetItemsDescribeStrings("TELEPORT_STAFF", TELEPORT_STAFF_STRINGS)
 
 local GAUNTLET_STRINGS = {
@@ -242,7 +242,7 @@ local TRIDENT_STRINGS = {
 	WURT         = "A weapon of the merfolk.",
 }
 STRINGS.NAMES.FORGE_TRIDENT = "Trident" --TODO Leo: We should probably rename this now that trident actually exists in game.
-STRINGS.ACTIONS.CASTAOE.FORGE_TRIDENT = "Summon Merm Guard"
+STRINGS.ACTIONS.CASTAOE.FORGE_TRIDENT = "Invocar Sapão Cabra"
 SetItemsDescribeStrings("FORGE_TRIDENT", TRIDENT_STRINGS)
 
 local MERM_GUARD_STRINGS = {
@@ -262,7 +262,7 @@ local MERM_GUARD_STRINGS = {
 	WARLY        = "What a fearsome fishmonger.",
 	WURT         = "Fight, for king!",
 }
-STRINGS.NAMES.MERM_GUARD = "Merm Guard"
+STRINGS.NAMES.MERM_GUARD = "Sapão Cabra"
 SetItemsDescribeStrings("MERM_GUARD", MERM_GUARD_STRINGS)
 
 local PORTALSTAFF_STRINGS = {
@@ -282,16 +282,16 @@ local PORTALSTAFF_STRINGS = {
 	WARLY        = "Can it act as a kitchen timer?",
 	WURT         = "I must resist chewing on this one for now.",
 }
-STRINGS.NAMES.PORTALSTAFF = "Backtrek Staff"
-STRINGS.ACTIONS.CASTAOE.PORTAL_ACTIVATE = "Teleport"
-STRINGS.ACTIONS.CASTAOE.PORTAL_TARGET   = "Set Teleport Location"
+STRINGS.NAMES.PORTALSTAFF = "Cajado de Teletransporte"
+STRINGS.ACTIONS.CASTAOE.PORTAL_ACTIVATE = "Teleportar"
+STRINGS.ACTIONS.CASTAOE.PORTAL_TARGET   = "Preparar Teleporte"
 SetItemsDescribeStrings("PORTALSTAFF", PORTALSTAFF_STRINGS)
 
 --TODO Leo: Why are these here?
 STRINGS.NAMES.PITPIG   = STRINGS.NAMES.BOARON
 STRINGS.NAMES.BOARILLA = STRINGS.NAMES.TRAILS
 STRINGS.NAMES.SCORPEON = STRINGS.NAMES.PEGHOOK
-STRINGS.NAMES.MODDED_CHARACTER = "Modded Character"
+STRINGS.NAMES.MODDED_CHARACTER = "Personagem de Mod"
 STRINGS.NAMES.CHEATER = "CHEATER"
 
 STRINGS.NAMES.CROCOMMANDER_RAPIDFIRE = "Crocommancer"
@@ -322,14 +322,14 @@ STRINGS.NAMES.FORGE_BERNIE    = STRINGS.NAMES.LAVAARENA_BERNIE
 STRINGS.NAMES.FORGE_WOBY      = STRINGS.NAMES.WOBYSMALL
 STRINGS.NAMES.BABY_BEN        = "Baby Ben"
 
-STRINGS.CHARACTER_DETAILS.FORGE_STARTING_ITEMS_TITLE = "Enters the Forge With"
+STRINGS.CHARACTER_DETAILS.FORGE_STARTING_ITEMS_TITLE = "Entra no Forge com"
 
-STRINGS.UI.LOBBYSCREEN.FORCESTART      = "Force Start"
-STRINGS.UI.LOBBYSCREEN.CANCELSTART     = "Cancel Start"
-STRINGS.UI.LOBBYSCREEN.SAYSTART        = "Forcing Start in %s seconds. If you don't have a character selected before the countdown is over, then a random character will be selected for you."
-STRINGS.UI.LOBBYSCREEN.SAYCANCEL       = "Canceling Start."
-STRINGS.UI.LOBBYSCREEN.FORCESTARTTITLE = "Confirm Force Start"
-STRINGS.UI.LOBBYSCREEN.FORCESTARTDESC  = "Are you sure you want to force start the match in %s seconds?"
+STRINGS.UI.LOBBYSCREEN.FORCESTART      = "Forçar Início"
+STRINGS.UI.LOBBYSCREEN.CANCELSTART     = "Cancelar Início"
+STRINGS.UI.LOBBYSCREEN.SAYSTART        = "Forçando início em %s segs. Se você não tiver selecionado um personagem a tempo, então o jogo vai escolher um aleatório para você."
+STRINGS.UI.LOBBYSCREEN.SAYCANCEL       = "Cancelando Início."
+STRINGS.UI.LOBBYSCREEN.FORCESTARTTITLE = "Confirme Forçar Início"
+STRINGS.UI.LOBBYSCREEN.FORCESTARTDESC  = "Você tem certeza que quer forçar para começar a partida em %s segundos?"
 STRINGS.UI.LOBBYSCREEN.SERVER_ANNOUNCEMENT_NAME = "SERVER"
 
 STRINGS.UI.WXPLOBBYPANEL.LEVEL    = "Level {val}"
@@ -355,14 +355,14 @@ STRINGS.UI.WXP_DETAILS.MOB_SIZE          = "Size Mutator" -- TODO better string?
 STRINGS.UI.WXP_DETAILS.BATTLESTANDARD_EFFICIENCY = "Battlestandard Efficiency" -- TODO better string?
 STRINGS.UI.WXP_DETAILS.NO_SLEEP        = "Insomniac"
 STRINGS.UI.WXP_DETAILS.NO_REVIVES      = "Mortal" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.NO_HUD          = "No HUD" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.FRIENDLY_FIRE   = "Friendly Fire" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.NO_HUD          = "Sem HUD" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.FRIENDLY_FIRE   = "Fogo Amigo" -- TODO better string?
 STRINGS.UI.WXP_DETAILS.SCRIPTS         = "Spamware" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.COMMANDS        = "Console Commander" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.HARD_MODE       = "Hard Mode" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.COMMANDS        = "Hacker" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.HARD_MODE       = "Modo Difícil" -- TODO better string?
 STRINGS.UI.WXP_DETAILS.CLASSIC_RLGL    = "Classic RLGL" -- TODO better string?
 STRINGS.UI.WXP_DETAILS.RLGL            = "RLGL" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.ENDLESS         = "Endless" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.ENDLESS         = "Infinito" -- TODO better string?
 STRINGS.UI.WXP_DETAILS.MOB_DUPLICATOR  = "Duplicator Mutator" -- TODO better string?
 STRINGS.UI.WXP_DETAILS.JOINED_MIDMATCH = "Late Bloomer" -- TODO better string?
 
@@ -456,12 +456,12 @@ STRINGS.UI.ADMINMENU = {
 }
 
 STRINGS.UI.GAME_SETTINGS_PANEL = {
-	TAB        = "Configurações da Partida",
+	TAB        = "Configs da Partida",
 	TITLE      = "Opções de Gameplay",
 	PRESET     = "Preset",
-	MODE       = "Modo",
-	GAMETYPE   = "Gametype",
-	WAVESET    = "Waveset",
+	MODE       = "Temporada",
+	GAMETYPE   = "Modo",
+	WAVESET    = "Inimigos",
 	MAP        = "Arena",
 	DIFFICULTY = "Dificuldade",
 	VOTE       = "Vote to Change Settings",
@@ -472,7 +472,7 @@ STRINGS.UI.LEADERBOARD_PANEL = {
 	TAB = "Server Leaderboard",
 }
 STRINGS.UI.FORGEHISTORYPANEL = { -- TODO rename to LEADERBOARDPANEL?
-	TAB = "History",
+	TAB = "Histórico",
 	FILTERS = {
 		TITLE = "Filters",
 		ON = "On",
@@ -529,21 +529,21 @@ STRINGS.UI.FORGEHISTORYPANEL = { -- TODO rename to LEADERBOARDPANEL?
 	},
 }
 STRINGS.UI.ACHIEVEMENTS_PANEL = {
-	TAB = "Achievements",
+	TAB = "Conquistas",
 }
 STRINGS.UI.NEWS_PANEL = {
-	TAB = "News",
+	TAB = "Novidades",
 	SERVER = {
 		TITLE = "Server",
-		BODY = "Welcome to my ReForged server. Be respectful and Forge On.",
+		BODY = "Bem vindo ao meu servidor de Forge! Seja educado e partiu jogar!",
 	},
 	EVENTS = {
 		TITLE = STRINGS.UI.CUSTOMIZATIONSCREEN.SPECIALEVENT,
 		--TITLE = "Mod Contest",
-		BODY = "There are currently no active events.",
+		BODY = "No momento não tem nenhum evento, mas existe o Hallowed Forge, que é a versão de Halloween do Forge. Dá uma pesquisada na workshop!",
 		--BODY = "Klei is currently running an event where users can vote for their favorite spooky themed mod. If you like Hallowed Forge and want to help us win, then go to their discord and vote for us! Be sure to check out the other mods that have been submitted and feel free to vote for whichever you want, but remember you only get one vote (You can change your vote at any time though).\n_________________________________\nVote Here: discord:klei",
 		},
-	PATCH_NOTES = "Patch Notes",
+	PATCH_NOTES = "Atualizações",
 }
 
 local lavaarena_titles = STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES
@@ -991,7 +991,7 @@ STRINGS.REFORGED = {
 			DESC = "Summon an ancient ally.",
 			ABILITIES = {
 				SUMMON_GOLEM = {
-					NAME = "Gerar Golem",
+					NAME = "Invocar Golem",
 					DESC = "Spawns a rock golem from the depths of the Forge.",
 				},
 			},
@@ -1026,7 +1026,7 @@ STRINGS.REFORGED = {
                 },
             },
         },
-		SEEDLINGTOME = { -- TODO
+		SEEDLINGTOME = { -- NEM EXISTE KAKA
 			NAME = "Seedling Tome",
 			DESC = "",
 			ABILITIES = {
@@ -1036,7 +1036,7 @@ STRINGS.REFORGED = {
 				},
 			},
 		},
-		FLYTRAPTOME = {
+		FLYTRAPTOME = {  -- NEM EXISTE KAKA
 			NAME = "Flytrap Tome",
 			DESC = "",
 			ABILITIES = {
@@ -1051,7 +1051,7 @@ STRINGS.REFORGED = {
 			DESC = "Wormwood put his heart into this. And his other limbs.",
 			ABILITIES = {
 				PLANT_SEEDLING = {
-					NAME = "Gerar Planta",
+					NAME = "Invocar Planta",
 					DESC = "Hastily grow an organic ally.",
 				},
 			},
@@ -1087,7 +1087,7 @@ STRINGS.REFORGED = {
 			},
 		},
 		SPICE_BOMB = {
-            NAME = "Bomba Tômpero",
+            NAME = "Bomba de Tômpero",
             DESC = "What a pleasant aroma!",
             ABILITIES = {
                 THROW = {
@@ -1101,7 +1101,7 @@ STRINGS.REFORGED = {
 			DESC = "Don't let the rickety look fool you, this trident packs a punch!",
 			ABILITIES = {
 				CALL_GUARDS = {
-					NAME = "Gerar Sapão Cabra",
+					NAME = "Invocar Sapão Cabra",
 					DESC = "Spawn a loyal Merm Guard to fight alongside you.",
 				},
 			},
@@ -1131,11 +1131,11 @@ STRINGS.REFORGED = {
 			DESC = "Time travel on demand with this fancy staff.",
 			ABILITIES = {
 				SET_DESTINATION = {
-					NAME = "Set Destination", 
+					NAME = "Escolher Destino", 
 					DESC = "This is where you'll time travel too.", 
 				},
 				SUMMON_RIFT = {
-					NAME = "Summon Rift", 
+					NAME = "Invocar Portal", 
 					DESC = "Rip a hole in the fabric of time.", 
 				},
 			},
@@ -1145,7 +1145,7 @@ STRINGS.REFORGED = {
 			DESC = "Let's see if time can heal these wounds.",
 			ABILITIES = {
 				STOP_TIME = {
-					NAME = "Parar o Tempo", 
+					NAME = "Voltar no Tempo", 
 					DESC = "Freeze your enemies in their most embarrasing moments.", 
 				},
 			},
@@ -1294,11 +1294,11 @@ STRINGS.REFORGED = {
 	DIFFICULTIES = {
 		normal = {
 			name = "Normal",
-			desc = "Moderately fun!"
+			desc = "Equilibrado e Divertido!"
 		},
 		hard   = {
-			name = "Hard",
-			desc = "Good luck!"
+			name = "Difícil",
+			desc = "Boa Sorte!"
 		},
 	},
 	---------------
@@ -1306,16 +1306,16 @@ STRINGS.REFORGED = {
 	---------------
 	GAMETYPES = {
 		forge = {
-			name = "Forge",
-			desc = "Defeat all enemies to Forge a path to victory!"
+			name = "Padrão Forge",
+			desc = "Apenas derrote todos os inimigos para vencer!"
 		},
 		classic_rlgl = {
-			name = "Redlight/Greenlight",
-			desc = "The original RLGL from Forged Forge."
+			name = "Vivo ou Morto",
+			desc = "Luz verde = Se mova! Luz vermelha = Pare!"
 		},
 		rlgl = {
-			name = "RLGLBLOL",
-			desc = "I want a blue light, an orange light, all of the lights!"
+			name = "Luzes Caóticas",
+			desc = "Verde = Se mova! Vermelha = Pare! Laranja = Ataque! Azul = Não Sofra Dano!"
 		},
 	},
 	-----------
@@ -1342,19 +1342,19 @@ STRINGS.REFORGED = {
 		},
 		forge_s01 = {
 			name = "Forge S01",
-			desc = "The original event."
+			desc = "A primeira temporada original."
 		},
 		forge_s02 = {
 			name = "Forge S02",
-			desc = "Forge has returned with rolling Boarillas!"
+			desc = "O Forge voltou, agora com Boarillas rolando por ai!"
 		},
 		reforged = {
 			name = "ReForged",
-			desc = "Our own version of the Forge!"
+			desc = "A versão nova do Forge!"
 		},
 		forged_forge = {
 			name = "Forged Forge",
-			desc = "Currently in beta."
+			desc = "Atualmente em versão Beta."
 		},
 	},
 	--------------
@@ -1375,11 +1375,11 @@ STRINGS.REFORGED = {
 			desc = "Adjust the health of all mobs."
 		},
 		mob_speed = {
-			name = "Velocidade Inimiga",
+			name = "Vel. Inimiga",
 			desc = "Adjust the speed of all mobs."
 		},
 		mob_attack_rate = {
-			name = "Vel. Ataque Inimiga",
+			name = "Vel. Atk. Inimiga",
 			desc = "Adjust the attack rate of all mobs."
 		},
 		mob_size = {
@@ -1388,24 +1388,24 @@ STRINGS.REFORGED = {
 		},
 		-- Structure Stats
 		battlestandard_efficiency = {
-			name = "Mult dos Banners",--"Battlestandard Efficiency",
+			name = "Mult. de Totens",  --"Battlestandard Efficiency",
 			desc = "Adjust the multiplier of all battlestandards."
 		},
 		-- Other
 		no_sleep = {
-			name = "No Sleep",
+			name = "Sem Dormir",
 			desc = "Who needs sleep? Mobs sure don't!"
 		},
 		no_revives = {
-			name = "No Revives",
+			name = "Sem Reviver",
 			desc = "Did you die? Git Gud."
 		},
 		no_hud = {
-			name = "No Hud",
+			name = "Sem HUD",
 			desc = "How much health do I have?"
 		},
 		friendly_fire = {
-			name = "Friendly Fire",
+			name = "Fogo Amigo",
 			desc = "Have you ever wanted to hit your friend? Well...now you can!"
 		},
 		unbreakable_shields = {
@@ -1413,11 +1413,11 @@ STRINGS.REFORGED = {
 			desc = "Thought bunkered enemies were tough before?"
 		},
 		endless = {
-			name = "Endless",
+			name = "Modo Infinito",
 			desc = "It just keeps going and going and going... well... until you die!"
 		},
 		mob_duplicator = {
-			name = "Duplicator",
+			name = "Quantidade",
 			desc = "Adjust the number of mobs that spawn.",
 		}
 	},
@@ -1427,48 +1427,48 @@ STRINGS.REFORGED = {
 	PRESETS = {
 		forge_season_1     = "Forge S01",
 		forge_season_2     = "Forge S02",
-		half_the_wrath     = "Half The Wrath",
-		double_trouble     = "Double Trouble",
-		triple_threat      = "Triple Threat",
-		quintuple_struggle = "Quintuple Struggle",
-		tenfold_terror     = "Tenfold Terror",
-		fast_but_weak  = "Fast/Weak",
+		half_the_wrath     = "Metade Da Ira",
+		double_trouble     = "Dobrado",
+		triple_threat      = "Ameaça Tripla",
+		quintuple_struggle = "Chuva de Inimigos",
+		tenfold_terror     = "É Sério?",
+		fast_but_weak  = "Rápidos/Fracos",
 		x2             = "x2",
 		x3             = "x3",
-		half           = "1/2",
-		mutated        = "Mutated",
+		half           = "Metade",
+		mutated        = "Vida Real",
 		double_doom    = "Double Doom",
-		chaotic        = "Chaotic",
-		coffee         = "Coffee'd",
+		chaotic        = "Caótico",
+		coffee         = "Cafeína Pura",
 		double_half    = "Double 1/2",
 		half_double    = "Half x2",
-		attack_of_titans = "Attack of Titans",
-		insanity       = "Insanity",
-		custom         = "Custom",
+		attack_of_titans = "Ataque de Titãs",
+		insanity       = "Insanidade",
+		custom         = "Customizado",
 	},
 	--------------
 	-- WAVESETS --
 	--------------
 	WAVESETS = {
 		classic = {
-			name = "Classic",
-			desc = "Take on the original forge and try to defeat the Grand Forge Boarrior!"
+			name = "Classico",
+			desc = "A versão original do Forge. Derrote o Poderoso Rei Boarrior!"
 		},
 		boarilla = {
 			name = "Boarilla", -- TODO better name?
-			desc = "A mighty Boarilla joins the fight!"
+			desc = "Um Boarilla Fortificado vem para lutar!"
 		},
 		boarillas = {
-			name = "Twin Boarillas", -- TODO better name?
-			desc = "Boarillas have rolled in to prevent your victory!"
+			name = "Gêmios Boarillas", -- TODO better name?
+			desc = "Boarillas tem rolado por ai para te impedir de ganhar!"
 		},
 		rhinocebros = {
 			name = "Rhinocebros",-- TODO better name?
-			desc = "Two brothers arrive after hearing the Grand Forge Boarrior was defeated!"
+			desc = "Dois irmãos chegam após ouvirem que o Poderoso Rei Boarrior foi derrotado!"
 		},
 		swineclops = {
 			name = "Swineclops", -- TODO better name?
-			desc = "After the defeat of the Grand Forge Boarrior and the Rhinobros, a new enemy arrives to prevent your victory."
+			desc = "Após o Poderoso Rei Boarrior e os Rhinobros, um novo inimigo aparece para dificultar sua vitória."
 		},
 		default = {
 			name = "Swineclops", -- TODO remove
@@ -1483,16 +1483,16 @@ STRINGS.REFORGED = {
 			desc = "Duplication science has expanded to Swineclops!"
 		},
 		half_the_wrath = {
-			name = "Half The Wrath",
-			desc = "All boss enemies have been smallified and the spawns are cut in half! Can you defeat them?"
+			name = "Metade da Ira",
+			desc = "O tamanho e o tempo de spawn dos chefes foram cortados pela metade! Você consegue derrotá-los?"
 		},
 		sandbox = {
 			name = "Sandbox",
 			desc = "Play around with all the mobs and items in the Forge!"
 		},
 		randomized = {
-			name = "Randomized",
-			desc = "Who knows how this run will turn out!"
+			name = "Aleatório",
+			desc = "Ninguém sabe quem é o proximo inimigo a surgir."
 		},
 	},
 	----------
@@ -1696,13 +1696,13 @@ STRINGS.REFORGED = {
 		random = {
 			full_random = {
 				TITLE       = "Totalmente Aleatório",
-				DESCRIPTION = "Escolhe um personagem e perk aleatórios",
-				STARTING_ITEMS = "Os itens iniciais variam dependendo do personagem.",
+				DESCRIPTION = "*Escolhe um personagem e perk aleatórios",
+				STARTING_ITEMS = "Os itens iniciais dependem do personagem.",
 			},
 			base_random = {
 				TITLE       = "Aleatório",
-				DESCRIPTION = "Escolhe um personagem aleatório com seu perk original do Forge!",
-				STARTING_ITEMS = "Os itens iniciais variam dependendo do personagem.",
+				DESCRIPTION = "*Escolhe um personagem aleatório com seu perk original do Forge!",
+				STARTING_ITEMS = "Os itens iniciais dependem do personagem.",
 			},
 		},
 		wilson = {
@@ -1723,24 +1723,24 @@ STRINGS.REFORGED = {
 		},
 		wendy = {
 			abigail = {
-				TITLE       = "A jovem de luto",
+				TITLE       = "A Jovem de Luto",
 				DESCRIPTION = "*Protegida por sua irmã gêmia, Abigail.\n*Abigail é revivida automaticamente.\n\nEspecialidades: \n Dardos e Cajados.",
 			},
 			baby_ben = {
 				TITLE       = "A Babá",
-				DESCRIPTION = "*Acompanhada de seu irmão Bebê Ben.\n*Bebê Ben dá escudo a aliados atingidos.\n\nEspecialidade:\nDardos e Cajados.",
+				DESCRIPTION = "*Acompanhada de seu irmão Baby Ben.\n*Baby Ben dá escudo a aliados atingidos.\n\nEspecialidade:\nDardos e Cajados.",
 			},
 		},
 		woodie = {
 			lucy = {
 				TITLE       = "O Lenhador",
-				DESCRIPTION = "*Lucy retorna ao Woodie após arremessada, gerando bastante agressividade.\n*Maior velocidade de ataque com Lucy.\n\nEspecialidade: \nCorpo a Corpo.",
+				DESCRIPTION = "*Lucy retorna ao Woodie após arremessada, gerando bastante aggro.\n*Maior vel. de ataque com Lucy.\n\nEspecialidade: \nCorpo a Corpo.",
 			},
 		},
 		wolfgang = {
 			mighty = {
 				TITLE       = "O Halterofilista",
-				DESCRIPTION = "*Fica Poderoso quando está com pouca vida, aumentando seu ataque, defesa e velocidade de movimento por 20 seg.\n\nEspecialidade: \nCorpo a Corpo.",
+				DESCRIPTION = "*Fica Poderoso quando está com pouca vida, aumentando seu ataque, defesa e velocidade de movimento por 20 segs.\n\nEspecialidade: \nCorpo a Corpo.",
 			},
 			restore = {
 				TITLE       = "O Regenerador",
@@ -1759,24 +1759,24 @@ STRINGS.REFORGED = {
 		},
 		wickerbottom = {
 			amplify = {
-				TITLE       =  "Anciã Amplificada",
-				DESCRIPTION = "*Ganha uma bônus depois de causar certo dano.\n*O bônus se aplica para Feitiços, os amplificando.\n\nEspecialidades: \nCajados e Livros.",
+				TITLE       =  "A Maga Anciã",
+				DESCRIPTION = "*Ganha uma bônus depois de causar certo dano.\n*O bônus amplifica o próximo feitiço usado.\n\nEspecialidades: \nCajados e Livros.",
 			},
 			bookers = {
 				TITLE       =  "A Bibliotecária",
-				DESCRIPTION = "*Um Livro Golem extra aparecerá na batalha.\n*+40% Duração de Feitiços.\n*Revive aliados 25% mais rápido.\n\nEspecialidade: \nLivros.",
+				DESCRIPTION = "*Um Livro Golem extra aparecerá na batalha.\n*+30% Duração de Feitiços.\n*Revive aliados 25% mais rápido.\n\nEspecialidade: \nLivros.",
 			},
 		},
 		wes = {
 			aggro = {
 				TITLE       =  "A Isca Humana",
-				DESCRIPTION = "*É revivido 50% mais rápido.\n*Gera menos agressividade quando ataca mas é difícil perde-la dos inimigos.\n*+10% Velocidade de movimento\n\nEspecialidades: \nCorpo a Corpo, Dardos e Cajados.",
+				DESCRIPTION = "*É revivido 50% mais rápido.\n*Gera menos aggro quando ataca mas é difícil perde-la dos inimigos.\n*+10% Vel. de movimento\n\nEspecialidades: \nCorpo a Corpo, Dardos e Cajados.",
 			},
 		},
 		waxwell = {
 			shadows = {
 				TITLE       =  "O Mestre das Sombras",
-				DESCRIPTION = "*Invoca duelistas das sombras depois de causar muito dano num único alvo.\n*+10% Dano Mágico.\n\nEspecialidades: \nCajados e Livros.",
+				DESCRIPTION = "*Invoca duelistas das sombras depois de causar muito dano num único alvo.\n\nEspecialidades: \nCajados e Livros.",
 			},
 			granmage = {
 				TITLE       =  "O Mago Implacável",
@@ -1786,70 +1786,70 @@ STRINGS.REFORGED = {
 		wathgrithr = {
 			battlecry = {
 				TITLE       =  "A Guerreira Nórdica",
-				DESCRIPTION = "*Começa a batalha com sua Lança.\n*Solta Gritos de Guerra ao causar certo dano, dando +25% dano a aliados próximos.\n*Recebe menos agressividade ao atacar.\n*Receberá a Lança Espiral.\n\nEspecialidades: \nCorpo a Corpo e Dardos",
+				DESCRIPTION = "*Solta Gritos de Guerra ao causar certo dano, dando +25% dano a aliados próximos.\n*Recebe menos aggro ao atacar.\n*Receberá a Lança Espiral.\n\nEspecialidades: \nCorpo a Corpo e Dardos",
 			},
 		},
 		webber = {
 			baby_spiders = {
 				TITLE       = "O Líder das Aranhas",
-				DESCRIPTION = "*Acompanhado pelas suas aranhas.\n*As aranhas não sofrem dano algum, sendo imortais.\n\nEspecialidade: \nDardos.",
+				DESCRIPTION = "*Acompanhado pelas suas aranhas.\n*As aranhas atacam e são imortais.\n\nEspecialidade: \nDardos.",
 			},
 			tankers = {
 				TITLE       = "O Mutante",
-				DESCRIPTION = "*Vida Máxima aumentada para 200 \n*+10% Velocidade de movimento\n\nEspecialidades: \nCorpo a Corpo e Dardos.",
+				DESCRIPTION = "*Vida Máxima aumentada para 200 \n*+10% Vel. de movimento\n\nEspecialidades: \nCorpo a Corpo e Dardos.",
 			},
 		},
 		winona = {
 			cooldown = {
 				TITLE       =  "A Multitarefa",
-				DESCRIPTION = "*+10% de Redução de Recarga de ataques especiais.\n\nEspecialidades: \nCorpo a Corpo, Dardos e Cajados.",
+				DESCRIPTION = "*+10% de Redução de Recarga.\n\nEspecialidades: \nCorpo a Corpo, Dardos e Cajados.",
 			},
 		},
 		wortox = {
 			soul_drain = {
 				TITLE       =  "O Demônio Faminto",
-				DESCRIPTION = "*Começa com seu Machado de Teleporte.\n*Cause dano e regenere sua vida e de aliados próximos.\n*Receberá as Manóplas.\n\nEspecialidade: \nCorpo a Corpo.",
+				DESCRIPTION = "*Cause dano e regenere sua vida e de aliados próximos.\n*Receberá as Manóplas.\n\nEspecialidade: \nCorpo a Corpo.",
 			},
 		},
 		wormwood = {
 			bloom = {
 				TITLE       =  "O Jardineiro",
-				DESCRIPTION = "*Começa a batalha com seu Dardo de Sementes.\n*Florece caso evite dano, ganhando Velocide de movimento e solta polén que enfraquece inimigos.\n*Receberá o Dardo de Super Sementes.\n\nEspecialidade: \nDardos e Cajados.",
+				DESCRIPTION = "*Florece caso evite dano, ganhando Vel. de movimento e liberando esporos que enfraquecem inimigos.\n*Receberá o Dardo de Super Sementes.\n\nEspecialidade: \nDardos e Cajados.",
 			},
 		},
 		warly = {
 			spices = {
 				TITLE       = "'Lhe Falta Tômpero'",
-				DESCRIPTION = "*O Cajado de Cura é trocado pelo Saco de Tômpero que pode aplicar vários buffs em aliados e debuffs em inimigos.\n*Dá +20% de Cura.\n\nEspecialidades: \nCorpo a Corpo e Cajados.",
+				DESCRIPTION = "*O Cajado de Cura é trocado pela Bomba de Tômpero que pode aplicar vários buffs em aliados e debuffs em inimigos.\n*Dá +20% de Cura.\n\nEspecialidades: \nCorpo a Corpo e Cajados.",
 			},
 			cookpot = {
 				TITLE       = "O Master Chef",
-				DESCRIPTION = "*A Espátula cozinha hambúrgueres que dão bônus a aliados e regeram vida.\n*O Chapéu de Chef o permite andar/atacar enquanto prepara os hambúrgueres.\n\nEspecialidades:\nCorpo a Corpo e Cajados.",
+				DESCRIPTION = "*A Espátula cozinha uma comida que aumenta o dano e cura aliados.\n*O Chapéu de Chef te deixa livre enquanto a comida é preparada.\n\nEspecialidades:\nCorpo a Corpo e Cajados.",
 			},
 		},
 		wurt = {
 			wet = {
 				TITLE       = "A Sapa Cabra",
-				DESCRIPTION = "*Pode deixar inimigos molhados, reduzindo sua velocidade de movimento e amplificando ataques elétricos.\nReceberá o Tridente.\n\nEspecialidades: \nCorpo a Corpo, Dardos, Cajados e Livros.",
+				DESCRIPTION = "*Pode deixar inimigos molhados, reduzindo sua Vel. de movimento e amplificando ataques elétricos.\nReceberá o Tridente.\n\nEspecialidades: \nCorpo a Corpo, Dardos, Cajados e Livros.",
 			},
 		},
 		walter = {
 			woby = {
 				TITLE       = "O Escoteiro Destemido",
-				DESCRIPTION = "*Acompanhado de seu melhor amigo, Woby.\n*Interagir com Woby beneficia aliados próximos com redução de recarga.\n*Receberá o Estilingue.\n\nEspecialidades: \nDardos e Livros.",
+				DESCRIPTION = "*Acompanhado de sua melhor amiga, Woby.\n*Interagir com Woby dá 20% de Redução de recarga a aliados.\n*Receberá o Estilingue.\n\nEspecialidades: \nDardos e Livros.",
 			},
 		},
 		wanda = {
 			rewind = {
 				TITLE       = "A Imortal",
-				DESCRIPTION = "*Pode se reviver automaticamente.\n*+15% Duração de Feitiços.\n*Receberá o Cajado de Portais.\n\nEspecialidades: \nCorpo a Corpo, Cajados e Livros.",
+				DESCRIPTION = "*Se revive sozinha ao morrer (recarga de 1 minuto).\n*+15% Duração de Feitiços.\n*Receberá o Cajado de Portais.\n\nEspecialidades: \nCorpo a Corpo, Cajados e Livros.",
 			},
 			age = {
 				TITLE       = "A Anciã do Tempo",
-				DESCRIPTION = "*Perde vida sem parar.\n*Até +50% dano com baixa vida.\n*Receberá o Relógio Amaldiçoado que volta a vida de aliados e congela inimigos.\n\nEspecialidades: \nCorpo a Corpo, Cajados e Livros.",
+				DESCRIPTION = "*Perde vida sem parar.\n*Ganha até +50% dano com baixa vida.\n*Receberá o Relógio Amaldiçoado que volta a vida de aliados e congela inimigos.\n\nEspecialidades: \nCorpo a Corpo, Cajados e Livros.",
 			},
 		},
-		CHOOSE  = "Choose a Perk:",
+		CHOOSE  = "Escolha um Perk:",
 		UNKNOWN = "Unknown Perk",
 	},
 	ACHIEVEMENTS = {
@@ -1886,12 +1886,12 @@ STRINGS.REFORGED = {
 			DESCRIPTION = "Event Test",
 		},
 		victory = {
-			TITLE = "Victory",
-			DESCRIPTION = "Beat the Forge!",
+			TITLE = "Vitória",
+			DESCRIPTION = "Vença o Forge!",
 		},
 		defeat = {
-			TITLE = "Defeat",
-			DESCRIPTION = "The Forge beat you!",
+			TITLE = "Derrota",
+			DESCRIPTION = "O Forge te venceu!",
 		},
 		swineclops_reforged = {
 			TITLE = "Normie Knockout",
@@ -2174,10 +2174,10 @@ STRINGS.REFORGED = {
 			DESCRIPTION = "Defeat a Boarilla by yourself with no other teammates dealing damage to it.",
 		},
 		SORT_ID             = "ID",
-		PLAYER_COUNT        = "Player Count <= %d",
+		PLAYER_COUNT        = "Jogadores <= %d",
 		PROGRESS            = "Progress: %d of %d",
 		REWARD              = "Reward: %d Experience",
-		REQUIREMENTS        = "Requirements:",
+		REQUIREMENTS        = "Requerementos:",
 		COMPLETION          = "Completion: %d/%d",
 		MODS_FILTER         = "Mods Filter: {mode}",
 		UNLOCKED_FILTER     = "Unlocked Filter: {mode}",
@@ -2194,8 +2194,8 @@ STRINGS.REFORGED = {
 		DEFAULT = "ReForged",
 	},
 	HUD = {
-		SPECTATOR_FREE_CAMERA        = "Free Camera",
-		SPECTATOR_FREE_CAMERA_TOGGLE = "Toggle Free Camera",
+		SPECTATOR_FREE_CAMERA        = "Cameara Livre",
+		SPECTATOR_FREE_CAMERA_TOGGLE = "Alternar Camera Livre",
 	},
 	WORLD_RESET  = "World Resetting in %d",
 	NEW_MESSAGES = "%d new messages",
