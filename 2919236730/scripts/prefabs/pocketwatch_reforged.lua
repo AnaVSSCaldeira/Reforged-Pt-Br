@@ -63,7 +63,7 @@ local function TimeWarp(inst, caster, pos)
         end
     end
 
-    -- Freeze
+    -- Freeze (o valor de tempo congelado esta no arquivo ''timelockable'')
     local mults, adds, flats = caster and caster.components.buffable and caster.components.buffable:GetStatBuffs({"spell_duration"}) or 1,1,0
     local freeze_targets = TheSim:FindEntities(x, y, z, inst.range, nil, COMMON_FNS.GetAllyTags(inst), COMMON_FNS.GetEnemyTags(inst))
     for _,target in pairs(freeze_targets) do

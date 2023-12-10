@@ -111,6 +111,7 @@ local function base_random_fn(valid_characters)
 end
 local base_random_icon = {atlas = "images/reforged.xml", tex = "p_random.tex"}
 AddPerk("random", "base_random", base_random_fn, nil, base_random_icon, 0)
+
 ------------
 -- Wilson --
 ------------
@@ -123,12 +124,14 @@ end
 local def_icon = {atlas = "images/reforged.xml", tex = "forge_icon.tex"}
 local icon = {atlas = "images/reforged.xml", tex = "forge_icon.tex"}
 AddPerk("wilson", "revive", revive_fn, nil, def_icon, 0)
+
 ------------
 -- Willow --
 ------------
+
 local function bernie_fn(inst)
-    inst.components.combat:AddDamageBuff("passive_explosive", {buff = 1.1, stimuli = "explosive"})
-    inst.components.combat:AddDamageBuff("passive_fire", {buff = 1.1, stimuli = "fire"})
+    --inst.components.combat:AddDamageBuff("passive_explosive", {buff = 1.1, stimuli = "explosive"})
+    --inst.components.combat:AddDamageBuff("passive_fire", {buff = 1.1, stimuli = "fire"})
 
     --Spawn Bernie
     inst:AddTag("bernie_reviver")
@@ -144,6 +147,15 @@ local function bernie_fn(inst)
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
 AddPerk("willow", "bernie", bernie_fn, nil, def_icon, 0)
+--------------------------------------------------------------------------
+local function fire_fn(inst)
+	inst.components.combat:AddDamageBuff("passive_explosive", {buff = 1.1, stimuli = "explosive"})
+    inst.components.combat:AddDamageBuff("passive_fire", {buff = 1.1, stimuli = "fire"})
+	inst.reforged_items = {[1] = {"infernalstaff"}}
+end
+local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
+AddPerk("willow", "fire", fire_fn, nil, def_icon, 0)
+
 -----------
 -- Wendy --
 -----------
@@ -181,27 +193,40 @@ AddPerk("wendy", "baby_ben", baby_ben_fn, nil, icon, 1)
 --------------
 -- Wolfgang --
 --------------
+
 local function mighty_fn(inst)
     inst:AddComponent("passive_mighty")
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
 AddPerk("wolfgang", "mighty", mighty_fn, nil, def_icon, 0)
+--------------------------------------------------------------------------
+local function restore_fn(inst)
+    inst.components.health:StartRegen(1, 2)
+    inst:ListenForEvent("healthdelta", OnHealthDelta)
+end
+
+local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
+AddPerk("wolfgang", "restore", restore_fn, nil, def_icon, 0)
+
 ------------
 -- WX-78 --
 ------------
 local function shock_fn(inst)
     inst.components.combat:AddDamageBuff("passive_electric", {buff = 1.5, stimuli = "electric"})
     inst:AddComponent("passive_shock")
+	inst.components.health:AddHealthBuff(inst.prefab, 25, "flat")
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
 AddPerk("wx78", "shock", shock_fn, nil, def_icon, 0)
 --------------------------------------------------------------------------
 local function overcharge_fn(inst)
     inst.components.combat:AddDamageBuff("passive_electric", {buff = 0.5, stimuli = "electric"}, true)
+	inst.components.revivablecorpse:SetReviveSpeedMult(0.8)
     inst:AddComponent("passive_overcharge")
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
---AddPerk("wx78", "overcharge", overcharge_fn, nil, def_icon, 1)
+AddPerk("wx78", "overcharge", overcharge_fn, nil, def_icon, 1)
+
 ------------------
 -- Wickerbottom --
 ------------------
@@ -210,11 +235,23 @@ local function amplify_fn(inst)
 end
 local icon = {atlas = "images/reforged.xml", tex = "forge_icon.tex"}
 AddPerk("wickerbottom", "amplify", amplify_fn, nil, def_icon, 0)
+-------------------------------------------------------------------------------
+local function bookers_fn(inst)
+	inst.components.buffable:AddBuff("rewind", {{name = "spell_duration", val = 1.40, type = "mult"}})
+    inst.reforged_items = {[1] = {"bacontome"}}
+	inst:AddComponent("corpsereviver")
+	inst.components.corpsereviver:SetReviverSpeedMult(0.75)
+	inst.components.itemtyperestrictions:SetRestrictions({"melees", "darts", "staves"})
+end
+local icon = {atlas = "images/reforged.xml", tex = "forge_icon.tex"}
+AddPerk("wickerbottom", "bookers", bookers_fn, nil, def_icon, 1)
+
 ---------
 -- Wes --
 ---------
 local function aggro_fn(inst, name)
     --Revived twice as fast with half health buff
+	inst.components.locomotor:SetExternalSpeedMultiplier(inst, "tankers", 1.1)
     inst.components.revivablecorpse:SetReviveSpeedMult(0.5)
     inst.components.buffable:AddBuff(name .. "_passive", {
         {name = "aggro_timer", val = TUNING.FORGE.WES.AGGRO_TIMER_MULT, type = "mult"},
@@ -223,14 +260,26 @@ local function aggro_fn(inst, name)
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
 AddPerk("wes", "aggro", aggro_fn, nil, def_icon, 0)
+
 -------------
 -- Maxwell --
 -------------
 local function shadows_fn(inst)
     inst:AddComponent("passive_shadows")
+	inst.components.combat:AddDamageBuff("magedmgbuff", {buff = 1.10, damagetype = 2 }, false) --O damagetype = 2 (Magia)
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
 AddPerk("waxwell", "shadows", shadows_fn, nil, def_icon, 0)
+---------------------------------------------------------------------------------------------
+local function granmage_fn(inst)
+    inst.components.combat:AddDamageBuff("magedmgbuff", {buff = 0.75}, false)
+	inst.components.buffable:AddBuff("coldown_passive", {{name = "cooldown", val = -0.1, type = "add"}})
+	inst.components.buffable:AddBuff("rewind", {{name = "spell_duration", val = 1.10, type = "mult"}})
+	inst.components.buffable:AddBuff("heal_dealt", {{name = "heal_dealt", val = 1.10, type = "mult"}})
+end
+local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
+AddPerk("waxwell", "granmage", granmage_fn, nil, def_icon, 0)
+
 ------------
 -- Woodie --
 ------------
@@ -238,6 +287,7 @@ local function lucy_fn(inst) -- TODO ???
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
 AddPerk("woodie", "lucy", lucy_fn, nil, def_icon, 0)
+
 -------------
 -- Wigfrid --
 -------------
@@ -250,6 +300,7 @@ local function battlecry_fn(inst, name)
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
 AddPerk("wathgrithr", "battlecry", battlecry_fn, nil, def_icon, 0)
+
 ------------
 -- Webber --
 ------------
@@ -258,6 +309,7 @@ local function NoHoles(pt)
 end
 local function baby_spiders_fn(inst)
     -- Spawn Baby Spiders
+	inst.components.itemtyperestrictions:SetRestrictions({"melle", "staves", "books"})
     local max_baby_spiders = TUNING.FORGE.WEBBER.BABY_SPIDER_AMOUNT or 1
     inst.components.petleash.maxpets = max_baby_spiders
     inst.components.petleash.petprefab = "babyspider"
@@ -272,9 +324,19 @@ local function baby_spiders_fn(inst)
         inst:RemoveEventCallback("player_portal_spawn", SpawnBabySpiders)
     end
     inst:ListenForEvent("player_portal_spawn", SpawnBabySpiders)
+	inst.components.itemtyperestrictions:SetRestrictions({"melees", "staves", "books"})
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
 AddPerk("webber", "baby_spiders", baby_spiders_fn, nil, def_icon, 0)
+---------------------------------------------------------------------------
+local function tankers_fn(inst, name)
+	inst.components.health:AddHealthBuff(inst.prefab, 50, "flat")
+	inst.components.locomotor:SetExternalSpeedMultiplier(inst, "tankers", 1.1)
+	inst.components.itemtyperestrictions:SetRestrictions({"staves", "books"})
+end
+local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
+AddPerk("webber", "tankers", tankers_fn, nil, def_icon, 0)
+
 ------------
 -- Winona --
 ------------
@@ -283,6 +345,7 @@ local function cooldown_fn(inst, name)
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
 AddPerk("winona", "cooldown", cooldown_fn, nil, def_icon, 0)
+
 ------------
 -- Wortox --
 ------------
@@ -292,6 +355,7 @@ local function soul_drain_fn(inst)
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
 AddPerk("wortox", "soul_drain", soul_drain_fn, nil, def_icon, 0)
+
 --------------
 -- Wormwood --
 --------------
@@ -301,11 +365,12 @@ local function bloom_fn(inst)
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
 AddPerk("wormwood", "bloom", bloom_fn, nil, def_icon, 0)
+
 -----------
 -- Warly --
 -----------
 local function spices_fn(inst, name)
-    inst.components.buffable:AddBuff("heal_dealt", {{name = "heal_dealt", val = 1.1, type = "mult"}})
+    inst.components.buffable:AddBuff("heal_dealt", {{name = "heal_dealt", val = 1.20, type = "mult"}})
     inst.reforged_items = {["heal"] = {"spice_bomb"}}
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
@@ -321,7 +386,7 @@ local function cookpot_fn(inst, name)
         {name = "food_regen",    val = tuning_values.FOOD_REGEN_MULT,    type = "mult"}
     })
     --inst.components.buffable:AddBuff("heal_dealt", {{name = "heal_dealt", val = 1.1, type = "mult"}}) -- TODO should this still be here?
-    inst.reforged_items = {[2] = {"lavaarena_spatula"}, [3] = {"lavaarena_chefhat"}}
+    inst.reforged_items = {[1] = {"lavaarena_spatula"}, [2] = {"lavaarena_chefhat"}}
 end
 local icon = {atlas = "images/reforged.xml", tex = "p_warly_masterchef.tex"}
 AddPerk("warly", "cookpot", cookpot_fn, nil, icon, 0)
@@ -506,10 +571,10 @@ end
 --------------------------------------------------------------------------
 local function age_fn(inst)
     inst.components.combat:AddDamageBuff("age_perk", {buff = function(attacker, victim, weapon, stimuli)
-        local buff = (1 - inst.components.health:GetPercent()) / 4 -- 0.25 percent damage increase per health percent lost.
+        local buff = (1 - inst.components.health:GetPercent()) / 2 -- 0.5 percent damage increase per health percent lost.
         return buff + 1
     end}, false)
-    inst.components.health:StartRegen(-0.5, 1)
+    inst.components.health:StartRegen(-0.5, 2)
     inst:ListenForEvent("healthdelta", OnHealthDelta)
     inst.reforged_items = {[2] = {"portalstaff"}}
     inst.age_state = "young"

@@ -3990,7 +3990,7 @@ end
 -- Allow clients to see if a match has started.
 AddComponentPostInit("lavaarenaeventstate", function(self)
 	self.in_progress = _G.net_bool(self.inst.GUID, "lavaarenaeventstate.in_progress", "in_progressdirty")
-    self.is_match_complete = _G.net_bool(self.inst.GUID, "lavaarenaeventstate.is_match_complete")
+	self.is_match_complete = _G.net_bool(self.inst.GUID, "lavaarenaeventstate.is_match_complete")
 
 	self.IsInProgress = function()
 	    return self.in_progress:value()

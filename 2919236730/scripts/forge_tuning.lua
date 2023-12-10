@@ -25,6 +25,8 @@ current total health count (not counting the new characters)
 150 = 4
 200 = 3
 --]]
+
+TUNING.LAVAARENA_SURVIVOR_DIFFICULTY.WOODIE   = 1
 TUNING.LAVAARENA_SURVIVOR_DIFFICULTY.WARLY    = 2
 TUNING.LAVAARENA_SURVIVOR_DIFFICULTY.WORMWOOD = 2
 TUNING.LAVAARENA_SURVIVOR_DIFFICULTY.WORTOX   = 1
@@ -32,6 +34,7 @@ TUNING.LAVAARENA_SURVIVOR_DIFFICULTY.WURT     = 1
 TUNING.LAVAARENA_SURVIVOR_DIFFICULTY.WALTER   = 1
 TUNING.LAVAARENA_SURVIVOR_DIFFICULTY.WANDA    = 2
 
+TUNING.LAVAARENA_STARTING_HEALTH.WOODIE   = 225
 TUNING.LAVAARENA_STARTING_HEALTH.WORTOX   = 150
 TUNING.LAVAARENA_STARTING_HEALTH.WORMWOOD = 125
 TUNING.LAVAARENA_STARTING_HEALTH.WARLY    = 125
@@ -89,26 +92,26 @@ local REFORGED_TUNING = {
 	WARLY = {
 		COOK_DURATION_MULT = 0.5,
 		FOOD_DURATION_MULT = 1.1,
-		FOOD_DAMAGE_MULT   = 1.1,
+		FOOD_DAMAGE_MULT   = 1.15,
 		FOOD_DEFENSE_MULT  = 0.9,
 		FOOD_REGEN_MULT    = 1.1,
 	},
 	WURT = {
-		WET_DEBUFF_DURATION = 5,
+		WET_DEBUFF_DURATION = 10,
 		WET_DEBUFF_ELECTRIC = 1.5, -- TODO better name?
-		WET_DEBUFF_MOVEMENT = 0.9, -- TODO better name?
+		WET_DEBUFF_MOVEMENT = 0.8, -- TODO better name?
 	},
-	HEALTH_ON_REVIVE = 0.2,
+	HEALTH_ON_REVIVE = 0.20,
 
 	------------------
 	--==   Pets   ==--
 	------------------
 	FORGE_ABIGAIL = {
-		HEALTH       = 450,
-		DAMAGE       = 6,
-		RESPAWN_TIME = 90,
-		WALKSPEED    = 2.5,
-		RUNSPEED     = 5,
+		HEALTH       = 480,
+		DAMAGE       = 9,
+		RESPAWN_TIME = 60,
+		WALKSPEED    = 3,
+		RUNSPEED     = 6,
 		ENTITY_TYPE  = "PETS",
 	},
 	BABYSPIDER = {
@@ -123,56 +126,56 @@ local REFORGED_TUNING = {
 	FORGE_BERNIE = {
 		HEALTH            = 1000,
 		REVIVE_SPEED_MULT = 0.5, -- default rez time is 6 seconds, 0.5*6 = 3 seconds
-		WALKSPEED         = 1,
-		TAUNT_DURATION    = 5, -- TODO adjust 4 or 5
+		WALKSPEED         = 1.1,
+		TAUNT_DURATION    = 5.5, -- TODO adjust 4 or 5
 		TAUNT_RADIUS      = 16, -- TODO adjust, we had 10, testing 16
 		ENTITY_TYPE       = "PETS",
 	},
 	GOLEM = {
-		HEALTH        = 1,
+		HEALTH        = 100,
 		RUNSPEED      = 0,
 		DAMAGE        = 25,
-		ATTACK_RANGE  = 9,
+		ATTACK_RANGE  = 17,
 		ATTACK_PERIOD = 0,
-		LIFE_TIME     = 10,
+		LIFE_TIME     = 14,
 		PROJECTILE    = "forge_fireball_projectile",
 		ENTITY_TYPE   = "PETS",
 	},
 	MEAN_FLYTRAP = {
-		HEALTH        = 250,
-		DAMAGE        = 15,
-		RUNSPEED      = 4,
-		ATTACK_PERIOD = 2,
-		ATTACK_RANGE  = 2,
-		HIT_RANGE     = 3,
-		LIFE_TIME     = 30,
+		HEALTH        = 260,
+		DAMAGE        = 18,
+		RUNSPEED      = 6,
+		ATTACK_PERIOD = 1.8,
+		ATTACK_RANGE  = 2.4,
+		HIT_RANGE     = 3.2,
+		LIFE_TIME     = 40,
 		ENTITY_TYPE   = "PETS",
 	},
 	ADULT_FLYTRAP = {
-		HEALTH        = 400,
-		DAMAGE        = 30,
-		ATTACK_PERIOD = 4,
-		ATTACK_RANGE  = 4,
-		ATTACK_RADIUS = 2,
-		HIT_RANGE     = 6,
+		HEALTH        = 500,
+		DAMAGE        = 55,
+		ATTACK_PERIOD = 2,
+		ATTACK_RANGE  = 6.5,
+		ATTACK_RADIUS = 3,
+		HIT_RANGE     = 7,
 		STIMULI       = "strong",
-		LIFE_TIME     = 20,
+		LIFE_TIME     = 40,
 		ENTITY_TYPE   = "PETS",
 	},
 	COOKPOT = { --TODO balance tuning
-		COOK_TIME        = 5,
-		RANGE            = 10,
-		LAUNCH_DELAY     = 1,
+		COOK_TIME        = 2.5,
+		RANGE            = 17,
+		LAUNCH_DELAY     = 0.5,
 		SPIT_DELAY       = 0.25,
-		FOOD_HIT_RANGE   = 2,
+		FOOD_HIT_RANGE   = 2.8,
 		HORIZONTAL_SPEED = 15,
 		GRAVITY          = -20,
 		VECTOR           = {0.2, 2.5, 0},
-		BUFF_DURATION    = 10,
-		DAMAGE_BUFF      = 1.1,
+		BUFF_DURATION    = 12,
+		DAMAGE_BUFF      = 1.15,
 		DEFENSE_BUFF     = 0.9,
 		REGEN_TICK_RATE  = _G.FRAMES,
-		REGEN_TICK_VALUE = 0.1, -- 15 health base heal
+		REGEN_TICK_VALUE = 0.18, -- 15 health base heal
 	},
 	TRAP_SPIKES = {
 		DAMAGE = 40,
@@ -181,30 +184,30 @@ local REFORGED_TUNING = {
 		DEACTIVATE_TIME = 3,
 	},
 	MERM_GUARD = {
-		HEALTH        = 200,
-		DAMAGE        = 20,
-		RUNSPEED      = 8,
-		WALKSPEED     = 3,
-		ATTACK_PERIOD = 3,
-		ATTACK_RANGE  = 3,
-		HIT_RANGE     = 3,
-		LIFE_TIME     = 30,
+		HEALTH        = 250,
+		DAMAGE        = 34,
+		RUNSPEED      = 10,
+		WALKSPEED     = 5,
+		ATTACK_PERIOD = 1,
+		ATTACK_RANGE  = 4,
+		HIT_RANGE     = 4,
+		LIFE_TIME     = 40,
 		ENTITY_TYPE   = "PETS",
 	},
 	WOBY = {
 		RUNSPEED      = 6,
 		WALKSPEED	  = 6,
-		BUFF_RANGE	  = 15,
-		BUFF_DURATION = 10,
-		BUFF_COOLDOWN = 20,
+		BUFF_RANGE	  = 16,
+		BUFF_DURATION = 25,
+		BUFF_COOLDOWN = 35,
 		BUFF_MULT	  = 0.8,
 		HEALTH        = 100, -- invincible so health value does not matter
 		ENTITY_TYPE   = "PETS",
 	},
 	BABY_BEN = {
 		HEALTH       = 100, -- invincible so health value does not matter
-		WALKSPEED    = 2.5,
-		RUNSPEED     = 5,
+		WALKSPEED    = 3,
+		RUNSPEED     = 7,
 		ENTITY_TYPE  = "PETS",
 	},
 
@@ -466,8 +469,8 @@ local REFORGED_TUNING = {
 	},
 	RILEDLUCY = {
 		DAMAGE        = 20,
-		ALT_DAMAGE    = 30,
-		ALT_DIST      = 10, -- TODO was hardcoded to 12???
+		ALT_DAMAGE    = 40,
+		ALT_DIST      = 12, -- TODO was hardcoded to 12???
 		ALT_HIT_RANGE = 3,
 		ALT_STIMULI   = "strong",
 		DAMAGE_TYPE = 1, -- Physical
@@ -617,14 +620,14 @@ local REFORGED_TUNING = {
 	},
 	FIREBOMB = {
 		DAMAGE              = 15,
-		ALT_DAMAGE          = 75,
+		ALT_DAMAGE          = 80,
 		PROC_DAMAGE         = 100,
-		COOLDOWN            = 6,
+		COOLDOWN            = 5.5,
 		ALT_RANGE 			= 2,
 		PASSIVE_RANGE       = 0.5,
-		HORIZONTAL_SPEED    = 20,
+		HORIZONTAL_SPEED    = 25,
 		VECTOR              = {.25, 1, 0},
-		GRAVITY             = -30,
+		GRAVITY             = -35,
 		CHARGE_HITS_1       = 7,
 		CHARGE_HITS_2       = 10,
 		MAXIMUM_CHARGE_HITS = 13,
@@ -648,7 +651,7 @@ local REFORGED_TUNING = {
 		DAMAGE           = 30,
 		HELMSPLIT_DAMAGE = 100, -- this is multiplied by the battlecry and any shieldbreak mult.
 		PARRY_DURATION   = 5,
-		COOLDOWN         = 12,
+		COOLDOWN         = 11,
 		DAMAGE_TYPE      = 1, -- Physical
 		ITEM_TYPE        = "melees",
 		ENTITY_TYPE      = "WEAPONS",
@@ -662,7 +665,7 @@ local REFORGED_TUNING = {
 	},
 	SEEDLINGTOME = {
 		DAMAGE      = 15,
-		COOLDOWN    = 18,
+		COOLDOWN    = 16,
 		DURATION    = 10,
 		SPELL_TYPES = {"summon"},
 		ITEM_TYPE   = "books",
@@ -713,7 +716,7 @@ local REFORGED_TUNING = {
 	},
 	LAVAARENA_SEEDDART2 = {
 		DAMAGE       = 12,
-		COOLDOWN 	 = 18,
+		COOLDOWN 	 = 16,
 		DAMAGE_TYPE  = 1, -- Physical
 		SPELL_TYPES  = {"summon"},
 		ITEM_TYPE    = "darts",
@@ -771,7 +774,7 @@ local REFORGED_TUNING = {
 	LAVAARENA_SPATULA = {
 		DAMAGE      = 25,
 		ALT_RANGE   = 1,
-		COOLDOWN    = 36,
+		COOLDOWN    = 32,
 		DAMAGE_TYPE = 1, -- Physical
 		SPELL_TYPES = {"heal"},
 		ITEM_TYPE   = "melees",
@@ -790,7 +793,7 @@ local REFORGED_TUNING = {
 		DURATION            = 10,
 		LINGERING_MULT      = 0.7,
 		DAMAGE              = 10,
-		COOLDOWN            = 24,
+		COOLDOWN            = 23,
 		AOE_RADIUS 			= 1,
 		ALT_RADIUS          = 4,--4.1, TODO double check then remove this comment
 		HORIZONTAL_SPEED    = 20,--15,
@@ -841,7 +844,7 @@ local REFORGED_TUNING = {
 	},
 	FORGE_SLINGSHOT = {
 		DAMAGE       = 30,
-		ALT_DAMAGE   = 50,
+		ALT_DAMAGE   = 55,
 		COOLDOWN 	 = 18,
 		DAMAGE_TYPE  = 1, -- Physical
 		ITEM_TYPE    = "darts",
@@ -894,12 +897,12 @@ local REFORGED_TUNING = {
 			LENGTH = 7,
 		},
 	},
-	PORTALSTAFF = {
+	PORTALSTAFF = {  -- Portal Staff é uma copia do Infernal Staff, ignore algumas variaveis!
 		DAMAGE          = 25,
 		ALT_DAMAGE      = 200,
 		ALT_CENTER_MULT = 0.25, --Damage increases as the targets get closer to the center
-		ALT_RADIUS      = 4,--4.1, TODO double check then remove this comment
-		COOLDOWN        = 24,
+		ALT_RADIUS      = 1,--4.1, TODO double check then remove this comment
+		COOLDOWN        = 3,
 		SPELL_TYPES     = {"damage",},
 		DAMAGE_TYPE     = 2, -- Magic
 		ALT_DAMAGE_TYPE = 2,
@@ -982,7 +985,7 @@ local REFORGED_TUNING = {
 	JAGGEDGRANDARMOR     = {ENTITY_TYPE = "ARMOR", WEIGHT = 4, DEFENSE = 0.8, MAX_HP = 50, BONUSDAMAGE = 1.2},
 
 	-- Custom
-	LAVAARENA_CHEFHAT = {ENTITY_TYPE = "HELMS", WEIGHT = 1, COOK_BUFF = 1.5},
+	LAVAARENA_CHEFHAT = {ENTITY_TYPE = "HELMS", WEIGHT = 1, COOK_BUFF = 1.5, BONUS_COOLDOWNRATE = -0.2},
 
 	-------------------
 	--==   Other   ==--

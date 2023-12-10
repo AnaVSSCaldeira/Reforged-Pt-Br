@@ -20,12 +20,12 @@ directory. If not, please refer to
 local STRINGS = _G.STRINGS
 
 --Temp fix because Klei accidentally deleted her description. TODO: Delete when fixed.
-STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.winona    = "*All ability cooldowns are 10% faster.\n\n\n\nExpertise:\nMelee, Darts, Staves"
-STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.warly     = "*Brings bags of spice that can induce multiple effects to enemies!\n*Master Chef.\n*Deals 10% more healing.\nExpertise:\nMelee, Staves"
-STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wortox    = "*Spawns with a soul hopping Soul Scepter.\n*Passively sucks the souls of his foes.\n\nExpertise:\nMelee"
+STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.winona    = "*All ability cooldowns are 10% faster.\n\n\nExpertise:\nMelee, Darts, Staves"
+STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.warly     = "*Brings bags of spice that can induce multiple effects to enemies!\n*Master Chef.\n*Deals 20% more healing.\nExpertise:\nMelee, Staves"
+STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wortox    = "*Spawns with a soul hopping Soul Scepter.\n*Passively sucks the souls of his foes.\n\n\nExpertise:\nMelee"
 STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wormwood  = "*Spawns with a plant-based blowdart.\n*Blossoms over time as long as he avoids damage.\n\nExpertise:\nDarts, Staves"
 STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wurt      = "*Can use every weapon available.\n*Melee attacks makes foes wet, making them slow and vulnerable to electric damage.\nExpertise:\nMelee, Darts, Staves, Books"
-STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.walter    = "*Brings his friend Woby.\n*Woby can reduce cooldowns as support.\nExpertise:\nDarts"
+STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.walter    = "*Brings his friend Woby.\n*Woby can reduce cooldowns as support.\n\nExpertise:\nDarts, Books"
 STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.spectator = "*Free Camera.\n*Camera can follow specific players."
 STRINGS.CHARACTER_NAMES.spectator = "Spectator"
 --STRINGS.CHARACTER_QUOTES.spectator = ""
@@ -296,8 +296,8 @@ STRINGS.NAMES.CHEATER = "CHEATER"
 
 STRINGS.NAMES.CROCOMMANDER_RAPIDFIRE = "Crocommancer"
 STRINGS.NAMES.BATTLESTANDARD_SPEED   = "Battle Standard"
-STRINGS.NAMES.LAVAARENA_CHEFHAT = "Chef Hat"
-STRINGS.NAME_DETAIL_EXTENTION.LAVAARENA_CHEFHAT = "Chef Mastery Buff"
+STRINGS.NAMES.LAVAARENA_CHEFHAT = "Chapéu do Chef"
+STRINGS.NAME_DETAIL_EXTENTION.LAVAARENA_CHEFHAT = "Master Chef Buff\n+20% Red. Recarga"
 
 STRINGS.NAMES.SCORPEON_ACID = "Scorpeon Acid"
 STRINGS.NAMES.DEBUFF_FIRE   = "Fire"
@@ -456,17 +456,17 @@ STRINGS.UI.ADMINMENU = {
 }
 
 STRINGS.UI.GAME_SETTINGS_PANEL = {
-	TAB        = "Game Settings",
-	TITLE      = "Gameplay Options",
+	TAB        = "Configurações da Partida",
+	TITLE      = "Opções de Gameplay",
 	PRESET     = "Preset",
-	MODE       = "Mode",
+	MODE       = "Modo",
 	GAMETYPE   = "Gametype",
 	WAVESET    = "Waveset",
 	MAP        = "Arena",
-	DIFFICULTY = "Difficulty",
+	DIFFICULTY = "Dificuldade",
 	VOTE       = "Vote to Change Settings",
-	FORCE      = "Change Settings",
-	RESET      = "Reset Settings",
+	FORCE      = "Salvar Configurações",
+	RESET      = "Resetar Configurações",
 }
 STRINGS.UI.LEADERBOARD_PANEL = {
 	TAB = "Server Leaderboard",
@@ -499,13 +499,13 @@ STRINGS.UI.FORGEHISTORYPANEL = { -- TODO rename to LEADERBOARDPANEL?
 		FORGED_FORGE = "Forged Forge",
 	},
 	SORTERS = {
-		MOST_RECENT           = "Most Recent",
-		FASTEST_TIME          = "Fastest Time",
-		LONGEST_TIME          = "Longest Time",
+		MOST_RECENT           = "Recente",
+		FASTEST_TIME          = "Mais Rápido",
+		LONGEST_TIME          = "Mais Lento",
 		RUN_COUNT             = "%s of %s",
-		RUNS_TITLE            = "Runs",
+		RUNS_TITLE            = "Partidas",
 		SORTER_TITLE          = "Sort By",
-		NO_RUNS               = "0 Runs Found",
+		NO_RUNS               = "0 Partidas Encontradas",
 	},
 	AVERAGE_STATS = {
 		TITLE                = "Average Stats",
@@ -519,8 +519,8 @@ STRINGS.UI.FORGEHISTORYPANEL = { -- TODO rename to LEADERBOARDPANEL?
 		MOST_PLAYED_TITLE    = "Most Played",
 	},
 	RUN = {
-		VICTORY            = "Victory!",
-		DEFEAT             = "Defeat!",
+		VICTORY            = "Vitória!",
+		DEFEAT             = "Derrota! :(",
 		NA                 = "N/A",
 		NONE               = "No Run Found",
 		EMPTY_LIST         = "No Forge Runs To Display!",
@@ -542,7 +542,7 @@ STRINGS.UI.NEWS_PANEL = {
 		--TITLE = "Mod Contest",
 		BODY = "There are currently no active events.",
 		--BODY = "Klei is currently running an event where users can vote for their favorite spooky themed mod. If you like Hallowed Forge and want to help us win, then go to their discord and vote for us! Be sure to check out the other mods that have been submitted and feel free to vote for whichever you want, but remember you only get one vote (You can change your vote at any time though).\n_________________________________\nVote Here: discord:klei",
-	},
+		},
 	PATCH_NOTES = "Patch Notes",
 }
 
@@ -558,20 +558,20 @@ lavaarena_titles.healingreceived    = "Spoiled"
 lavaarena_titles.total_friendly_fire_damage_dealt = "Traitor"
 
 local lavaarena_desc = STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS
-lavaarena_desc.healingreceived    = "healing received"
-lavaarena_desc.pet_damagetaken    = "pet damage taken"
-lavaarena_desc.player_damagedealt = "player damage dealt"
-lavaarena_desc.player_damagetaken = "player damage taken"
-lavaarena_desc.cctime             = "seconds of crowd control"
-lavaarena_desc.petdeaths          = "pet deaths"
-lavaarena_desc.ccbroken           = "crowd control broken"
-lavaarena_desc.pet_damagedealt    = "pet damage dealt"
-lavaarena_desc.unknown            = "UNKNOWN"
-lavaarena_desc.parry              = "damage parried"
-lavaarena_desc.attack_interrupt   = "attacks interrupted"
-lavaarena_desc.cheater            = "I cheated not only the game, but myself."
-lavaarena_desc.total_friendly_fire_damage_dealt = "friendly fire damage dealt"
-lavaarena_desc.total_friendly_fire_damage_taken = "friendly fire damage taken"
+lavaarena_desc.healingreceived    = "cura recebida"
+lavaarena_desc.pet_damagetaken    = "dano sofrido por pets"
+lavaarena_desc.player_damagedealt = "dano causado"
+lavaarena_desc.player_damagetaken = "dano recebido"
+lavaarena_desc.cctime             = "segs de controle coletivo"
+lavaarena_desc.petdeaths          = "morte de pets"
+lavaarena_desc.ccbroken           = "quebra de controle coletivo"
+lavaarena_desc.pet_damagedealt    = "dano causado por pets"
+lavaarena_desc.unknown            = "DESCONHECIDO"
+lavaarena_desc.parry              = "dano defendido"
+lavaarena_desc.attack_interrupt   = "ataques interrompidos"
+lavaarena_desc.cheater            = "Eu assumo que usei hack..."
+lavaarena_desc.total_friendly_fire_damage_dealt = "dano causado em amigos"
+lavaarena_desc.total_friendly_fire_damage_taken = "dano recebido de amigos"
 
 STRINGS.REFORGED = {
 	-----------
@@ -644,7 +644,7 @@ STRINGS.REFORGED = {
 			},
 		},
 		SNORTOISE = {
-			NAME = "Snortoise",
+			NAME = "Tortuguita",
 			DESC = "He might be slow, but he can soak up a lot of damage.",
 			ABILITIES = {
 				BUNKER = {
@@ -668,7 +668,7 @@ STRINGS.REFORGED = {
 			},
 		},
 		BOARILLA = {
-			NAME = "Boarilla",
+			NAME = "Macacu",
 			DESC = "This brute, while not intelligent, can really pack a punch.",
 			ABILITIES = {
 				BUNKER = {
@@ -704,7 +704,7 @@ STRINGS.REFORGED = {
 			},
 		},
 		RHINOCEBRO = {
-			NAME = "Rhinocebro Snapback",
+			NAME = "Agora ou Nunca",
 			DESC = "Would probably steal your lunch money.",
 			ABILITIES = {
 				CHEER = {
@@ -718,7 +718,7 @@ STRINGS.REFORGED = {
 			},
 		},
 		RHINOCEBRO2 = {
-			NAME = "Rhinocebro Flatbrim",
+			NAME = "Rinocimorte",
 			DESC = "Would probably stuff you in a locker.",
 			ABILITIES = {
 				CHEER = {
@@ -769,19 +769,19 @@ STRINGS.REFORGED = {
 			DESC = "Continously throws fireballs at nearby mobs. Can't move though.",
 		},
 		BABYSPIDER = {
-			NAME = "Baby Spiders",
+			NAME = "Arainha",
 			DESC = "These cute lil fellas will help you take down foes. They can't be targeted or killed.",
 		},
 		MERM_GUARD = {
-			NAME = "Merm Guard",
+			NAME = "Sapão Cabra",
 			DESC = "From the swamp comes the menacing merm guards. They will die from overheating after awhile.",
 		},
 		MEAN_FLYTRAP = {
-			NAME = "Seedling",
+			NAME = "Planta Carnívora",
 			DESC = "Wormwood's friends have come to lend a tooth or two. They will die from the heat after awhile.",
 		},
 		ADULT_FLYTRAP = {
-			NAME = "Snaptooth",
+			NAME = "Armadilha Carnívora",
 			DESC = "This fiend will take large bites out of the competition. They will die from the heat after awhile.",
 		},
 		FORGE_ABIGAIL = {
@@ -797,7 +797,7 @@ STRINGS.REFORGED = {
 			DESC = "Bark Bark", -- TODO
 		},
 		BABY_BEN = {
-			NAME = "Baby Ben",
+			NAME = "Bebê Ben",
 			DESC = "Wendy's brother wants to play too!",
 		},
 	},
@@ -812,15 +812,15 @@ STRINGS.REFORGED = {
 	-----------
 	ARMOR = {
 		REEDTUNIC = {
-			NAME = "Reed Tunic",
+			NAME = "Túnica de Bamboo",
 			DESC = "Reeds aren't the best form of defense.",
 		},
         FEATHEREDTUNIC = {
-			NAME = "Feathered Reed Tunic",
+			NAME = "Túnica de Bamboo Leve",
 			DESC = "A feather got stuck in your tunic. It makes you run slightly faster.",
 		},
         FORGE_WOODARMOR = {
-			NAME = "Wood Armor",
+			NAME = "Armadura de Madeira",
 			DESC = "Simple yet effective defense.",
 		},
         JAGGEDARMOR = {
@@ -832,11 +832,11 @@ STRINGS.REFORGED = {
 			DESC = "This very simple sash wrapped around wood grants faster cooldowns.",
 		},
         SPLINTMAIL = {
-			NAME = "Stone Splint Mail",
+			NAME = "Malha de Pedra",
 			DESC = "Light stone armor that grants higher defense than wood.",
 		},
         STEADFASTARMOR = {
-			NAME = "Steadfast Stone Armor",
+			NAME = "Peitoral de Pedras",
 			DESC = "Too many rocks! This heavy armor slows you down, but makes you harder to push around.",
 		},
 		--Forge Season 2
@@ -878,7 +878,7 @@ STRINGS.REFORGED = {
 			DESC = "More horns always means more damage. Specifically, 15% damage.",
 		},
         WOVENGARLAND = {
-			NAME = "Woven Garland",
+			NAME = "Girlanda do Curandeiro",
 			DESC = "Imbued with the power of a mythical dryad, this increases healing dealt by 20%.",
 		},
         CLAIRVOYANTCROWN = {
@@ -886,11 +886,11 @@ STRINGS.REFORGED = {
 			DESC = "Become a minister of magic! Deal more magic damage, have faster cooldowns and movement speed.",
 		},
         CRYSTALTIARA = {
-			NAME = "Crystal Tiara",
+			NAME = "Tiara de Cristal",
 			DESC = "Apparently healing crystals aren't a sham! Gain 10% faster cooldowns.",
 		},
         BLOSSOMEDWREATH = {
-			NAME = "Blossomed Wreath",
+			NAME = "Guirlanda do Regenerador",
 			DESC = "Put a miniature healing circle right on your head! Heals 2 HP/sec.",
 		},
         RESPLENDENTNOXHELM = {
@@ -898,7 +898,7 @@ STRINGS.REFORGED = {
 			DESC = "This excessive amount of horns grants high physical damage, faster cooldowns and movement speed.",
 		},
 		LAVAARENA_CHEFHAT = {
-			NAME = "Chef Hat",
+			NAME = "Chapéu de Chef",
 			DESC = "Wearing this, everyone will believe that you're a master chef, so you no longer need to watch your own food cook.",
 		},
 	},
@@ -907,71 +907,71 @@ STRINGS.REFORGED = {
 	-------------
 	WEAPONS = {
 		FORGEDARTS = {
-			NAME = "Darts",
+			NAME = "Dardos Simples",
 			DESC = "A simple yet powerful blowdart.",
 			ABILITIES = {
 				BARRAGE = {
-					NAME = "Barrage",
+					NAME = "Metralha",
 					DESC = "Shoot a flurry of darts in one direction.",
 				},
 			},
 		},
 		MOLTENDARTS = {
-			NAME = "Molten Darts",
+			NAME = "Dardos Derretidos",
 			DESC = "Don't burn your tongue!",
 			ABILITIES = {
 				FIRE_BLAST = {
-					NAME = "Fire Blast",
+					NAME = "Tiro Explosivo",
 					DESC = "Shoot a single fiery blast of magma at your foes!",
 				},
 			},
 		},
 		INFERNALSTAFF = {
-			NAME = "Infernal Staff",
+			NAME = "Cajado Infernal",
 			DESC = "Harness the power of fire!",
 			ABILITIES = {
 				METEOR = {
-					NAME = "Meteor",
+					NAME = "Meteoro",
 					DESC = "Call down a giant meteor from the heavens!",
 				},
 			},
 		},
 		FORGINGHAMMER = {
-			NAME = "Forge Hammer",
+			NAME = "Martelo Forge",
 			DESC = "Bash some skulls in with this heavy hammer.",
 			ABILITIES = {
 				SLAM = {
-					NAME = "Slam",
+					NAME = "Pancada",
 					DESC = "Shake the ground at your feet, hitting everything at once.",
 				},
 			},
 		},
 		LIVINGSTAFF = {
-			NAME = "Living Staff",
+			NAME = "Cajado de Cura",
 			DESC = "A very useful tool to keep you and your allies alive.",
 			ABILITIES = {
 				HEALING_CIRCLE = {
-					NAME = "Healing Circle",
+					NAME = "Círculo Curativo",
 					DESC = "Spawn a magical circle of blossoming healing flowers.",
 				},
 			},
 		},
 		PITHPIKE = {
-			NAME = "Spear",
+			NAME = "Lança",
 			DESC = "Wigfrid's go-to weapon for battle.",
 			ABILITIES = {
 				CHARGE = {
-					NAME = "Charge",
+					NAME = "Atravessar",
 					DESC = "Dash through your foes, and flip some Snortoises while you're at it.",
 				},
 			},
 		},
 		SPIRALSPEAR = {
-			NAME = "Spiral Spear",
+			NAME = "Lança Espiral",
 			DESC = "Keep the pointy end away from you!",
 			ABILITIES = {
 				SLAM = {
-					NAME = "Slam",
+					NAME = "Aterrissar",
 					DESC = "Jump high into the sky and SLAM down on the enemy!",
 				},
 			},
@@ -981,47 +981,47 @@ STRINGS.REFORGED = {
 			DESC = "This Lucy is a lot more quiet and ready to fight.",
 			ABILITIES = {
 				THROW = {
-					NAME = "Throw",
+					NAME = "Arremessar",
 					DESC = "Throw Woodie's beloved axe headfirst into an enemy.",
 				},
 			},
 		},
 		BACONTOME = {
-			NAME = "Tome of Beckoning",
+			NAME = "Tomo do Golem",
 			DESC = "Summon an ancient ally.",
 			ABILITIES = {
 				SUMMON_GOLEM = {
-					NAME = "Summon Golem",
+					NAME = "Gerar Golem",
 					DESC = "Spawns a rock golem from the depths of the Forge.",
 				},
 			},
 		},
 		PETRIFYINGTOME = {
-			NAME = "Petrifying Tome",
+			NAME = "Tomo Petrificante",
 			DESC = "Makes your enemies scared stiff.",
 			ABILITIES = {
 				PETRIFY = {
-					NAME = "Petrify",
+					NAME = "Petrificar",
 					DESC = "Encase your foes in a tomb of rocks. Not all of them will stay though.",
 				},
 			},
 		},
         FIREBOMB = {
-            NAME = "Hearthsfire Crystals",
+            NAME = "Cristais Flamejantes",
             DESC = "Don't shake it!",
             ABILITIES = {
                 THROW = {
-                    NAME = "Explosive Throw",
+                    NAME = "Arremessar",
                     DESC = "Throw these at the enemy and watch them explode!",
                 },
             },
         },
         BLACKSMITHSEDGE = {
-            NAME = "Blacksmith's Edge",
+            NAME = "Espada de Animê",
             DESC = "You can lift that?!",
             ABILITIES = {
                 PARRY = {
-                    NAME = "Parry",
+                    NAME = "Defender",
                     DESC = "Nothing can get through this blade's heavy hilt!",
                 },
             },
@@ -1047,87 +1047,87 @@ STRINGS.REFORGED = {
 			},
 		},
 		LAVAARENA_SEEDDARTS = {
-			NAME = "Seedling Darts",
+			NAME = "Dardos de Semente",
 			DESC = "Wormwood put his heart into this. And his other limbs.",
 			ABILITIES = {
 				PLANT_SEEDLING = {
-					NAME = "Plant Seedling",
+					NAME = "Gerar Planta",
 					DESC = "Hastily grow an organic ally.",
 				},
 			},
 		},
 		LAVAARENA_SEEDDART2 = {
-			NAME = "Scattertooth",
+			NAME = "Dardo Triplo",
 			DESC = "Shoot 3 darts at once!",
 			ABILITIES = {
 				PLANT_SNAPTOOTH = {
-					NAME = "Plant Snaptooth",
+					NAME = "Plantar Armadilha",
 					DESC = "Grow a rooted Snaptooth to chew up your enemies.",
 				},
 			},
 		},
 		TELEPORT_STAFF = {
-			NAME = "Teleport Staff",
+			NAME = "Machado de Teleporte",
 			DESC = "Escape certain doom! For a price...",
 			ABILITIES = {
 				TELEPORT = {
-					NAME = "Teleport",
+					NAME = "Teleporte",
 					DESC = "Travel wherever your puny heart desires.",
 				},
 			},
 		},
 		LAVAARENA_SPATULA = {
-			NAME = "Spatula",
+			NAME = "Espatula",
 			DESC = "Not great as a weapon, but it'll do with a pinch of salt.",
 			ABILITIES = {
 				COOK = {
-					NAME = "Cook",
+					NAME = "Cozinhar",
 					DESC = "Cook food for all nearby players and feed them when ready.",
 				},
 			},
 		},
 		SPICE_BOMB = {
-            NAME = "Spice Bomb",
+            NAME = "Bomba Tômpero",
             DESC = "What a pleasant aroma!",
             ABILITIES = {
                 THROW = {
-                    NAME = "Spice Buff Bomb",
+                    NAME = "Buff Tômpero",
                     DESC = "Throw these at your allies to make them smelly!",
                 },
             },
         },
 		FORGE_TRIDENT = {
-			NAME = "Trident",
+			NAME = "Tridente",
 			DESC = "Don't let the rickety look fool you, this trident packs a punch!",
 			ABILITIES = {
 				CALL_GUARDS = {
-					NAME = "Summon Merm Guard",
+					NAME = "Gerar Sapão Cabra",
 					DESC = "Spawn a loyal Merm Guard to fight alongside you.",
 				},
 			},
 		},
 		GAUNTLET = {
-			NAME = "Gauntlets",
+			NAME = "Manoplana",
 			DESC = "Punch through foes with these Hands of Doom.",
 			ABILITIES = {
 				CHARGED_PUNCH = {
-					NAME = "Charged Punch",
+					NAME = "Soco Carregado",
 					DESC = "Lean into your punch to knockback anything in your path.",
 				},
 			},
 		},
 		FORGE_SLINGSHOT = {
-			NAME = "Slingshot",
+			NAME = "Estilingue",
 			DESC = "A simple yet powerful slingshot.", --TODO unique desc
 			ABILITIES = {
 				POWERSHOT = {
-					NAME = "Powershot", --TODO not final name.
+					NAME = "Tiro Incapacitante", --TODO not final name.
 					DESC = "Fling an explosive seed at the enemy.", --TODO not final either
 				},
 			},
 		},
 		PORTALSTAFF = {
-			NAME = "Backtrek Staff",
+			NAME = "Cajado do Tempo",
 			DESC = "Time travel on demand with this fancy staff.",
 			ABILITIES = {
 				SET_DESTINATION = {
@@ -1141,12 +1141,12 @@ STRINGS.REFORGED = {
 			},
 		},
 		POCKETWATCH_REFORGED = {
-			NAME = "Alarming Clock",
+			NAME = "Relógio Amaldiçoado",
 			DESC = "Let's see if time can heal these wounds.",
 			ABILITIES = {
 				STOP_TIME = {
-					NAME = "Stop Time", 
-					DESC = "Freeze your enemies in their most embarrassing moments.",
+					NAME = "Parar o Tempo", 
+					DESC = "Freeze your enemies in their most embarrasing moments.", 
 				},
 			},
 		},
@@ -1363,32 +1363,32 @@ STRINGS.REFORGED = {
 	MUTATORS = { -- TODO change to table for name and desc
 		-- Mob Stats
 		mob_damage_dealt = {
-			name = "Mob Damage",
+			name = "Dano Inimigo",
 			desc = "Adjust the damage of all mobs."
 		},
 		mob_damage_received = {
-			name = "Mob Defense",
+			name = "Defesa Inimiga",
 			desc = "Adjust the defense of all mobs."
 		},
 		mob_health = {
-			name = "Mob Health",
+			name = "Vida Inimiga",
 			desc = "Adjust the health of all mobs."
 		},
 		mob_speed = {
-			name = "Mob Speed",
+			name = "Velocidade Inimiga",
 			desc = "Adjust the speed of all mobs."
 		},
 		mob_attack_rate = {
-			name = "Mob Attack Rate",
+			name = "Vel. Ataque Inimiga",
 			desc = "Adjust the attack rate of all mobs."
 		},
 		mob_size = {
-			name = "Mob Size",
+			name = "Altura Inimiga",
 			desc = "Adjust the size of all mobs."
 		},
 		-- Structure Stats
 		battlestandard_efficiency = {
-			name = "Banner Mult",--"Battlestandard Efficiency",
+			name = "Mult dos Banners",--"Battlestandard Efficiency",
 			desc = "Adjust the multiplier of all battlestandards."
 		},
 		-- Other
@@ -1432,19 +1432,19 @@ STRINGS.REFORGED = {
 		triple_threat      = "Triple Threat",
 		quintuple_struggle = "Quintuple Struggle",
 		tenfold_terror     = "Tenfold Terror",
-		fast_but_weak      = "Fast/Weak",
-		x2                 = "x2",
-		x3                 = "x3",
-		half               = "1/2",
-		mutated            = "Mutated",
-		double_doom        = "Double Doom",
-		chaotic            = "Chaotic",
-		coffee             = "Coffee'd",
-		double_half        = "Double 1/2",
-		half_double        = "Half x2",
-		attack_of_titans   = "Attack of Titans",
-		insanity           = "Insanity",
-		custom             = "Custom",
+		fast_but_weak  = "Fast/Weak",
+		x2             = "x2",
+		x3             = "x3",
+		half           = "1/2",
+		mutated        = "Mutated",
+		double_doom    = "Double Doom",
+		chaotic        = "Chaotic",
+		coffee         = "Coffee'd",
+		double_half    = "Double 1/2",
+		half_double    = "Half x2",
+		attack_of_titans = "Attack of Titans",
+		insanity       = "Insanity",
+		custom         = "Custom",
 	},
 	--------------
 	-- WAVESETS --
@@ -1500,10 +1500,10 @@ STRINGS.REFORGED = {
 	----------
 	RLGL = {
 		GREENLIGHT                = "GREEN LIGHT!",
-		GREENLIGHT_SPEECH         = {"GREEN LIGHT!"},
+		GREENLIGHT_SPEECH         = {"VIVO!"},
 		GREENLIGHT_FAKEOUT_BANTER = { "GREEN FLIGHT", "GREEN SIGHT", "GREEN FIGHT", "GREEN LITE", "GREEN MIGHT", "GREEN RIGHT", "GREEN KITE", "GREEN WHITE" },
 		REDLIGHT                = "RED LIGHT!",
-		REDLIGHT_SPEECH         = {"RED LIGHT!"},
+		REDLIGHT_SPEECH         = {"MORTO!"},
 		REDLIGHT_FAKEOUT_BANTER = { "RED FLIGHT", "RED SIGHT", "RED FIGHT", "RED LITE", "RED MIGHT", "RED RIGHT", "RED KITE", "RED WHITE" },
 		ORANGELIGHT                = "ORANGE LIGHT!",
 		ORANGELIGHT_SPEECH         = {"ORANGE LIGHT!"},
@@ -1561,27 +1561,27 @@ STRINGS.REFORGED = {
 	-- ADMIN COMMANDS --
 	--------------------
 	ADMIN_COMMANDS = { -- TODO should this be in the admin menu section???
-		SPAWNING_ENT          = "Spawning %d %s.",
-		EQUIPPING_ITEM        = "Equipping %s.",
-		ACTIVATING_BATTLECRY  = "Hear me ROAR!",
-		GIVING_BATTLECRY      = "I must roar too!", -- TODO
-		OVER_9000             = "My power level is OVER 9000!",
-		UNDER_9000            = "I feel so weak.", -- TODO
-		SUPER_GOD_MODE        = "I have become a GOD!",
-		MORTAL_MODE           = "I am only human.",
-		MIGHTY                = "You made me ANGRY!",
-		AMPLIFY               = "I'm all sparkly!",
-		SHADOWS               = "Arise my minions!",
-		SHOCK                 = "Don't touch me!",
-		PETRIFY               = "Giving you that cold as stone look!",
-		REVIVE                = "My soul returns!",
+		SPAWNING_ENT         = "Spawning %d %s.",
+		EQUIPPING_ITEM       = "Equipping %s.",
+		ACTIVATING_BATTLECRY = "Hear me ROAR!",
+		GIVING_BATTLECRY     = "I must roar too!", -- TODO
+		OVER_9000            = "My power level is OVER 9000!",
+		UNDER_9000           = "I feel so weak.", -- TODO
+		SUPER_GOD_MODE       = "I have become a GOD!",
+		MORTAL_MODE          = "I am only human.",
+		MIGHTY               = "You made me ANGRY!",
+		AMPLIFY              = "I'm all sparkly!",
+		SHADOWS              = "Arise my minions!",
+		SHOCK                = "Don't touch me!",
+		PETRIFY              = "Giving you that cold as stone look!",
+		REVIVE               = "My soul returns!",
 		ROUND_AND_WAVE_SELECT = "Starting Round %d, Wave %d",
-		RESTART_ROUND         = "Restarting Round %d",
-		ENABLE_WAVES          = "Enabling Waves",
-		DISABLE_WAVES         = "Disabling Waves",
-		KILL_ALL_MOBS         = "Killing all mobs",
-		POISON                = "Someone has poisoned me!",
-		ADJUST_MUTATOR        = "Adjusting %s to %s",
+		RESTART_ROUND        = "Restarting Round %d",
+		ENABLE_WAVES         = "Enabling Waves",
+		DISABLE_WAVES        = "Disabling Waves",
+		KILL_ALL_MOBS        = "Killing all mobs",
+		POISON               = "Someone has poisoned me!",
+		ADJUST_MUTATOR       = "Adjusting %s to %s",
 	},
 	FORGELORD_DIALOGUE = {
 		RANDOMIZED = {
@@ -1651,25 +1651,25 @@ STRINGS.REFORGED = {
 					sleep and petrify could be added through commonstates
 	--]]
 	DEBUFFS = { -- TODO all of them? should they have name and desc?
-		healingcircle_regenbuff = "Heal",
-		debuff_armorbreak       = "Broken Armor",
-		debuff_fire             = "On Fire",
-		debuff_haunt            = "Haunted",
-		debuff_wet              = "Wet",
-		spatula_food_buff       = "Well Fed",
-		debuff_mfd              = "Marked",
-		trap_snare_debuff       = "Trapped",
-		buff_woby               = "Who's a good boy!",
-		scorpeon_dot            = "Poisoned",
-		debuff_spice_dmg        = "Red Spicey",
-		debuff_spice_def        = "Blue Spicey",
-		debuff_spice_speed      = "Yellow Spicey",
-		debuff_spice_regen      = "Green Spicey",
-		debuff_shield           = "Shield Up",
-		shield_buff             = "Defense Banner",
-		damager_buff            = "Attack Banner",
-		healer_buff             = "Heal Banner",
-		speed_buff              = "Speed Banner",
+		healingcircle_regenbuff = "Cura",
+		debuff_armorbreak = "Armadura Quebrada",
+		debuff_fire = "TA PEGANDO FOGO BIXO",
+		debuff_haunt = "Haunted",
+		debuff_wet = "Molhado",
+		spatula_food_buff = "Alimentado",
+		debuff_mfd = "Marked",
+		trap_snare_debuff = "Trapped",
+		buff_woby = "Quem é um bom garoto?!",
+		scorpeon_dot = "Veneno",
+		debuff_spice_dmg = "Força+",
+		debuff_spice_def = "Defesa+",
+		debuff_spice_speed = "Velocidade+",
+		debuff_spice_regen = "Regeneração",
+		debuff_shield = "Protegido",
+		shield_buff = "Defense Banner",
+		damager_buff = "Attack Banner",
+		healer_buff = "Heal Banner",
+		speed_buff = "Speed Banner",
 	},
 	PERKS = {
 		generic = {
@@ -1688,145 +1688,165 @@ STRINGS.REFORGED = {
 		},
 		spectator = {
 			spy = {
-				TITLE       = STRINGS.CHARACTER_TITLES.spectator,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.spectator,
+				TITLE       = "O Espião",
+				DESCRIPTION = "*Câmera livre.\n*Pode focar em um jogador para a câmera segui-lo.\n",
 				STARTING_HEALTH = "∞",
 			},
 		},
 		random = {
 			full_random = {
-				TITLE       = "Full Random",
-				DESCRIPTION = "Selects a random character and a random perk.",
-				STARTING_ITEMS = "Starting items of the randomly selected characters loadout.",
+				TITLE       = "Totalmente Aleatório",
+				DESCRIPTION = "Escolhe um personagem e perk aleatórios",
+				STARTING_ITEMS = "Os itens iniciais variam dependendo do personagem.",
 			},
 			base_random = {
-				TITLE       = "Base Random",
-				DESCRIPTION = "Selects a random character and perk that was in the original Forge!",
-				STARTING_ITEMS = "Starting items of the randomly selected characters loadout.",
+				TITLE       = "Aleatório",
+				DESCRIPTION = "Escolhe um personagem aleatório com seu perk original do Forge!",
+				STARTING_ITEMS = "Os itens iniciais variam dependendo do personagem.",
 			},
 		},
 		wilson = {
 			revive = {
-				TITLE       = STRINGS.CHARACTER_TITLES.wilson,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wilson,
+				TITLE       = "O Cientista Frustrado",
+				DESCRIPTION = "*Revive aliados 50% mais rápido.\n*Recupera mais vida de aliados revividos.\n\nEspecialidades: \nCorpo a Corpo, Dardos e Cajados.",
 			},
 		},
 		willow = {
 			bernie = {
-				TITLE       = STRINGS.CHARACTER_TITLES.willow,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.willow,
+				TITLE       = "Bernie Builder",
+				DESCRIPTION = "*Protegida por Bernie, o urso de pelúcia.\n*Bernie só pode ser ressussitado por Willow.\n\nEspecialidades: \nDardos e Cajados.",
+			},
+			fire = {
+				TITLE       = "A Maga Infernal",
+				DESCRIPTION = "*Um Cajado Infernal extra aparecerá na batalha.\n*+10% Dano de fogo e explosivo.\n\nEspecialidades: \nDardos e Cajados.",
 			},
 		},
 		wendy = {
 			abigail = {
-				TITLE       = STRINGS.CHARACTER_TITLES.wendy,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wendy,
+				TITLE       = "A jovem de luto",
+				DESCRIPTION = "*Protegida por sua irmã gêmia, Abigail.\n*Abigail é revivida automaticamente.\n\nEspecialidades: \n Dardos e Cajados.",
 			},
 			baby_ben = {
-				TITLE       = "Daycare",
-				DESCRIPTION = "*Protected by her baby brother Ben.\n*Baby Ben gives shields to friends who get hit.\n\nExpertise:\nDarts, Staves",
+				TITLE       = "A Babá",
+				DESCRIPTION = "*Acompanhada de seu irmão Bebê Ben.\n*Bebê Ben dá escudo a aliados atingidos.\n\nEspecialidade:\nDardos e Cajados.",
 			},
 		},
 		woodie = {
 			lucy = {
-				TITLE       = STRINGS.CHARACTER_TITLES.woodie,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.woodie,
+				TITLE       = "O Lenhador",
+				DESCRIPTION = "*Lucy retorna ao Woodie após arremessada, gerando bastante agressividade.\n*Maior velocidade de ataque com Lucy.\n\nEspecialidade: \nCorpo a Corpo.",
 			},
 		},
 		wolfgang = {
 			mighty = {
-				TITLE       = STRINGS.CHARACTER_TITLES.wolfgang,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wolfgang,
+				TITLE       = "O Halterofilista",
+				DESCRIPTION = "*Fica Poderoso quando está com pouca vida, aumentando seu ataque, defesa e velocidade de movimento por 20 seg.\n\nEspecialidade: \nCorpo a Corpo.",
+			},
+			restore = {
+				TITLE       = "O Regenerador",
+				DESCRIPTION = "*Tem uma pequena regeneração de vida constante.\n\nEspecialidade: \nCorpo a Corpo.",
 			},
 		},
 		wx78 = {
 			shock = {
-				TITLE       =  STRINGS.CHARACTER_TITLES.wx78,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wx78,
+				TITLE       =  "O Robô Eletrificado",
+				DESCRIPTION = "*Dá choque nos inimigos próximos após ser atacado 3 vezes.\n*+50% Dano Elétrico.\n*Vida Máxima aumentada para 175.\n\nEspecialidades: \nCorpo a Corpo e Cajados.",
 			},
 			overcharge = {
-				TITLE       = "Overcharge",
-				DESCRIPTION = "*Becomes Overcharged from electric attacks.\n*Increased resistance from electric attacks.\n*Electric attacks are drawn to WX-78.\n\nExpertise:\nMelee, Staves",
+				TITLE       = "O Robô Sobrecarregado",
+				DESCRIPTION = "*Fica Sobrecarregado ao receber ataques elétricos, ganhando vida, luz e +20% Velocidade de movimento.\n*È revivido 20% mais rápido.\n\nEspecialidades: \nCorpo a Corpo e Cajados.",
 			},
 		},
 		wickerbottom = {
 			amplify = {
-				TITLE       =  STRINGS.CHARACTER_TITLES.wickerbottom,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wickerbottom,
+				TITLE       =  "Anciã Amplificada",
+				DESCRIPTION = "*Ganha uma bônus depois de causar certo dano.\n*O bônus se aplica para Feitiços, os amplificando.\n\nEspecialidades: \nCajados e Livros.",
+			},
+			bookers = {
+				TITLE       =  "A Bibliotecária",
+				DESCRIPTION = "*Um Livro Golem extra aparecerá na batalha.\n*+40% Duração de Feitiços.\n*Revive aliados 25% mais rápido.\n\nEspecialidade: \nLivros.",
 			},
 		},
 		wes = {
 			aggro = {
-				TITLE       =  STRINGS.CHARACTER_TITLES.wes,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wes,
+				TITLE       =  "A Isca Humana",
+				DESCRIPTION = "*É revivido 50% mais rápido.\n*Gera menos agressividade quando ataca mas é difícil perde-la dos inimigos.\n*+10% Velocidade de movimento\n\nEspecialidades: \nCorpo a Corpo, Dardos e Cajados.",
 			},
 		},
 		waxwell = {
 			shadows = {
-				TITLE       =  STRINGS.CHARACTER_TITLES.waxwell,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.waxwell,
+				TITLE       =  "O Mestre das Sombras",
+				DESCRIPTION = "*Invoca duelistas das sombras depois de causar muito dano num único alvo.\n*+10% Dano Mágico.\n\nEspecialidades: \nCajados e Livros.",
+			},
+			granmage = {
+				TITLE       =  "O Mago Implacável",
+				DESCRIPTION = "*+10% Redução de Recarga.\n*+10% Duração de Feitiços.\n*Dá +10% de Cura.\n*Causa 25% meno Dano Base.\n\nEspecialidades: \nCajados e Livros.",
 			},
 		},
 		wathgrithr = {
 			battlecry = {
-				TITLE       =  STRINGS.CHARACTER_TITLES.wathgrithr,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wathgrithr,
+				TITLE       =  "A Guerreira Nórdica",
+				DESCRIPTION = "*Começa a batalha com sua Lança.\n*Solta Gritos de Guerra ao causar certo dano, dando +25% dano a aliados próximos.\n*Recebe menos agressividade ao atacar.\n*Receberá a Lança Espiral.\n\nEspecialidades: \nCorpo a Corpo e Dardos",
 			},
 		},
 		webber = {
 			baby_spiders = {
-				TITLE       = STRINGS.CHARACTER_TITLES.webber,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.webber,
+				TITLE       = "O Líder das Aranhas",
+				DESCRIPTION = "*Acompanhado pelas suas aranhas.\n*As aranhas não sofrem dano algum, sendo imortais.\n\nEspecialidade: \nDardos.",
+			},
+			tankers = {
+				TITLE       = "O Mutante",
+				DESCRIPTION = "*Vida Máxima aumentada para 200 \n*+10% Velocidade de movimento\n\nEspecialidades: \nCorpo a Corpo e Dardos.",
 			},
 		},
 		winona = {
 			cooldown = {
-				TITLE       =  STRINGS.CHARACTER_TITLES.winona,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.winona,
+				TITLE       =  "A Multitarefa",
+				DESCRIPTION = "*+10% de Redução de Recarga de ataques especiais.\n\nEspecialidades: \nCorpo a Corpo, Dardos e Cajados.",
 			},
 		},
 		wortox = {
 			soul_drain = {
-				TITLE       =  STRINGS.CHARACTER_TITLES.wortox,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wortox,
+				TITLE       =  "O Demônio Faminto",
+				DESCRIPTION = "*Começa com seu Machado de Teleporte.\n*Cause dano e regenere sua vida e de aliados próximos.\n*Receberá as Manóplas.\n\nEspecialidade: \nCorpo a Corpo.",
 			},
 		},
 		wormwood = {
 			bloom = {
-				TITLE       =  STRINGS.CHARACTER_TITLES.wormwood,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wormwood,
+				TITLE       =  "O Jardineiro",
+				DESCRIPTION = "*Começa a batalha com seu Dardo de Sementes.\n*Florece caso evite dano, ganhando Velocide de movimento e solta polén que enfraquece inimigos.\n*Receberá o Dardo de Super Sementes.\n\nEspecialidade: \nDardos e Cajados.",
 			},
 		},
 		warly = {
 			spices = {
-				TITLE       = STRINGS.CHARACTER_TITLES.warly,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.warly,
+				TITLE       = "'Lhe Falta Tômpero'",
+				DESCRIPTION = "*O Cajado de Cura é trocado pelo Saco de Tômpero que pode aplicar vários buffs em aliados e debuffs em inimigos.\n*Dá +20% de Cura.\n\nEspecialidades: \nCorpo a Corpo e Cajados.",
 			},
 			cookpot = {
-				TITLE       = "Master Chef",
-				DESCRIPTION = "*Cooks food faster.\n*Food cooked by Warly has increased benefits.\nExpertise:\nMelee, Staves",
+				TITLE       = "O Master Chef",
+				DESCRIPTION = "*A Espátula cozinha hambúrgueres que dão bônus a aliados e regeram vida.\n*O Chapéu de Chef o permite andar/atacar enquanto prepara os hambúrgueres.\n\nEspecialidades:\nCorpo a Corpo e Cajados.",
 			},
 		},
 		wurt = {
 			wet = {
-				TITLE       = STRINGS.CHARACTER_TITLES.wurt,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wurt,
+				TITLE       = "A Sapa Cabra",
+				DESCRIPTION = "*Pode deixar inimigos molhados, reduzindo sua velocidade de movimento e amplificando ataques elétricos.\nReceberá o Tridente.\n\nEspecialidades: \nCorpo a Corpo, Dardos, Cajados e Livros.",
 			},
 		},
 		walter = {
 			woby = {
-				TITLE       = STRINGS.CHARACTER_TITLES.walter,
-				DESCRIPTION = STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.walter,
+				TITLE       = "O Escoteiro Destemido",
+				DESCRIPTION = "*Acompanhado de seu melhor amigo, Woby.\n*Interagir com Woby beneficia aliados próximos com redução de recarga.\n*Receberá o Estilingue.\n\nEspecialidades: \nDardos e Livros.",
 			},
 		},
 		wanda = {
 			rewind = {
-				TITLE       = STRINGS.CHARACTER_TITLES.wanda,
-				DESCRIPTION = "*Rewinds time on death.\n*Spells last 10% longer.\n\nExpertise:\nMelee, Books, Staves",
+				TITLE       = "A Imortal",
+				DESCRIPTION = "*Pode se reviver automaticamente.\n*+15% Duração de Feitiços.\n*Receberá o Cajado de Portais.\n\nEspecialidades: \nCorpo a Corpo, Cajados e Livros.",
 			},
 			age = {
-				TITLE       = "The Immortal",
-				DESCRIPTION = "*Ages overtime reducing health overtime.\n*Does increased damage at lower health.\n\nExpertise:\nMelee, Books, Staves",
+				TITLE       = "A Anciã do Tempo",
+				DESCRIPTION = "*Perde vida sem parar.\n*Até +50% dano com baixa vida.\n*Receberá o Relógio Amaldiçoado que volta a vida de aliados e congela inimigos.\n\nEspecialidades: \nCorpo a Corpo, Cajados e Livros.",
 			},
 		},
 		CHOOSE  = "Choose a Perk:",

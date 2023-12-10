@@ -401,8 +401,7 @@ AddClassPostConstruct("screens/redux/lobbyscreen", function(self)
 	end
 
 	local function SpawnSpectator()
-		if _G.REFORGED_SETTINGS.spectators_only and _G.TheWorld.net.components.lavaarenaeventstate:IsInProgress() and not _G.TheWorld.net.components.lavaarenaeventstate:IsMatchComplete() then
-			_G.TheFrontEnd:PopScreen()
+		if _G.REFORGED_SETTINGS.spectators_only and _G.TheWorld.net.components.lavaarenaeventstate:IsInProgress() and not _G.TheWorld.net.components.lavaarenaeventstate:IsMatchComplete() then			_G.TheFrontEnd:PopScreen()
 			_G.TheNet:SendSpawnRequestToServer("spectator")
 		end
 	end
@@ -717,7 +716,7 @@ AddComponentPostInit("worldcharacterselectlobby", function(self)
 		        end
 		        -- Allow players to connect again since all players have disconnected.
 		    	_G.TheNet:SetAllowNewPlayersToConnect(true)
-		    	self:CancelForceStart()
+				self:CancelForceStart()
 		    end
 		    -- Reset since all players disconnected or the match has started
 		    _G.TheNet:SetIsMatchStarting(false)
@@ -727,7 +726,7 @@ AddComponentPostInit("worldcharacterselectlobby", function(self)
 		-- Allow players to change characters when force start has been activated
 		local old_IsAllowingCharacterSelect = self.IsAllowingCharacterSelect
 		function self:IsAllowingCharacterSelect()
-			return _G.TheWorld.net.components.lavaarenaeventstate:IsInProgress() and not _G.TheWorld.net.components.lavaarenaeventstate:IsMatchComplete() or force_start and self:GetSpawnDelay() > 1 or old_IsAllowingCharacterSelect(self)
+			return _G.TheWorld.net.components.lavaarenaeventstate:IsInProgress() or force_start and self:GetSpawnDelay() > 1 or old_IsAllowingCharacterSelect(self)
 		end
 
 		-- TheFrontEnd:PopScreen() TheFrontEnd:PopScreen() TheNet:SendSpawnRequestToServer("spectator")
@@ -736,8 +735,7 @@ AddComponentPostInit("worldcharacterselectlobby", function(self)
 		--]]
 		local _oldCanPlayersSpawn = self.CanPlayersSpawn
 		function self:CanPlayersSpawn()
-			return _G.REFORGED_SETTINGS.other.joinable_midmatch and _G.TheWorld.net.components.lavaarenaeventstate:IsInProgress() and not _G.TheWorld.net.components.lavaarenaeventstate:IsMatchComplete() or not _G.TheWorld.net.components.lavaarenaeventstate:IsInProgress() and _oldCanPlayersSpawn()
-		end
+			return _G.REFORGED_SETTINGS.other.joinable_midmatch and _G.TheWorld.net.components.lavaarenaeventstate:IsInProgress() and not _G.TheWorld.net.components.lavaarenaeventstate:IsMatchComplete() or not _G.TheWorld.net.components.lavaarenaeventstate:IsInProgress() and _oldCanPlayersSpawn()		end
 	end
 end)
 
