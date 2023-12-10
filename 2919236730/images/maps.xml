@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Atlas>
+	<Texture filename="maps.tex" />
+	<Elements>
+		<Element name="map_forge.tex" u1="0.001" u2="0.5849375" v2="0.999" v1="0.610375" variant="" />
+		<Element name="map_unknown.tex" u1="0.001" u2="0.5849375" v2="0.608375" v1="0.21975" variant="" />
+	</Elements>
+</Atlas>

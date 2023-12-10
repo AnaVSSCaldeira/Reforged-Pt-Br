@@ -1,0 +1,76 @@
+New Features »
+♦ Lobby Chat updated to scroll to latest message on lobby join and display new messages correctly again. Players can control the amount of messages stored in their chat history and if avatars are displayed through client options.
+♦ New Server Options:
+» Command Spam Ban Time: How long a user is banned for spamming commands to the server. (30 minutes by default)
+♦ New Client Options:
+» Default Lobby Tab: Choose which tab is selected by default in the lobby.
+» Max Messages: Total number of messages displayed in your chat history. (100 messages by default)
+» Show Chat Icon: Shows players avatar next to their chat messages. (Off by default)
+» Event Arenas: Allows certain arenas to change depending on the current event.
+♦ New Talkers. Talkers control the dialogue display at the top of the screen. Multiple talkers can talk and display dialogue at the same time. Admin Commands, gametype, and waveset dialogue updated to use talkers.
+♦ Added campfire_fire_colorable asset.
+♦ Added rf_map_blockers.
+♦ Parry now has sounds for entering and parrying.
+♦ Strings added.
+
+Balance Changes
+♦ Abigail no longer keeps aggro when dissipating.
+♦ Red Light in RLGLOLBL now has a larger delay before checking if players are moving.
+
+Bug Fixes
+♦ Projectile tail functions should now be checked correctly if they exist through the common functions.
+♦ Attack Knockback is now defaulted to 1 if not value is given.
+♦ Admin Commands updated to use new talkers.
+♦ Entities are only affected by one Heal Aura at a time now. If they are in multiple Heal Auras then they will only be affected by one until it ends and then if they are still within another Heal Aura it will repeat until no longer in any Heal Auras.
+♦ Players who do not have a join time will now get full experience for time played.
+♦ Players who initiate a vote will no longer vote multiple times even though their vote is only counted once.
+♦ Unknown perks should no longer crash the server.
+♦ Rechargeable component now correctly checks if aoetargeting exists.
+♦ Combat components CanTarget function will not check if it's owner is still valid before checking the given target.
+♦ Loading portals will now always have a data table.
+♦ Players who have less than 100 levels are no longer displayed as having 100 more levels than they actually have.
+♦ Game will no longer end if a player is midrevive on defeat.
+♦ RLGL gametypes are now compatible with Hallowed Forge.
+♦ Teleporting in RLGL with an active light will no longer remove the light from the player.
+♦ Heal Aura and Poison debuff will no longer remove the current light on the player.
+♦ RLGL gametypes no longer need a world reset to become active.
+♦ RLGL gametypes no longer interrupt the wavesets dialogue.
+♦ Revive Charges are no longer added if the match is already over.
+♦ Poison debuff now removes visual health degen on removal.
+♦ Rhinocebro revive percentages updated to the latest functions.
+♦ Crocs Before Pigs achievement no longer crashes hard and can only be achieved on normal (due to the behavior of Crocommanders on hard)
+♦ UnSpun Hero is no longer rewarded if the snortoises spin once and only once. Now it requires no spins to occur.
+♦ Abigail is no longer invincible.
+♦ All Attack based stats should now track correctly.
+♦ TimeLock no longer works on non interruptible states.
+♦ Randomized waveset will no longer crash if no enemies spawn.
+♦ New Panel now correctly checks if news exists before attempting to display the news.
+♦ Unknown characters will no longer crash in the lobby.
+♦ Spice Bomb Debuffs are now affected by spell duration buffs.
+♦ Spice Bomb will no longer crash the server when the owner of a Spice Bomb disconnects as it is thrown.
+♦ Custom News Panel text will now remove the return carriage at the end of any line to ensure spacing is correct.
+♦ Backtrek Staffs portal marker now correctly completes spell. This means that Maxwells Shadows passive now tracks correctly when placing portal markers.
+♦ Fossilized state now plays the correct break sound.
+♦ Bernie now checks to see if the target hes grabbing actually exists before attempting to get aggro.
+♦ Fixed a typo, causing a crash when a map has no level_data.
+♦ Overridden /rescue to avoid it being abused to get oob.
+
+Dev Features:
+♦ New Common Functions
+» CheckCommand: validates command use.
+♦ Gametypes are now loaded
+♦ New function GetAdminTalker added to TheWorld.net. Returns the admin talker.
+♦ New components added:
+» command_manager: manages command usage.
+» bgm_manager_reforged: manages background music.
+♦ Common functions added for talkers (SpeechRootKillTask, OnTalk, GetDialogueStrings).
+♦ Generic Fossilized and Frozen assets added and states updated to support them. Still not fully implemented.
+♦ New Image function, ScaleToSize, which scales the image to the given size keeping its original dimensions. All calls to SetSize have been replaced to use this function instead.
+♦ Wavesets can now control the end of match dialogue.
+♦ Moved player positinit code from main to player postinit file.
+♦ ColourAdder now has support for mult colours.
+♦ IsUserAdmin utility function added.
+♦ String Pot File generation functions added in utility.
+♦ Gauntlets name refactored to be "lavaarena_gauntlet" to be consistent in all uses.
+♦ Gametypes are now enabled and disabled when the setting changes instead of a world reset.
+♦ New Parry success and fail functions added to parryweapon component.

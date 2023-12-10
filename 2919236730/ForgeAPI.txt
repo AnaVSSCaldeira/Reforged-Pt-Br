@@ -1,0 +1,203 @@
+Copyright (C) 2018 Forged Forge
+
+This file is part of Forged Forge.
+
+The source code of this program is shared under the RECEX
+SHARED SOURCE LICENSE (version 1.0).
+The source code is shared for referrence and academic purposes
+with the hope that people can read and learn from it. This is not
+Free and Open Source software, and code is not redistributable
+without permission of the author. Read the RECEX SHARED
+SOURCE LICENSE for details 
+The source codes does not come with any warranty including
+the implied warranty of merchandise. 
+You should have received a copy of the RECEX SHARED SOURCE
+LICENSE in the form of a LICENSE file in the root of the source
+directory. If not, please refer to 
+<https://raw.githubusercontent.com/Recex/Licenses/master/SharedSourceLicense/LICENSE.txt>
+
+Forge API (WIP)
+	Useful for expanding on and creating new content for the Forge
+
++++++++
+GUIDES
++++++++
+-----------------
+MODDED CHARACTERS
+-----------------
+forge_fn
+	Anything forge related for your character should be done in a "forge_fn" function. We check for player_inst.forge_fn and will run it if found. This is where you put any passives, or any other forge related features for your character.
+	
+---------------
+MODDED ENEMIES
+---------------
+
+
+---------------
+MODDED WEAPONS
+---------------
+When creating a weapon be sure to use ForgePrefab() and not Prefab() this will make it compatible with our admin/debug menu.
+Tags:
+	"hammer", "aoeweapon_leap", "rechargeable", "rangedweapon", "magicweapon", "rechargeable", "firestaff", "pyroweapon"
+Useful components:
+	reticule_spawner, aoespell, rechargeable, weapon, aoeweapon_leap??, aoeweapon_lunge??, itemtype, inspectable, inventoryitem, equippable
+
+---------------
+MODDED ARMOR
+---------------
+
+
+---------------
+CUSTOM WAVES
+---------------
+	
+++++
+API
+++++
+Components
+- COOLDOWN
+	rechargeable
+- REVIVE
+	revivablecorpse
+	corpsereviver
+- BUFFS
+	buffable
+- STATS
+	stat_tracker
+	
+Other?
+- ADMIN/DEBUG MENU
+	ForgePrefab
+	AdminCommand
+	
+TODO
+aimedprojectile
+aoespell
+aoeweapon_leap???
+aoeweapon_lunge???
+colourfader???
+itemtype
+itemtyperestrictions
+reticule_spawner
+
+
+
+---------
+COOLDOWN
+---------
+rechargeable
+	Variables:
+	
+	
+	Methods:
+		SetRechargeTime(rechargetime)
+		SetOnReadyFn(fn)
+
+---------
+REVIVE
+---------
+revivablecorpse
+	Variables:
+		revive_health_percent
+			default: 0.5
+        revivespeedmult
+			default: 1
+
+	Methods:
+		SetCanBeRevivedByFn(fn)
+			sets canberevivedbyfn to fn
+		CanBeRevivedBy(reviver)
+			returns result of canberevivedbyfn, if nil returns true
+		GetReviveHealthPercent()
+			returns revive_health_percent
+		GetReviveSpeedMult()
+			returns revivespeedmult
+		SetReviveHealthPercent(percent)
+			sets revive_health_percent to percent
+		SetReviveSpeedMult(mult)
+			set revivespeedmult to mult
+
+corpsereviver
+	Variables:
+		additional_revive_health_percent
+			default: 0
+		reviver_speed_mult
+			default: 1	
+	
+	Methods:
+		GetAdditionalReviveHealthPercent(percent)
+			returns additional_revive_health_percent
+		GetReviverSpeedMult()
+			returns reviver_speed_mult
+		SetAdditionalReviveHealthPercent(percent)
+			sets additional_revive_health_percent to percent
+		SetReviverSpeedMult(mult)
+			sets reviver_speed_mult to mult
+			
+----------
+BUFFS
+----------
+buffable
+	Description:
+		buffable is used for adding buffs and debuffs to players. Speed multipliers do not currently work through this, but are instead set through equippable.walkspeedmult. Passive regen is also not done in this. That is done through functions that you set when equipped (this might change in the future)
+	
+	Variables:
+	
+	
+	Methods:
+	
+	
+---------
+STATS
+---------
+stat_tracker
+	Variables:
+	
+	
+	Methods:
+
+
+-----------------
+ADMIN/DEBUG MENU
+-----------------
+Any items you create that you want in the admin/debug menu needs to be created with ForgePrefab() and NOT Prefab().
+ForgePrefab(name, fn, assets, deps, force_path_search, category, is_mod, atlas, image, mod_icon, stats, abilities, swap_build, swap_data)
+	Description:
+		Creates a Prefab for the given entity and adds it to the forge item list to be displayed in the admin/debug menu.
+	Parameters:
+		name, fn, assets, deps, force_path_search: these are the same parameters from the regular Prefab()
+		category: this is the type of entity, currently supports these types:
+			"ENEMIES", "WEAPONS", "ARMOR", "BUFFS"
+		is_mod: set the is to true if this is a separate mod from Forged Forge
+		atlas, image: this is the icon for the entity
+		mod_icon: This is a custom icon that will appear in the top right hand corner of this entitys icon. Uses the same atlas as above.
+		stats: Give the stats of the entity like this: {stat1 = x, stat2 = y ...}. Currently supported stats:
+			dfasdgagasdga
+		abilities: If the entity is a mob then place abilities here like this: {ab1, ab2} etc
+			TODO formatting for this
+		???
+		swap_build
+		swap_data
+		???
+		
+	Variables:
+		
+	
+	Methods:
+
+	
+AdminCommand(name, category, admin_fn, atlas, image)
+	Description:
+	
+	Parameters:
+		name: command name
+		category: type of command, currently supports these types:
+			"FORGE", "GENERAL"
+		admin_fn: this is the admin function that will be called when activated. Passes this data to the admin_fn: {player}
+		atlas, image: icon information
+		
+	Variables:
+	
+	Methods:
+	
+	

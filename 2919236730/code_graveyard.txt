@@ -1,0 +1,227 @@
+Copyright (C) 2018 Forged Forge
+
+This file is part of Forged Forge.
+
+The source code of this program is shared under the RECEX
+SHARED SOURCE LICENSE (version 1.0).
+The source code is shared for referrence and academic purposes
+with the hope that people can read and learn from it. This is not
+Free and Open Source software, and code is not redistributable
+without permission of the author. Read the RECEX SHARED
+SOURCE LICENSE for details 
+The source codes does not come with any warranty including
+the implied warranty of merchandise. 
+You should have received a copy of the RECEX SHARED SOURCE
+LICENSE in the form of a LICENSE file in the root of the source
+directory. If not, please refer to 
+<https://raw.githubusercontent.com/Recex/Licenses/master/SharedSourceLicense/LICENSE.txt>
+
+forge_main.lua:
+
+[722]
+
+--TODO: (after we test everything and get it working) clean up all the dang commented out code everywhere
+--[[AddComponentPostInit("combat", function(self)	
+	self.damagebonus = 0
+	local _oldDoAttack = self.DoAttack
+	 --damage = number arg, shifts the damage value from the default damage to a preset one | alt = boolean arg, tells the target to display larger damage indicators
+	function self:DoAttack(target_override, weapon, projectile, stimuli, instancemult, damage, alt, passive, ...)
+		local target = target_override or self.target
+		local weapon = weapon or self:GetWeapon() --Look at all this dang effort I'm going through so mounts and players can alt-attack too...
+		local mount = weapon == nil and ((self.inst.components.rider ~= nil and self.inst.components.rider:IsRiding()) and self.inst.components.rider:GetMount() or nil) or nil --mount registers as nil when there's a weapon because weapon damage takes priority over mount damage
+		local instancemult = instancemult ~= nil and instancemult or 1
+		
+		
+		--[-[ TODO
+		alt_type
+			need to potentially add alt_types to all weapons?
+				this is due to the fact that the amplify passive only effects spells
+		Alt Components
+			instead of setting alt damage in the weapon component maybe set a GetAltDamage function in weapon that checks the alt component for damage? if no alt component then check for alt damage, if no value then ????
+		Range Checks
+			I believe meteor might not work if you go out of projectile range
+			maybe have a range set for alts? then set it to the main variable just like you do with damage?
+		Passive Attack Check
+			Need to check for passive attacks/hits because passives that trigger based on damage or hit count do not trigger on passive attacks/hits. For example, maxwells shadow attacks do not count towards the next shadow proc.
+			Also, Golem does not count towards the next passive but this shouldn't be a problem because the damage source is the golem instead of the player with certain passives (ie. maxwells shadows)
+		--]-]
+		if not passive and not _G.damage_override then
+			-- Add buffs to damage for players:
+			local buff_table = self.inst.components.buffable
+			if buff_table then
+				--[-[
+				instancemult = instancemult + self.inst.components.buffable:GetStatBuff("dmg_mult") + ((weapon and weapon.damage_type == "magical" and self.inst.components.buffable:GetStatBuff("magic_dmg_mult")) or self.inst.components.buffable:GetStatBuff("phys_dmg_mult")) + (alt and weapon and weapon.components.weapon.alt_type == "spell" and self.inst.components.buffable:GetStatBuff("spell_dmg_mult") or 0)
+				if stimuli then
+					instancemult = instancemult + self.inst.components.buffable:GetStatBuff(tostring(stimuli) .. "_mult")
+				end--]-]
+				-- TODO more efficient way? both mult and add are the same except for "mult" and "add"
+				-- maybe buffable should split buffs into categories, so all dmg type buffs go into dmg cat?
+				instancemult = instancemult + buff_table:GetStatBuff("dmg_mult") + buff_table:GetStatBuff(tostring(weapon.damage_type) .. "_dmg_mult") + (alt and weapon and buff_table:GetStatBuff(tostring(weapon.components.weapon.alt_type) .. "_dmg_mult") or 0) + buff_table:GetStatBuff(tostring(weapon.prefab) .. "_mult") + (stimuli and self.inst.components.buffable:GetStatBuff(tostring(stimuli) .. "_mult") or 0)
+				-- TODO damagebonus never gets reset, so if you add to itself like instancemult above it will add prior hits and you will do massive damage, need to find out what uses damagebonuse, can I always reset to 0 or should I save the damagebonus before I add mine and then revert to old after combat is done?
+				self.damagebonus = buff_table:GetStatBuff("dmg_add") + buff_table:GetStatBuff(tostring(weapon.damage_type) .. "_dmg_add") + (alt and weapon and buff_table:GetStatBuff(tostring(weapon.components.weapon.alt_type) .. "_dmg_add") or 0) + buff_table:GetStatBuff(tostring(weapon.prefab) .. "_add") + (stimuli and self.inst.components.buffable:GetStatBuff(tostring(stimuli) .. "_add") or 0)
+				_G.Debug:Print(" - Attack Multiplier: " .. tostring(instancemult))
+				_G.Debug:Print(" - Attack Adds: " .. tostring(self.damagebonus))
+			end
+			
+			-- Toggle Alt Attack
+			local _ignorehitrange = self.ignorehitrange
+			if alt and type(alt) == "boolean" then
+				--This will be the solution unless we decide we want alt attacks to have a set range
+				self.ignorehitrange = true
+				target.components.health.takinglargedamage = true
+				if weapon ~= nil then weapon.components.weapon:AltAttack() end
+			end
+			_oldDoAttack(self, target_override, weapon, projectile, stimuli, instancemult, damage, alt, ...)
+		else
+			-- Passives skip checks? shadows always hit and can't go through DoAttack because it uses weapon to calculate damage
+			-- TODO need to find a way to check for passive damage......
+			-- maybe attach passive boolean to weapon like alts?
+			if passive and self.inst.components.passive_shadows then
+				self.inst.components.passive_shadows.passive_attack = true
+				print("[Combat] Passive and shadows exist!")
+			end
+			damage = self.inst:HasTag("player") and _G.damage_override and 9001 or damage
+			target.components.combat:GetAttacked(self.inst, damage, nil, stimuli)
+		end
+		self.ignorehitrange = _ignorehitrange
+		self.inst:PushEvent("attack_complete", {attacker = self.inst, target = target, weapon = weapon, damage = damage, alt = alt, passive = passive})
+	end
+end)
+
+AddComponentPostInit("weapon", function(self)
+	self.altattacking = false
+	self.altattackfn = nil
+	self.base_damage = self.damage
+	self.alt_type = ""
+	
+	function self:SetOnAltAttack(fn)
+		self.altattackfn = fn
+	end
+	
+	function self:SetStimuli(stimuli)
+		self.stimuli = stimuli
+	end
+	
+	function self:SetBaseDamage(damage)
+		self.base_damage = damage
+		self.damage = damage
+	end
+	
+	-- Need to set this if the alt does any form of damage
+	function self:SetAltDamage(damage)
+		self.alt_damage = damage
+	end
+	
+	-- Need types for certain passives/buffs that only effect spells
+	function self:SetAltType(alt_type)
+		self.alt_type = alt_type
+	end
+	
+	function self:AltAttack()
+		self.altattacking = true
+		self.damage = self.alt_damage
+	end
+	
+	local _oldOnAttack = self.OnAttack
+	function self:OnAttack(attacker, target, projectile)
+		if not self.altattackfn then
+			_oldOnAttack(self, attacker, target, projectile)
+		else
+			if self.altattackfn ~= nil then
+				self.altattackfn(self.inst, attacker, target)
+			end
+			
+			if self.inst.components.finiteuses ~= nil then
+				self.inst.components.finiteuses:Use(self.attackwear or 1)
+			end
+		end
+		self.damage = self.base_damage
+		self.altattacking = false
+	end
+end)]]
+
+[811]
+
+--[[
+local function ToggleAdminCommands()
+	if admin_commands then
+		admin_commands:ToggleDisplay()
+	else
+		Debug:print("admin commands is nil")
+	end
+end
+_G.TheInput:AddKeyDownHandler(_G["KEY_Z"], ToggleAdminCommands)
+--]]
+
+-- Checks equipped items for any damage buffs and applies them, checks damage buffs when unequipping items and removes the corresponding buffs
+--[[local function AddEquippableBuffChecks(self)
+	local equippables = self
+	equippables.buffs = nil
+	
+	local old_equip = equippables.Equip
+	function equippables:Equip(owner)
+		if owner.components.buffable and equippables.buffs ~= nil then
+			owner.components.buffable:AddBuff(tostring(equippables.equipslot), equippables.buffs) -- TODO can you get item name here instead?
+		end
+		
+		old_equip(equippables, owner)
+	end
+	
+	local old_unequip = equippables.Unequip
+	function equippables:Unequip(owner)
+		if owner.components.buffable then
+			owner.components.buffable:RemoveBuff(tostring(equippables.equipslot)) -- TODO put item name instead?
+		end
+		old_unequip(equippables, owner)
+	end
+end
+AddComponentPostInit("equippable", AddEquippableBuffChecks)]]
+
+--print("[Test] event: " .. tostring(_G.TheNet:GetServerEvent()))
+
+[841]
+
+--[[
+self.achievements_root = portrait_root:AddChild(Widget("selfachievements_root"))
+self.achievements_root:SetPosition(-650, -370)
+self.la_achievements = {}
+for i = 1, 3 do
+	local achievement_root = self.achievements_root:AddChild(Widget("achievement_root"..i))
+	achievement_root:SetPosition(0, (i-1) * 65)
+	self.la_achievements[i] = {}
+	self.la_achievements[i].image = achievement_root:AddChild(Image())
+	self.la_achievements[i].image:SetScale(.38, .38)
+	self.la_achievements[i].image:SetPosition(0, 2)
+	self.la_achievements[i].name = achievement_root:AddChild(Text(_G.HEADERFONT, 18, "", _G.UICOLOURS.GOLD_SELECTED))
+	self.la_achievements[i].name:SetRegionSize(420, 26)
+	self.la_achievements[i].name:SetPosition(420*0.5 + 30, 12) 
+	self.la_achievements[i].name:SetHAlign(_G.ANCHOR_LEFT)
+	self.la_achievements[i].desc = achievement_root:AddChild(Text(_G.CHATFONT, 18, "", _G.UICOLOURS.GREY))
+	self.la_achievements[i].desc:SetRegionSize(470, 50)
+	self.la_achievements[i].desc:SetPosition(470*0.5 + 29, -25) 
+	self.la_achievements[i].desc:SetHAlign(_G.ANCHOR_LEFT)
+	self.la_achievements[i].desc:SetVAlign(_G.ANCHOR_TOP)
+	self.la_achievements[i].desc:EnableWordWrap(true)
+end--]]
+
+[910]
+
+--[[
+if self.la_achievements then
+	self.achievements_root:Hide()
+	for _, cat in pairs(_G.EventAchievements:GetAchievementsCategoryList(self.eventid)) do
+		if cat.category == character then
+			self.achievements_root:Show()
+			for i, v in ipairs(cat.data) do
+				local achievementid = cat.data[3-(i-1)].achievementid
+				local image = _G.EventAchievements:IsAchievementUnlocked(_G.FESTIVAL_EVENTS.LAVAARENA, achievementid) and (achievementid..".tex") or "achievement_locked.tex"
+				self.la_achievements[i].image:SetTexture("images/"..self.eventid.."_achievements.xml", image)
+
+				self.la_achievements[i].name:SetString(STRINGS.UI.ACHIEVEMENTS[string.upper(self.eventid)].ACHIEVEMENT[achievementid].TITLE)
+				self.la_achievements[i].desc:SetString(STRINGS.UI.ACHIEVEMENTS[string.upper(self.eventid)].ACHIEVEMENT[achievementid].DESC)
+			end
+			break
+		end
+	end
+end--]]
+

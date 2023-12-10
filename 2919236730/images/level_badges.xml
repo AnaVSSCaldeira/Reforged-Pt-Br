@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Atlas>
+	<Texture filename="level_badges.tex" />
+	<Elements>
+		<Element name="base_1.tex" u1="0.001" u2="0.0781015625" v2="0.999" v1="0.858421875" variant="" />
+		<Element name="base_2.tex" u1="0.0801015625" u2="0.157203125" v2="0.999" v1="0.858421875" variant="" />
+		<Element name="base_3.tex" u1="0.159203125" u2="0.2363046875" v2="0.999" v1="0.858421875" variant="" />
+		<Element name="base_4.tex" u1="0.2383046875" u2="0.31540625" v2="0.999" v1="0.858421875" variant="" />
+		<Element name="base_5.tex" u1="0.31740625" u2="0.3945078125" v2="0.999" v1="0.858421875" variant="" />
+		<Element name="base_6.tex" u1="0.3965078125" u2="0.473609375" v2="0.999" v1="0.858421875" variant="" />
+		<Element name="small_base_1.tex" u1="0.001" u2="0.0615" v2="0.856421875" v1="0.780296875" variant="" />
+		<Element name="small_base_2.tex" u1="0.0635" u2="0.124" v2="0.856421875" v1="0.780296875" variant="" />
+		<Element name="small_base_3.tex" u1="0.126" u2="0.1865" v2="0.856421875" v1="0.780296875" variant="" />
+		<Element name="small_base_4.tex" u1="0.1885" u2="0.249" v2="0.856421875" v1="0.780296875" variant="" />
+		<Element name="small_base_5.tex" u1="0.251" u2="0.3115" v2="0.856421875" v1="0.780296875" variant="" />
+		<Element name="small_base_6.tex" u1="0.3135" u2="0.374" v2="0.856421875" v1="0.780296875" variant="" />
+		<Element name="small_star_1.tex" u1="0.342796875" u2="0.418921875" v2="0.1786875" v1="0.08303125" variant="" />
+		<Element name="small_star_2.tex" u1="0.420921875" u2="0.497046875" v2="0.1786875" v1="0.08303125" variant="" />
+		<Element name="small_star_3.tex" u1="0.499046875" u2="0.575171875" v2="0.1786875" v1="0.08303125" variant="" />
+		<Element name="small_w_1_1.tex" u1="0.376" u2="0.452125" v2="0.856421875" v1="0.760765625" variant="" />
+		<Element name="small_w_1_2.tex" u1="0.9150625" u2="0.9911875" v2="0.999" v1="0.90334375" variant="" />
+		<Element name="small_w_1_3.tex" u1="0.9150625" u2="0.9911875" v2="0.90134375" v1="0.8056875" variant="" />
+		<Element name="small_w_2_1.tex" u1="0.893578125" u2="0.969703125" v2="0.8036875" v1="0.70803125" variant="" />
+		<Element name="small_w_2_2.tex" u1="0.2968984375" u2="0.3730234375" v2="0.778296875" v1="0.682640625" variant="" />
+		<Element name="small_w_2_3.tex" u1="0.3750234375" u2="0.4511484375" v2="0.758765625" v1="0.663109375" variant="" />
+		<Element name="small_w_3_1.tex" u1="0.186546875" u2="0.262671875" v2="0.2948984375" v1="0.1992421875" variant="" />
+		<Element name="small_w_3_2.tex" u1="0.264671875" u2="0.340796875" v2="0.2948984375" v1="0.1992421875" variant="" />
+		<Element name="small_w_3_3.tex" u1="0.342796875" u2="0.418921875" v2="0.27634375" v1="0.1806875" variant="" />
+		<Element name="small_w_4_1.tex" u1="0.420921875" u2="0.497046875" v2="0.27634375" v1="0.1806875" variant="" />
+		<Element name="small_w_4_2.tex" u1="0.499046875" u2="0.575171875" v2="0.27634375" v1="0.1806875" variant="" />
+		<Element name="small_w_4_3.tex" u1="0.577171875" u2="0.653296875" v2="0.27634375" v1="0.1806875" variant="" />
+		<Element name="small_w_5_1.tex" u1="0.655296875" u2="0.731421875" v2="0.27634375" v1="0.1806875" variant="" />
+		<Element name="small_w_5_2.tex" u1="0.733421875" u2="0.809546875" v2="0.27634375" v1="0.1806875" variant="" />
+		<Element name="small_w_5_3.tex" u1="0.811546875" u2="0.887671875" v2="0.27634375" v1="0.1806875" variant="" />
+		<Element name="small_w_6_1.tex" u1="0.889671875" u2="0.965796875" v2="0.27634375" v1="0.1806875" variant="" />
+		<Element name="small_w_6_2.tex" u1="0.186546875" u2="0.262671875" v2="0.1972421875" v1="0.1015859375" variant="" />
+		<Element name="small_w_6_3.tex" u1="0.264671875" u2="0.340796875" v2="0.1972421875" v1="0.1015859375" variant="" />
+		<Element name="star_1.tex" u1="0.001" u2="0.0976328125" v2="0.778296875" v1="0.6582265625" variant="" />
+		<Element name="star_2.tex" u1="0.0996328125" u2="0.196265625" v2="0.778296875" v1="0.6582265625" variant="" />
+		<Element name="star_3.tex" u1="0.198265625" u2="0.2948984375" v2="0.778296875" v1="0.6582265625" variant="" />
+		<Element name="weapon_1_1.tex" u1="0.475609375" u2="0.62009375" v2="0.999" v1="0.8203359375" variant="" />
+		<Element name="weapon_1_2.tex" u1="0.62209375" u2="0.766578125" v2="0.999" v1="0.8203359375" variant="" />
+		<Element name="weapon_1_3.tex" u1="0.768578125" u2="0.9130625" v2="0.999" v1="0.8203359375" variant="" />
+		<Element name="weapon_2_1.tex" u1="0.454125" u2="0.598609375" v2="0.8183359375" v1="0.639671875" variant="" />
+		<Element name="weapon_2_2.tex" u1="0.600609375" u2="0.74509375" v2="0.8183359375" v1="0.639671875" variant="" />
+		<Element name="weapon_2_3.tex" u1="0.74709375" u2="0.891578125" v2="0.8183359375" v1="0.639671875" variant="" />
+		<Element name="weapon_3_1.tex" u1="0.001" u2="0.145484375" v2="0.6562265625" v1="0.4775625" variant="" />
+		<Element name="weapon_3_2.tex" u1="0.147484375" u2="0.29196875" v2="0.6562265625" v1="0.4775625" variant="" />
+		<Element name="weapon_3_3.tex" u1="0.29396875" u2="0.438453125" v2="0.6562265625" v1="0.4775625" variant="" />
+		<Element name="weapon_4_1.tex" u1="0.440453125" u2="0.624" v2="0.637671875" v1="0.4590078125" variant="" />
+		<Element name="weapon_4_2.tex" u1="0.626" u2="0.809546875" v2="0.637671875" v1="0.4590078125" variant="" />
+		<Element name="weapon_4_3.tex" u1="0.811546875" u2="0.99509375" v2="0.637671875" v1="0.4590078125" variant="" />
+		<Element name="weapon_5_1.tex" u1="0.001" u2="0.184546875" v2="0.4755625" v1="0.2968984375" variant="" />
+		<Element name="weapon_5_2.tex" u1="0.186546875" u2="0.37009375" v2="0.4755625" v1="0.2968984375" variant="" />
+		<Element name="weapon_5_3.tex" u1="0.37209375" u2="0.555640625" v2="0.4570078125" v1="0.27834375" variant="" />
+		<Element name="weapon_6_1.tex" u1="0.557640625" u2="0.7411875" v2="0.4570078125" v1="0.27834375" variant="" />
+		<Element name="weapon_6_2.tex" u1="0.7431875" u2="0.926734375" v2="0.4570078125" v1="0.27834375" variant="" />
+		<Element name="weapon_6_3.tex" u1="0.001" u2="0.184546875" v2="0.2948984375" v1="0.116234375" variant="" />
+	</Elements>
+</Atlas>

@@ -1,0 +1,67 @@
+TODO Put API in one file AND/OR steam guide
+Waveset API: rough draft
+Each round in wavesets_data must be indexed by round, so if round 2 then round 2 data should be wavesets_data[2]
+Mob Spawns
+Format needed for use with CreateSpawn
+{{{prefab, spawn_ring, slot},}, {{dist_from_center, total_slots, rotation},}}
+Defaults:
+   spawn_ring = 0 -- NOTE slots are ignored since it's the center
+   dist_from_center = 2
+   total_slots = 1
+   rotation = 0
+
+Spawn Rings
+	0 is center
+	you can name your rings anything you want, if you don't give it a name then each ring would be numbered in order starting at 1
+   
+Final Format (CreateSpawn will do this for you)
+	{{
+	mobs = {
+		{prefab = "pitpig", spawn_ring = 0, slot = 1},},
+		("pitpig", 0, 1)
+	options = {
+		spawn_rings = {
+			{dist_from_center = 2, total_slots = 1},},
+		}
+	},}
+SetSpawn must be used on the final format to specify which spawners the mobs are spawning on.
+
+Item Drops
+local item_drops = {
+	[round] = {
+		[wave] = {
+			random = {item_1, item_2}, -- item drops on a random mob of the wave
+			final = {item_3, item_4, item_5} -- item drops on last mob killed of the wave
+		},
+		round_end = {item_6, item_7} -- item drops on last mob killed of the round
+	},
+}
+
+local waveset_data = {
+	{ -- round 1, rounds must be in order or index them manually with their round as the index
+		waves = {}, -- waves must be in order or index them manually with their wave as the index
+		banner = banner, -- Pulled from waveset util if nil
+		wavemanager = { -- If onenter, onallmobsdied, ondisable are set to nil then they are pulled from the defaultwavemanager
+			onenter = function(self) end
+			dialogue = {
+				[wave] = {pre_delay = float, pst_delay = float, speech = "" or function, is_banter = boolean}
+			},
+			onspawningfinished = { -- optional, calls any function set to the corresponding wave, "all" is called for each wave if set
+				[wave] = function(self, spawnedmobs) end
+				all = function(self, spawnedmobs) end
+			},
+			onenter = function(self) end,
+			onallmobsdied = function(self) end, -- Must return true or false, Returning true means the round has ended
+			ondisable = function(self) end,
+		},
+		roundend = function(self) end -- Pulled from waveset util if nil
+	},
+	item_drops = item_drops,
+	endgame_speech = {
+		victory = victory_speech,
+		defeat = defeat_speech,
+	}
+}
+TODO add api for all waveset functions
+SetSpawn
+	Can give as many mob_spawns as desired with their spawn_portals attached

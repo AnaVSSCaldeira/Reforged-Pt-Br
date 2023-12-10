@@ -1,0 +1,4081 @@
+msgid ""
+msgstr ""
+"Application: Dont' Starve\n"
+"POT Version: 2.0\n"
+
+#. STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.winona
+msgctxt "STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.winona"
+msgid "*All ability cooldowns are 10% faster.\n\n\n\nExpertise:\nMelee, Darts, Staves"
+msgstr "*所有技能冷卻時間提高10%。\n\n\n\n擅長:\n近戰, 吹箭, 魔杖"
+
+#. STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.warly
+msgctxt "STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.warly"
+msgid "*Brings a spatula to cook boosting food for his allies!\n*Master Chef.\n*Deals 10% more healing.\nExpertise:\nMelee, Staves"
+msgstr "*携帶一把鍋鏟來爲他的盟友做飯！\n*大厨。\n*治療效果提高10%。\n擅長:\n近戰, 魔杖"
+
+#. STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wortox
+msgctxt "STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wortox"
+msgid "*Spawns with a soul hopping Soul Scepter.\n*Passively sucks the souls of his foes.\n\nExpertise:\nMelee"
+msgstr "*生成帶有靈魂跳躍的靈魂權杖。\n*被動地吮吸敵人的靈魂。\n\n擅長:\n近戰"
+
+#. STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wormwood
+msgctxt "STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wormwood"
+msgid "*Spawns with a plant-based blowdart.\n*Blossoms over time as long as he avoids damage.\n\nExpertise:\nDarts, Staves"
+msgstr "*生成一個植物吹箭。\n*避免受到傷害會隨著時間的流逝而開花。\n\n擅長:\n吹箭, 魔杖"
+
+#. STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wurt
+msgctxt "STRINGS.LAVAARENA_CHARACTER_DESCRIPTIONS.wurt"
+msgid "*Can use every weapon available.\n*Melee attacks makes foes wet, making them slow and vulnerable to electric damage.\nExpertise:\nMelee, Darts, Staves, Books"
+msgstr "*可以使用所有的武器。\n*受到敵人的近戰攻擊使他們濕透, 變慢, 且對電擊更脆弱。\n擅長:\n近战, 吹箭, 魔杖, 書本"
+
+# -------------------------
+# -- LAVAARENA_SEEDDARTS --
+# -------------------------
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.LAVAARENA_SEEDDARTS"
+msgid "It fires seeds and grows sentient plants."
+msgstr "它能發射種子並生長有情感的植物。"
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.LAVAARENA_SEEDDARTS"
+msgid "I'm not putting my mouth to that!"
+msgstr "我不會把嘴放到那上面！"
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.LAVAARENA_SEEDDARTS"
+msgid "It breaks in Wolfgang's mighty grip."
+msgstr "它打破了沃爾夫岡强壯的握力。"
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.LAVAARENA_SEEDDARTS"
+msgid "USELESS ORGANIC DART"
+msgstr "沒用的有機吹箭"
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.LAVAARENA_SEEDDARTS"
+msgid "Hey, that's not fire!"
+msgstr "嘿, 那不是火！"
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.LAVAARENA_SEEDDARTS"
+msgid "An instrument of life and death."
+msgstr "掌握生死的工具。"
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.LAVAARENA_SEEDDARTS"
+msgid "I'm not too big on plants, eh?"
+msgstr "我不太喜歡植物, 嗯？"
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.LAVAARENA_SEEDDARTS"
+msgid "It's not for me, I'm afraid."
+msgstr "這恐怕不是給我的。"
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.LAVAARENA_SEEDDARTS"
+msgid "A weapon blessed by Idunn!"
+msgstr "伊登恩賜的武器！"
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.LAVAARENA_SEEDDARTS"
+msgid "We like this one, it makes a friend!"
+msgstr "我們喜歡這個, 它能交個朋友！"
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.LAVAARENA_SEEDDARTS"
+msgid "That gets the job done!"
+msgstr "那個可以完成任務！"
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.LAVAARENA_SEEDDARTS"
+msgid "A gnarled weed to shoot some seeds!"
+msgstr "一棵粗糙的雜草能射出一些種子！"
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.LAVAARENA_SEEDDARTS"
+msgid "Ptoo ptoo ptoo!"
+msgstr "噗突 噗突 噗突！"
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.LAVAARENA_SEEDDARTS"
+msgid "Weaponized seeds?"
+msgstr "武器化的種子？"
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.LAVAARENA_SEEDDARTS"
+msgid "Not a vegetable...?"
+msgstr "不是蔬菜...？"
+
+#. STRINGS.NAMES.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.NAMES.LAVAARENA_SEEDDARTS"
+msgid "Seedling Darts"
+msgstr "幼苗吹箭"
+
+#. STRINGS.ACTIONS.CASTAOE.LAVAARENA_SEEDDARTS
+msgctxt "STRINGS.ACTIONS.CASTAOE.LAVAARENA_SEEDDARTS"
+msgid "Plant Seedling"
+msgstr "植物幼苗"
+
+# ------------------
+# -- MEAN_FLYTRAP --
+# ------------------
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.MEAN_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.MEAN_FLYTRAP"
+msgid "A plant! The boar's natural predator."
+msgstr "植物！野豬的天敵。"
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.MEAN_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.MEAN_FLYTRAP"
+msgid "He serves us, for now."
+msgstr "他現在爲我們服務。"
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.MEAN_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.MEAN_FLYTRAP"
+msgid "Is plant friend."
+msgstr "植物的朋友。"
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.MEAN_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.MEAN_FLYTRAP"
+msgid "A PLANT MINION FROM THE PLANT MINION"
+msgstr "植物隨從的植物隨從"
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.MEAN_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.MEAN_FLYTRAP"
+msgid "How does a dumb plant grow here?"
+msgstr "這株笨植物是如何長在這的？"
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.MEAN_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.MEAN_FLYTRAP"
+msgid "You too shall perish soon."
+msgstr "你也很快將會滅亡。"
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.MEAN_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.MEAN_FLYTRAP"
+msgid "'Ey, he's on our side!"
+msgstr "'嘿, 他站在我們這邊！"
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.MEAN_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.MEAN_FLYTRAP"
+msgid "Flora of this structure can't last long here, sadly."
+msgstr "可悲的是, 這種結構的植物無法在這裏持續很長時間。"
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.MEAN_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.MEAN_FLYTRAP"
+msgid "Will you fight alongside me, plant?"
+msgstr "你能和我一起戰鬥嗎, 植物？"
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.MEAN_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.MEAN_FLYTRAP"
+msgid "Hello! What's your name?"
+msgstr "你好！你叫什麽名字？"
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.MEAN_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.MEAN_FLYTRAP"
+msgid "Look at the set of chompers on him!"
+msgstr "看看他身上的排骨！"
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.MEAN_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.MEAN_FLYTRAP"
+msgid "Grown from seeds to do our deeds!"
+msgstr "從種子裏長出來去做我們的事！"
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.MEAN_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.MEAN_FLYTRAP"
+msgid "Brought friend along"
+msgstr "帶了朋友過來"
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.MEAN_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.MEAN_FLYTRAP"
+msgid "The produce bites back!"
+msgstr "農產品咬回來了！"
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.MEAN_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.MEAN_FLYTRAP"
+msgid "It's a leaf friend! Glort!"
+msgstr "是個葉子朋友！太棒了！"
+
+#. STRINGS.NAMES.MEAN_FLYTRAP
+msgctxt "STRINGS.NAMES.MEAN_FLYTRAP"
+msgid "Seedling"
+msgstr "幼苗"
+
+# -------------------------
+# -- LAVAARENA_SEEDDART2 --
+# -------------------------
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.LAVAARENA_SEEDDART2"
+msgid "It fires a triple volley of seeds."
+msgstr "它能射出三連發的種子。"
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.LAVAARENA_SEEDDART2"
+msgid "You have to be kidding me."
+msgstr "你一定是在逗我。"
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.LAVAARENA_SEEDDART2"
+msgid "Wolfgang's punches mightier than little twig!"
+msgstr "沃爾夫岡的拳頭比小薇格弗德更强！"
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.LAVAARENA_SEEDDART2"
+msgid "THIS IS OF NO USE TO ME"
+msgstr "這對我沒有用"
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.LAVAARENA_SEEDDART2"
+msgid "Three shots at once? I'll take that!"
+msgstr "一次三發？我接受它！"
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.LAVAARENA_SEEDDART2"
+msgid "Death in seed form."
+msgstr "以種子的形式死亡。"
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.LAVAARENA_SEEDDART2"
+msgid "My plant buddy is afraid to let me have it."
+msgstr "我的植物夥伴不敢讓我擁有它。"
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.LAVAARENA_SEEDDART2"
+msgid "Wormwood has an interesting taste in weaponry."
+msgstr "沃姆伍德在武器上的品味很有意思。"
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.LAVAARENA_SEEDDART2"
+msgid "I will fight many enemies with this!"
+msgstr "我會用它與許多敵人戰鬥！"
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.LAVAARENA_SEEDDART2"
+msgid "It can hit a lot of things at once, just like us!"
+msgstr "就像我們一樣, 它能一次擊中很多東西！"
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.LAVAARENA_SEEDDART2"
+msgid "I'll give it a shot. Ha!"
+msgstr "我要試一試。哈！"
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.LAVAARENA_SEEDDART2"
+msgid "Seeds that bloom shall spell your doom!"
+msgstr "綻放的種子會毀滅你！"
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.LAVAARENA_SEEDDART2"
+msgid "Dart shaped like friend!"
+msgstr "吹箭的形狀像朋友！"
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.LAVAARENA_SEEDDART2"
+msgid "I must blow thrice as hard for this one."
+msgstr "我必須爲此付出三倍的努力。"
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.LAVAARENA_SEEDDART2"
+msgid "Should be careful with this. Not gonna."
+msgstr "應該對它小心一點。不會的。"
+
+#. STRINGS.NAMES.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.NAMES.LAVAARENA_SEEDDART2"
+msgid "Scattertooth"
+msgstr "散射之齒"
+
+#. STRINGS.ACTIONS.CASTAOE.LAVAARENA_SEEDDART2
+msgctxt "STRINGS.ACTIONS.CASTAOE.LAVAARENA_SEEDDART2"
+msgid "Plant Snaptooth"
+msgstr "植物咬牙"
+
+# -------------------
+# -- ADULT_FLYTRAP --
+# -------------------
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.ADULT_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.ADULT_FLYTRAP"
+msgid "His bark is just as bad as his bite!"
+msgstr "他的叫聲和他咬的一樣坏！"
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.ADULT_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.ADULT_FLYTRAP"
+msgid "I'm smarter than to move near that thing."
+msgstr "我比靠近那東西要聰明。"
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.ADULT_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.ADULT_FLYTRAP"
+msgid "Scary plant friend."
+msgstr "可怕的植物朋友。"
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.ADULT_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.ADULT_FLYTRAP"
+msgid "EAT MY ENEMIES, MINION"
+msgstr "吃掉我的敵人, 隨從"
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.ADULT_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.ADULT_FLYTRAP"
+msgid "Stay back, Bernie. He looks vicious!"
+msgstr "呆在後面, 伯尼。他看起來很惡毒！"
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.ADULT_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.ADULT_FLYTRAP"
+msgid "Grown to life to reap death..."
+msgstr "成長為生命以收穫死亡..."
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.ADULT_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.ADULT_FLYTRAP"
+msgid "I know better than to chop him, eh?"
+msgstr "我知道有比砍他更好的事, 對嗎？"
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.ADULT_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.ADULT_FLYTRAP"
+msgid "It recognizes us as allies, thankfully."
+msgstr "幸運的是, 它認爲我們是盟友。"
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.ADULT_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.ADULT_FLYTRAP"
+msgid "Feast like a true warrior, plant!"
+msgstr "像真正的戰士一樣盛宴, 植物！"
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.ADULT_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.ADULT_FLYTRAP"
+msgid "We're afraid he'll eat my friends."
+msgstr "我們怕他會吃掉我的朋友們。"
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.ADULT_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.ADULT_FLYTRAP"
+msgid "He's definitely no flytrap I've ever seen."
+msgstr "他絕對不是我見過的捕蠅草。"
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.ADULT_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.ADULT_FLYTRAP"
+msgid "F-fear me! I'm a scary imp!"
+msgstr "怕-怕我！我是個可怕的惡魔！"
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.ADULT_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.ADULT_FLYTRAP"
+msgid "Help, friend!"
+msgstr "幫我, 朋友！"
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.ADULT_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.ADULT_FLYTRAP"
+msgid "He appears to have a very carnivorous diet."
+msgstr "他似乎經常吃肉食。"
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.ADULT_FLYTRAP
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.ADULT_FLYTRAP"
+msgid "No bite me!"
+msgstr "不要咬我！"
+
+#. STRINGS.NAMES.ADULT_FLYTRAP
+msgctxt "STRINGS.NAMES.ADULT_FLYTRAP"
+msgid "Snaptooth"
+msgstr "咬牙"
+
+# -----------------------
+# -- LAVAARENA_SPATULA --
+# -----------------------
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.LAVAARENA_SPATULA
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.LAVAARENA_SPATULA"
+msgid "I can cook up a hearty meal for everyone with this!"
+msgstr "我可以用這個為每個人做豐盛的一餐！"
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.LAVAARENA_SPATULA
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.LAVAARENA_SPATULA"
+msgid "There's a time and place for cooking, and this is not it."
+msgstr "這裏有做飯的時間和地點, 不是嗎。"
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.LAVAARENA_SPATULA
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.LAVAARENA_SPATULA"
+msgid "Wolfgang cook mighty meal for his friends!"
+msgstr "沃爾夫岡為他的朋友們做一頓大餐！"
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.LAVAARENA_SPATULA
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.LAVAARENA_SPATULA"
+msgid "I WILL DEAL HIGH DEGREES OF PAIN WITH THIS"
+msgstr "我將會爲此付出高度的痛苦"
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.LAVAARENA_SPATULA
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.LAVAARENA_SPATULA"
+msgid "I'm not using a dumb spatula!"
+msgstr "我不會用一個笨炒菜鏟！"
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.LAVAARENA_SPATULA
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.LAVAARENA_SPATULA"
+msgid "A tool unfit for combat."
+msgstr "不適合戰鬥的工具。"
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.LAVAARENA_SPATULA
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.LAVAARENA_SPATULA"
+msgid "I can whip up some mean poutine in a pinch."
+msgstr "我可以在緊急情況下攪拌一些普通的肉汁奶酪薯條。"
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.LAVAARENA_SPATULA
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.LAVAARENA_SPATULA"
+msgid "I am a tad starved, but I cannot prepare a meal right now."
+msgstr "我有點餓, 但是現在不能準備飯菜。"
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.LAVAARENA_SPATULA
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.LAVAARENA_SPATULA"
+msgid "To fight and to feast!"
+msgstr "戰鬥和盛宴！"
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.LAVAARENA_SPATULA
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.LAVAARENA_SPATULA"
+msgid "Oh! Are we gonna have a barbeque?"
+msgstr "奧！我們要做燒烤嗎？"
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.LAVAARENA_SPATULA
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.LAVAARENA_SPATULA"
+msgid "Stay back! I'll cook you into a nice boar burger!"
+msgstr "呆在後面！我會把你煮成一個很棒的豬肉漢堡！"
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.LAVAARENA_SPATULA
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.LAVAARENA_SPATULA"
+msgid "These mortals can never stop eating."
+msgstr "這些凡人永遠不停地吃。"
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.LAVAARENA_SPATULA
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.LAVAARENA_SPATULA"
+msgid "Food time?"
+msgstr "吃飯時間？"
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.LAVAARENA_SPATULA
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.LAVAARENA_SPATULA"
+msgid "Ah, oui! Just the tool for the job, non?"
+msgstr "啊, 對！只是用來工作的工具, 是嗎？"
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.LAVAARENA_SPATULA
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.LAVAARENA_SPATULA"
+msgid "Food fight, florpt!"
+msgstr "食物大戰, 浮浪噗！"
+
+#. STRINGS.NAMES.LAVAARENA_SPATULA
+msgctxt "STRINGS.NAMES.LAVAARENA_SPATULA"
+msgid "Spatula"
+msgstr "炒菜鏟"
+
+#. STRINGS.ACTIONS.CASTAOE.LAVAARENA_SPATULA
+msgctxt "STRINGS.ACTIONS.CASTAOE.LAVAARENA_SPATULA"
+msgid "Summon Cookpot"
+msgstr "召喚鍋"
+
+# -------------------
+# -- FORGE_COOKPOT --
+# -------------------
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.FORGE_COOKPOT
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.FORGE_COOKPOT"
+msgid "It's keeping us fed on the field."
+msgstr "它讓我們在野外吃飽。"
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.FORGE_COOKPOT
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.FORGE_COOKPOT"
+msgid "The coming meal shall keep me energized."
+msgstr "下一頓大餐會使我精力充沛。"
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.FORGE_COOKPOT
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.FORGE_COOKPOT"
+msgid "Food is cooking!"
+msgstr "食物正在烹飪！"
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.FORGE_COOKPOT
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.FORGE_COOKPOT"
+msgid "IT IS AN UPGRADE IN PROGRESS"
+msgstr "這是在升級的過程"
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.FORGE_COOKPOT
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.FORGE_COOKPOT"
+msgid "That's a good use for all the fire around here!"
+msgstr "這是對周圍所有火的最好用法！"
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.FORGE_COOKPOT
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.FORGE_COOKPOT"
+msgid "At least I won't die hungry..."
+msgstr "至少我不會死於飢餓..."
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.FORGE_COOKPOT
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.FORGE_COOKPOT"
+msgid "I work better on a full stomach, eh?"
+msgstr "我飽腹的時候能更好地工作, 嗯？"
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.FORGE_COOKPOT
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.FORGE_COOKPOT"
+msgid "A good meal will keep us energized."
+msgstr "一頓美餐會使我們精力充沛。"
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.FORGE_COOKPOT
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.FORGE_COOKPOT"
+msgid "There's always time for meat!"
+msgstr "總是有時間吃肉！"
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.FORGE_COOKPOT
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.FORGE_COOKPOT"
+msgid "Thank you for the food!"
+msgstr "謝謝你的食物！"
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.FORGE_COOKPOT
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.FORGE_COOKPOT"
+msgid "I'll take mine to-go!"
+msgstr "我要帶著我的去！"
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.FORGE_COOKPOT
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.FORGE_COOKPOT"
+msgid "Mortal food shall induce a little boost! Hyuyu!"
+msgstr "凡人的食物會帶來一點增幅！哼！"
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.FORGE_COOKPOT
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.FORGE_COOKPOT"
+msgid "Yum!"
+msgstr "好吃！"
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.FORGE_COOKPOT
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.FORGE_COOKPOT"
+msgid "I'm in my element!"
+msgstr "我很適應！"
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.FORGE_COOKPOT
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.FORGE_COOKPOT"
+msgid "Food for us soon!"
+msgstr "馬上我們就有食物了！"
+
+#. STRINGS.NAMES.FORGE_COOKPOT
+msgctxt "STRINGS.NAMES.FORGE_COOKPOT"
+msgid "Crockpot"
+msgstr "烹飪鍋"
+
+# --------------------
+# -- TELEPORT_STAFF --
+# --------------------
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.TELEPORT_STAFF
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.TELEPORT_STAFF"
+msgid "I can hop out of trouble with this."
+msgstr "我可以用它擺脫麻煩。"
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.TELEPORT_STAFF
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.TELEPORT_STAFF"
+msgid "A dangerous tool like this should be used sparingly."
+msgstr "應該謹慎地使用這類危險工具。"
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TELEPORT_STAFF
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.TELEPORT_STAFF"
+msgid "Wolfgang does not run from fight!"
+msgstr "沃爾夫岡不會從戰鬥中逃脫！"
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.TELEPORT_STAFF
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.TELEPORT_STAFF"
+msgid "I WILL NOT STRIKE FEAR BY RUNNING AWAY"
+msgstr "我不會逃避恐懼"
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.TELEPORT_STAFF
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.TELEPORT_STAFF"
+msgid "Bet you can't hit me!"
+msgstr "我敢打賭你打不到我！"
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.TELEPORT_STAFF
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.TELEPORT_STAFF"
+msgid "My life ebbs away more with each use."
+msgstr "我的生命每使用一次都會衰退。"
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.TELEPORT_STAFF
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.TELEPORT_STAFF"
+msgid "I'll never leave you, Luce."
+msgstr "我永遠不會離開你的, 露西。"
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.TELEPORT_STAFF
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.TELEPORT_STAFF"
+msgid "Those brutes best stay away!"
+msgstr "那些野獸最好遠離！"
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TELEPORT_STAFF
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.TELEPORT_STAFF"
+msgid "This tool is not fit for a warrior!"
+msgstr "這個工具不適合戰士！"
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.TELEPORT_STAFF
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.TELEPORT_STAFF"
+msgid "We don't understand that."
+msgstr "我們不明白那個。"
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.TELEPORT_STAFF
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.TELEPORT_STAFF"
+msgid "That can keep me safe in a pinch."
+msgstr "它可以在緊要關頭時使我安全。"
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.TELEPORT_STAFF
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.TELEPORT_STAFF"
+msgid "My weapon's not whole, for it sucks my soul!"
+msgstr "我的武器不完整, 因爲它舔舐我的靈魂！"
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TELEPORT_STAFF
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.TELEPORT_STAFF"
+msgid "Poof stick"
+msgstr "傳送棒"
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.TELEPORT_STAFF
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.TELEPORT_STAFF"
+msgid "This magic is deuced unsettling."
+msgstr "這個魔法使我不安。"
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.TELEPORT_STAFF
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.TELEPORT_STAFF"
+msgid "It tickles to use, flort!"
+msgstr "它用起來很癢, 浮浪特！"
+
+#. STRINGS.NAMES.TELEPORT_STAFF
+msgctxt "STRINGS.NAMES.TELEPORT_STAFF"
+msgid "Soul Scepter"
+msgstr "靈魂權杖"
+
+#. STRINGS.ACTIONS.CASTAOE.TELEPORT_STAFF
+msgctxt "STRINGS.ACTIONS.CASTAOE.TELEPORT_STAFF"
+msgid "Teleport"
+msgstr "傳送"
+
+# --------------
+# -- GAUNTLET --
+# --------------
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.GAUNTLET
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.GAUNTLET"
+msgid "This will push my foes out of the way."
+msgstr "這將把我的敵人推開。"
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.GAUNTLET
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.GAUNTLET"
+msgid "It's been a while since I ruled with an iron fist."
+msgstr "自從我用鐵拳統治以來已經有段時間了。"
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.GAUNTLET
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.GAUNTLET"
+msgid "Mighty punches knock puny foes away!"
+msgstr "强大的拳頭將弱小的敵人擊倒了！"
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.GAUNTLET
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.GAUNTLET"
+msgid "THIS DOES PUT A SMILE ON MY FACE"
+msgstr "這確實使我露出了微笑"
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.GAUNTLET
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.GAUNTLET"
+msgid "It's too big for my hand to fit inside."
+msgstr "它大得無法讓我的手放進去。"
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.GAUNTLET
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.GAUNTLET"
+msgid "My life ebbs away more with each use."
+msgstr "我的生命每使用一次都會衰退。"
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.GAUNTLET
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.GAUNTLET"
+msgid "How's this work?"
+msgstr "這是怎麽工作的？"
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.GAUNTLET
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.GAUNTLET"
+msgid "I'm not strong enough to brute force enemies away."
+msgstr "我不夠强大去把敵人强行趕走。"
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GAUNTLET
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GAUNTLET"
+msgid "I will push thee back to Hel, beasts!"
+msgstr "我會將你推回海爾, 野獸！"
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.GAUNTLET
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.GAUNTLET"
+msgid "It doesn't fit on our hand."
+msgstr "它不適合我們的手。"
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.GAUNTLET
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.GAUNTLET"
+msgid "Ha! They can't even touch me!"
+msgstr "哈！他們甚至都碰不到我！"
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.GAUNTLET
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.GAUNTLET"
+msgid "The perfect prank pulling gauntlet!"
+msgstr "完美的惡作劇拉手套！"
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.GAUNTLET
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.GAUNTLET"
+msgid "Heavy"
+msgstr "重"
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.GAUNTLET
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.GAUNTLET"
+msgid "What a heavy oven mitt."
+msgstr "多麽重的烤箱手套。"
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.GAUNTLET
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.GAUNTLET"
+msgid "We can use the gont-lit."
+msgstr "我們可以使用扌套。"
+
+#. STRINGS.NAMES.GAUNTLET
+msgctxt "STRINGS.NAMES.GAUNTLET"
+msgid "Gauntlet"
+msgstr "手套"
+
+#. STRINGS.ACTIONS.CASTAOE.LAVAARENA_GAUNTLET
+msgctxt "STRINGS.ACTIONS.CASTAOE.LAVAARENA_GAUNTLET"
+msgid "Charged Punch"
+msgstr "充能重拳"
+
+# -------------
+# -- FORGE_TRIDENT --
+# -------------
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.FORGE_TRIDENT"
+msgid "Three prongs means triple the power."
+msgstr "三叉意味著三倍力量。"
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.FORGE_TRIDENT"
+msgid "How improper."
+msgstr "多麽不適合。"
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.FORGE_TRIDENT"
+msgid "Wolfgang likes the pokey wet stick."
+msgstr "沃爾夫岡喜歡扎人的濕棍子。"
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.FORGE_TRIDENT"
+msgid "TRIPLE TERMINATION SEQUENCE: ENGAGED"
+msgstr "三重終止程序: 已準備"
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.FORGE_TRIDENT"
+msgid "Boring and gross!"
+msgstr "無聊又惡心！"
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.FORGE_TRIDENT"
+msgid "It's slippery..."
+msgstr "它滑溜溜的..."
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.FORGE_TRIDENT"
+msgid "I can use it if no one else will."
+msgstr "如果沒人願意, 我可以使用它。"
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.FORGE_TRIDENT"
+msgid "I'll leave this for someone else."
+msgstr "我會把它留給別人。"
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.FORGE_TRIDENT"
+msgid "It harnesses the power of Aegir!"
+msgstr "它利用了海神埃吉爾的力量！"
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.FORGE_TRIDENT"
+msgid "Wurt knows how to use that better than us."
+msgstr "沃特比我們知道如何更好地使用它。"
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.FORGE_TRIDENT"
+msgid "Triple efficiency!"
+msgstr "三倍效率！"
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.FORGE_TRIDENT"
+msgid "A sturdy rod I'll use to prod!"
+msgstr "我將會用堅固的竿來刺！"
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.FORGE_TRIDENT"
+msgid "Pokey poke poke!"
+msgstr "扎 戳 戳！"
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.FORGE_TRIDENT"
+msgid "Boar skewers, perhaps?"
+msgstr "野豬串燒, 也許？"
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.FORGE_TRIDENT"
+msgid "A weapon of the merfolk."
+msgstr "魚人的武器。"
+
+#. STRINGS.NAMES.FORGE_TRIDENT
+msgctxt "STRINGS.NAMES.FORGE_TRIDENT"
+msgid "Trident"
+msgstr "三叉戟"
+
+#. STRINGS.ACTIONS.CASTAOE.FORGE_TRIDENT
+msgctxt "STRINGS.ACTIONS.CASTAOE.FORGE_TRIDENT"
+msgid "Summon Merm Guard"
+msgstr "召喚魚人護衛"
+
+# ----------------
+# -- MERM_GUARD --
+# ----------------
+
+#. STRINGS.CHARACTERS.GENERIC.DESCRIBE.MERM_GUARD
+msgctxt "STRINGS.CHARACTERS.GENERIC.DESCRIBE.MERM_GUARD"
+msgid "It's fighting for us this time."
+msgstr "這次它爲我們而戰。"
+
+#. STRINGS.CHARACTERS.WAXWELL.DESCRIBE.MERM_GUARD
+msgctxt "STRINGS.CHARACTERS.WAXWELL.DESCRIBE.MERM_GUARD"
+msgid "I still don't know where your kind came from."
+msgstr "我還是不知道你友善的來源。"
+
+#. STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.MERM_GUARD
+msgctxt "STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.MERM_GUARD"
+msgid "Punch many things, friend!"
+msgstr "揍許多東西, 朋友！"
+
+#. STRINGS.CHARACTERS.WX78.DESCRIBE.MERM_GUARD
+msgctxt "STRINGS.CHARACTERS.WX78.DESCRIBE.MERM_GUARD"
+msgid "OBEY MY COMMAND, MINION. DESTROY EVERYONE"
+msgstr "服從我的命令, 小兵。摧毀所有人"
+
+#. STRINGS.CHARACTERS.WILLOW.DESCRIBE.MERM_GUARD
+msgctxt "STRINGS.CHARACTERS.WILLOW.DESCRIBE.MERM_GUARD"
+msgid "Go keep those jerks away from us!"
+msgstr "去讓那些混蛋遠離我們！"
+
+#. STRINGS.CHARACTERS.WENDY.DESCRIBE.FORGE_TRIDENT
+msgctxt "STRINGS.CHARACTERS.WENDY.DESCRIBE.FORGE_TRIDENT"
+msgid "How do you do?"
+msgstr "你好嗎？"
+
+#. STRINGS.CHARACTERS.WOODIE.DESCRIBE.MERM_GUARD
+msgctxt "STRINGS.CHARACTERS.WOODIE.DESCRIBE.MERM_GUARD"
+msgid "Hey, fish bud. Come to help us out?"
+msgstr "嘿, 魚兄。來幫助我們的嗎？"
+
+#. STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.MERM_GUARD
+msgctxt "STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.MERM_GUARD"
+msgid "The piscean biped is on our side, thanks to little Wurt."
+msgstr "雙魚座的兩足動物在我們這邊, 感謝小沃特。"
+
+#. STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.MERM_GUARD
+msgctxt "STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.MERM_GUARD"
+msgid "A true warrior of the fish tribe!"
+msgstr "真正的魚族戰士！"
+
+#. STRINGS.CHARACTERS.WEBBER.DESCRIBE.MERM_GUARD
+msgctxt "STRINGS.CHARACTERS.WEBBER.DESCRIBE.MERM_GUARD"
+msgid "Hey, he's helping us!"
+msgstr "嘿, 他在幫助我們！"
+
+#. STRINGS.CHARACTERS.WINONA.DESCRIBE.MERM_GUARD
+msgctxt "STRINGS.CHARACTERS.WINONA.DESCRIBE.MERM_GUARD"
+msgid "As long as he's punching the uglies and not us, I'm fine."
+msgstr "只要他揍的不是我們而是丑家夥就行。"
+
+#. STRINGS.CHARACTERS.WORTOX.DESCRIBE.MERM_GUARD
+msgctxt "STRINGS.CHARACTERS.WORTOX.DESCRIBE.MERM_GUARD"
+msgid "He's got horns, that's how we know he's good."
+msgstr "他有角, 這就是我們如何知道他是好人。"
+
+#. STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.MERM_GUARD
+msgctxt "STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.MERM_GUARD"
+msgid "Slimy friend"
+msgstr "黏糊糊的朋友"
+
+#. STRINGS.CHARACTERS.WARLY.DESCRIBE.MERM_GUARD
+msgctxt "STRINGS.CHARACTERS.WARLY.DESCRIBE.MERM_GUARD"
+msgid "What a fearsome fishmonger."
+msgstr "多麽可怕的魚販。"
+
+#. STRINGS.CHARACTERS.WURT.DESCRIBE.MERM_GUARD
+msgctxt "STRINGS.CHARACTERS.WURT.DESCRIBE.MERM_GUARD"
+msgid "Fight, for king!"
+msgstr "戰鬥, 爲了國王！"
+
+#. STRINGS.NAMES.MERM_GUARD
+msgctxt "STRINGS.NAMES.MERM_GUARD"
+msgid "Merm Guard"
+msgstr "魚人守衛"
+
+# -----------
+# -- NAMES --
+# -----------
+
+#. STRINGS.NAMES.PITPIG
+msgctxt "STRINGS.NAMES.PITPIG"
+msgid "Pitpig"
+msgstr "小豬"
+
+#. STRINGS.NAMES.BOARILLA
+msgctxt "STRINGS.NAMES.BOARILLA"
+msgid "Boarilla"
+msgstr "大猩猩"
+
+#. STRINGS.NAMES.SCORPEON
+msgctxt "STRINGS.NAMES.SCORPEON"
+msgid "Scorpeon"
+msgstr "蠍子"
+
+#. STRINGS.NAMES.MODDED_CHARACTER
+msgctxt "STRINGS.NAMES.MODDED_CHARACTER"
+msgid "Modded Character"
+msgstr "人物模組"
+
+#. STRINGS.NAMES.CHEATER
+msgctxt "STRINGS.NAMES.CHEATER"
+msgid "CHEATER"
+msgstr "作弊者"
+
+#. STRINGS.NAMES.CROCOMMANDER_RAPIDFIRE
+msgctxt "STRINGS.NAMES.CROCOMMANDER_RAPIDFIRE"
+msgid "Crocommancer"
+msgstr "鰐魚指揮官"
+
+#. STRINGS.NAMES.BATTLESTANDARD_SPEED
+msgctxt "STRINGS.NAMES.BATTLESTANDARD_SPEED"
+msgid "Battle Standard"
+msgstr "戰旗"
+
+#. STRINGS.NAMES.LAVAARENA_CHEFHAT
+msgctxt "STRINGS.NAMES.LAVAARENA_CHEFHAT"
+msgid "Chef Hat"
+msgstr "厨師帽"
+
+#. STRINGS.NAME_DETAIL_EXTENTION.LAVAARENA_CHEFHAT
+msgctxt "STRINGS.NAME_DETAIL_EXTENTION.LAVAARENA_CHEFHAT"
+msgid "Chef Mastery Buff"
+msgstr "厨師增益加强"
+
+#. STRINGS.NAMES.SCORPEON_ACID
+msgctxt "STRINGS.NAMES.SCORPEON_ACID"
+msgid "Scorpeon Acid"
+msgstr "蠍子硫酸"
+
+#. STRINGS.NAMES.DEBUFF_FIRE
+msgctxt "STRINGS.NAMES.DEBUFF_FIRE"
+msgid "Fire"
+msgstr "火"
+
+#. STRINGS.NAMES.DEBUFF_POISON
+msgctxt "STRINGS.NAMES.DEBUFF_POISON"
+msgid "Poison"
+msgstr "毒"
+
+#. STRINGS.NAMES.NOLIGHT
+msgctxt "STRINGS.NAMES.NOLIGHT"
+msgid "No Light"
+msgstr "無燈"
+
+#. STRINGS.NAMES.GREENLIGHT
+msgctxt "STRINGS.NAMES.GREENLIGHT"
+msgid "The Green Light"
+msgstr "綠燈"
+
+#. STRINGS.NAMES.REDLIGHT
+msgctxt "STRINGS.NAMES.REDLIGHT"
+msgid "The Red Light"
+msgstr "紅燈"
+
+#. STRINGS.NAMES.ORANGELIGHT
+msgctxt "STRINGS.NAMES.ORANGELIGHT"
+msgid "The Orange Light"
+msgstr "橙燈"
+
+#. STRINGS.NAMES.BLUELIGHT
+msgctxt "STRINGS.NAMES.BLUELIGHT"
+msgid "The Blue Light"
+msgstr "藍燈"
+
+# --------
+# -- UI --
+# --------
+
+#. STRINGS.UI.LOBBYSCREEN.FORCESTART
+msgctxt "STRINGS.UI.LOBBYSCREEN.FORCESTART"
+msgid "Force Start"
+msgstr "强制開始"
+
+#. STRINGS.UI.LOBBYSCREEN.CANCELSTART
+msgctxt "STRINGS.UI.LOBBYSCREEN.CANCELSTART"
+msgid "Cancel Start"
+msgstr "取消開始"
+
+#. STRINGS.UI.LOBBYSCREEN.SAYSTART
+msgctxt "STRINGS.UI.LOBBYSCREEN.SAYSTART"
+msgid "Forcing Start in %s seconds. If you don't have a character selected before the countdown is over, then a random character will be selected for you."
+msgstr "將在 %s 秒後强制開始。如果您沒有在倒計時結束前選擇角色, 系統將會爲您選擇一個隨機角色。"
+
+#. STRINGS.UI.LOBBYSCREEN.SAYCANCEL
+msgctxt "STRINGS.UI.LOBBYSCREEN.SAYCANCEL"
+msgid "Canceling Start."
+msgstr "正在取消開始。"
+
+#. STRINGS.UI.LOBBYSCREEN.FORCESTARTTITLE
+msgctxt "STRINGS.UI.LOBBYSCREEN.FORCESTARTTITLE"
+msgid "Confirm Force Start"
+msgstr "确確認强制開始"
+
+#. STRINGS.UI.LOBBYSCREEN.FORCESTARTDESC
+msgctxt "STRINGS.UI.LOBBYSCREEN.FORCESTARTDESC"
+msgid "Are you sure you want to force start the match in %s seconds?"
+msgstr "您確定要在 %s 秒後强制開始匹配嗎？"
+
+#. STRINGS.UI.LOBBYSCREEN.SERVER_ANNOUNCEMENT_NAME
+msgctxt "STRINGS.UI.LOBBYSCREEN.SERVER_ANNOUNCEMENT_NAME"
+msgid "SERVER"
+msgstr "服務器"
+
+# ---------------
+# -- XP SCREEN --
+# ---------------
+
+#. STRINGS.UI.WXPLOBBYPANEL.LEVEL
+msgctxt "STRINGS.UI.LOBBYSCREEN.LEVEL"
+msgid "Level {val}"
+msgstr "等級 {val}"
+
+#. STRINGS.UI.WXPLOBBYPANEL.MULT_VAL
+msgctxt "STRINGS.UI.LOBBYSCREEN.MULT_VAL"
+msgid "{name} x{val}"
+msgstr "{name} x{val}"
+
+#. STRINGS.UI.WXPLOBBYPANEL.ADD_VAL
+msgctxt "STRINGS.UI.LOBBYSCREEN.ADD_VAL"
+msgid "{name} + x{val}"
+msgstr "{name} + x{val}"
+
+#. STRINGS.UI.WXPLOBBYPANEL.MUTATOR_VAL
+msgctxt "STRINGS.UI.LOBBYSCREEN.MUTATOR_VAL"
+msgid "x{val}"
+msgstr "x{val}"
+
+#. STRINGS.UI.WXPLOBBYPANEL.TOTAL_ROUNDS_COMPLETED
+msgctxt "STRINGS.UI.WXPLOBBYPANEL.TOTAL_ROUNDS_COMPLETED"
+msgid "Total Rounds Completed: {rounds}"
+msgstr "縂回合數: {rounds}"
+
+#. STRINGS.UI.WXPLOBBYPANEL.TOTAL_EXP_GAINED
+msgctxt "STRINGS.UI.WXPLOBBYPANEL.TOTAL_EXP_GAINED"
+msgid "Total Experience Gained: {exp}"
+msgstr "縂經驗值: {exp}"
+
+#. STRINGS.UI.WXP_DETAILS.SAME_CHARACTERS
+msgctxt "STRINGS.UI.WXP_DETAILS.SAME_CHARACTERS"
+msgid "Same Characters"
+msgstr "相同的角色"
+
+#. STRINGS.UI.WXP_DETAILS.RANDOM_CHARACTER
+msgctxt "STRINGS.UI.WXP_DETAILS.RANDOM_CHARACTER"
+msgid "Random Character"
+msgstr "隨機角色"
+
+#. STRINGS.UI.WXP_DETAILS.RANDOM_CHARACTERS_TEAM
+msgctxt "STRINGS.UI.WXP_DETAILS.RANDOM_CHARACTERS_TEAM"
+msgid "Random Characters (Team)"
+msgstr "隨機角色(隊伍)"
+
+#. STRINGS.UI.WXP_DETAILS.NO_ABILITIES
+msgctxt "STRINGS.UI.WXP_DETAILS.NO_ABILITIES"
+msgid "No Abilities Used"
+msgstr "無技能使用"
+
+#. STRINGS.UI.WXP_DETAILS.NO_ABILITIES_TEAM
+msgctxt "STRINGS.UI.WXP_DETAILS.NO_ABILITIES_TEAM"
+msgid "No Abilities Used (Team)"
+msgstr "無技能使用(队伍)"
+
+#. STRINGS.UI.WXP_DETAILS.CONSECUTIVE_WIN
+msgctxt "STRINGS.UI.WXP_DETAILS.CONSECUTIVE_WIN"
+msgid "Unbeatable"
+msgstr "不可打倒"
+
+#. STRINGS.UI.WXP_DETAILS.PARTY_SIZE
+msgctxt "STRINGS.UI.WXP_DETAILS.PARTY_SIZE"
+msgid "Small Party"
+msgstr "小派對"
+
+#. STRINGS.UI.WXP_DETAILS.MOB_KILLS
+msgctxt "STRINGS.UI.WXP_DETAILS.MOB_KILLS"
+msgid "Monster Hunter"
+msgstr "怪物獵人"
+
+#. STRINGS.UI.WXP_DETAILS.MOB_DAMAGE
+msgctxt "STRINGS.UI.WXP_DETAILS.MOB_DAMAGE"
+msgid "Damage Mutator"
+msgstr "傷害增幅"
+
+#. STRINGS.UI.WXP_DETAILS.MOB_DEFENSE
+msgctxt "STRINGS.UI.WXP_DETAILS.MOB_DEFENSE"
+msgid "Defense Mutator"
+msgstr "防禦增幅"
+
+#. STRINGS.UI.WXP_DETAILS.MOB_HEALTH
+msgctxt "STRINGS.UI.WXP_DETAILS.MOB_HEALTH"
+msgid "Health Mutator"
+msgstr "血量增幅"
+
+#. STRINGS.UI.WXP_DETAILS.MOB_SPEED
+msgctxt "STRINGS.UI.WXP_DETAILS.MOB_SPEED"
+msgid "Speed Mutator"
+msgstr "速度增幅"
+
+#. STRINGS.UI.WXP_DETAILS.BATTLESTANDARD_EFFICIENCY
+msgctxt "STRINGS.UI.WXP_DETAILS.BATTLESTANDARD_EFFICIENCY"
+msgid "Battlestandard Efficiency"
+msgstr "戰鬥標準效率"
+
+#. STRINGS.UI.WXP_DETAILS.NO_SLEEP
+msgctxt "STRINGS.UI.WXP_DETAILS.NO_SLEEP"
+msgid "Insomniac"
+msgstr "失眠"
+
+#. STRINGS.UI.WXP_DETAILS.NO_REVIVES
+msgctxt "STRINGS.UI.WXP_DETAILS.NO_REVIVES"
+msgid "Mortal"
+msgstr "致命"
+
+#. STRINGS.UI.WXP_DETAILS.NO_HUD
+msgctxt "STRINGS.UI.WXP_DETAILS.NO_HUD"
+msgid "No HUD"
+msgstr "無界面"
+
+#. STRINGS.UI.WXP_DETAILS.FRIENDLY_FIRE
+msgctxt "STRINGS.UI.WXP_DETAILS.FRIENDLY_FIRE"
+msgid "Friendly Fire"
+msgstr "友善之火"
+
+#. STRINGS.UI.WXP_DETAILS.SCRIPTS
+msgctxt "STRINGS.UI.WXP_DETAILS.SCRIPTS"
+msgid "Spamware"
+msgstr "垃圾郵件"
+
+#. STRINGS.UI.WXP_DETAILS.COMMANDS
+msgctxt "STRINGS.UI.WXP_DETAILS.COMMANDS"
+msgid "Console Commander"
+msgstr "控制臺指揮官"
+
+#. STRINGS.UI.WXP_DETAILS.HARD_MODE
+msgctxt "STRINGS.UI.WXP_DETAILS.HARD_MODE"
+msgid "Hard Mode"
+msgstr "困難模式"
+
+#. STRINGS.UI.WXP_DETAILS.CLASSIC_RLGL
+msgctxt "STRINGS.UI.WXP_DETAILS.CLASSIC_RLGL"
+msgid "Classic RLGL"
+msgstr "經典紅綠燈"
+
+#. STRINGS.UI.WXP_DETAILS.RLGL
+msgctxt "STRINGS.UI.WXP_DETAILS.RLGL"
+msgid "RLGL"
+msgstr "紅綠燈"
+
+#. STRINGS.UI.WXP_DETAILS.ENDLESS
+msgctxt "STRINGS.UI.WXP_DETAILS.ENDLESS"
+msgid "Endless"
+msgstr "無盡"
+
+# -----------------------------
+# -- Detailed Summary Screen --
+# -----------------------------
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.STATS.TITLES.attack
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.STATS.TITLES.attack"
+msgid "Attack Stats:"
+msgstr "攻擊統計:"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.STATS.TITLES.crowd_control
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.STATS.TITLES.crowd_control"
+msgid "Crowd Control Stats:"
+msgstr "群控統計:"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.STATS.TITLES.defense
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.STATS.TITLES.defense"
+msgid "Defense Stats:"
+msgstr "防禦統計:"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.STATS.TITLES.healing
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.STATS.TITLES.healing"
+msgid "Healing Stats:"
+msgstr "治療統計:"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.STATS.TITLES.other
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.STATS.TITLES.other"
+msgid "Other Stats:"
+msgstr "其它統計:"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TITLE
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TITLE"
+msgid "Detailed Match Summary"
+msgstr "詳細比賽總結"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.TITLE
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.TITLE"
+msgid "Detailed Team Stats"
+msgstr "詳細隊伍統計"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.SHOW
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.SHOW"
+msgid "View Team Stats"
+msgstr "查看隊伍統計"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.HIDE
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.HIDE"
+msgid "Go Back to MVP Badges"
+msgstr "回到MVP徽章"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.TITBACKLE
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.BACK"
+msgid "Back"
+msgstr "返回"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.deaths
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.deaths"
+msgid "Deaths"
+msgstr "死亡人數"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.total_damagedealt
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.total_damagedealt"
+msgid "Total Damage Dealt"
+msgstr "造成總傷害"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.kills
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.kills"
+msgid "Killing Blows"
+msgstr "擊殺數"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.aggroheld
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.aggroheld"
+msgid "Aggro Time (seconds)"
+msgstr "仇恨時間(秒)"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.corpsesrevived
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.corpsesrevived"
+msgid "Allies Revived"
+msgstr "復活隊友數量"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.healingdone
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.healingdone"
+msgid "Health Restored"
+msgstr "回血量"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.total_damagetaken
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.total_damagetaken"
+msgid "Damage Taken"
+msgstr "承受傷害"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.attacks
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.attacks"
+msgid "Swings Landed"
+msgstr "近戰攻擊次數"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.turtillusflips
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.turtillusflips"
+msgid "Snortoises Flipped"
+msgstr "坦克龜掀翻次數"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.spellscast
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.spellscast"
+msgid "Spells Cast"
+msgstr "施法次數"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.altattacks
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.altattacks"
+msgid "Special Attacks Used"
+msgstr "特殊攻擊次數"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.stepcounter
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.stepcounter"
+msgid "Steps Taken"
+msgstr "步數"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.blowdarts
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.blowdarts"
+msgid "Dart hits"
+msgstr "吹箭命中數"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.standards
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.standards"
+msgid "Battle Standards Destroyed"
+msgstr "戰旗摧毀數"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.numcc
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.numcc"
+msgid "Enemies Immobilized"
+msgstr "定身敵人數"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.guardsbroken
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.guardsbroken"
+msgid "Enemy Guards Broken"
+msgstr "敵人守衛摧毀數"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.healingreceived
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.healingreceived"
+msgid "Healing Recieved"
+msgstr "獲得治療量"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.pet_damagetaken
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.pet_damagetaken"
+msgid "Pet Damage Taken"
+msgstr "寵物承受傷害"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.player_damagedealt
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.player_damagedealt"
+msgid "Player Damage Dealt"
+msgstr "玩家造成傷害"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.player_damagetaken
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.player_damagetaken"
+msgid "Player Damage Taken"
+msgstr "玩家承受傷害"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.cctime
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.cctime"
+msgid "Seconds of Crowd Control"
+msgstr "群控(秒)"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.petdeaths
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.petdeaths"
+msgid "Pet Deaths"
+msgstr "寵物死亡數"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.ccbroken
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.ccbroken"
+msgid "Crowd Control Broken"
+msgstr "群控中斷"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.pet_damagedealt
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.pet_damagedealt"
+msgid "Pet Damage Dealt"
+msgstr "寵物造成傷害"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.unknown
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.unknown"
+msgid "UNKNOWN"
+msgstr "未知"
+
+#. STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.parry
+msgctxt "STRINGS.UI.DETAILEDSUMMARYSCREEN.TEAMSTATS.STATHEADERS.parry"
+msgid "Damage Parried"
+msgstr "格擋傷害"
+
+# ----------------
+# -- ADMIN MENU --
+# ----------------
+
+#. STRINGS.UI.ADMINMENU.TABS.ENEMIES
+msgctxt "STRINGS.UI.ADMINMENU.TABS.ENEMIES"
+msgid "Spawn Enemy"
+msgstr "生成敵人"
+
+#. STRINGS.UI.ADMINMENU.TABS.WEAPONS
+msgctxt "STRINGS.UI.ADMINMENU.TABS.WEAPONS"
+msgid "Spawn Weapon"
+msgstr "生成武器"
+
+#. STRINGS.UI.ADMINMENU.TABS.ARMOR
+msgctxt "STRINGS.UI.ADMINMENU.TABS.ARMOR"
+msgid "Spawn Armor"
+msgstr "生成護甲"
+
+#. STRINGS.UI.ADMINMENU.TABS.PETS
+msgctxt "STRINGS.UI.ADMINMENU.TABS.PETS"
+msgid "Spawn Pet"
+msgstr "生成寵物"
+
+#. STRINGS.UI.ADMINMENU.TABS.STRUCTURES
+msgctxt "STRINGS.UI.ADMINMENU.TABS.STRUCTURES"
+msgid "Spawn Structure"
+msgstr "TODO"
+
+#. STRINGS.UI.ADMINMENU.TABS.BUFFS
+msgctxt "STRINGS.UI.ADMINMENU.TABS.BUFFS"
+msgid "Spawn Buff"
+msgstr "生成增益狀態"
+
+#. STRINGS.UI.ADMINMENU.TABS.MUTATORS
+msgctxt "STRINGS.UI.ADMINMENU.TABS.MUTATORS"
+msgid "Adjust Mutators"
+msgstr "調整增幅器"
+
+#. STRINGS.UI.ADMINMENU.TABS.FORGE
+msgctxt "STRINGS.UI.ADMINMENU.TABS.FORGE"
+msgid "Forge Admin Commands"
+msgstr "熔爐管理員命令"
+
+#. STRINGS.UI.ADMINMENU.TABS.GENERAL
+msgctxt "STRINGS.UI.ADMINMENU.TABS.GENERAL"
+msgid "General Admin Commands"
+msgstr "通用管理員命令"
+
+#. STRINGS.UI.ADMINMENU.BUTTONS.SPAWN
+msgctxt "STRINGS.UI.ADMINMENU.BUTTONS.SPAWN"
+msgid "Spawn"
+msgstr "生成"
+
+#. STRINGS.UI.ADMINMENU.BUTTONS.ACTIVATE
+msgctxt "STRINGS.UI.ADMINMENU.BUTTONS.ACTIVATE"
+msgid "Activate"
+msgstr "啓用"
+
+#. STRINGS.UI.ADMINMENU.BUTTONS.ABILITIES
+msgctxt "STRINGS.UI.ADMINMENU.BUTTONS.ABILITIES"
+msgid "Abilities"
+msgstr "技能"
+
+#. STRINGS.UI.ADMINMENU.BUTTONS.DESCRIPTION
+msgctxt "STRINGS.UI.ADMINMENU.BUTTONS.DESCRIPTION"
+msgid "Description"
+msgstr "描述"
+
+#. STRINGS.UI.ADMINMENU.BUTTONS.EQUIP
+msgctxt "STRINGS.UI.ADMINMENU.BUTTONS.EQUIP"
+msgid "Equip"
+msgstr "裝備"
+
+#. STRINGS.UI.ADMINMENU.BUTTONS.APPLY
+msgctxt "STRINGS.UI.ADMINMENU.BUTTONS.APPLY"
+msgid "Apply"
+msgstr "應用"
+
+#. STRINGS.UI.ADMINMENU.BUTTONS.ENABLE
+msgctxt "STRINGS.UI.ADMINMENU.BUTTONS.ENABLE"
+msgid "Enable"
+msgstr "啓用"
+
+#. STRINGS.UI.ADMINMENU.BUTTONS.DISABLE
+msgctxt "STRINGS.UI.ADMINMENU.BUTTONS.DISABLE"
+msgid "Disable"
+msgstr "禁用"
+
+#. STRINGS.UI.ADMINMENU.NO_ABILITIES
+msgctxt "STRINGS.UI.ADMINMENU.NO_ABILITIES"
+msgid "No abilities"
+msgstr "無技能"
+
+# -------------------------
+# -- GAME SETTINGS PANEL --
+# -------------------------
+
+#. STRINGS.UI.GAME_SETTINGS_PANEL.TAB
+msgctxt "STRINGS.UI.GAME_SETTINGS_PANEL.TAB"
+msgid "Game Settings"
+msgstr "游戲設置"
+
+#. STRINGS.UI.GAME_SETTINGS_PANEL.TITLE
+msgctxt "STRINGS.UI.GAME_SETTINGS_PANEL.TITLE"
+msgid "Gameplay Options"
+msgstr "游戲選項"
+
+#. STRINGS.UI.GAME_SETTINGS_PANEL.PRESET
+msgctxt "STRINGS.UI.GAME_SETTINGS_PANEL.PRESET"
+msgid "Preset"
+msgstr "預設"
+
+#. STRINGS.UI.GAME_SETTINGS_PANEL.MODE
+msgctxt "STRINGS.UI.GAME_SETTINGS_PANEL.MODE"
+msgid "Mode"
+msgstr "模式"
+
+#. STRINGS.UI.GAME_SETTINGS_PANEL.GAMETYPE
+msgctxt "STRINGS.UI.GAME_SETTINGS_PANEL.GAMETYPE"
+msgid "Gametype"
+msgstr "游戲類型"
+
+#. STRINGS.UI.GAME_SETTINGS_PANEL.WAVESET
+msgctxt "STRINGS.UI.GAME_SETTINGS_PANEL.WAVESET"
+msgid "Waveset"
+msgstr "波數"
+
+#. STRINGS.UI.GAME_SETTINGS_PANEL.MAP
+msgctxt "STRINGS.UI.GAME_SETTINGS_PANEL.MAP"
+msgid "Arena"
+msgstr "競技場"
+
+#. STRINGS.UI.GAME_SETTINGS_PANEL.DIFFICULTY
+msgctxt "STRINGS.UI.GAME_SETTINGS_PANEL.DIFFICULTY"
+msgid "Difficulty"
+msgstr "難度"
+
+#. STRINGS.UI.GAME_SETTINGS_PANEL.VOTE
+msgctxt "STRINGS.UI.GAME_SETTINGS_PANEL.VOTE"
+msgid "Vote to Change Settings"
+msgstr "投票更改設置"
+
+#. STRINGS.UI.GAME_SETTINGS_PANEL.FORCE
+msgctxt "STRINGS.UI.GAME_SETTINGS_PANEL.FORCE"
+msgid "Change Settings"
+msgstr "更改設置"
+
+#. STRINGS.UI.GAME_SETTINGS_PANEL.RESET
+msgctxt "STRINGS.UI.GAME_SETTINGS_PANEL.RESET"
+msgid "Reset Settings"
+msgstr "重置"
+
+#. STRINGS.UI.LEADERBOARD_PANEL.TAB
+msgctxt "STRINGS.UI.LEADERBOARD_PANEL.TAB"
+msgid "Server Leaderboard"
+msgstr "服務器排行榜"
+
+# -------------------
+# -- HISTORY PANEL --
+# -------------------
+
+#. STRINGS.UI.FORGEHISTORYPANEL.TAB
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.TAB"
+msgid "History"
+msgstr "歷史"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.TITLE
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.TITLE"
+msgid "Filters"
+msgstr "篩選器"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.ON
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.ON"
+msgid "On"
+msgstr "開"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.OFF
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.OFF"
+msgid "Off"
+msgstr "関"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.VICTORIES
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.VICTORIES"
+msgid "Victories Only"
+msgstr "只有勝利"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.LEADERBOARD
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.LEADERBOARD"
+msgid "Leaderboard Runs"
+msgstr "排行榜游戲"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.DEATHLESS
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.DEATHLESS"
+msgid "Team Deathless"
+msgstr "隊伍無死亡"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.PLAYER_DEATHLESS
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.PLAYER_DEATHLESS"
+msgid "Player Deathless"
+msgstr "玩家無死亡"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.RANDOM_CHARACTERS
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.RANDOM_CHARACTERS"
+msgid "Random Characters"
+msgstr "隨機角色"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.UNIQUE_CHARACTERS
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.UNIQUE_CHARACTERS"
+msgid "Unique Characters"
+msgstr "唯一角色"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.AFK_RUNS
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.AFK_RUNS"
+msgid "AFK Runs"
+msgstr "挂機游戲"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.COMMANDS
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.COMMANDS"
+msgid "Commands Used"
+msgstr "使用過的命令"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.SCRIPTS
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.SCRIPTS"
+msgid "Spamware"
+msgstr "垃圾郵件"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.IS_YOU
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.IS_YOU"
+msgid "Your Personal Runs"
+msgstr "你的個人游戲"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.BOARILLA
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.BOARILLA"
+msgid "Boarilla"
+msgstr "大猩猩"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.BOARRIOR
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.BOARRIOR"
+msgid "Boarrior"
+msgstr "豬戰士"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.RHINODRILL
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.RHINODRILL"
+msgid "Rhinobros"
+msgstr "犀牛兄弟"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.BEETLETAUR
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.BEETLETAUR"
+msgid "Swineclops"
+msgstr "獨眼巨豬"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.ORIG_FORGE
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.ORIG_FORGE"
+msgid "Original Forge"
+msgstr "原版熔爐"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.FILTERS.FORGED_FORGE
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.FILTERS.FORGED_FORGE"
+msgid "Forged Forge"
+msgstr "舊版熔爐(Forged Forge)"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.SORTERS.MOST_RECENT
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.SORTERS.MOST_RECENT"
+msgid "Most Recent"
+msgstr "最近"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.SORTERS.FASTEST_TIME
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.SORTERS.FASTEST_TIME"
+msgid "Fastest Time"
+msgstr "最快時間"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.SORTERS.LONGEST_TIME
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.SORTERS.LONGEST_TIME"
+msgid "Longest Time"
+msgstr "最長時間"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.SORTERS.RUN_COUNT
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.SORTERS.RUN_COUNT"
+msgid "%s of %s"
+msgstr "第%s個, 共計%s"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.SORTERS.RUNS_TITLE
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.SORTERS.RUNS_TITLE"
+msgid "Runs"
+msgstr "游戲局"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.SORTERS.SORTER_TITLE
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.SORTERS.SORTER_TITLE"
+msgid "Sort By"
+msgstr "排序方式"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.SORTERS.NO_RUNS
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.SORTERS.NO_RUNS"
+msgid "0 Runs Found"
+msgstr "找到0局游戲"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.TITLE
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.TITLE"
+msgid "Average Stats"
+msgstr "平均統計"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.WIN_RATE
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.WIN_RATE"
+msgid "Win Rate"
+msgstr "勝率"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.TOTAL_TIME
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.TOTAL_TIME"
+msgid "Total Time"
+msgstr "縂時間"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.AVERAGE_TIME
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.AVERAGE_TIME"
+msgid "Average Time"
+msgstr "平均時間"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.FASTEST_SLOWEST_TIME
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.FASTEST_SLOWEST_TIME"
+msgid "Fastest/Slowest"
+msgstr "最快/最慢"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.TOTAL_DEATHS
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.TOTAL_DEATHS"
+msgid "Total Deaths"
+msgstr "縂死亡數"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.CHARACTER_USAGE
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.CHARACTER_USAGE"
+msgid "Character Usage"
+msgstr "角色使用率"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.BUTTON
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.BUTTON"
+msgid "Toggle Average Stats"
+msgstr "切換平均統計"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.MOST_PLAYED_TITLE
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.AVERAGE_STATS.MOST_PLAYED_TITLE"
+msgid "Most Played"
+msgstr "最常玩"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.RUN.VICTORY
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.RUN.VICTORY"
+msgid "Victory!"
+msgstr "勝利！"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.RUN.DEFEAT
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.RUN.DEFEAT"
+msgid "Defeat!"
+msgstr "失敗！"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.RUN.NA
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.RUN.NA"
+msgid "N/A"
+msgstr "不可用"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.RUN.NONE
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.RUN.NONE"
+msgid "No Run Found"
+msgstr "找不到游戲局"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.RUN.EMPTY_LIST
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.RUN.EMPTY_LIST"
+msgid "No Forge Runs To Display!"
+msgstr "無可顯示的熔爐局！"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.RUN.PLAYER_STATS_TITLE
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.RUN.PLAYER_STATS_TITLE"
+msgid "%s's Stats"
+msgstr "%s的統計"
+
+#. STRINGS.UI.FORGEHISTORYPANEL.RUN.BACK_BUTTON
+msgctxt "STRINGS.UI.FORGEHISTORYPANEL.RUN.BACK_BUTTON"
+msgid "Go Back To Team Stats"
+msgstr "回到團隊統計"
+
+# ----------------
+# -- MVP TITLES --
+# ----------------
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.player_damagedealt
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.player_damagedealt"
+msgid "Merciless"
+msgstr "無情"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.player_damagetaken
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.player_damagetaken"
+msgid "Protector"
+msgstr "保護者"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.pet_damagedealt
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.pet_damagedealt"
+msgid "Zookeeper"
+msgstr "動物園管理員"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.pet_damagetaken
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.pet_damagetaken"
+msgid "Loyal Guardian"
+msgstr "忠誠守衛"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.cctime
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.cctime"
+msgid "Immobilizer"
+msgstr "定身高手"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.ccbroken
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.ccbroken"
+msgid "Disruptor"
+msgstr "破壞者"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.petdeaths
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.petdeaths"
+msgid "Veterinarian"
+msgstr "獸醫"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.healingreceived
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES.healingreceived"
+msgid "Spoiled"
+msgstr "寵壞了"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.healingreceived
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.healingreceived"
+msgid "healing received"
+msgstr "獲得治療量"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.pet_damagetaken
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.pet_damagetaken"
+msgid "pet damage taken"
+msgstr "寵物承受傷害"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.player_damagedealt
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.player_damagedealt"
+msgid "player damage dealt"
+msgstr "玩家造成傷害"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.player_damagetaken
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.player_damagetaken"
+msgid "player damage taken"
+msgstr "玩家承受傷害"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.cctime
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.cctime"
+msgid "seconds of crowd control"
+msgstr "群控(秒)"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.petdeaths
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.petdeaths"
+msgid "pet deaths"
+msgstr "寵物死亡數"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.ccbroken
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.ccbroken"
+msgid "crowd control broken"
+msgstr "群控中斷"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.pet_damagedealt
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.pet_damagedealt"
+msgid "pet damage dealt"
+msgstr "寵物造成傷害"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.unknown
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.unknown"
+msgid "UNKNOWN"
+msgstr "未知"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.parry
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.parry"
+msgid "damage parried"
+msgstr "格擋傷害"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.attack_interrupt
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.attack_interrupt"
+msgid "attacks interrupted"
+msgstr "打斷攻擊次數"
+
+#. STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.cheater
+msgctxt "STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS.cheater"
+msgid "I cheated not only the game, but myself."
+msgstr "我不僅欺騙了游戲, 還欺騙了自己。"
+
+# -------------
+# -- ENEMIES --
+# -------------
+
+#. STRINGS.REFORGED.ENEMIES.PITPIG.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.PITPIG.NAME"
+msgid "Pit Pig"
+msgstr "小豬"
+
+#. STRINGS.REFORGED.ENEMIES.PITPIG.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.PITPIG.DESC"
+msgid "The footsoldier of the forge. Is quick but very frail."
+msgstr "熔爐的步兵。速度快但是很脆弱。"
+
+#. STRINGS.REFORGED.ENEMIES.PITPIG.ABILITIES.LUNGE.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.PITPIG.ABILITIES.LUNGE.NAME"
+msgid "Lunge"
+msgstr "衝刺"
+
+#. STRINGS.REFORGED.ENEMIES.PITPIG.ABILITIES.LUNGE.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.PITPIG.ABILITIES.LUNGE.DESC"
+msgid "Lunge that does x damage."
+msgstr "衝刺造成 x 傷害"
+
+#. STRINGS.REFORGED.ENEMIES.CROCOMMANDER.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.CROCOMMANDER.NAME"
+msgid "Crocommander"
+msgstr "鰐魚指揮官"
+
+#. STRINGS.REFORGED.ENEMIES.CROCOMMANDER.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.CROCOMMANDER.DESC"
+msgid "Experienced commander who can inspire allies to be more formidable."
+msgstr "經驗豐富的指揮官可以鼓舞盟友變得更强大。"
+
+#. STRINGS.REFORGED.ENEMIES.CROCOMMANDER.ABILITIES.BANNER_DEF.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.CROCOMMANDER.ABILITIES.BANNER_DEF.NAME"
+msgid "Defense Banner"
+msgstr "防禦旗幟"
+
+#. STRINGS.REFORGED.ENEMIES.CROCOMMANDER.ABILITIES.BANNER_DEF.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.CROCOMMANDER.ABILITIES.BANNER_DEF.DESC"
+msgid "Increases the armor of allies nearby."
+msgstr "增加附近盟友的護甲。"
+
+#. STRINGS.REFORGED.ENEMIES.CROCOMMANDER.ABILITIES.BANNER_ATK.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.CROCOMMANDER.ABILITIES.BANNER_ATK.NAME"
+msgid "Attack Banner"
+msgstr "攻擊旗幟"
+
+#. STRINGS.REFORGED.ENEMIES.CROCOMMANDER.ABILITIES.BANNER_ATK.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.CROCOMMANDER.ABILITIES.BANNER_ATK.DESC"
+msgid "Increases the damage of allies nearby."
+msgstr "增加附近盟友的伤害。"
+
+#. STRINGS.REFORGED.ENEMIES.CROCOMMANDER.ABILITIES.BANNER_HEAL.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.CROCOMMANDER.ABILITIES.BANNER_HEAL.NAME"
+msgid "Regen Banner"
+msgstr "再生旗幟"
+
+#. STRINGS.REFORGED.ENEMIES.CROCOMMANDER.ABILITIES.BANNER_HEAL.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.CROCOMMANDER.ABILITIES.BANNER_HEAL.DESC"
+msgid "Gives nearby allies health regeneration."
+msgstr "使附近盟友恢復血量。"
+
+#. STRINGS.REFORGED.ENEMIES.CROCOMMANDER_RAPIDFIRE.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.CROCOMMANDER_RAPIDFIRE.NAME"
+msgid "Crocommancer"
+msgstr "鰐魚指揮官"
+
+#. STRINGS.REFORGED.ENEMIES.CROCOMMANDER_RAPIDFIRE.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.CROCOMMANDER_RAPIDFIRE.DESC"
+msgid "This croc thinks he's too cool for attack periods."
+msgstr "這隻鰐魚認爲他在進攻期間太酷了。"
+
+#. STRINGS.REFORGED.ENEMIES.CROCOMMANDER_RAPIDFIRE.ABILITIES.BANNER_SPEED.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.CROCOMMANDER_RAPIDFIRE.ABILITIES.BANNER_SPEED.NAME"
+msgid "Speed Banner"
+msgstr "速度旗幟"
+
+#. STRINGS.REFORGED.ENEMIES.CROCOMMANDER_RAPIDFIRE.ABILITIES.BANNER_SPEED.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.CROCOMMANDER_RAPIDFIRE.ABILITIES.BANNER_SPEED.DESC"
+msgid "Increases the speed of allies nearby."
+msgstr "增加附近盟友的移速。"
+
+#. STRINGS.REFORGED.ENEMIES.SNORTOISE.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.SNORTOISE.NAME"
+msgid "Snortoise"
+msgstr "坦克龜"
+
+#. STRINGS.REFORGED.ENEMIES.SNORTOISE.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.SNORTOISE.DESC"
+msgid "He might be slow, but he can soak up a lot of damage."
+msgstr "他可能很慢, 但是能夠吸收很多傷害。"
+
+#. STRINGS.REFORGED.ENEMIES.SNORTOISE.ABILITIES.BUNKER.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.SNORTOISE.ABILITIES.BUNKER.NAME"
+msgid "Bunker"
+msgstr "掩體"
+
+#. STRINGS.REFORGED.ENEMIES.SNORTOISE.ABILITIES.BUNKER.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.SNORTOISE.ABILITIES.BUNKER.DESC"
+msgid "Retreats into its shell for x seconds unless interrupted by an ability."
+msgstr "縮進它的外殼持續 x 秒, 除非被技能打斷。"
+
+#. STRINGS.REFORGED.ENEMIES.SNORTOISE.ABILITIES.SPIN.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.SNORTOISE.ABILITIES.SPIN.NAME"
+msgid "Spin"
+msgstr "旋轉"
+
+#. STRINGS.REFORGED.ENEMIES.SNORTOISE.ABILITIES.SPIN.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.SNORTOISE.ABILITIES.SPIN.DESC"
+msgid "Retreats into its shell and starts spinning while sliding towards its target for x seconds unless interrupted by an ability."
+msgstr "縮進它的外殼並開始旋轉, 同時向目標滑行 x 秒, 除非被技能打斷。"
+
+#. STRINGS.REFORGED.ENEMIES.SCORPEON.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.SCORPEON.NAME"
+msgid "Scorpeon"
+msgstr "蠍子"
+
+#. STRINGS.REFORGED.ENEMIES.SCORPEON.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.SCORPEON.DESC"
+msgid "He's slow but deadly, he will melt you away with his acid."
+msgstr "他緩慢而致命, 他會用酸將你融化。"
+
+#. STRINGS.REFORGED.ENEMIES.SCORPEON.ABILITIES.POISON.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.SCORPEON.ABILITIES.POISON.NAME"
+msgid "Acid Lob"
+msgstr "酸球"
+
+#. STRINGS.REFORGED.ENEMIES.SCORPEON.ABILITIES.POISON.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.SCORPEON.ABILITIES.POISON.DESC"
+msgid "Lobs a acid ball with its tail. The acid lasts for x seconds."
+msgstr "用尾巴放一個酸球, 持續 x 秒。"
+
+#. STRINGS.REFORGED.ENEMIES.BOARILLA.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARILLA.NAME"
+msgid "Boarilla"
+msgstr "大猩猩"
+
+#. STRINGS.REFORGED.ENEMIES.BOARILLA.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARILLA.DESC"
+msgid "This brute, while not intelligent, can really pack a punch."
+msgstr "這種蠻力雖然不聰明, 但確實可以發揮作用。"
+
+#. STRINGS.REFORGED.ENEMIES.BOARILLA.ABILITIES.BUNKER.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARILLA.ABILITIES.BUNKER.NAME"
+msgid "Bunker"
+msgstr "掩體"
+
+#. STRINGS.REFORGED.ENEMIES.BOARILLA.ABILITIES.BUNKER.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARILLA.ABILITIES.BUNKER.DESC"
+msgid "Bunkers into his armor for x seconds resisting all basic damage."
+msgstr "在 x 秒内進入裝甲掩體, 抵擋所有基本傷害。"
+
+#. STRINGS.REFORGED.ENEMIES.BOARILLA.ABILITIES.SLAM.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARILLA.ABILITIES.SLAM.NAME"
+msgid "Slam"
+msgstr "撞擊"
+
+#. STRINGS.REFORGED.ENEMIES.BOARILLA.ABILITIES.SLAM.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARILLA.ABILITIES.SLAM.DESC"
+msgid "Jumps into the air and slams down on target doing damage in an area."
+msgstr "跳入空中並撞擊目標, 在區域内造成傷害。"
+
+#. STRINGS.REFORGED.ENEMIES.BOARRIOR.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARRIOR.NAME"
+msgid "Boarrior"
+msgstr "豬戰士"
+
+#. STRINGS.REFORGED.ENEMIES.BOARRIOR.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARRIOR.DESC"
+msgid "A champion who has experience to match with his strength."
+msgstr "一個與他力量相稱的有經驗的冠軍。"
+
+#. STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.SPIN.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.SPIN.NAME"
+msgid "Spin"
+msgstr "旋轉"
+
+#. STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.SPIN.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.SPIN.DESC"
+msgid "Spins like a top damaging all nearby enemies."
+msgstr "像陀螺一樣旋轉, 傷害附近所有敵人。"
+
+#. STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.SLAM.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.SLAM.NAME"
+msgid "Slam"
+msgstr "猛擊"
+
+#. STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.SLAM.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.SLAM.DESC"
+msgid "Slams the ground tearing up the ground that damages any enemy in its path."
+msgstr "猛擊地面, 撕毀地面, 並傷害路徑上的所有敵人。"
+
+#. STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.REINFORCEMENTS.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.REINFORCEMENTS.NAME"
+msgid "Summon Reinforcements"
+msgstr "召喚增援"
+
+#. STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.REINFORCEMENTS.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.REINFORCEMENTS.DESC"
+msgid "Claps his weapons together summoning pitpig reinforcements with banners."
+msgstr "拍打他的武器並召喚帶旗幟的小豬。"
+
+#. STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.DASH.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.DASH.NAME"
+msgid "Dash"
+msgstr "衝撞"
+
+#. STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.DASH.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.BOARRIOR.ABILITIES.DASH.DESC"
+msgid "If target is too far away then Boarrior dashes towards them."
+msgstr "如果目標距離太遠, 豬戰士就會向他們衝撞。"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBRO.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBRO.NAME"
+msgid "Rhinocebro Snapback"
+msgstr "後扣帽犀牛兄弟"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBRO.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBRO.DESC"
+msgid "Would probably steal your lunch money."
+msgstr "可能會偷走你的午飯錢。"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBRO.ABILITIES.CHEER.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBRO.ABILITIES.CHEER.NAME"
+msgid "Bro Cheer"
+msgstr "兄弟歡呼"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBRO.ABILITIES.CHEER.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBRO.ABILITIES.CHEER.DESC"
+msgid "Cheers his bro, Flatbrim, to gain a permanent +25 damage boost."
+msgstr "為他的平簷帽兄弟歡呼, 獲得永久的+25傷害加成。"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBRO.ABILITIES.RAM.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBRO.ABILITIES.RAM.NAME"
+msgid "Ram"
+msgstr "撞擊"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBRO.ABILITIES.RAM.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBRO.ABILITIES.RAM.DESC"
+msgid "Charges forward with his horn doing damage in a large radius."
+msgstr "用他的角向前衝鋒, 造成大範圍的傷害。"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBRO2.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBRO2.NAME"
+msgid "Rhinocebro Flatbrim"
+msgstr "平簷帽犀牛兄弟"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBRO2.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBRO2.DESC"
+msgid "Would probably stuff you in a locker."
+msgstr "可能會將你塞進儲物櫃。"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBRO2.ABILITIES.CHEER.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBRO2.ABILITIES.CHEER.NAME"
+msgid "Bro Cheer"
+msgstr "兄弟歡呼"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBRO2.ABILITIES.CHEER.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBRO2.ABILITIES.CHEER.DESC"
+msgid "Cheers his bro, Snapback, to gain a permanent +25 damage boost."
+msgstr "為他的後扣帽兄弟歡呼, 獲得永久的+25傷害加成。"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBRO2.ABILITIES.RAM.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBRO2.ABILITIES.RAM.NAME"
+msgid "Ram"
+msgstr "撞擊"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBRO2.ABILITIES.RAM.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBRO2.ABILITIES.RAM.DESC"
+msgid "Charges forward with his horn doing damage in a large radius."
+msgstr "用他的角向前衝鋒, 造成大範圍的傷害。"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBROS.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBROS.NAME"
+msgid "Rhinocebros"
+msgstr "犀牛兄弟"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBROS.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBROS.DESC"
+msgid "Spawn the two as a pair, linked and everything."
+msgstr "生成兩個成對, 聯結在一起和所有一切。"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBROS.ABILITIES.CHEER.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBROS.ABILITIES.CHEER.NAME"
+msgid "Bro Cheer"
+msgstr "兄弟歡呼"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBROS.ABILITIES.CHEER.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBROS.ABILITIES.CHEER.DESC"
+msgid "Cheer each other to gain a permanent +25 damage boost."
+msgstr "互相歡呼, 獲得永久的+25傷害加成。"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBROS.ABILITIES.RAM.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBROS.ABILITIES.RAM.NAME"
+msgid "Ram"
+msgstr "撞擊"
+
+#. STRINGS.REFORGED.ENEMIES.RHINOCEBROS.ABILITIES.RAM.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.RHINOCEBROS.ABILITIES.RAM.DESC"
+msgid "Charges forward with his horn doing damage in a large radius."
+msgstr "用他的角向前衝鋒, 造成大範圍的傷害。"
+
+#. STRINGS.REFORGED.ENEMIES.SWINECLOPS.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.SWINECLOPS.NAME"
+msgid "Infernal Swineclops"
+msgstr "地獄獨眼巨豬"
+
+#. STRINGS.REFORGED.ENEMIES.SWINECLOPS.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.SWINECLOPS.DESC"
+msgid "Pugna's last resort, a ferocious beast imprisoned for how deadly he is."
+msgstr "普格納的最後一招是一隻凶猛的野獸, 因他的致命性而入獄。"
+
+#. STRINGS.REFORGED.ENEMIES.SWINECLOPS.ABILITIES.DEFENSIVE_STANCE.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.SWINECLOPS.ABILITIES.DEFENSIVE_STANCE.NAME"
+msgid "Defensive Stance"
+msgstr "防守姿態"
+
+#. STRINGS.REFORGED.ENEMIES.SWINECLOPS.ABILITIES.DEFENSIVE_STANCE.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.SWINECLOPS.ABILITIES.DEFENSIVE_STANCE.DESC"
+msgid "Moves faster, takes 50% less damage, but can only do one attack."
+msgstr "移速更快, 受到的傷害降低50%, 但只能進行一次攻擊。"
+
+#. STRINGS.REFORGED.ENEMIES.SWINECLOPS.ABILITIES.OFFENSIVE_STANCE.NAME
+msgctxt "STRINGS.REFORGED.ENEMIES.SWINECLOPS.ABILITIES.OFFENSIVE_STANCE.NAME"
+msgid "Offensive Stance"
+msgstr "進攻姿態"
+
+#. STRINGS.REFORGED.ENEMIES.SWINECLOPS.ABILITIES.OFFENSIVE_STANCE.DESC
+msgctxt "STRINGS.REFORGED.ENEMIES.SWINECLOPS.ABILITIES.OFFENSIVE_STANCE.DESC"
+msgid "Can combo punches, can buff itself, can use bellyflop, but moves slower."
+msgstr "可以連擊, 可以增幅自己, 可以用肚皮攻擊, 但移速較慢。"
+
+# ---------
+# -- PET --
+# ---------
+
+#. STRINGS.REFORGED.PETS.GOLEM.NAME
+msgctxt "STRINGS.REFORGED.PETS.GOLEM.NAME"
+msgid "Golem"
+msgstr "傀儡"
+
+#. STRINGS.REFORGED.PETS.GOLEM.DESC
+msgctxt "STRINGS.REFORGED.PETS.GOLEM.DESC"
+msgid "Continously throws fireballs at nearby mobs. Can't move though."
+msgstr "不斷向附近的怪物扔火球, 雖然它不能移動。"
+
+#. STRINGS.REFORGED.PETS.BABYSPIDER.NAME
+msgctxt "STRINGS.REFORGED.PETS.BABYSPIDER.NAME"
+msgid "Baby Spiders"
+msgstr "蜘蛛寶寶"
+
+#. STRINGS.REFORGED.PETS.BABYSPIDER.DESC
+msgctxt "STRINGS.REFORGED.PETS.BABYSPIDER.DESC"
+msgid "These cute lil fellas will help you take down foes. They can't be targeted or killed."
+msgstr "這些可愛的小家夥們會幫你擊倒敵人。他們無法成爲目標或被殺死。"
+
+#. STRINGS.REFORGED.PETS.MERM_GUARD.NAME
+msgctxt "STRINGS.REFORGED.PETS.MERM_GUARD.NAME"
+msgid "Merm Guard"
+msgstr "魚人守衛"
+
+#. STRINGS.REFORGED.PETS.MERM_GUARD.DESC
+msgctxt "STRINGS.REFORGED.PETS.MERM_GUARD.DESC"
+msgid "From the swamp comes the menacing merm guards. They will die from overheating after awhile."
+msgstr "險惡的魚人守衛從沼澤中來。他們過一會就會因過熱而死。"
+
+#. STRINGS.REFORGED.PETS.MEAN_FLYTRAP.NAME
+msgctxt "STRINGS.REFORGED.PETS.MEAN_FLYTRAP.NAME"
+msgid "Seedling"
+msgstr "幼苗"
+
+#. STRINGS.REFORGED.PETS.MEAN_FLYTRAP.DESC
+msgctxt "STRINGS.REFORGED.PETS.MEAN_FLYTRAP.DESC"
+msgid "Wormwood's friends have come to lend a tooth or two. They will die from the heat after awhile."
+msgstr "沃姆伍德的朋友過來借一兩顆牙。他們過一會就會因過熱而死。"
+
+#. STRINGS.REFORGED.PETS.ADULT_FLYTRAP.NAME
+msgctxt "STRINGS.REFORGED.PETS.ADULT_FLYTRAP.NAME"
+msgid "Snaptooth"
+msgstr "咬牙"
+
+#. STRINGS.REFORGED.PETS.ADULT_FLYTRAP.DESC
+msgctxt "STRINGS.REFORGED.PETS.ADULT_FLYTRAP.DESC"
+msgid "This fiend will take large bites out of the competition. They will die from the heat after awhile."
+msgstr "這個惡魔會在競爭中占上風。他們過一會就會因過熱而死。"
+
+#. STRINGS.REFORGED.PETS.FORGE_ABIGAIL.NAME
+msgctxt "STRINGS.REFORGED.PETS.FORGE_ABIGAIL.NAME"
+msgid "Abigail"
+msgstr "阿比蓋爾"
+
+#. STRINGS.REFORGED.PETS.FORGE_ABIGAIL.DESC
+msgctxt "STRINGS.REFORGED.PETS.FORGE_ABIGAIL.DESC"
+msgid "Wendy's sister has come to throw the game. Respawns quite awhile after death."
+msgstr "溫蒂的姐姐過來故意輸掉比賽。死亡後用相當長的時間重生。"
+
+#. STRINGS.REFORGED.PETS.FORGE_BERNIE.NAME
+msgctxt "STRINGS.REFORGED.PETS.FORGE_BERNIE.NAME"
+msgid "Bernie"
+msgstr "伯尼"
+
+#. STRINGS.REFORGED.PETS.FORGE_BERNIE.DESC
+msgctxt "STRINGS.REFORGED.PETS.FORGE_BERNIE.DESC"
+msgid "He will draw aggro away from you when you're in danger. Can be revived when fallen."
+msgstr "在你處於危險之中時, 他會從你身邊吸引仇恨。跌倒時可以復活。"
+
+# -----------
+# -- HELMS --
+# -----------
+
+#. STRINGS.REFORGED.HELMS.FEATHEREDWREATH.NAME
+msgctxt "STRINGS.REFORGED.HELMS.FEATHEREDWREATH.NAME"
+msgid "Feathered Wreath"
+msgstr "羽毛頭環"
+
+#. STRINGS.REFORGED.HELMS.FEATHEREDWREATH.DESC
+msgctxt "STRINGS.REFORGED.HELMS.FEATHEREDWREATH.DESC"
+msgid "Have feet as light as a feather and have the hat to match!"
+msgstr "脚像羽毛一樣輕, 并且有匹配的帽子！"
+
+#. STRINGS.REFORGED.HELMS.FLOWERHEADBAND.NAME
+msgctxt "STRINGS.REFORGED.HELMS.FLOWERHEADBAND.NAME"
+msgid "Flower Headband"
+msgstr "花飾頭帶"
+
+#. STRINGS.REFORGED.HELMS.FLOWERHEADBAND.DESC
+msgctxt "STRINGS.REFORGED.HELMS.FLOWERHEADBAND.DESC"
+msgid "Wear a healing flower on your head! When healed, gain 25% more health."
+msgstr "戴在頭上的愈合花！被治愈時, 獲得額外25%的生命值。"
+
+#. STRINGS.REFORGED.HELMS.BARBEDHELM.NAME
+msgctxt "STRINGS.REFORGED.HELMS.BARBEDHELM.NAME"
+msgid "Barbed Helm"
+msgstr "帶刺頭盔"
+
+#. STRINGS.REFORGED.HELMS.BARBEDHELM.DESC
+msgctxt "STRINGS.REFORGED.HELMS.BARBEDHELM.DESC"
+msgid "Feel the wrath of Barb! Physical attacks deal 10% more damage."
+msgstr "感受帶刺的憤怒！物理攻擊額外提高10%。"
+
+#. STRINGS.REFORGED.HELMS.NOXHELM.NAME
+msgctxt "STRINGS.REFORGED.HELMS.NOXHELM.NAME"
+msgid "Nox Helm"
+msgstr "諾克斯牛頭盔"
+
+#. STRINGS.REFORGED.HELMS.NOXHELM.DESC
+msgctxt "STRINGS.REFORGED.HELMS.NOXHELM.DESC"
+msgid "More horns always means more damage. Specifically, 15% damage."
+msgstr "更多的角總是意味著更多的傷害。具體來説, 15%傷害。"
+
+#. STRINGS.REFORGED.HELMS.WOVENGARLAND.NAME
+msgctxt "STRINGS.REFORGED.HELMS.WOVENGARLAND.NAME"
+msgid "Woven Garland"
+msgstr "編織花環"
+
+#. STRINGS.REFORGED.HELMS.WOVENGARLAND.DESC
+msgctxt "STRINGS.REFORGED.HELMS.WOVENGARLAND.DESC"
+msgid "Imbued with the power of a mythical dryad, this increases healing dealt by 20%."
+msgstr "充滿神話般樹妖的力量, 可以使治療量提高20%。"
+
+#. STRINGS.REFORGED.HELMS.CLAIRVOYANTCROWN.NAME
+msgctxt "STRINGS.REFORGED.HELMS.CLAIRVOYANTCROWN.NAME"
+msgid "Clairvoyant Crown"
+msgstr "洞察皇冠"
+
+#. STRINGS.REFORGED.HELMS.CLAIRVOYANTCROWN.DESC
+msgctxt "STRINGS.REFORGED.HELMS.CLAIRVOYANTCROWN.DESC"
+msgid "Become a minister of magic! Deal more magic damage, have faster cooldowns and movement speed."
+msgstr "成爲魔法部長！造成更多魔法傷害, 並具有更快的冷卻時間和移速。"
+
+#. STRINGS.REFORGED.HELMS.CRYSTALTIARA.NAME
+msgctxt "STRINGS.REFORGED.HELMS.CRYSTALTIARA.NAME"
+msgid "Crystal Tiara"
+msgstr "水晶頭飾"
+
+#. STRINGS.REFORGED.HELMS.CRYSTALTIARA.DESC
+msgctxt "STRINGS.REFORGED.HELMS.CRYSTALTIARA.DESC"
+msgid "Apparently healing crystals aren't a sham! Gain 10% faster cooldowns."
+msgstr "顯然治愈水晶不是假的！冷卻時間提高10%。"
+
+#. STRINGS.REFORGED.HELMS.BLOSSOMEDWREATH.NAME
+msgctxt "STRINGS.REFORGED.HELMS.BLOSSOMEDWREATH.NAME"
+msgid "Blossomed Wreath"
+msgstr "綻放花環"
+
+#. STRINGS.REFORGED.HELMS.BLOSSOMEDWREATH.DESC
+msgctxt "STRINGS.REFORGED.HELMS.BLOSSOMEDWREATH.DESC"
+msgid "Put a miniature healing circle right on your head! Heals 2 HP/sec."
+msgstr "在你的頭上放一個微型治愈圈！每秒恢復2生命值。"
+
+#. STRINGS.REFORGED.HELMS.RESPLENDENTNOXHELM.NAME
+msgctxt "STRINGS.REFORGED.HELMS.RESPLENDENTNOXHELM.NAME"
+msgid "Resplendent Nox Helm"
+msgstr "華麗的諾克斯牛頭盔"
+
+#. STRINGS.REFORGED.HELMS.RESPLENDENTNOXHELM.DESC
+msgctxt "STRINGS.REFORGED.HELMS.RESPLENDENTNOXHELM.DESC"
+msgid "This excessive amount of horns grants high physical damage, faster cooldowns and movement speed."
+msgstr "過多的角造成很高的物理傷害, 且具有更快的冷卻時間和移速。"
+
+#. STRINGS.REFORGED.HELMS.LAVAARENA_CHEFHAT.NAME
+msgctxt "STRINGS.REFORGED.HELMS.LAVAARENA_CHEFHAT.NAME"
+msgid "Chef Hat"
+msgstr "厨師帽"
+
+#. STRINGS.REFORGED.HELMS.LAVAARENA_CHEFHAT.DESC
+msgctxt "STRINGS.REFORGED.HELMS.LAVAARENA_CHEFHAT.DESC"
+msgid "Wearing this, everyone will believe that you're a master chef, so you no longer need to watch your own food cook."
+msgstr "戴上它后所有人都會相信你是大厨, 因此你不再需要看鍋。"
+
+# ----------
+# -- BODY --
+# ----------
+
+#. STRINGS.REFORGED.ARMOR.REEDTUNIC.NAME
+msgctxt "STRINGS.REFORGED.ARMOR.REEDTUNIC.NAME"
+msgid "Reed Tunic"
+msgstr "蘆葦束腰外衣"
+
+#. STRINGS.REFORGED.ARMOR.REEDTUNIC.DESC
+msgctxt "STRINGS.REFORGED.ARMOR.REEDTUNIC.DESC"
+msgid "Reeds aren't the best form of defense."
+msgstr "蘆葦不是最好的防禦方式。"
+
+#. STRINGS.REFORGED.ARMOR.FEATHEREDTUNIC.NAME
+msgctxt "STRINGS.REFORGED.ARMOR.FEATHEREDTUNIC.NAME"
+msgid "Feathered Reed Tunic"
+msgstr "帶羽毛的蘆葦外衣"
+
+#. STRINGS.REFORGED.ARMOR.FEATHEREDTUNIC.DESC
+msgctxt "STRINGS.REFORGED.ARMOR.FEATHEREDTUNIC.DESC"
+msgid "A feather got stuck in your tunic. It makes you run slightly faster."
+msgstr "在你的外衣上卡著一根羽毛。它使你跑得稍快一點。"
+
+#. STRINGS.REFORGED.ARMOR.FORGE_WOODARMOR.NAME
+msgctxt "STRINGS.REFORGED.ARMOR.FORGE_WOODARMOR.NAME"
+msgid "Wood Armor"
+msgstr "木製護甲"
+
+#. STRINGS.REFORGED.ARMOR.FORGE_WOODARMOR.DESC
+msgctxt "STRINGS.REFORGED.ARMOR.FORGE_WOODARMOR.DESC"
+msgid "Simple yet effective defense."
+msgstr "簡單而有效的防禦。"
+
+#. STRINGS.REFORGED.ARMOR.JAGGEDARMOR.NAME
+msgctxt "STRINGS.REFORGED.ARMOR.JAGGEDARMOR.NAME"
+msgid "Jagged Wood Armor"
+msgstr "鋸齒木架"
+
+#. STRINGS.REFORGED.ARMOR.JAGGEDARMOR.DESC
+msgctxt "STRINGS.REFORGED.ARMOR.JAGGEDARMOR.DESC"
+msgid "Decked out in monster teeth, this armor protects AND attacks."
+msgstr "鑲有怪獸牙齒的裝飾, 這個護甲可以保護和攻擊。"
+
+#. STRINGS.REFORGED.ARMOR.SILKENARMOR.NAME
+msgctxt "STRINGS.REFORGED.ARMOR.SILKENARMOR.NAME"
+msgid "Silken Wood Armor"
+msgstr "軟木護甲"
+
+#. STRINGS.REFORGED.ARMOR.SILKENARMOR.DESC
+msgctxt "STRINGS.REFORGED.ARMOR.SILKENARMOR.DESC"
+msgid "This very simple sash wrapped around wood grants faster cooldowns."
+msgstr "這個很簡單地包裹在木頭上的飾帶可以加快冷卻時間。"
+
+#. STRINGS.REFORGED.ARMOR.SPLINTMAIL.NAME
+msgctxt "STRINGS.REFORGED.ARMOR.SPLINTMAIL.NAME"
+msgid "Stone Splint Mail"
+msgstr "石頭板甲"
+
+#. STRINGS.REFORGED.ARMOR.SPLINTMAIL.DESC
+msgctxt "STRINGS.REFORGED.ARMOR.SPLINTMAIL.DESC"
+msgid "Light stone armor that grants higher defense than wood."
+msgstr "輕製石盔甲的防禦力高於木製。"
+
+#. STRINGS.REFORGED.ARMOR.STEADFASTARMOR.NAME
+msgctxt "STRINGS.REFORGED.ARMOR.STEADFASTARMOR.NAME"
+msgid "Steadfast Stone Armor"
+msgstr "堅固的石製護甲"
+
+#. STRINGS.REFORGED.ARMOR.STEADFASTARMOR.DESC
+msgctxt "STRINGS.REFORGED.ARMOR.STEADFASTARMOR.DESC"
+msgid "Too many rocks! This heavy armor slows you down, but makes you harder to push around."
+msgstr "石頭太多了！這種沉重的盔甲會使你減速, 但會使你更難被推開。"
+
+#. STRINGS.REFORGED.ARMOR.STEADFASTGRANDARMOR.NAME
+msgctxt "STRINGS.REFORGED.ARMOR.STEADFASTGRANDARMOR.NAME"
+msgid "Steadfast Grand Armor"
+msgstr "華麗的穩固盔甲"
+
+#. STRINGS.REFORGED.ARMOR.STEADFASTGRANDARMOR.DESC
+msgctxt "STRINGS.REFORGED.ARMOR.STEADFASTGRANDARMOR.DESC"
+msgid "Become the ultimate tank!"
+msgstr "成爲終極坦克！"
+
+#. STRINGS.REFORGED.ARMOR.WHISPERINGGRANDARMOR.NAME
+msgctxt "STRINGS.REFORGED.ARMOR.WHISPERINGGRANDARMOR.NAME"
+msgid "Whispering Grand Armor"
+msgstr "華麗的低語盔甲"
+
+#. STRINGS.REFORGED.ARMOR.WHISPERINGGRANDARMOR.DESC
+msgctxt "STRINGS.REFORGED.ARMOR.WHISPERINGGRANDARMOR.DESC"
+msgid "Boost your companions with ancient power!"
+msgstr "用古老的力量助你一臂之力！"
+
+#. STRINGS.REFORGED.ARMOR.SILKENGRANDARMOR.NAME
+msgctxt "STRINGS.REFORGED.ARMOR.SILKENGRANDARMOR.NAME"
+msgid "Silken Grand Armor"
+msgstr "華麗的絲滑盔甲"
+
+#. STRINGS.REFORGED.ARMOR.SILKENGRANDARMOR.DESC
+msgctxt "STRINGS.REFORGED.ARMOR.SILKENGRANDARMOR.DESC"
+msgid "The supreme stamina booster!"
+msgstr "優質的耐力助推器！"
+
+#. STRINGS.REFORGED.ARMOR.JAGGEDGRANDARMOR.NAME
+msgctxt "STRINGS.REFORGED.ARMOR.JAGGEDGRANDARMOR.NAME"
+msgid "Jagged Grand Armor"
+msgstr "華麗的尖突盔甲"
+
+#. STRINGS.REFORGED.ARMOR.JAGGEDGRANDARMOR.DESC
+msgctxt "STRINGS.REFORGED.ARMOR.JAGGEDGRANDARMOR.DESC"
+msgid "Rip and tear through your foes with this armor!"
+msgstr "用這個盔甲撕裂敵人！"
+
+# -------------
+# -- WEAPONS --
+# -------------
+
+#. STRINGS.REFORGED.WEAPONS.FORGEDARTS.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.FORGEDARTS.NAME"
+msgid "Darts"
+msgstr "吹箭"
+
+#. STRINGS.REFORGED.WEAPONS.FORGEDARTS.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.FORGEDARTS.DESC"
+msgid "A simple yet powerful blowdart."
+msgstr "一個簡單而强大的吹箭。"
+
+#. STRINGS.REFORGED.WEAPONS.FORGEDARTS.ABILITIES.BARRAGE.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.FORGEDARTS.ABILITIES.BARRAGE.NAME"
+msgid "Barrage"
+msgstr "齊射"
+
+#. STRINGS.REFORGED.WEAPONS.FORGEDARTS.ABILITIES.BARRAGE.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.FORGEDARTS.ABILITIES.BARRAGE.DESC"
+msgid "Shoot a flurry of darts in one direction."
+msgstr "朝一個方向射擊一連串吹箭。"
+
+#. STRINGS.REFORGED.WEAPONS.MOLTENDARTS.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.MOLTENDARTS.NAME"
+msgid "Molten Darts"
+msgstr "融化吹箭"
+
+#. STRINGS.REFORGED.WEAPONS.MOLTENDARTS.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.MOLTENDARTS.DESC"
+msgid "Don't burn your tongue!"
+msgstr "不要燒壞你的舌頭！"
+
+#. STRINGS.REFORGED.WEAPONS.MOLTENDARTS.ABILITIES.FIRE_BLAST.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.MOLTENDARTS.ABILITIES.FIRE_BLAST.NAME"
+msgid "Fire Blast"
+msgstr "爆破"
+
+#. STRINGS.REFORGED.WEAPONS.MOLTENDARTS.ABILITIES.FIRE_BLAST.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.MOLTENDARTS.ABILITIES.FIRE_BLAST.DESC"
+msgid "Shoot a single fiery blast of magma at your foes!"
+msgstr "向敵人射擊一股火熱的岩漿！"
+
+#. STRINGS.REFORGED.WEAPONS.INFERNALSTAFF.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.INFERNALSTAFF.NAME"
+msgid "Infernal Staff"
+msgstr "地獄魔杖"
+
+#. STRINGS.REFORGED.WEAPONS.INFERNALSTAFF.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.INFERNALSTAFF.DESC"
+msgid "Harness the power of fire!"
+msgstr "利用火的力量！"
+
+#. STRINGS.REFORGED.WEAPONS.INFERNALSTAFF.ABILITIES.METEOR.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.INFERNALSTAFF.ABILITIES.METEOR.NAME"
+msgid "Meteor"
+msgstr "流星"
+
+#. STRINGS.REFORGED.WEAPONS.INFERNALSTAFF.ABILITIES.METEOR.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.INFERNALSTAFF.ABILITIES.METEOR.DESC"
+msgid "Call down a giant meteor from the heavens!"
+msgstr "從天堂裏召喚一顆巨大的流星！"
+
+#. STRINGS.REFORGED.WEAPONS.FORGINGHAMMER.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.FORGINGHAMMER.NAME"
+msgid "Forge Hammer"
+msgstr "熔爐錘"
+
+#. STRINGS.REFORGED.WEAPONS.FORGINGHAMMER.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.FORGINGHAMMER.DESC"
+msgid "Bash some skulls in with this heavy hammer."
+msgstr "用沉重的錘子雜碎一些頭骨。"
+
+#. STRINGS.REFORGED.WEAPONS.FORGINGHAMMER.ABILITIES.SLAM.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.FORGINGHAMMER.ABILITIES.SLAM.NAME"
+msgid "Slam"
+msgstr "撞擊"
+
+#. STRINGS.REFORGED.WEAPONS.FORGINGHAMMER.ABILITIES.SLAM.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.FORGINGHAMMER.ABILITIES.SLAM.DESC"
+msgid "Shake the ground at your feet, hitting everything at once."
+msgstr "在你的脚下搖動地面, 一次擊中一切。"
+
+#. STRINGS.REFORGED.WEAPONS.LIVINGSTAFF.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.LIVINGSTAFF.NAME"
+msgid "Living Staff"
+msgstr "生存魔杖"
+
+#. STRINGS.REFORGED.WEAPONS.LIVINGSTAFF.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.LIVINGSTAFF.DESC"
+msgid "A very useful tool to keep you and your allies alive."
+msgstr "一個非常有用的工具, 可以使你和你的盟友存活。"
+
+#. STRINGS.REFORGED.WEAPONS.LIVINGSTAFF.ABILITIES.HEALING_CIRCLE.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.LIVINGSTAFF.ABILITIES.HEALING_CIRCLE.NAME"
+msgid "Healing Circle"
+msgstr "治療圈"
+
+#. STRINGS.REFORGED.WEAPONS.LIVINGSTAFF.ABILITIES.HEALING_CIRCLE.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.LIVINGSTAFF.ABILITIES.HEALING_CIRCLE.DESC"
+msgid "Spawn a magical circle of blossoming healing flowers."
+msgstr "生成一個神奇的治愈花圈。"
+
+#. STRINGS.REFORGED.WEAPONS.PITHPIKE.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.PITHPIKE.NAME"
+msgid "Spear"
+msgstr "長矛"
+
+#. STRINGS.REFORGED.WEAPONS.PITHPIKE.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.PITHPIKE.DESC"
+msgid "Wigfrid's go-to weapon for battle."
+msgstr "薇格弗德的戰鬥必備武器。"
+
+#. STRINGS.REFORGED.WEAPONS.PITHPIKE.ABILITIES.CHARGE.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.PITHPIKE.ABILITIES.CHARGE.NAME"
+msgid "Charge"
+msgstr "衝撞"
+
+#. STRINGS.REFORGED.WEAPONS.PITHPIKE.ABILITIES.CHARGE.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.PITHPIKE.ABILITIES.CHARGE.DESC"
+msgid "Dash through your foes, and flip some Snortoises while you're at it."
+msgstr "衝刺穿過敵人, 並在衝刺時翻轉一些坦克龜。"
+
+#. STRINGS.REFORGED.WEAPONS.SPIRALSPEAR.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.SPIRALSPEAR.NAME"
+msgid "Spiral Spear"
+msgstr "螺旋矛"
+
+#. STRINGS.REFORGED.WEAPONS.SPIRALSPEAR.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.SPIRALSPEAR.DESC"
+msgid "Keep the pointy end away from you!"
+msgstr "保持遠離尖銳末端！"
+
+#. STRINGS.REFORGED.WEAPONS.SPIRALSPEAR.ABILITIES.SLAM.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.SPIRALSPEAR.ABILITIES.SLAM.NAME"
+msgid "Slam"
+msgstr "猛擊"
+
+#. STRINGS.REFORGED.WEAPONS.SPIRALSPEAR.ABILITIES.SLAM.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.SPIRALSPEAR.ABILITIES.SLAM.DESC"
+msgid "Jump high into the sky and SLAM down on the enemy!"
+msgstr "跳入高空, 朝敵人向下猛擊！"
+
+#. STRINGS.REFORGED.WEAPONS.RILEDLUCY.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.RILEDLUCY.NAME"
+msgid "Riled Lucy"
+msgstr "暴怒的露西"
+
+#. STRINGS.REFORGED.WEAPONS.RILEDLUCY.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.RILEDLUCY.DESC"
+msgid "This Lucy is a lot more quiet and ready to fight."
+msgstr "這個露西安靜的多, 隨時準備戰鬥。"
+
+#. STRINGS.REFORGED.WEAPONS.RILEDLUCY.ABILITIES.THROW.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.RILEDLUCY.ABILITIES.THROW.NAME"
+msgid "Throw"
+msgstr "扔"
+
+#. STRINGS.REFORGED.WEAPONS.RILEDLUCY.ABILITIES.THROW.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.RILEDLUCY.ABILITIES.THROW.DESC"
+msgid "Throw Woodie's beloved axe headfirst into an enemy."
+msgstr "率先將吳迪心愛的斧頭扔向敵人。"
+
+#. STRINGS.REFORGED.WEAPONS.BACONTOME.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.BACONTOME.NAME"
+msgid "Tome of Beckoning"
+msgstr "召喚之書"
+
+#. STRINGS.REFORGED.WEAPONS.BACONTOME.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.BACONTOME.DESC"
+msgid "Summon an ancient ally."
+msgstr "召喚一個遠古朋友。"
+
+#. STRINGS.REFORGED.WEAPONS.BACONTOME.ABILITIES.SUMMON_GOLEM.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.BACONTOME.ABILITIES.SUMMON_GOLEM.NAME"
+msgid "Summon Golem"
+msgstr "召喚傀儡"
+
+#. STRINGS.REFORGED.WEAPONS.BACONTOME.ABILITIES.SUMMON_GOLEM.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.BACONTOME.ABILITIES.SUMMON_GOLEM.DESC"
+msgid "Spawns a rock golem from the depths of the Forge."
+msgstr "從熔爐地底深處生成一個石頭傀儡。"
+
+#. STRINGS.REFORGED.WEAPONS.PETRIFYINGTOME.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.PETRIFYINGTOME.NAME"
+msgid "Petrifying Tome"
+msgstr "石化之書"
+
+#. STRINGS.REFORGED.WEAPONS.PETRIFYINGTOME.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.PETRIFYINGTOME.DESC"
+msgid "Makes your enemies scared stiff."
+msgstr "使你的敵人嚇呆。"
+
+#. STRINGS.REFORGED.WEAPONS.PETRIFYINGTOME.ABILITIES.PETRIFY.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.PETRIFYINGTOME.ABILITIES.PETRIFY.NAME"
+msgid "Petrify"
+msgstr "石化"
+
+#. STRINGS.REFORGED.WEAPONS.PETRIFYINGTOME.ABILITIES.PETRIFY.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.PETRIFYINGTOME.ABILITIES.PETRIFY.DESC"
+msgid "Encase your foes in a tomb of rocks. Not all of them will stay though."
+msgstr "將敵人包裹在一塊岩石墓中。儘管並非所有人都會留下來。"
+
+#. STRINGS.REFORGED.WEAPONS.FIREBOMB.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.FIREBOMB.NAME"
+msgid "Hearthsfire Crystals"
+msgstr "爐火晶石"
+
+#. STRINGS.REFORGED.WEAPONS.FIREBOMB.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.FIREBOMB.DESC"
+msgid "Don't shake it!"
+msgstr "不要搖動它！"
+
+#. STRINGS.REFORGED.WEAPONS.FIREBOMB.ABILITIES.THROW.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.FIREBOMB.ABILITIES.THROW.NAME"
+msgid "Explosive Throw"
+msgstr "爆炸投擲"
+
+#. STRINGS.REFORGED.WEAPONS.FIREBOMB.ABILITIES.THROW.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.FIREBOMB.ABILITIES.THROW.DESC"
+msgid "Throw these at the enemy and watch them explode!"
+msgstr "將它們扔向敵人, 看著他們爆炸！"
+
+#. STRINGS.REFORGED.WEAPONS.BLACKSMITHSEDGE.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.BLACKSMITHSEDGE.NAME"
+msgid "Blacksmith's Edge"
+msgstr "鐵匠之刃"
+
+#. STRINGS.REFORGED.WEAPONS.BLACKSMITHSEDGE.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.BLACKSMITHSEDGE.DESC"
+msgid "You can lift that?!"
+msgstr "你能舉起它？！"
+
+#. STRINGS.REFORGED.WEAPONS.BLACKSMITHSEDGE.ABILITIES.PARRY.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.BLACKSMITHSEDGE.ABILITIES.PARRY.NAME"
+msgid "Parry"
+msgstr "格擋"
+
+#. STRINGS.REFORGED.WEAPONS.BLACKSMITHSEDGE.ABILITIES.PARRY.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.BLACKSMITHSEDGE.ABILITIES.PARRY.DESC"
+msgid "Nothing can get through this blade's heavy hilt!"
+msgstr "沒有任何東西可以穿透這把重劍！"
+
+#. STRINGS.REFORGED.WEAPONS.SEEDLINGTOME.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.SEEDLINGTOME.NAME"
+msgid "Seedling Tome"
+msgstr "幼苗之書"
+
+#. STRINGS.REFORGED.WEAPONS.SEEDLINGTOME.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.SEEDLINGTOME.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.REFORGED.WEAPONS.SEEDLINGTOME.ABILITIES.SUMMON_SEEDLING.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.SEEDLINGTOME.ABILITIES.SUMMON_SEEDLING.NAME"
+msgid "Summon Seedling"
+msgstr "召喚幼苗"
+
+#. STRINGS.REFORGED.WEAPONS.SEEDLINGTOME.ABILITIES.SUMMON_SEEDLING.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.SEEDLINGTOME.ABILITIES.SUMMON_SEEDLING.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.REFORGED.WEAPONS.FLYTRAPTOME.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.FLYTRAPTOME.NAME"
+msgid "Flytrap Tome"
+msgstr "捕蠅草之書"
+
+#. STRINGS.REFORGED.WEAPONS.FLYTRAPTOME.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.FLYTRAPTOME.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.REFORGED.WEAPONS.FLYTRAPTOME.ABILITIES.SUMMON_FLYTRAP.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.FLYTRAPTOME.ABILITIES.SUMMON_FLYTRAP.NAME"
+msgid "Summon Flytrap"
+msgstr "召喚捕蠅草"
+
+#. STRINGS.REFORGED.WEAPONS.FLYTRAPTOME.ABILITIES.SUMMON_FLYTRAP.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.FLYTRAPTOME.ABILITIES.SUMMON_FLYTRAP.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDARTS.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDARTS.NAME"
+msgid "Seedling Darts"
+msgstr "幼苗吹箭"
+
+#. STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDARTS.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDARTS.DESC"
+msgid "Wormwood put his heart into this. And his other limbs."
+msgstr "沃姆伍德對此全心全意。還有他的其它肢體。"
+
+#. STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDARTS.ABILITIES.PLANT_SEEDLING.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDARTS.ABILITIES.PLANT_SEEDLING.NAME"
+msgid "Plant Seedling"
+msgstr "植物幼苗"
+
+#. STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDARTS.ABILITIES.PLANT_SEEDLING.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDARTS.ABILITIES.PLANT_SEEDLING.DESC"
+msgid "Hastily grow an organic ally."
+msgstr "倉促地長成有機盟友。"
+
+#. STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDART2.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDART2.NAME"
+msgid "Scattertooth"
+msgstr "散射之齒"
+
+#. STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDART2.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDART2.DESC"
+msgid "Shoot 3 darts at once!"
+msgstr "一次性射出三隻吹箭！"
+
+#. STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDART2.ABILITIES.PLANT_SNAPTOOTH.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDART2.ABILITIES.PLANT_SNAPTOOTH.NAME"
+msgid "Plant Snaptooth"
+msgstr "植物咬牙"
+
+#. STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDART2.ABILITIES.PLANT_SNAPTOOTH.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.LAVAARENA_SEEDDART2.ABILITIES.PLANT_SNAPTOOTH.DESC"
+msgid "Grow a rooted Snaptooth to chew up your enemies."
+msgstr "生長一棵扎根的咬牙來咀嚼你的敵人。"
+
+#. STRINGS.REFORGED.WEAPONS.TELEPORT_STAFF.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.TELEPORT_STAFF.NAME"
+msgid "Teleport Staff"
+msgstr "傳送魔杖"
+
+#. STRINGS.REFORGED.WEAPONS.TELEPORT_STAFF.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.TELEPORT_STAFF.DESC"
+msgid "Escape certain doom! For a price..."
+msgstr "逃離某些厄運！要付出代價..."
+
+#. STRINGS.REFORGED.WEAPONS.TELEPORT_STAFF.ABILITIES.TELEPORT.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.TELEPORT_STAFF.ABILITIES.TELEPORT.NAME"
+msgid "Teleport"
+msgstr "傳送"
+
+#. STRINGS.REFORGED.WEAPONS.TELEPORT_STAFF.ABILITIES.TELEPORT.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.TELEPORT_STAFF.ABILITIES.TELEPORT.DESC"
+msgid "Travel wherever your puny heart desires."
+msgstr "去任何你弱小的心靈想去的地方。"
+
+#. STRINGS.REFORGED.WEAPONS.LAVAARENA_SPATULA.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.LAVAARENA_SPATULA.NAME"
+msgid "Spatula"
+msgstr "鍋鏟"
+
+#. STRINGS.REFORGED.WEAPONS.LAVAARENA_SPATULA.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.LAVAARENA_SPATULA.DESC"
+msgid "Not great as a weapon, but it'll do with a pinch of salt."
+msgstr "雖然不適合作武器, 但它能撒一點鹽。"
+
+#. STRINGS.REFORGED.WEAPONS.LAVAARENA_SPATULA.ABILITIES.COOK.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.LAVAARENA_SPATULA.ABILITIES.COOK.NAME"
+msgid "Cook"
+msgstr "烹飪"
+
+#. STRINGS.REFORGED.WEAPONS.LAVAARENA_SPATULA.ABILITIES.COOK.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.LAVAARENA_SPATULA.ABILITIES.COOK.DESC"
+msgid "Cook food for all nearby players and feed them when ready."
+msgstr "為附近的所有玩家烹飪食物, 並在準備好時喂給他們。"
+
+#. STRINGS.REFORGED.WEAPONS.FORGE_TRIDENT.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.FORGE_TRIDENT.NAME"
+msgid "Trident"
+msgstr "三叉戟"
+
+#. STRINGS.REFORGED.WEAPONS.FORGE_TRIDENT.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.FORGE_TRIDENT.DESC"
+msgid "Don't let the rickety look fool you, this trident packs a punch!"
+msgstr "不要讓它搖搖晃晃的樣子騙了你, 這個三叉戟威力很大！"
+
+#. STRINGS.REFORGED.WEAPONS.FORGE_TRIDENT.ABILITIES.CALL_GUARDS.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.FORGE_TRIDENT.ABILITIES.CALL_GUARDS.NAME"
+msgid "Summon Merm Guard"
+msgstr "召喚魚人守衛"
+
+#. STRINGS.REFORGED.WEAPONS.FORGE_TRIDENT.ABILITIES.CALL_GUARDS.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.FORGE_TRIDENT.ABILITIES.CALL_GUARDS.DESC"
+msgid "Spawn a loyal Merm Guard to fight alongside you."
+msgstr "生成一個忠誠的魚人守衛與你并肩作戰。"
+
+#. STRINGS.REFORGED.WEAPONS.GAUNTLET.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.GAUNTLET.NAME"
+msgid "Gauntlets"
+msgstr "拳套"
+
+#. STRINGS.REFORGED.WEAPONS.GAUNTLET.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.GAUNTLET.DESC"
+msgid "Punch through foes with these Hands of Doom."
+msgstr "用這些末日之手衝破敵人。"
+
+#. STRINGS.REFORGED.WEAPONS.GAUNTLET.ABILITIES.BARRAGE.NAME
+msgctxt "STRINGS.REFORGED.WEAPONS.GAUNTLET.ABILITIES.BARRAGE.NAME"
+msgid "Charged Punch"
+msgstr "充能重拳"
+
+#. STRINGS.REFORGED.WEAPONS.GAUNTLET.ABILITIES.BARRAGE.DESC
+msgctxt "STRINGS.REFORGED.WEAPONS.GAUNTLET.ABILITIES.BARRAGE.DESC"
+msgid "Lean into your punch to knockback anything in your path."
+msgstr "用你的拳頭向前衝, 擊退道路上的一切。"
+
+# -----------------------
+# -- CHARACTER SPECIAL --
+# -----------------------
+
+#. STRINGS.REFORGED.CHARACTER.COOKING.WARLY
+msgctxt "STRINGS.REFORGED.CHARACTER.COOKING.WARLY"
+msgid "Order up!"
+msgstr "上菜啦！"
+
+#. STRINGS.REFORGED.CHARACTER.COOKING.OTHER
+msgctxt "STRINGS.REFORGED.CHARACTER.COOKING.OTHER"
+msgid "Food is Ready!"
+msgstr "飯做好了！"
+
+# -----------
+# -- BUFFS --
+# -----------
+
+#. STRINGS.REFORGED.BUFFS.BATTLESTANDARD_DAMAGER.NAME
+msgctxt "STRINGS.REFORGED.BUFFS.BATTLESTANDARD_DAMAGER.NAME"
+msgid "Damage Banner"
+msgstr "破壞旗幟"
+
+#. STRINGS.REFORGED.BUFFS.BATTLESTANDARD_DAMAGER.DESC
+msgctxt "STRINGS.REFORGED.BUFFS.BATTLESTANDARD_DAMAGER.DESC"
+msgid "Increases the damage of all mobs by x%."
+msgstr "增加所有怪物x%的傷害。"
+
+#. STRINGS.REFORGED.BUFFS.BATTLESTANDARD_SHIELD.NAME
+msgctxt "STRINGS.REFORGED.BUFFS.BATTLESTANDARD_SHIELD.NAME"
+msgid "Shield Banner"
+msgstr "掩護旗幟"
+
+#. STRINGS.REFORGED.BUFFS.BATTLESTANDARD_SHIELD.DESC
+msgctxt "STRINGS.REFORGED.BUFFS.BATTLESTANDARD_SHIELD.DESC"
+msgid "Decreases all damage done to mobs by x%."
+msgstr "減少對所有怪物造成x%的傷害。"
+
+#. STRINGS.REFORGED.BUFFS.BATTLESTANDARD_HEAL.NAME
+msgctxt "STRINGS.REFORGED.BUFFS.BATTLESTANDARD_HEAL.NAME"
+msgid "Heal Banner"
+msgstr "治療旗幟"
+
+#. STRINGS.REFORGED.BUFFS.BATTLESTANDARD_HEAL.DESC
+msgctxt "STRINGS.REFORGED.BUFFS.BATTLESTANDARD_HEAL.DESC"
+msgid "Gives all mobs a regen of x%."
+msgstr "恢復所有怪物x%的血量"
+
+#. STRINGS.REFORGED.BUFFS.BATTLESTANDARD_SPEED.NAME
+msgctxt "STRINGS.REFORGED.BUFFS.BATTLESTANDARD_SPEED.NAME"
+msgid "Speed Banner"
+msgstr "速度旗幟"
+
+#. STRINGS.REFORGED.BUFFS.BATTLESTANDARD_SPEED.DESC
+msgctxt "STRINGS.REFORGED.BUFFS.BATTLESTANDARD_SPEED.DESC"
+msgid "Increases the speed of all mobs by x%."
+msgstr "增加所有怪物x%的速度"
+
+#. STRINGS.REFORGED.BUFFS.ACTIVATE_BATTLECRY.NAME
+msgctxt "STRINGS.REFORGED.BUFFS.ACTIVATE_BATTLECRY.NAME"
+msgid "Activate Battlecry"
+msgstr "啓用戰鬥口號"
+
+#. STRINGS.REFORGED.BUFFS.ACTIVATE_BATTLECRY.DESC
+msgctxt "STRINGS.REFORGED.BUFFS.ACTIVATE_BATTLECRY.DESC"
+msgid "If you yell loudly enough everyone around you can hit harder."
+msgstr "如果你喊得足夠大聲, 周圍所有人都能打得更重。"
+
+#. STRINGS.REFORGED.BUFFS.GIVE_BATTLECRY.NAME
+msgctxt "STRINGS.REFORGED.BUFFS.GIVE_BATTLECRY.NAME"
+msgid "Give Battlecry"
+msgstr "給予戰鬥口號"
+
+#. STRINGS.REFORGED.BUFFS.GIVE_BATTLECRY.DESC
+msgctxt "STRINGS.REFORGED.BUFFS.GIVE_BATTLECRY.DESC"
+msgid "If you yell at yourself you can hit harder."
+msgstr "如果你對自己大喊大叫, 你會打得更重。"
+
+#. STRINGS.REFORGED.BUFFS.ACTIVATE_AMPLIFY.NAME
+msgctxt "STRINGS.REFORGED.BUFFS.ACTIVATE_AMPLIFY.NAME"
+msgid "Activate Amplify"
+msgstr "激活增幅"
+
+#. STRINGS.REFORGED.BUFFS.ACTIVATE_AMPLIFY.DESC
+msgctxt "STRINGS.REFORGED.BUFFS.ACTIVATE_AMPLIFY.DESC"
+msgid "Make yourself sparkly!"
+msgstr "讓你自己更閃耀！"
+
+#. STRINGS.REFORGED.BUFFS.ACTIVATE_MIGHTY.NAME
+msgctxt "STRINGS.REFORGED.BUFFS.ACTIVATE_MIGHTY.NAME"
+msgid "Activate Mighty"
+msgstr "激活强壯"
+
+#. STRINGS.REFORGED.BUFFS.ACTIVATE_MIGHTY.DESC
+msgctxt "STRINGS.REFORGED.BUFFS.ACTIVATE_MIGHTY.DESC"
+msgid "Tremble before my might!"
+msgstr "在我變得强壯之前顫抖吧！"
+
+#. STRINGS.REFORGED.BUFFS.ACTIVATE_SHADOWS.NAME
+msgctxt "STRINGS.REFORGED.BUFFS.ACTIVATE_SHADOWS.NAME"
+msgid "Activate Shadows"
+msgstr "激活暗影"
+
+#. STRINGS.REFORGED.BUFFS.ACTIVATE_SHADOWS.DESC
+msgctxt "STRINGS.REFORGED.BUFFS.ACTIVATE_SHADOWS.DESC"
+msgid "Shadows will aid your next attack."
+msgstr "暗影將幫助你的下一次攻擊。"
+
+#. STRINGS.REFORGED.BUFFS.ACTIVATE_SHOCK.NAME
+msgctxt "STRINGS.REFORGED.BUFFS.ACTIVATE_SHOCK.NAME"
+msgid "Activate Shock"
+msgstr "激活電擊"
+
+#. STRINGS.REFORGED.BUFFS.ACTIVATE_SHOCK.DESC
+msgctxt "STRINGS.REFORGED.BUFFS.ACTIVATE_SHOCK.DESC"
+msgid "Fully charged and ready to shock the next attacker."
+msgstr "充滿電並準備電擊下一個攻擊者。"
+
+#. STRINGS.REFORGED.BUFFS.OVER_9000.NAME
+msgctxt "STRINGS.REFORGED.BUFFS.OVER_9000.NAME"
+msgid "Over 9000!!!"
+msgstr "超過9000！！！"
+
+#. STRINGS.REFORGED.BUFFS.OVER_9000.DESC
+msgctxt "STRINGS.REFORGED.BUFFS.OVER_9000.DESC"
+msgid "His power level is over 9000!!!!!!"
+msgstr "他的力量等級超過9000！！！！！！"
+
+#. STRINGS.REFORGED.BUFFS.SCORPEON_DOT.NAME
+msgctxt "STRINGS.REFORGED.BUFFS.SCORPEON_DOT.NAME"
+msgid "Spawn Scorpeon Poison"
+msgstr "生成蠍毒"
+
+#. STRINGS.REFORGED.BUFFS.SCORPEON_DOT.DESC
+msgctxt "STRINGS.REFORGED.BUFFS.SCORPEON_DOT.DESC"
+msgid "Poison yourself!"
+msgstr "毒死你自己！"
+
+# --------------------
+# -- FORGE COMMANDS --
+# --------------------
+
+#. STRINGS.REFORGED.FORGE.FORCE_ROUND.NAME
+msgctxt "STRINGS.REFORGED.FORGE.FORCE_ROUND.NAME"
+msgid "Force Round"
+msgstr "强制回合"
+
+#. STRINGS.REFORGED.FORGE.FORCE_ROUND.DESC
+msgctxt "STRINGS.REFORGED.FORGE.FORCE_ROUND.DESC"
+msgid "Select the round and wave you want to fight."
+msgstr "選擇要打的回合和波數。"
+
+#. STRINGS.REFORGED.FORGE.RESTART_FORGE.NAME
+msgctxt "STRINGS.REFORGED.FORGE.RESTART_FORGE.NAME"
+msgid "Restart Forge"
+msgstr "重新開始熔爐"
+
+#. STRINGS.REFORGED.FORGE.RESTART_FORGE.DESC
+msgctxt "STRINGS.REFORGED.FORGE.RESTART_FORGE.DESC"
+msgid "Reloads the server to completely restart the Forge."
+msgstr "重新加載服務器以完全重啓熔爐"
+
+#. STRINGS.REFORGED.FORGE.RESTART_CURRENT_ROUND.NAME
+msgctxt "STRINGS.REFORGED.FORGE.RESTART_CURRENT_ROUND.NAME"
+msgid "Restart Current Round"
+msgstr "重新開始當前回合"
+
+#. STRINGS.REFORGED.FORGE.RESTART_CURRENT_ROUND.DESC
+msgctxt "STRINGS.REFORGED.FORGE.RESTART_CURRENT_ROUND.DESC"
+msgid "Restarts the current round and wave."
+msgstr "重新開始當前回合和波數。"
+
+#. STRINGS.REFORGED.FORGE.DISABLE_ROUNDS.NAME
+msgctxt "STRINGS.REFORGED.FORGE.DISABLE_ROUNDS.NAME"
+msgid "Disable Rounds"
+msgstr "禁用回合"
+
+#. STRINGS.REFORGED.FORGE.DISABLE_ROUNDS.DESC
+msgctxt "STRINGS.REFORGED.FORGE.DISABLE_ROUNDS.DESC"
+msgid "Rounds/Waves will not automatically start after killing all mobs."
+msgstr "殺死所有怪物后, 回合/波數將不會自動開始。"
+
+#. STRINGS.REFORGED.FORGE.ENABLE_ROUNDS.NAME
+msgctxt "STRINGS.REFORGED.FORGE.ENABLE_ROUNDS.NAME"
+msgid "Enable Rounds"
+msgstr "啓用回合"
+
+#. STRINGS.REFORGED.FORGE.ENABLE_ROUNDS.DESC
+msgctxt "STRINGS.REFORGED.FORGE.ENABLE_ROUNDS.DESC"
+msgid "Rounds/Waves will automatically start after killing all mobs."
+msgstr "殺死所有怪物后, 回合/波數將會自動開始。"
+
+#. STRINGS.REFORGED.FORGE.END_FORGE.NAME
+msgctxt "STRINGS.REFORGED.FORGE.END_FORGE.NAME"
+msgid "End Forge"
+msgstr "結束熔爐"
+
+#. STRINGS.REFORGED.FORGE.END_FORGE.DESC
+msgctxt "STRINGS.REFORGED.FORGE.END_FORGE.DESC"
+msgid "Ends the match immediately."
+msgstr "立即結束比賽。"
+
+# ----------------------
+# -- GENERAL COMMANDS --
+# ----------------------
+
+#. STRINGS.REFORGED.GENERAL.CHANGE_CHARACTER.NAME
+msgctxt "STRINGS.REFORGED.GENERAL.CHANGE_CHARACTER.NAME"
+msgid "Change Character"
+msgstr "更改角色"
+
+#. STRINGS.REFORGED.GENERAL.CHANGE_CHARACTER.DESC
+msgctxt "STRINGS.REFORGED.GENERAL.CHANGE_CHARACTER.DESC"
+msgid "Return to character select screen."
+msgstr "返回選擇角色畫面。"
+
+#. STRINGS.REFORGED.GENERAL.SUPER_GOD_MODE.NAME
+msgctxt "STRINGS.REFORGED.GENERAL.SUPER_GOD_MODE.NAME"
+msgid "Super God Mode"
+msgstr "超級上帝模式"
+
+#. STRINGS.REFORGED.GENERAL.SUPER_GOD_MODE.DESC
+msgctxt "STRINGS.REFORGED.GENERAL.SUPER_GOD_MODE.DESC"
+msgid "What's better than god mode? SUPER GOD MODE!"
+msgstr "比上帝模式更好的是什麽？超級上帝模式！"
+
+#. STRINGS.REFORGED.GENERAL.KILL_ALL_MOBS.NAME
+msgctxt "STRINGS.REFORGED.GENERAL.KILL_ALL_MOBS.NAME"
+msgid "Kill All Mobs"
+msgstr "殺死所有怪物"
+
+#. STRINGS.REFORGED.GENERAL.KILL_ALL_MOBS.DESC
+msgctxt "STRINGS.REFORGED.GENERAL.KILL_ALL_MOBS.DESC"
+msgid "Care to snap your fingers?"
+msgstr "你願意打響指嗎？"
+
+#. STRINGS.REFORGED.GENERAL.PETRIFY_MOBS.NAME
+msgctxt "STRINGS.REFORGED.GENERAL.PETRIFY_MOBS.NAME"
+msgid "Petrify"
+msgstr "石化"
+
+#. STRINGS.REFORGED.GENERAL.PETRIFY_MOBS.DESC
+msgctxt "STRINGS.REFORGED.GENERAL.PETRIFY_MOBS.DESC"
+msgid "Petrify all mobs around you. This has the same radius as the Petrifying Tome."
+msgstr "石化你周圍所有的怪物。它與石化之書的半徑相同。"
+
+#. STRINGS.REFORGED.GENERAL.RESET_TO_SAVE.NAME
+msgctxt "STRINGS.REFORGED.GENERAL.RESET_TO_SAVE.NAME"
+msgid "Reset to Save"
+msgstr "重置以保存"
+
+#. STRINGS.REFORGED.GENERAL.RESET_TO_SAVE.DESC
+msgctxt "STRINGS.REFORGED.GENERAL.RESET_TO_SAVE.DESC"
+msgid "Resets server to last save. Quick for testing out new builds!"
+msgstr "將服務器重置到上一次保存。快速測試新裝備！"
+
+#. STRINGS.REFORGED.GENERAL.DEBUG_SELECT.NAME
+msgctxt "STRINGS.REFORGED.GENERAL.DEBUG_SELECT.NAME"
+msgid "Debug Select"
+msgstr "調試選擇"
+
+#. STRINGS.REFORGED.GENERAL.DEBUG_SELECT.DESC
+msgctxt "STRINGS.REFORGED.GENERAL.DEBUG_SELECT.DESC"
+msgid "Select the chosen entity to be displayed in the debug screen. Hit backspace to access the debug screen."
+msgstr "選擇要在調試界面顯示的所選實體。按退格鍵進入調試界面。"
+
+#. STRINGS.REFORGED.GENERAL.REVIVE.NAME
+msgctxt "STRINGS.REFORGED.GENERAL.REVIVE.NAME"
+msgid "Revive Player"
+msgstr "復活玩家"
+
+#. STRINGS.REFORGED.GENERAL.REVIVE.DESC
+msgctxt "STRINGS.REFORGED.GENERAL.REVIVE.DESC"
+msgid "Give the selected player mouth to mouth? Pfft, I'll just poke their body with a stick."
+msgstr "給選定的玩家做人工呼吸？不不不, 我只會用棍子戳他們的身體。"
+
+# ------------------
+# -- DIFFICULTIES --
+# ------------------
+
+#. STRINGS.REFORGED.DIFFICULTIES.normal.name
+msgctxt "STRINGS.REFORGED.DIFFICULTIES.normal.name"
+msgid "Normal"
+msgstr "普通"
+
+#. STRINGS.REFORGED.DIFFICULTIES.normal.desc
+msgctxt "STRINGS.REFORGED.DIFFICULTIES.normal.desc"
+msgid "Moderately fun!"
+msgstr "適度的樂趣！"
+
+#. STRINGS.REFORGED.DIFFICULTIES.hard.name
+msgctxt "STRINGS.REFORGED.DIFFICULTIES.hard.name"
+msgid "Hard"
+msgstr "困難"
+
+#. STRINGS.REFORGED.DIFFICULTIES.hard.desc
+msgctxt "STRINGS.REFORGED.DIFFICULTIES.hard.desc"
+msgid "Good luck!"
+msgstr "祝你好運！"
+
+# ---------------
+# -- GAMETYPES --
+# ---------------
+
+#. STRINGS.REFORGED.GAMETYPES.forge.name
+msgctxt "STRINGS.REFORGED.GAMETYPES.forge.name"
+msgid "Forge"
+msgstr "熔爐"
+
+#. STRINGS.REFORGED.GAMETYPES.forge.desc
+msgctxt "STRINGS.REFORGED.GAMETYPES.forge.desc"
+msgid "Defeat all enemies to Forge a path to victory!"
+msgstr "打敗所有敵人以打造勝利之路！"
+
+#. STRINGS.REFORGED.GAMETYPES.classic_rlgl.name
+msgctxt "STRINGS.REFORGED.GAMETYPES.classic_rlgl.name"
+msgid "Redlight/Greenlight"
+msgstr "紅綠燈"
+
+#. STRINGS.REFORGED.GAMETYPES.classic_rlgl.desc
+msgctxt "STRINGS.REFORGED.GAMETYPES.classic_rlgl.desc"
+msgid "The original RLGL from Forged Forge."
+msgstr "來自舊版熔爐的原版紅綠燈。"
+
+#. STRINGS.REFORGED.GAMETYPES.rlgl.name
+msgctxt "STRINGS.REFORGED.GAMETYPES.rlgl.name"
+msgid "RLGLBLOL"
+msgstr "四燈"
+
+#. STRINGS.REFORGED.GAMETYPES.rlgl.desc
+msgctxt "STRINGS.REFORGED.GAMETYPES.rlgl.desc"
+msgid "I want a blue light, an orange light, all of the lights!"
+msgstr "我想要一個藍燈, 一個橙燈, 和所有的燈！"
+
+# ----------
+# -- MAPS --
+# ----------
+
+#. STRINGS.REFORGED.MAPS.lavaarena.name
+msgctxt "STRINGS.REFORGED.MAPS.lavaarena.name"
+msgid "Lava Arena"
+msgstr "熔岩競技場"
+
+#. STRINGS.REFORGED.MAPS.lavaarena.desc
+msgctxt "STRINGS.REFORGED.MAPS.lavaarena.desc"
+msgid "Home to pitpigs!"
+msgstr "小豬們的家！"
+
+# -----------
+# -- MODES --
+# -----------
+
+#. STRINGS.REFORGED.MODES.forge.name
+msgctxt "STRINGS.REFORGED.MODES.forge.name"
+msgid "Forge"
+msgstr "熔爐"
+
+#. STRINGS.REFORGED.MODES.forge.desc
+msgctxt "STRINGS.REFORGED.MODES.forge.desc"
+msgid "The original event."
+msgstr "原版活動。"
+
+#. STRINGS.REFORGED.MODES.forge_s01.name
+msgctxt "STRINGS.REFORGED.MODES.forge_s01.name"
+msgid "Forge S01"
+msgstr "熔爐S01"
+
+#. STRINGS.REFORGED.MODES.forge_s01.desc
+msgctxt "STRINGS.REFORGED.MODES.forge_s01.desc"
+msgid "The original event."
+msgstr "原版活動。"
+
+#. STRINGS.REFORGED.MODES.forge_s02.name
+msgctxt "STRINGS.REFORGED.MODES.forge_s02.name"
+msgid "Forge S02"
+msgstr "熔爐S02"
+
+#. STRINGS.REFORGED.MODES.forge_s02.desc
+msgctxt "STRINGS.REFORGED.MODES.forge_s02.desc"
+msgid "Forge has returned with rolling Boarillas!"
+msgstr "熔爐帶著會滾動的大猩猩回來了！"
+
+#. STRINGS.REFORGED.MODES.reforged.name
+msgctxt "STRINGS.REFORGED.MODES.reforged.name"
+msgid "ReForged"
+msgstr "新版熔爐"
+
+#. STRINGS.REFORGED.MODES.reforged.desc
+msgctxt "STRINGS.REFORGED.MODES.reforged.desc"
+msgid "Our own version of the Forge!"
+msgstr "我們自己的熔爐版本！"
+
+#. STRINGS.REFORGED.MODES.forged_forge.name
+msgctxt "STRINGS.REFORGED.MODES.forged_forge.name"
+msgid "Forged Forge"
+msgstr "舊版熔爐"
+
+#. STRINGS.REFORGED.MODES.forged_forge.desc
+msgctxt "STRINGS.REFORGED.MODES.forged_forge.desc"
+msgid "Currently in beta."
+msgstr "目前處於測試階段。"
+
+# --------------
+# -- MUTATORS --
+# --------------
+
+#. STRINGS.REFORGED.MUTATORS.mob_damage_dealt.name
+msgctxt "STRINGS.REFORGED.MUTATORS.mob_damage_dealt.name"
+msgid "Mob Damage"
+msgstr "怪物傷害"
+
+#. STRINGS.REFORGED.MUTATORS.mob_damage_dealt.desc
+msgctxt "STRINGS.REFORGED.MUTATORS.mob_damage_dealt.desc"
+msgid "Adjust the damage of all mobs."
+msgstr "調整所有怪物的傷害。"
+
+#. STRINGS.REFORGED.MUTATORS.mob_damage_received.name
+msgctxt "STRINGS.REFORGED.MUTATORS.mob_damage_received.name"
+msgid "Mob Defense"
+msgstr "怪物防禦"
+
+#. STRINGS.REFORGED.MUTATORS.mob_damage_received.desc
+msgctxt "STRINGS.REFORGED.MUTATORS.mob_damage_received.desc"
+msgid "Adjust the defense of all mobs."
+msgstr "調整所有怪物的防禦。"
+
+#. STRINGS.REFORGED.MUTATORS.mob_health.name
+msgctxt "STRINGS.REFORGED.MUTATORS.mob_health.name"
+msgid "Mob Health"
+msgstr "怪物血量"
+
+#. STRINGS.REFORGED.MUTATORS.mob_health.desc
+msgctxt "STRINGS.REFORGED.MUTATORS.mob_health.desc"
+msgid "Adjust the health of all mobs."
+msgstr "調整所有怪物的血量。"
+
+#. STRINGS.REFORGED.MUTATORS.mob_speed.name
+msgctxt "STRINGS.REFORGED.MUTATORS.mob_speed.name"
+msgid "Mob Speed"
+msgstr "怪物移速"
+
+#. STRINGS.REFORGED.MUTATORS.mob_speed.desc
+msgctxt "STRINGS.REFORGED.MUTATORS.mob_speed.desc"
+msgid "Adjust the speed of all mobs."
+msgstr "調整所有怪物的移速。"
+
+#. STRINGS.REFORGED.MUTATORS.battlestandard_efficiency.name
+msgctxt "STRINGS.REFORGED.MUTATORS.battlestandard_efficiency.name"
+msgid "Banner Mult"
+msgstr "多重旗幟"
+
+#. STRINGS.REFORGED.MUTATORS.battlestandard_efficiency.desc
+msgctxt "STRINGS.REFORGED.MUTATORS.battlestandard_efficiency.desc"
+msgid "Adjust the multiplier of all battlestandards."
+msgstr "調整戰鬥旗幟的倍數。"
+
+#. STRINGS.REFORGED.MUTATORS.no_sleep.name
+msgctxt "STRINGS.REFORGED.MUTATORS.no_sleep.name"
+msgid "No Sleep"
+msgstr "無睡覺"
+
+#. STRINGS.REFORGED.MUTATORS.no_sleep.desc
+msgctxt "STRINGS.REFORGED.MUTATORS.no_sleep.desc"
+msgid "Who needs sleep? Mobs sure don't!"
+msgstr "誰需要睡覺？小怪們肯定不會！"
+
+#. STRINGS.REFORGED.MUTATORS.no_revives.name
+msgctxt "STRINGS.REFORGED.MUTATORS.no_revives.name"
+msgid "No Revives"
+msgstr "無復活"
+
+#. STRINGS.REFORGED.MUTATORS.no_revives.desc
+msgctxt "STRINGS.REFORGED.MUTATORS.no_revives.desc"
+msgid "Did you die? Git Gud."
+msgstr "你死了嗎？變强吧菜鳥。"
+
+#. STRINGS.REFORGED.MUTATORS.no_hud.name
+msgctxt "STRINGS.REFORGED.MUTATORS.no_hud.name"
+msgid "No Hud"
+msgstr "無界面"
+
+#. STRINGS.REFORGED.MUTATORS.no_hud.desc
+msgctxt "STRINGS.REFORGED.MUTATORS.no_hud.desc"
+msgid "How much health do I have?"
+msgstr "我有多少血量？"
+
+#. STRINGS.REFORGED.MUTATORS.friendly_fire.name
+msgctxt "STRINGS.REFORGED.MUTATORS.friendly_fire.name"
+msgid "Friendly Fire"
+msgstr "友善之火"
+
+#. STRINGS.REFORGED.MUTATORS.friendly_fire.desc
+msgctxt "STRINGS.REFORGED.MUTATORS.friendly_fire.desc"
+msgid "Have you ever wanted to hit your friend? Well...now you can!"
+msgstr "你曾經想過打你的朋友嗎？好吧...現在你可以了！"
+
+#. STRINGS.REFORGED.MUTATORS.unbreakable_shields.name
+msgctxt "STRINGS.REFORGED.MUTATORS.unbreakable_shields.name"
+msgid "Unbreakable Shields"
+msgstr "堅不可摧的盾牌"
+
+#. STRINGS.REFORGED.MUTATORS.unbreakable_shields.desc
+msgctxt "STRINGS.REFORGED.MUTATORS.unbreakable_shields.desc"
+msgid "Thought bunkered enemies were tough before?"
+msgstr "以爲被淹沒的敵人以前很强悍？"
+
+#. STRINGS.REFORGED.MUTATORS.endless.name
+msgctxt "STRINGS.REFORGED.MUTATORS.endless.name"
+msgid "Endless"
+msgstr "無盡模式"
+
+#. STRINGS.REFORGED.MUTATORS.endless.desc
+msgctxt "STRINGS.REFORGED.MUTATORS.endless.desc"
+msgid "It just keeps going and going and going... well... until you die!"
+msgstr "它不斷地繼續又繼續...好吧...直到你死爲止！"
+
+# -------------
+# -- PRESETS --
+# -------------
+
+#. STRINGS.REFORGED.PRESETS.forge_season_1
+msgctxt "STRINGS.REFORGED.PRESETS.forge_season_1"
+msgid "Forge S01"
+msgstr "熔爐S01"
+
+#. STRINGS.REFORGED.PRESETS.forge_season_2
+msgctxt "STRINGS.REFORGED.PRESETS.forge_season_2"
+msgid "Forge S02"
+msgstr "熔爐S02"
+
+#. STRINGS.REFORGED.PRESETS.fast_but_weak
+msgctxt "STRINGS.REFORGED.PRESETS.fast_but_weak"
+msgid "Fast/Weak"
+msgstr "快/弱"
+
+#. STRINGS.REFORGED.PRESETS.x2
+msgctxt "STRINGS.REFORGED.PRESETS.x2"
+msgid "x2"
+msgstr "2倍"
+
+#. STRINGS.REFORGED.PRESETS.x3
+msgctxt "STRINGS.REFORGED.PRESETS.x3"
+msgid "x3"
+msgstr "3倍"
+
+#. STRINGS.REFORGED.PRESETS.half
+msgctxt "STRINGS.REFORGED.PRESETS.half"
+msgid "1/2"
+msgstr "1/2倍"
+
+#. STRINGS.REFORGED.PRESETS.mutated
+msgctxt "STRINGS.REFORGED.PRESETS.mutated"
+msgid "Mutated"
+msgstr "變異"
+
+#. STRINGS.REFORGED.PRESETS.double_doom
+msgctxt "STRINGS.REFORGED.PRESETS.double_doom"
+msgid "Double Doom"
+msgstr "雙倍厄運"
+
+#. STRINGS.REFORGED.PRESETS.chaotic
+msgctxt "STRINGS.REFORGED.PRESETS.chaotic"
+msgid "Chaotic"
+msgstr "混亂"
+
+#. STRINGS.REFORGED.PRESETS.coffee
+msgctxt "STRINGS.REFORGED.PRESETS.coffee"
+msgid "Coffee'd"
+msgstr "咖啡'"
+
+#. STRINGS.REFORGED.PRESETS.double_half
+msgctxt "STRINGS.REFORGED.PRESETS.double_half"
+msgid "Double 1/2"
+msgstr "双倍1/2"
+
+#. STRINGS.REFORGED.PRESETS.half_double
+msgctxt "STRINGS.REFORGED.PRESETS.half_double"
+msgid "Half x2"
+msgstr "半數2倍"
+
+#. STRINGS.REFORGED.PRESETS.insanity
+msgctxt "STRINGS.REFORGED.PRESETS.insanity"
+msgid "Insanity"
+msgstr "瘋狂"
+
+#. STRINGS.REFORGED.PRESETS.custom
+msgctxt "STRINGS.REFORGED.PRESETS.custom"
+msgid "Custom"
+msgstr "自定義"
+
+# --------------
+# -- WAVESETS --
+# --------------
+
+#. STRINGS.REFORGED.WAVESETS.classic.name
+msgctxt "STRINGS.REFORGED.WAVESETS.classic.name"
+msgid "Classic"
+msgstr "經典"
+
+#. STRINGS.REFORGED.WAVESETS.classic.desc
+msgctxt "STRINGS.REFORGED.WAVESETS.classic.desc"
+msgid "Take on the original forge and try to defeat the Grand Forge Boarrior!"
+msgstr "呈現原版熔爐并嘗試打敗大熔爐豬戰士！"
+
+#. STRINGS.REFORGED.WAVESETS.boarillas.name
+msgctxt "STRINGS.REFORGED.WAVESETS.boarillas.name"
+msgid "Twin Boarillas"
+msgstr "雙胞胎大猩猩"
+
+#. STRINGS.REFORGED.WAVESETS.boarillas.desc
+msgctxt "STRINGS.REFORGED.WAVESETS.boarillas.desc"
+msgid "Boarillas have rolled in to prevent your victory!"
+msgstr "大猩猩滾進了戰場來阻止你的勝利！"
+
+#. STRINGS.REFORGED.WAVESETS.rhinocebros.name
+msgctxt "STRINGS.REFORGED.WAVESETS.rhinocebros.name"
+msgid "Rhinocebros"
+msgstr "犀牛兄弟"
+
+#. STRINGS.REFORGED.WAVESETS.rhinocebros.desc
+msgctxt "STRINGS.REFORGED.WAVESETS.rhinocebros.desc"
+msgid "Two brothers arrive after hearing the Grand Forge Boarrior was defeated!"
+msgstr "兩兄弟在聽到大熔爐豬戰士被擊敗后到來了！"
+
+#. STRINGS.REFORGED.WAVESETS.swineclops.name
+msgctxt "STRINGS.REFORGED.WAVESETS.swineclops.name"
+msgid "Swineclops"
+msgstr "獨眼巨豬"
+
+#. STRINGS.REFORGED.WAVESETS.swineclops.desc
+msgctxt "STRINGS.REFORGED.WAVESETS.swineclops.desc"
+msgid "After the defeat of the Grand Forge Boarrior and the Rhinobros, a new enemy arrives to prevent your victory."
+msgstr "擊敗大熔爐豬戰士和犀牛兄弟后, 一個新的敵人前來阻止你的勝利。"
+
+#. STRINGS.REFORGED.WAVESETS.default.name
+msgctxt "STRINGS.REFORGED.WAVESETS.default.name"
+msgid "Swineclops"
+msgstr "獨眼巨豬"
+
+#. STRINGS.REFORGED.WAVESETS.default.desc
+msgctxt "STRINGS.REFORGED.WAVESETS.default.desc"
+msgid "After the defeat of the Grand Forge Boarrior new enemies arrive to prevent your victory."
+msgstr "擊敗大熔爐豬戰士后, 一個新的敵人前來阻止你的勝利。"
+
+#. STRINGS.REFORGED.WAVESETS.double_trouble_classic.name
+msgctxt "STRINGS.REFORGED.WAVESETS.double_trouble_classic.name"
+msgid "DT Classic"
+msgstr "DT經典"
+
+#. STRINGS.REFORGED.WAVESETS.double_trouble_classic.desc
+msgctxt "STRINGS.REFORGED.WAVESETS.double_trouble_classic.desc"
+msgid "Duplication science has been discovered!"
+msgstr "複製科學已被發現！"
+
+#. STRINGS.REFORGED.WAVESETS.double_trouble.name
+msgctxt "STRINGS.REFORGED.WAVESETS.double_trouble.name"
+msgid "Double Trouble"
+msgstr "雙倍難度"
+
+#. STRINGS.REFORGED.WAVESETS.double_trouble.desc
+msgctxt "STRINGS.REFORGED.WAVESETS.double_trouble.desc"
+msgid "Duplication science has expanded to Swineclops!"
+msgstr "複製科學已擴展到獨眼巨豬！"
+
+#. STRINGS.REFORGED.WAVESETS.half_the_wrath.name
+msgctxt "STRINGS.REFORGED.WAVESETS.half_the_wrath.name"
+msgid "Half The Wrath"
+msgstr "怒火的一半"
+
+#. STRINGS.REFORGED.WAVESETS.half_the_wrath.desc
+msgctxt "STRINGS.REFORGED.WAVESETS.half_the_wrath.desc"
+msgid "All boss enemies have been smallified and the spawns are cut in half! Can you defeat them?"
+msgstr "所有的敵人頭目都被縮小了, 并且生成的數量減少了一半！你能打敗他們嗎？"
+
+#. STRINGS.REFORGED.WAVESETS.sandbox.name
+msgctxt "STRINGS.REFORGED.WAVESETS.sandbox.name"
+msgid "Sandbox"
+msgstr "沙盒"
+
+#. STRINGS.REFORGED.WAVESETS.sandbox.desc
+msgctxt "STRINGS.REFORGED.WAVESETS.sandbox.desc"
+msgid "Play around with all the mobs and items in the Forge!"
+msgstr "玩轉熔爐中的所有怪物和物品！"
+
+#. STRINGS.REFORGED.WAVESETS.randomized.name
+msgctxt "STRINGS.REFORGED.WAVESETS.randomized.name"
+msgid "Randomized"
+msgstr "隨機化"
+
+#. STRINGS.REFORGED.WAVESETS.randomized.desc
+msgctxt "STRINGS.REFORGED.WAVESETS.randomized.desc"
+msgid "Who knows how this run will turn out!"
+msgstr "誰知道這場比賽將會是什麽樣的！"
+
+# ----------
+# -- RLGL --
+# ----------
+
+#. STRINGS.REFORGED.RLGL.GREENLIGHT
+msgctxt "STRINGS.REFORGED.RLGL.GREENLIGHT"
+msgid "GREEN LIGHT!"
+msgstr "綠燈！"
+
+#. STRINGS.REFORGED.RLGL.GREENLIGHT_SPEECH.1
+msgctxt "STRINGS.REFORGED.RLGL.GREENLIGHT_SPEECH.1"
+msgid "GREEN LIGHT!"
+msgstr "綠燈！"
+
+#. STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.1
+msgctxt "STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.1"
+msgid "GREEN FLIGHT"
+msgstr "綠鐙"
+
+#. STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.2
+msgctxt "STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.2"
+msgid "GREEN SIGHT"
+msgstr "綠櫈"
+
+#. STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.3
+msgctxt "STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.3"
+msgid "GREEN FIGHT"
+msgstr "綠澄"
+
+#. STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.4
+msgctxt "STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.4"
+msgid "GREEN LITE"
+msgstr "綠竳"
+
+#. STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.5
+msgctxt "STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.5"
+msgid "GREEN MIGHT"
+msgstr "綠墱"
+
+#. STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.6
+msgctxt "STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.6"
+msgid "GREEN RIGHT"
+msgstr "綠镫"
+
+#. STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.7
+msgctxt "STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.7"
+msgid "GREEN KITE"
+msgstr "綠嶝"
+
+#. STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.8
+msgctxt "STRINGS.REFORGED.RLGL.GREENLIGHT_FAKEOUT_BANTER.8"
+msgid "GREEN WHITE"
+msgstr "綠蹬"
+
+#. STRINGS.REFORGED.RLGL.REDLIGHT
+msgctxt "STRINGS.REFORGED.RLGL.REDLIGHT"
+msgid "RED LIGHT!"
+msgstr "紅燈！"
+
+#. STRINGS.REFORGED.RLGL.REDLIGHT_SPEECH.1
+msgctxt "STRINGS.REFORGED.RLGL.REDLIGHT_SPEECH.1"
+msgid "RED LIGHT!"
+msgstr "紅燈！"
+
+#. STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.1
+msgctxt "STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.1"
+msgid "RED FLIGHT"
+msgstr "紅鐙"
+
+#. STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.2
+msgctxt "STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.2"
+msgid "RED SIGHT"
+msgstr "紅櫈"
+
+#. STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.3
+msgctxt "STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.3"
+msgid "RED FIGHT"
+msgstr "紅澄"
+
+#. STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.4
+msgctxt "STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.4"
+msgid "RED LITE"
+msgstr "紅燈"
+
+#. STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.5
+msgctxt "STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.5"
+msgid "RED MIGHT"
+msgstr "紅墱"
+
+#. STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.6
+msgctxt "STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.6"
+msgid "RED RIGHT"
+msgstr "紅镫"
+
+#. STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.7
+msgctxt "STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.7"
+msgid "RED KITE"
+msgstr "紅嶝"
+
+#. STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.8
+msgctxt "STRINGS.REFORGED.RLGL.REDLIGHT_FAKEOUT_BANTER.8"
+msgid "RED WHITE"
+msgstr "紅蹬"
+
+#. STRINGS.REFORGED.RLGL.ORANGELIGHT
+msgctxt "STRINGS.REFORGED.RLGL.ORANGELIGHT"
+msgid "ORANGE LIGHT!"
+msgstr "橙燈！"
+
+#. STRINGS.REFORGED.RLGL.ORANGELIGHT_SPEECH.1
+msgctxt "STRINGS.REFORGED.RLGL.ORANGELIGHT_SPEECH.1"
+msgid "ORANGE LIGHT!"
+msgstr "橙燈"
+
+#. STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.1
+msgctxt "STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.1"
+msgid "ORANGE FLIGHT"
+msgstr "橙鐙"
+
+#. STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.2
+msgctxt "STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.2"
+msgid "ORANGE SIGHT"
+msgstr "橙櫈"
+
+#. STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.3
+msgctxt "STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.3"
+msgid "ORANGE FIGHT"
+msgstr "橙澄"
+
+#. STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.4
+msgctxt "STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.4"
+msgid "ORANGE LITE"
+msgstr "橙燈"
+
+#. STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.5
+msgctxt "STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.5"
+msgid "ORANGE MIGHT"
+msgstr "橙墱"
+
+#. STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.6
+msgctxt "STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.6"
+msgid "ORANGE RIGHT"
+msgstr "橙镫"
+
+#. STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.7
+msgctxt "STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.7"
+msgid "ORANGE KITE"
+msgstr "橙嶝"
+
+#. STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.8
+msgctxt "STRINGS.REFORGED.RLGL.ORANGELIGHT_FAKEOUT_BANTER.8"
+msgid "ORANGE WHITE"
+msgstr "橙蹬"
+
+#. STRINGS.REFORGED.RLGL.BLUELIGHT
+msgctxt "STRINGS.REFORGED.RLGL.BLUELIGHT"
+msgid "BLUE LIGHT!"
+msgstr "藍燈！"
+
+#. STRINGS.REFORGED.RLGL.BLUELIGHT_SPEECH.1
+msgctxt "STRINGS.REFORGED.RLGL.BLUELIGHT_SPEECH.1"
+msgid "BLUE LIGHT!"
+msgstr "藍燈！"
+
+#. STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.1
+msgctxt "STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.1"
+msgid "BLUE FLIGHT"
+msgstr "藍鐙"
+
+#. STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.2
+msgctxt "STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.2"
+msgid "BLUE SIGHT"
+msgstr "藍櫈"
+
+#. STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.3
+msgctxt "STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.3"
+msgid "BLUE FIGHT"
+msgstr "藍澄"
+
+#. STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.4
+msgctxt "STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.4"
+msgid "BLUE LITE"
+msgstr "藍竳"
+
+#. STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.5
+msgctxt "STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.5"
+msgid "BLUE MIGHT"
+msgstr "藍墱"
+
+#. STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.6
+msgctxt "STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.6"
+msgid "BLUE RIGHT"
+msgstr "藍镫"
+
+#. STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.7
+msgctxt "STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.7"
+msgid "BLUE KITE"
+msgstr "藍嶝"
+
+#. STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.8
+msgctxt "STRINGS.REFORGED.RLGL.BLUELIGHT_FAKEOUT_BANTER.8"
+msgid "BLUE WHITE"
+msgstr "藍蹬"
+
+#. STRINGS.REFORGED.RLGL.NOLIGHT
+msgctxt "STRINGS.REFORGED.RLGL.NOLIGHT"
+msgid "NO LIGHT!"
+msgstr "無燈！"
+
+#. STRINGS.REFORGED.RLGL.NOLIGHT_SPEECH.1
+msgctxt "STRINGS.REFORGED.RLGL.NOLIGHT_SPEECH.1"
+msgid "NO LIGHT!"
+msgstr "無燈！"
+
+#. STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.1
+msgctxt "STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.1"
+msgid "NO FLIGHT"
+msgstr "無鐙"
+
+#. STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.2
+msgctxt "STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.2"
+msgid "NO SIGHT"
+msgstr "無櫈"
+
+#. STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.3
+msgctxt "STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.3"
+msgid "NO FIGHT"
+msgstr "無澄"
+
+#. STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.4
+msgctxt "STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.4"
+msgid "NO LITE"
+msgstr "無竳"
+
+#. STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.5
+msgctxt "STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.5"
+msgid "NO MIGHT"
+msgstr "無墱"
+
+#. STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.6
+msgctxt "STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.6"
+msgid "NO RIGHT"
+msgstr "無镫"
+
+#. STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.7
+msgctxt "STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.7"
+msgid "NO KITE"
+msgstr "無嶝"
+
+#. STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.8
+msgctxt "STRINGS.REFORGED.RLGL.NOLIGHT_FAKEOUT_BANTER.8"
+msgid "NO WHITE"
+msgstr "無蹬"
+
+# ------------------
+# -- USERCOMMANDS --
+# ------------------
+
+#. STRINGS.REFORGED.USERCOMMANDS.START_VOTE_TITLE
+msgctxt "STRINGS.REFORGED.USERCOMMANDS.START_VOTE_TITLE"
+msgid "Start Vote"
+msgstr "開始投票"
+
+#. STRINGS.REFORGED.USERCOMMANDS.START_VOTE_DESC
+msgctxt "STRINGS.REFORGED.USERCOMMANDS.START_VOTE_DESC"
+msgid "Make a decision as a group!"
+msgstr "集體決策！"
+
+#. STRINGS.REFORGED.USERCOMMANDS.SUBMIT_VOTE_TITLE
+msgctxt "STRINGS.REFORGED.USERCOMMANDS.SUBMIT_VOTE_TITLE"
+msgid "Submit Vote"
+msgstr "提交投票"
+
+#. STRINGS.REFORGED.USERCOMMANDS.SUBMIT_VOTE_DESC
+msgctxt "STRINGS.REFORGED.USERCOMMANDS.SUBMIT_VOTE_DESC"
+msgid "Let your voice be heard in the active vote!"
+msgstr "讓你的聲音在主動投票中被聽見！"
+
+#. STRINGS.REFORGED.USERCOMMANDS.CANCEL_VOTE_TITLE
+msgctxt "STRINGS.REFORGED.USERCOMMANDS.CANCEL_VOTE_TITLE"
+msgid "Cancel Vote"
+msgstr "取消投票"
+
+#. STRINGS.REFORGED.USERCOMMANDS.CANCEL_VOTE_DESC
+msgctxt "STRINGS.REFORGED.USERCOMMANDS.CANCEL_VOTE_DESC"
+msgid "Silence everyones voices by canceling the active vote!"
+msgstr "通過取消主動投票使所有人的聲音保持沉默！"
+
+#. STRINGS.REFORGED.USERCOMMANDS.UPDATE_USER_EXP_TITLE
+msgctxt "STRINGS.REFORGED.USERCOMMANDS.UPDATE_USER_EXP_TITLE"
+msgid "Update User Exp"
+msgstr "更新用戶經驗"
+
+#. STRINGS.REFORGED.USERCOMMANDS.UPDATE_USER_EXP_DESC
+msgctxt "STRINGS.REFORGED.USERCOMMANDS.UPDATE_USER_EXP_DESC"
+msgid "Let the server know what your total exp is!"
+msgstr "讓服務器知道你的縂經驗有多少！"
+
+#. STRINGS.REFORGED.USERCOMMANDS.UPDATE_USERS_FRIENDS_TITLE
+msgctxt "STRINGS.REFORGED.USERCOMMANDS.UPDATE_USERS_FRIENDS_TITLE"
+msgid "Update Users Friend Count"
+msgstr "更新用戶好友數"
+
+#. STRINGS.REFORGED.USERCOMMANDS.UPDATE_USERS_FRIENDS_DESC
+msgctxt "STRINGS.REFORGED.USERCOMMANDS.UPDATE_USERS_FRIENDS_DESC"
+msgid "Let the server know how many of your friends are here!"
+msgstr "讓服務器知道你有多少朋友在這裏！"
+
+# ----------
+# -- VOTE --
+# ----------
+
+#. STRINGS.REFORGED.VOTE.TITLE
+msgctxt "STRINGS.REFORGED.VOTE.TITLE"
+msgid "Vote Now!"
+msgstr "立即投票！"
+
+#. STRINGS.REFORGED.VOTE.FAILED
+msgctxt "STRINGS.REFORGED.VOTE.FAILED"
+msgid "Vote Failed!"
+msgstr "投票失敗！"
+
+#. STRINGS.REFORGED.VOTE.SUCCESS
+msgctxt "STRINGS.REFORGED.VOTE.SUCCESS"
+msgid "Vote Succeeded!"
+msgstr "投票成功！"
+
+#. STRINGS.REFORGED.VOTE.CANCELED
+msgctxt "STRINGS.REFORGED.VOTE.CANCELED"
+msgid "Vote has been canceled!"
+msgstr "投票已被取消！"
+
+#. STRINGS.REFORGED.VOTE.SETTINGS_DESC
+msgctxt "STRINGS.REFORGED.VOTE.SETTINGS_DESC"
+msgid "%s wants to make these changes to the settings:"
+msgstr "%s 想要對設置進行以下更改:"
+
+#. STRINGS.REFORGED.VOTE.SETTINGS_INFO
+msgctxt "STRINGS.REFORGED.VOTE.SETTINGS_INFO"
+msgid "View Settings!"
+msgstr "查看設置！"
+
+#. STRINGS.REFORGED.VOTE.SETTINGS_TITLE
+msgctxt "STRINGS.REFORGED.VOTE.SETTINGS_TITLE"
+msgid "Vote to change settings!"
+msgstr "投票更改設置！"
+
+#. STRINGS.REFORGED.VOTE.SETTINGS_FAILED
+msgctxt "STRINGS.REFORGED.VOTE.SETTINGS_FAILED"
+msgid "Settings have not been changed!"
+msgstr "設置未更改！"
+
+#. STRINGS.REFORGED.VOTE.SETTINGS_SUCCESS
+msgctxt "STRINGS.REFORGED.VOTE.SETTINGS_SUCCESS"
+msgid "Settings have been changed!"
+msgstr "設置已更改！"
+
+#. STRINGS.REFORGED.VOTE.KICK_TITLE
+msgctxt "STRINGS.REFORGED.VOTE.KICK_TITLE"
+msgid "Vote to kick %s"
+msgstr "投票踢出 %s"
+
+#. STRINGS.REFORGED.VOTE.KICK_FAILED
+msgctxt "STRINGS.REFORGED.VOTE.KICK_FAILED"
+msgid "%s was not kicked!"
+msgstr "%s 沒有被踢出！"
+
+#. STRINGS.REFORGED.VOTE.KICK_SUCCESS
+msgctxt "STRINGS.REFORGED.VOTE.KICK_SUCCESS"
+msgid "%s has been kicked!"
+msgstr "%s 已被踢出！"
+
+#. STRINGS.REFORGED.VOTE.FORCE_START_TITLE
+msgctxt "STRINGS.REFORGED.VOTE.FORCE_START_TITLE"
+msgid "Vote to Force Start"
+msgstr "投票强制開始"
+
+#. STRINGS.REFORGED.VOTE.FORCE_START_FAILED
+msgctxt "STRINGS.REFORGED.VOTE.FORCE_START_FAILED"
+msgid "Match Will Not Force Start!"
+msgstr "比賽將不會强制開始！"
+
+#. STRINGS.REFORGED.VOTE.FORCE_START_SUCCESS
+msgctxt "STRINGS.REFORGED.VOTE.FORCE_START_SUCCESS"
+msgid "Forcing Match To Start!"
+msgstr "正在强制開始比賽！"
+
+#. STRINGS.REFORGED.VOTE.CANCEL_FORCE_START_TITLE
+msgctxt "STRINGS.REFORGED.VOTE.CANCEL_FORCE_START_TITLE"
+msgid "Vote to Cancel Force Start"
+msgstr "投票取消强制開始"
+
+#. STRINGS.REFORGED.VOTE.CANCEL_FORCE_START_FAILED
+msgctxt "STRINGS.REFORGED.VOTE.CANCEL_FORCE_START_FAILED"
+msgid "Force Start Not Canceled!"
+msgstr "强制開始未取消！"
+
+#. STRINGS.REFORGED.VOTE.CANCEL_FORCE_START_SUCCESS
+msgctxt "STRINGS.REFORGED.VOTE.CANCEL_FORCE_START_SUCCESS"
+msgid "Force Start Canceled!"
+msgstr "强制開始已取消！"
+
+# --------------------
+# -- ADMIN COMMANDS --
+# --------------------
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.SPAWNING_ENT
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.SPAWNING_ENT"
+msgid "Spawning %d %s."
+msgstr "正在生成 %d %s。"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.EQUIPPING_ITEM
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.EQUIPPING_ITEM"
+msgid "Equipping %s."
+msgstr "正在裝備 %s。"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.ACTIVATING_BATTLECRY
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.ACTIVATING_BATTLECRY"
+msgid "Hear me ROAR!"
+msgstr "聽我怒吼！"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.GIVING_BATTLECRY
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.GIVING_BATTLECRY"
+msgid "I must roar too!"
+msgstr "我也必須怒吼！"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.OVER_9000
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.OVER_9000"
+msgid "My power level is OVER 9000!"
+msgstr "我的力量等級超過9000！"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.UNDER_9000
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.UNDER_9000"
+msgid "I feel so weak."
+msgstr "我感到很虛弱。"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.SUPER_GOD_MODE
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.SUPER_GOD_MODE"
+msgid "I have become a GOD!"
+msgstr "我成爲了上帝！"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.MORTAL_MODE
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.MORTAL_MODE"
+msgid "I am only human."
+msgstr "我只是個人。"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.MIGHTY
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.MIGHTY"
+msgid "You made me ANGRY!"
+msgstr "你激怒我了！"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.AMPLIFY
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.AMPLIFY"
+msgid "I'm all sparkly!"
+msgstr "我渾身閃耀！"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.SHADOWS
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.SHADOWS"
+msgid "Arise my minions!"
+msgstr "發動我的隨從們！"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.SHOCK
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.SHOCK"
+msgid "Don't touch me!"
+msgstr "別碰我！"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.PETRIFY
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.PETRIFY"
+msgid "Giving you that cold as stone look!"
+msgstr "給你像石頭一樣冷的感覺！"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.REVIVE
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.REVIVE"
+msgid "My soul returns!"
+msgstr "我的靈魂回歸了！"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.ROUND_AND_WAVE_SELECT
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.ROUND_AND_WAVE_SELECT"
+msgid "Starting Round %d, Wave %d"
+msgstr "開始回合 %d, 波數 %d"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.RESTART_ROUND
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.RESTART_ROUND"
+msgid "Restarting Round %d"
+msgstr "重新開始回合 %d"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.ENABLE_WAVES
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.ENABLE_WAVES"
+msgid "Enabling Waves"
+msgstr "啓用波數"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.DISABLE_WAVES
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.DISABLE_WAVES"
+msgid "Disabling Waves"
+msgstr "禁用波數"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.KILL_ALL_MOBS
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.KILL_ALL_MOBS"
+msgid "Killing all mobs"
+msgstr "殺死所有怪物"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.POISON
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.POISON"
+msgid "Someone has poisoned me!"
+msgstr "有人給我下毒了！"
+
+#. STRINGS.REFORGED.ADMIN_COMMANDS.ADJUST_MUTATOR
+msgctxt "STRINGS.REFORGED.ADMIN_COMMANDS.ADJUST_MUTATOR"
+msgid "Adjusting %s to %s"
+msgstr "將 %s 調整爲 %s"
+
+#. STRINGS.REFORGED.unknown
+msgctxt "STRINGS.REFORGED.unknown"
+msgid "Unknown String"
+msgstr "未知字符串"

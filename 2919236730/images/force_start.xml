@@ -1,0 +1,7 @@
+<Atlas>
+	<Texture filename="force_start.tex" />
+	<Elements>
+		<Element name="cancel.tex" u1="0" u2="0.390625" v1="0.609375" v2="1" />
+		<Element name="start.tex" u1="0.390625" u2="0.78125" v1="0.609375" v2="1" />
+	</Elements>
+</Atlas>

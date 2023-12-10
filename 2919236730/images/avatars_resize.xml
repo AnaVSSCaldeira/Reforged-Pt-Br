@@ -1,0 +1,24 @@
+<Atlas>
+    <Texture filename="avatars_resize.tex" />
+    <Elements>
+        <Element name="unknown.tex" u1="0" u2="0.13671875" v1="0.86328125" v2="1" />
+        <Element name="wilson.tex" u1="0.13671875" u2="0.2734375" v1="0.86328125" v2="1" />
+        <Element name="willow.tex" u1="0.2734375" u2="0.41015625" v1="0.86328125" v2="1" />
+        <Element name="wolfgang.tex" u1="0.41015625" u2="0.546875" v1="0.86328125" v2="1" />
+        <Element name="wendy.tex" u1="0.546875" u2="0.68359375" v1="0.86328125" v2="1" />
+        <Element name="wx78.tex" u1="0.68359375" u2="0.8203125" v1="0.86328125" v2="1" />
+        <Element name="wickerbottom.tex" u1="0.8203125" u2="0.95703125" v1="0.86328125" v2="1" />
+        <Element name="woodie.tex" u1="0" u2="0.13671875" v1="0.7265625" v2="0.86328125" />
+        <Element name="wes.tex" u1="0.13671875" u2="0.2734375" v1="0.7265625" v2="0.86328125" />
+        <Element name="waxwell.tex" u1="0.2734375" u2="0.41015625" v1="0.7265625" v2="0.86328125" />
+        <Element name="wathgrithr.tex" u1="0.41015625" u2="0.546875" v1="0.7265625" v2="0.86328125" />
+        <Element name="webber.tex" u1="0.546875" u2="0.68359375" v1="0.7265625" v2="0.86328125" />
+        <Element name="winona.tex" u1="0.68359375" u2="0.8203125" v1="0.7265625" v2="0.86328125" />
+        <Element name="wortox.tex" u1="0.8203125" u2="0.95703125" v1="0.7265625" v2="0.86328125" />
+        <Element name="wormwood.tex" u1="0" u2="0.13671875" v1="0.58984375" v2="0.7265625" />
+        <Element name="warly.tex" u1="0.13671875" u2="0.2734375" v1="0.58984375" v2="0.7265625" />
+        <Element name="wurt.tex" u1="0.2734375" u2="0.41015625" v1="0.58984375" v2="0.7265625" />
+        <Element name="walter.tex" u1="0.41015625" u2="0.546875" v1="0.58984375" v2="0.7265625" />
+        <Element name="wanda.tex" u1="0.546875" u2="0.68359375" v1="0.58984375" v2="0.7265625" />
+        </Elements>
+    </Atlas>

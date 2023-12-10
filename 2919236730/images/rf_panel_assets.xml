@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Atlas>
+	<Texture filename="rf_panel_assets.tex" />
+	<Elements>
+		<Element name="bg_content_box.tex" u1="0.001" u2="0.536109375" v2="0.999" v1="0.77883203125" variant="" />
+		<Element name="bg_title_1.tex" u1="0.538109375" u2="0.6933359375" v2="0.999" v1="0.94777734375" variant="" />
+		<Element name="community_note_bg.tex" u1="0.6953359375" u2="0.86765234375" v2="0.999" v1="0.9150625" variant="" />
+		<Element name="community_scroll.tex" u1="0.86965234375" u2="0.99753515625" v2="0.999" v1="0.96437890625" variant="" />
+		<Element name="community_scroll_bg.tex" u1="0.86965234375" u2="0.9980234375" v2="0.96237890625" v1="0.8379140625" variant="" />
+		<Element name="desc_box_big.tex" u1="0.001" u2="0.28415625" v2="0.77683203125" v1="0.61379296875" variant="" />
+		<Element name="list_box_big.tex" u1="0.28615625" u2="0.55759375" v2="0.77683203125" v1="0.45803125" variant="" />
+		<Element name="rf_discord.tex" u1="0.538109375" u2="0.567359375" v2="0.94577734375" v1="0.91652734375" variant="" />
+		<Element name="rf_steam.tex" u1="0.569359375" u2="0.598609375" v2="0.94577734375" v1="0.91652734375" variant="" />
+		<Element name="rf_youtube.tex" u1="0.600609375" u2="0.629859375" v2="0.94577734375" v1="0.91652734375" variant="" />
+		<Element name="scroll_bar_arrow.tex" u1="0.631859375" u2="0.68112890625" v2="0.94577734375" v1="0.89553125" variant="" />
+		<Element name="scroll_bar_box.tex" u1="0.538109375" u2="0.56687109375" v2="0.91452734375" v1="0.8867421875" variant="" />
+	</Elements>
+</Atlas>
