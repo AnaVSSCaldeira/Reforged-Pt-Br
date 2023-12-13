@@ -221,7 +221,7 @@ AddPerk("wx78", "shock", shock_fn, nil, def_icon, 0)
 --------------------------------------------------------------------------
 local function overcharge_fn(inst)
     inst.components.combat:AddDamageBuff("passive_electric", {buff = 0.5, stimuli = "electric"}, true)
-	inst.components.revivablecorpse:SetReviveSpeedMult(0.8)
+	inst.components.revivablecorpse:SetReviveSpeedMult(0.75)
     inst:AddComponent("passive_overcharge")
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
@@ -237,7 +237,7 @@ local icon = {atlas = "images/reforged.xml", tex = "forge_icon.tex"}
 AddPerk("wickerbottom", "amplify", amplify_fn, nil, def_icon, 0)
 -------------------------------------------------------------------------------
 local function bookers_fn(inst)
-	inst.components.buffable:AddBuff("rewind", {{name = "spell_duration", val = 1.3, type = "mult"}})
+	inst.components.buffable:AddBuff("rewind", {{name = "spell_duration", val = 1.4, type = "mult"}})
     inst.reforged_items = {[1] = {"bacontome"}}
 	inst:AddComponent("corpsereviver")
 	inst.components.corpsereviver:SetReviverSpeedMult(0.75)
@@ -265,17 +265,17 @@ AddPerk("wes", "aggro", aggro_fn, nil, def_icon, 0)
 -- Maxwell --
 -------------
 local function shadows_fn(inst)
-    inst:AddComponent("passive_shadows")
-	--inst.components.combat:AddDamageBuff("magedmgbuff", {buff = 1.10, damagetype = 2 }, false) --O damagetype = 2 (Magia)
+    inst.components.combat:AddDamageBuff("magedmgbuff", {buff = 0.75}, false)
+	inst.components.buffable:AddBuff("coldown_passive", {{name = "cooldown", val = -0.1, type = "add"}})
+	inst.components.buffable:AddBuff("rewind", {{name = "spell_duration", val = 1.10, type = "mult"}})
+	inst.components.buffable:AddBuff("heal_dealt", {{name = "heal_dealt", val = 1.10, type = "mult"}})
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
 AddPerk("waxwell", "shadows", shadows_fn, nil, def_icon, 0)
 ---------------------------------------------------------------------------------------------
 local function granmage_fn(inst)
-    inst.components.combat:AddDamageBuff("magedmgbuff", {buff = 0.75}, false)
-	inst.components.buffable:AddBuff("coldown_passive", {{name = "cooldown", val = -0.1, type = "add"}})
-	inst.components.buffable:AddBuff("rewind", {{name = "spell_duration", val = 1.10, type = "mult"}})
-	inst.components.buffable:AddBuff("heal_dealt", {{name = "heal_dealt", val = 1.10, type = "mult"}})
+    inst:AddComponent("passive_shadows")
+	--inst.components.combat:AddDamageBuff("magedmgbuff", {buff = 1.10, damagetype = 2 }, false) --O damagetype = 2 (Magia)
 end
 local icon = {atlas = "images/reforged.xml", tex = "unknown_icon.tex"}
 AddPerk("waxwell", "granmage", granmage_fn, nil, def_icon, 0)

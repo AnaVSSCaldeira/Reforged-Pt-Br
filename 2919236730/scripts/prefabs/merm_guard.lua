@@ -27,9 +27,9 @@ local builds = {
 	"merm_guard_small_build",
 	"merm_guard_build",
 }
-local damage_increase_per_level = 10 / tuning_values.DAMAGE
+local damage_increase_per_level = 20 / tuning_values.DAMAGE
 local health_increase_per_level = 100 / tuning_values.HEALTH
---local speed_decrease_per_level = 0.5
+local speed_increase_per_level = 0.5
 local function UpdatePetLevel(inst, level, force_level)
 	-- Only level up if the current level will change
 	if level and level ~= 0 or force_level and force_level ~= inst.current_level then
@@ -48,7 +48,7 @@ local function UpdatePetLevel(inst, level, force_level)
 		inst.components.combat:AddDamageBuff("pet_level", {buff = damage_increase_per_level * new_level + 1}, nil, true) -- TODO double check this
 		inst.components.health:AddHealthBuff("pet_level", health_increase_per_level * new_level + 1, "mult")
 		CheckFunction("SetMaxHealth", {inst, inst.components.health.maxhealth}, inst.components.follower, "leader", "components", "pethealthbars")
-		--inst.components.locomotor:SetExternalSpeedMultiplier(inst, "pet_level", speed_decrease_per_level * new_level + 1)
+		inst.components.locomotor:SetExternalSpeedMultiplier(inst, "pet_level", speed_increase_per_level * new_level + 1)
 	end
 end
 --------------------------------------------------------------------------

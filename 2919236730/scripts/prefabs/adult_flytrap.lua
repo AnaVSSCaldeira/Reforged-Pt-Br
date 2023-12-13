@@ -12,12 +12,24 @@ local prefabs = { -- TODO probably not needed?
 }
 local tuning_values = TUNING.FORGE.ADULT_FLYTRAP
 local sound_path = "reforge/creatures/venus_flytrap/4/"
+
 --------------------------------------------------------------------------
 -- Pet Functions
 --------------------------------------------------------------------------
+
+local MIN_LEVEL = 1
+local MAX_LEVEL = 3
+-- Returns the current level within the level constraints.
+local function GetLevel(inst)
+	local level = inst.current_level
+	return level < MIN_LEVEL and MIN_LEVEL or level > MAX_LEVEL and MAX_LEVEL or level
+end
+
+
 local scale = 1.8
-local transition_scale = 1.4
+local transition_scale = 1.3
 local total_frames_per_scale = 4
+local scale_per_level = 0.05
 local function OnSpawn(inst) -- TODO leaving this here until we figure out spawning anim stuff...
     inst.start_scale = transition_scale/scale
     inst.inc_scale = (scale - transition_scale) / scale / total_frames_per_scale
@@ -26,6 +38,32 @@ local function OnSpawn(inst) -- TODO leaving this here until we figure out spawn
     inst.sg:GoToState("grow")
     inst.SoundEmitter:PlaySound(inst.sounds.taunt)
     inst.SoundEmitter:PlaySound("dontstarve_DLC001/creatures/mole/emerge")
+end
+
+local damage_increase_per_level = 20 / tuning_values.DAMAGE
+local health_increase_per_level = 150 / tuning_values.HEALTH
+
+local function UpdatePetLevel(inst, level, force_level, instant)
+	-- Only level up if the current level will change
+	if level and level ~= 0 or force_level and force_level ~= inst.current_level then
+		local previous_level = inst.current_level
+		inst.current_level = force_level and level or inst.current_level + level
+		local new_level = inst:GetLevel() - 1 -- shifted over by 1 for base level calculations
+
+		-- Update Appearance
+		inst.start_scale = 1 + scale_per_level * (previous_level - 1)
+		local scale = 1 + scale_per_level * new_level
+		inst.inc_scale = (scale - inst.start_scale) / total_frames_per_scale
+		if instant then
+			inst.components.buffable:AddBuff("pet_level", {{name = "scaler", type = "mult", val = scale}})
+        	inst.components.scaler:ApplyScale()
+		end
+
+        -- Update Stats
+		inst.components.combat:AddDamageBuff("pet_level", {buff = damage_increase_per_level * new_level + 1}, nil, true) -- TODO double check this
+		inst.components.health:AddHealthBuff("pet_level", health_increase_per_level * new_level + 1, "mult")
+		CheckFunction("SetMaxHealth", {inst, inst.components.health.maxhealth}, inst.components.follower, "leader", "components", "pethealthbars")
+    end
 end
 --------------------------------------------------------------------------
 -- Attack Functions
@@ -77,8 +115,8 @@ local pet_values = {
     brain           = require("brains/golembrain"), -- TODO create a brain for it, currently uses golems brain
     sounds = {
         taunt      = sound_path .. "taunt",
-        breath_in  = sound_path .. "breath_in",
-        breath_out = sound_path .. "breath_out",
+        breath_in  = sound_path .. "",
+        breath_out = sound_path .. "",
         attack_pre = sound_path .. "attack_pre",
         attack     = sound_path .. "attack",
         death_pre  = "reforge/creatures/venus_flytrap/death_pre",
@@ -98,6 +136,10 @@ local function fn(Sim)
         return inst
     end
     ------------------------------------------
+    inst.current_level = 1
+	inst.UpdatePetLevel = UpdatePetLevel
+	inst.GetLevel = GetLevel
+
     OnSpawn(inst)
     inst:ListenForEvent("onhitother", OnHitOther)
     inst.death_timer = inst:DoTaskInTime(tuning_values.LIFE_TIME, Die)

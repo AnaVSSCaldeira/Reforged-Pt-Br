@@ -97,8 +97,8 @@ local REFORGED_TUNING = {
 		FOOD_REGEN_MULT    = 1.1,
 	},
 	WURT = {
-		WET_DEBUFF_DURATION = 10,
-		WET_DEBUFF_ELECTRIC = 1.5, -- TODO better name?
+		WET_DEBUFF_DURATION = 12,
+		WET_DEBUFF_ELECTRIC = 1.75, -- TODO better name?
 		WET_DEBUFF_MOVEMENT = 0.8, -- TODO better name?
 	},
 	HEALTH_ON_REVIVE = 0.20,
@@ -108,7 +108,7 @@ local REFORGED_TUNING = {
 	------------------
 	FORGE_ABIGAIL = {
 		HEALTH       = 480,
-		DAMAGE       = 9,
+		DAMAGE       = 10,
 		RESPAWN_TIME = 60,
 		WALKSPEED    = 3,
 		RUNSPEED     = 6,
@@ -134,10 +134,10 @@ local REFORGED_TUNING = {
 	GOLEM = {
 		HEALTH        = 100,
 		RUNSPEED      = 0,
-		DAMAGE        = 25,
+		DAMAGE        = 30,
 		ATTACK_RANGE  = 17,
 		ATTACK_PERIOD = 0,
-		LIFE_TIME     = 14,
+		LIFE_TIME     = 15,
 		PROJECTILE    = "forge_fireball_projectile",
 		ENTITY_TYPE   = "PETS",
 	},
@@ -146,20 +146,20 @@ local REFORGED_TUNING = {
 		DAMAGE        = 18,
 		RUNSPEED      = 6,
 		ATTACK_PERIOD = 1.8,
-		ATTACK_RANGE  = 2.4,
-		HIT_RANGE     = 3.2,
-		LIFE_TIME     = 40,
+		ATTACK_RANGE  = 2.5,
+		HIT_RANGE     = 3.5,
+		LIFE_TIME     = 45,
 		ENTITY_TYPE   = "PETS",
 	},
 	ADULT_FLYTRAP = {
 		HEALTH        = 500,
 		DAMAGE        = 55,
 		ATTACK_PERIOD = 2,
-		ATTACK_RANGE  = 6.5,
-		ATTACK_RADIUS = 3,
+		ATTACK_RANGE  = 7,
+		ATTACK_RADIUS = 3.5,
 		HIT_RANGE     = 7,
 		STIMULI       = "strong",
-		LIFE_TIME     = 40,
+		LIFE_TIME     = 60,
 		ENTITY_TYPE   = "PETS",
 	},
 	COOKPOT = { --TODO balance tuning
@@ -171,7 +171,7 @@ local REFORGED_TUNING = {
 		HORIZONTAL_SPEED = 15,
 		GRAVITY          = -20,
 		VECTOR           = {0.2, 2.5, 0},
-		BUFF_DURATION    = 12,
+		BUFF_DURATION    = 15,
 		DAMAGE_BUFF      = 1.15,
 		DEFENSE_BUFF     = 0.9,
 		REGEN_TICK_RATE  = _G.FRAMES,
@@ -184,14 +184,14 @@ local REFORGED_TUNING = {
 		DEACTIVATE_TIME = 3,
 	},
 	MERM_GUARD = {
-		HEALTH        = 250,
-		DAMAGE        = 34,
-		RUNSPEED      = 10,
+		HEALTH        = 280,
+		DAMAGE        = 35,
+		RUNSPEED      = 7,
 		WALKSPEED     = 5,
 		ATTACK_PERIOD = 1,
 		ATTACK_RANGE  = 4,
 		HIT_RANGE     = 4,
-		LIFE_TIME     = 40,
+		LIFE_TIME     = 45,
 		ENTITY_TYPE   = "PETS",
 	},
 	WOBY = {
@@ -199,14 +199,14 @@ local REFORGED_TUNING = {
 		WALKSPEED	  = 6,
 		BUFF_RANGE	  = 16,
 		BUFF_DURATION = 25,
-		BUFF_COOLDOWN = 35,
+		BUFF_COOLDOWN = 36,
 		BUFF_MULT	  = 0.8,
 		HEALTH        = 100, -- invincible so health value does not matter
 		ENTITY_TYPE   = "PETS",
 	},
 	BABY_BEN = {
 		HEALTH       = 100, -- invincible so health value does not matter
-		WALKSPEED    = 3,
+		WALKSPEED    = 4,
 		RUNSPEED     = 7,
 		ENTITY_TYPE  = "PETS",
 	},
@@ -369,16 +369,16 @@ local REFORGED_TUNING = {
 		WEIGHT                = 20,
 	},
 	RHINOCEBRO = {
-		HEALTH               = 12750,
+		HEALTH               = 12000,
 		REV_PERCENT          = 0.20, --2560
 		RUNSPEED             = 7, --guesstimate, gets multiplied by 1.15 because of scale.
-		DAMAGE               = 150,
+		DAMAGE               = 100,
 		CHEER_CD             = 15,
 		CHEER_TIMEOUT        = 5,
 		BUFF_DAMAGE_INCREASE = 25,
 		MAX_BUFFS            = 7, -- 4, -- TODO klei had 7 in their prefab, need to cross reference with vids to confirm
-		ATTACK_RANGE         = 3.5, --either 2 or 3, will tune this later.
-		HIT_RANGE            = 4.5, --need more information on hitranges (can you even dodge it?)
+		ATTACK_RANGE         = 3, --either 2 or 3, will tune this later.
+		HIT_RANGE            = 4, --need more information on hitranges (can you even dodge it?)
 		--Leo: these are no longer used since the ram activates via the running states now.
 		CHARGE_HIT_RANGE     = 3,
 		------------------------------
@@ -753,13 +753,13 @@ local REFORGED_TUNING = {
 			ALWAYS_VALID = false,
 		},
 	},
-	TELEPORT_STAFF = {
-		DAMAGE      = 20,
+	TELEPORT_STAFF = {  --CAJADO DE TELEPORT 
+		DAMAGE      = 25,
 		ALT_RANGE   = 30,
 		COOLDOWN    = 1,
-		DAMAGE_TYPE = 1, -- Physical
+		DAMAGE_TYPE = 2, -- Magical Damage
 		SPELL_TYPES = {"utility"},
-		ITEM_TYPE   = "melees",
+		ITEM_TYPE   = "staves",
 		ENTITY_TYPE = "WEAPONS",
 		IS_STARTING_ITEM = true,
 		WEIGHT           = 1,
@@ -844,7 +844,7 @@ local REFORGED_TUNING = {
 	},
 	FORGE_SLINGSHOT = {
 		DAMAGE       = 30,
-		ALT_DAMAGE   = 55,
+		ALT_DAMAGE   = 80,
 		COOLDOWN 	 = 18,
 		DAMAGE_TYPE  = 1, -- Physical
 		ITEM_TYPE    = "darts",
@@ -880,7 +880,7 @@ local REFORGED_TUNING = {
 			LENGTH      = 7,
 		},
 	},
-	POCKETWATCH_REFORGED = {
+	POCKETWATCH_REFORGED = {  --RELOGIO DO TEMPO
 		DAMAGE       = 25,
 		COOLDOWN     = 18,
 		DAMAGE_TYPE  = 1, -- Physical

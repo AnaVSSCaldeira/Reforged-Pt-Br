@@ -37,9 +37,10 @@ local builds = {
 	"venus_flytrap_build",
 	"venus_flytrap_lg_build",
 }
-local damage_increase_per_level = 5 / tuning_values.DAMAGE
+local damage_increase_per_level = 15 / tuning_values.DAMAGE
 local health_increase_per_level = 50 / tuning_values.HEALTH
 local speed_decrease_per_level = 0.5 / tuning_values.RUNSPEED
+
 local function UpdatePetLevel(inst, level, force_level, instant)
 	-- Only level up if the current level will change
 	if level and level ~= 0 or force_level and force_level ~= inst.current_level then
@@ -56,13 +57,6 @@ local function UpdatePetLevel(inst, level, force_level, instant)
 			inst.components.buffable:AddBuff("pet_level", {{name = "scaler", type = "mult", val = scale}})
         	inst.components.scaler:ApplyScale()
 			inst.AnimState:SetBuild(inst.build)
-		end
-
-		-- Used for determining run sounds
-		if inst.current_level == 1 then
-			inst:AddTag("usefastrun")
-		else
-			inst:RemoveTag("usefastrun")
 		end
 
 		-- Update Stats
@@ -120,8 +114,8 @@ local pet_values = {
 	sounds = {
 		step       = "step",
 		taunt      = "taunt",
-		breath_in  = "breath_in",
-		breath_out = "breath_out",
+		breath_in  = "",
+		breath_out = "",
 		attack     = "attack",
 		death      = "death",
 	},

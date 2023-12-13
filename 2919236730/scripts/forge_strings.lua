@@ -1750,11 +1750,11 @@ STRINGS.REFORGED = {
 		wx78 = {
 			shock = {
 				TITLE       =  "O Robô Eletrificado",
-				DESCRIPTION = "*Dá choque nos inimigos próximos após ser atacado 3 vezes.\n*+50% Dano Elétrico.\n*Vida Máxima aumentada para 175.\n\nEspecialidades: \nCorpo a Corpo e Cajados.",
+				DESCRIPTION = "*Vida Máxima aumentada para 175.\n*Dá choque nos inimigos próximos após ser atacado 3 vezes.\n*+50% de Dano Elétrico.\n\nEspecialidades: \nCorpo a Corpo e Cajados.",
 			},
 			overcharge = {
 				TITLE       = "O Robô Sobrecarregado",
-				DESCRIPTION = "*Fica Sobrecarregado ao receber ataques elétricos, ganhando vida, luz e +20% Velocidade de movimento.\n*È revivido 20% mais rápido.\n\nEspecialidades: \nCorpo a Corpo e Cajados.",
+				DESCRIPTION = "*Fica Sobrecarregado ao receber ataques elétricos, ganhando vida, luz e +20% Velocidade de movimento.\n*È revivido 25% mais rápido.\n\nEspecialidades: \nCorpo a Corpo e Cajados.",
 			},
 		},
 		wickerbottom = {
@@ -1764,23 +1764,23 @@ STRINGS.REFORGED = {
 			},
 			bookers = {
 				TITLE       =  "A Bibliotecária",
-				DESCRIPTION = "*Um Livro Golem extra aparecerá na batalha.\n*+30% Duração de Feitiços.\n*Revive aliados 25% mais rápido.\n\nEspecialidade: \nLivros.",
+				DESCRIPTION = "*Só pode usar livros!\n*Um Livro Golem extra aparecerá na batalha.\n*+40% de Duração de Feitiços.\n*Revive aliados 25% mais rápido.\n\nEspecialidade: \nLivros.",
 			},
 		},
 		wes = {
 			aggro = {
 				TITLE       =  "A Isca Humana",
-				DESCRIPTION = "*É revivido 50% mais rápido.\n*Gera menos aggro quando ataca mas é difícil perde-la dos inimigos.\n*+10% Vel. de movimento\n\nEspecialidades: \nCorpo a Corpo, Dardos e Cajados.",
+				DESCRIPTION = "*É revivido 50% mais rápido.\n*Gera menos aggro quando ataca mas é difícil perde-la dos inimigos.\n*+10% de Vel. de movimento\n\nEspecialidades: \nCorpo a Corpo, Dardos e Cajados.",
 			},
 		},
 		waxwell = {
 			shadows = {
-				TITLE       =  "O Mestre das Sombras",
-				DESCRIPTION = "*Invoca duelistas das sombras depois de causar muito dano num único alvo.\n\nEspecialidades: \nCajados e Livros.",
+				TITLE       =  "O Mago Implacável",
+				DESCRIPTION = "*+10% de Redução de Recarga.\n*+10% de Duração de Feitiços.\n*+10% de Cura.\n*Causa 25% menos Dano.\n\nEspecialidades: \nCajados e Livros.",
 			},
 			granmage = {
-				TITLE       =  "O Mago Implacável",
-				DESCRIPTION = "*+10% Redução de Recarga.\n*+10% Duração de Feitiços.\n*Dá +10% de Cura.\n*Causa 25% meno Dano Base.\n\nEspecialidades: \nCajados e Livros.",
+				TITLE       =  "O Mestre das Sombras",
+				DESCRIPTION = "*Invoca duelistas das sombras depois de causar muito dano num único alvo.\n\nEspecialidades: \nCajados e Livros.",
 			},
 		},
 		wathgrithr = {
@@ -1796,7 +1796,7 @@ STRINGS.REFORGED = {
 			},
 			tankers = {
 				TITLE       = "O Mutante",
-				DESCRIPTION = "*Vida Máxima aumentada para 200 \n*+10% Vel. de movimento\n\nEspecialidades: \nCorpo a Corpo e Dardos.",
+				DESCRIPTION = "*Vida Máxima aumentada para 200 \n*+10% de Vel. de movimento\n\nEspecialidades: \nCorpo a Corpo e Dardos.",
 			},
 		},
 		winona = {
@@ -1842,11 +1842,11 @@ STRINGS.REFORGED = {
 		wanda = {
 			rewind = {
 				TITLE       = "A Imortal",
-				DESCRIPTION = "*Se revive sozinha ao morrer (recarga de 1 minuto).\n*+15% Duração de Feitiços.\n*Receberá o Cajado de Portais.\n\nEspecialidades: \nCorpo a Corpo, Cajados e Livros.",
+				DESCRIPTION = "*Se revive sozinha ao morrer (recarga de 1 minuto).\n*+15% de Duração de Feitiços.\n*Receberá o Cajado de Portais.\n\nEspecialidades: \nCorpo a Corpo, Cajados e Livros.",
 			},
 			age = {
 				TITLE       = "A Anciã do Tempo",
-				DESCRIPTION = "*Perde vida sem parar.\n*Ganha até +50% dano com baixa vida.\n*Receberá o Relógio Amaldiçoado que volta a vida de aliados e congela inimigos.\n\nEspecialidades: \nCorpo a Corpo, Cajados e Livros.",
+				DESCRIPTION = "*Perde vida sem parar.\n*Ganha até +50% de dano com baixa vida.\n*Receberá o Relógio Amaldiçoado que volta a vida de aliados e congela inimigos.\n\nEspecialidades: \nCorpo a Corpo, Cajados e Livros.",
 			},
 		},
 		CHOOSE  = "Escolha um Perk:",
