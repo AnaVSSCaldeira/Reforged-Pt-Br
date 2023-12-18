@@ -45,7 +45,7 @@ local reforged_fns = {
         Helium tank? (skins)
         Balloon animal (skins)
         Alt: places balloon, aggros nearby enemies while active (like bernie dance, but bernie dance is odd see video in bernie section), on hit explodes and stuns nearby enemies, flys away after x amount of time?
-    --]]
+    Just ignore for now, too complex --]]
     wes = function(inst)
         ------------------------------------------
         if not _G.TheWorld.ismastersim then

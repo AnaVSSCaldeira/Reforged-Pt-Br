@@ -652,7 +652,7 @@ AddComponentPostInit("worldcharacterselectlobby", function(self)
 		local force_start = false
 		local initial_delay = false
 		local total_delay = _G.REFORGED_SETTINGS.force_start_delay
-		local default_delay = 5
+		local default_delay = 3
 
 		function self:ResetTimer(time)
 			self.timer:set(time)
@@ -836,7 +836,7 @@ local function EditOvalPortrait(self)
 		if self.la_difficulty then
 			local dif = _G.TUNING.LAVAARENA_SURVIVOR_DIFFICULTY[string.upper(character)]
 			if dif ~= nil then
-				self.la_difficulty:SetString(STRINGS.UI.PORTRAIT.DIFFICULTY .. " : " .. tostring((dif == 1 and "+") or (dif == 2 and "++") or "+++"))
+				self.la_difficulty:SetString(STRINGS.UI.PORTRAIT.DIFFICULTY .. " : " .. tostring((dif == 1 and "Simples") or (dif == 2 and "Moderada") or "Complexa"))
 			else
 				self.la_difficulty:SetString("")
 			end
@@ -880,8 +880,8 @@ local function BuildCharacterDetailsWidget(char)
 		self.inv:ChangeCharacter(character, perk_options and perk_options.overrides.inventory, perk_options and perk_options.overrides.companions, perk)
 
 		local dif = perk_options and perk_options.overrides.difficulty or TUNING.LAVAARENA_SURVIVOR_DIFFICULTY[string.upper(character)]
-		local perk_difficulty_string = _G.CheckTable(STRINGS.REFORGED.PERKS, string.lower(character), perk, "DIFFICULTY")
-		local diff_strings = {[0] = STRINGS.UI.SANDBOXMENU.NONE, [1] = "+", [2] = "++", [3] = "+++"}
+		local perk_difficulty_string = _G.CheckTable(STRINGS.REFORGED.PERKS, string.lower(character), perk, "DIFICULDADE")
+		local diff_strings = {[0] = STRINGS.UI.SANDBOXMENU.NONE, [1] = "Simples", [2] = "Moderada", [3] = "Complexa"}
 		local diff_str = perk_difficulty_string or tostring(dif and diff_strings[math.min(dif,3)] or "?")
 		self.survivability:SetString(diff_str)
 
@@ -1002,6 +1002,12 @@ local function BuildCharacterDetailsWidget(char)
 	root.health_status.ChangeCharacter = function(self, character, health_override, perk)
 		local perk_string = _G.CheckTable(STRINGS.REFORGED.PERKS, string.lower(character), perk, "STARTING_HEALTH")
 		local v = tostring(perk_string or health_override or TUNING.LAVAARENA_STARTING_HEALTH[string.upper(character)] or STRINGS.CHARACTER_DETAILS.STAT_UNKNOW)
+		if perk == "tankers" then
+			v = "200"
+		end
+		if perk == "shock" then
+			v = "175"
+		end
 		root.health_status.status_value:SetString(v)
 	end
 
@@ -1046,8 +1052,12 @@ local function BuildCharacterDetailsWidget(char)
 		if companion_list then
 			_G.TableConcat(inv_item_list, companion_list)
 		end
+		if perk == "tankers" then
+			inv_item_list = _G.deepcopy(inventory_override or (TUNING.GAMEMODE_STARTING_ITEMS[string.upper(_G.TheNet:GetServerGameMode())] or TUNING.GAMEMODE_STARTING_ITEMS.DEFAULT)["WEBBER2"])
+		end
 
 		if inv_item_list ~= nil and #inv_item_list > 0 then
+			
 			local inv_items, item_count = {}, {}
 			for _, v in ipairs(inv_item_list) do
 				if item_count[v] == nil then

@@ -54,7 +54,7 @@ local function MakePingBanner(name, build)
             inst.nameoverride = "lavaarena_battlestandard"
             ------------------------------------------
     		local t1 = REFORGED_SETTINGS.display.ping_transparency and REFORGED_SETTINGS.display.ping_transparency/100 or 1
-    		inst.AnimState:SetMultColour(1, 1, 1, t1)
+    		inst.AnimState:SetMultColour(1, 1, 1, 0.8)
             if not TheNet:IsDedicated() then
                 inst:AddComponent("hudindicatable")
                 inst.components.hudindicatable:SetShouldTrackFunction(ShouldTrack)

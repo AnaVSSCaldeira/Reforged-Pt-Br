@@ -222,7 +222,7 @@ end
 -- Starts the countdown for world reset.
 function LobbyVote:WorldReset()
     TheWorld.net.components.worldcharacterselectlobby:CancelForceStart()
-    self.timer = 5
+    self.timer = 3
     self.inst:StartWallUpdatingComponent(self)
 end
 

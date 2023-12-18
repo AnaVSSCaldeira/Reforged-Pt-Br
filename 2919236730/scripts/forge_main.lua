@@ -275,6 +275,7 @@ TUNING.GAMEMODE_STARTING_ITEMS.LAVAARENA = {
 	WOODIE       = { "riledlucy", "forge_woodarmor" },
 	WATHGRITHR   = { "pithpike", "featheredtunic" },
 	WEBBER       = { "forgedarts", "featheredtunic" },
+	WEBBER2       = { "forginghammer", "featheredtunic" },
 	WINONA       = { "forginghammer", "forge_woodarmor" },
 	WORTOX       = { "teleport_staff", "forge_woodarmor" },
 	WARLY        = { "forginghammer", "forge_woodarmor" },

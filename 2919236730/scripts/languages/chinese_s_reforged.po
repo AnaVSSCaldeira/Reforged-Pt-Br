@@ -1494,7 +1494,7 @@ msgstr "竞技场"
 
 #. STRINGS.UI.GAME_SETTINGS_PANEL.DIFFICULTY
 msgctxt "STRINGS.UI.GAME_SETTINGS_PANEL.DIFFICULTY"
-msgid "Difficulty"
+msgid "Dificuldade"
 msgstr "难度"
 
 #. STRINGS.UI.GAME_SETTINGS_PANEL.VOTE

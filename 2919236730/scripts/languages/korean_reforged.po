@@ -1762,7 +1762,7 @@ msgstr "게임 설정"
 
 #. STRINGS.UI.GAME_SETTINGS_PANEL.DIFFICULTY
 msgctxt "STRINGS.UI.GAME_SETTINGS_PANEL.DIFFICULTY"
-msgid "Difficulty"
+msgid "Dificuldade"
 msgstr "난이도"
 
 #. STRINGS.UI.GAME_SETTINGS_PANEL.MODE

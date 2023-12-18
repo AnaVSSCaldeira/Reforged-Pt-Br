@@ -101,9 +101,19 @@ local function OnAttached(inst, target)
         -- Attach buff
         AddBuff(inst, target)
 
-        target["spice_debuff_" .. tostring(inst.type) .. "_timer"] = target:DoTaskInTime(inst.duration, function() -- TODO
-            inst.components.debuff:Stop()
-        end)
+        if inst.type == "speed" then
+            target["spice_debuff_speed" .. "_timer"] = target:DoTaskInTime(inst.duration + 6, function()
+                inst.components.debuff:Stop()
+            end)
+        elseif inst.type == "def" then
+            target["spice_debuff_def" .. "_timer"] = target:DoTaskInTime(inst.duration + 4, function()
+                inst.components.debuff:Stop()
+            end)
+        else
+            target["spice_debuff_" .. tostring(inst.type) .. "_timer"] = target:DoTaskInTime(inst.duration, function()
+                inst.components.debuff:Stop()
+            end)
+        end
     end)
 end
 
@@ -138,10 +148,20 @@ local function OnExtended(inst, target)
             RemoveBuff(inst, target, inst.previous_type)
             AddBuff(inst, target)
         end
-
-       target["spice_debuff_" .. tostring(inst.type) .. "_timer"] = target:DoTaskInTime(inst.duration, function()
-            inst.components.debuff:Stop()
-        end)
+        
+        if inst.type == "speed" then
+            target["spice_debuff_speed" .. "_timer"] = target:DoTaskInTime(inst.duration + 6, function()
+                inst.components.debuff:Stop()
+            end)
+        elseif inst.type == "def" then
+            target["spice_debuff_def" .. "_timer"] = target:DoTaskInTime(inst.duration + 4, function()
+                inst.components.debuff:Stop()
+            end)
+        else
+            target["spice_debuff_" .. tostring(inst.type) .. "_timer"] = target:DoTaskInTime(inst.duration, function()
+                inst.components.debuff:Stop()
+            end)
+        end
     end)
 end
 
@@ -170,16 +190,16 @@ local function fn()
     inst.source = nil
     inst.duration = tuning_values.DURATION
     inst.buffs = {
-        attack  = 0.25,--1.25,
+        attack  = 0.2,--1.2,
         defense = -0.2,--0.8,
         regen   = 60,
         speed   = 0.2,--1.2,
     }
     inst.debuffs = {
-        attack  = -0.1,--0.9,
-        defense = 0.1,--1.1,
+        attack  = -0.15,--0.85,
+        defense = 0.15,--1.15,
         sleep   = 10,
-        speed   = -0.1,--0.9,
+        speed   = -0.15,--0.85,
     }
     inst.tick_rate = 4*FRAMES--0.1 -- of a second (for acid)
     inst.cause = "spice_regen"

@@ -22,7 +22,7 @@ TODO
     Is there a way to retrieve strings from a string file? Wondering if there is a way to translate these strings? if it's the same as in the main files?
  --]]
 name = "ReForged - PT BR"
-version = "1.4"
+version = "1.6"
 
 description = "Sobreviva nesse modo de modo de waves! Jogue o Forge no seu próprio servidor!\n\nVersão: "..version
 
@@ -213,7 +213,7 @@ configuration_options = {
 	AddCustomConfig("ROTATION", "MVP badge custom rotation", "Adjusts the rotation of the MVP badge on the detailed summary screen if default rotation is false", BuildNumConfig(-10, 10), 0),
 
     AddSectionTitle("Gameplay Settings"),
-    AddCustomConfig("DIFFICULTY", "Difficulty", "Change the difficulty!", difficulties, "normal"),
+    AddCustomConfig("DIFFICULTY", "Dificuldade", "Change the difficulty!", difficulties, "normal"),
     AddCustomConfig("GAMETYPE", "Gametype", "Change the gametype!", gametypes, "forge"),
     AddCustomConfig("MODE", "Mode", "Change the mode!", modes, "reforged"),
     AddCustomConfig("WAVESET", "Wave Set", "Change the wave data to something NEW!", wave_sets, "swineclops"),

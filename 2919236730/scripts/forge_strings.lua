@@ -464,7 +464,7 @@ STRINGS.UI.GAME_SETTINGS_PANEL = {
 	WAVESET    = "Inimigos",
 	MAP        = "Arena",
 	DIFFICULTY = "Dificuldade",
-	VOTE       = "Vote to Change Settings",
+	VOTE       = "Vote para Alterar Configs",
 	FORCE      = "Salvar Configurações",
 	RESET      = "Resetar Configurações",
 }
@@ -547,15 +547,15 @@ STRINGS.UI.NEWS_PANEL = {
 }
 
 local lavaarena_titles = STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.TITLES
-lavaarena_titles.player_damagedealt = "Merciless"
-lavaarena_titles.player_damagetaken = "Protector"
-lavaarena_titles.pet_damagedealt    = "Zookeeper"
-lavaarena_titles.pet_damagetaken    = "Loyal Guardian"
-lavaarena_titles.cctime             = "Immobilizer"
-lavaarena_titles.ccbroken           = "Disruptor"
-lavaarena_titles.petdeaths          = "Veterinarian"
-lavaarena_titles.healingreceived    = "Spoiled"
-lavaarena_titles.total_friendly_fire_damage_dealt = "Traitor"
+lavaarena_titles.player_damagedealt = "Impiedoso"
+lavaarena_titles.player_damagetaken = "Protetor"
+lavaarena_titles.pet_damagedealt    = "Pet Poderoso"
+lavaarena_titles.pet_damagetaken    = "Pet Guardião"
+lavaarena_titles.cctime             = "Imobilizador"
+lavaarena_titles.ccbroken           = "Troll"
+lavaarena_titles.petdeaths          = "Veterinário"
+lavaarena_titles.healingreceived    = "Estragado"
+lavaarena_titles.total_friendly_fire_damage_dealt = "Traidor"
 
 local lavaarena_desc = STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS
 lavaarena_desc.healingreceived    = "cura recebida"
@@ -1695,7 +1695,7 @@ STRINGS.REFORGED = {
 		},
 		random = {
 			full_random = {
-				TITLE       = "Totalmente Aleatório",
+				TITLE       = "Aleatório Total",
 				DESCRIPTION = "*Escolhe um personagem e perk aleatórios",
 				STARTING_ITEMS = "Os itens iniciais dependem do personagem.",
 			},
@@ -1707,146 +1707,146 @@ STRINGS.REFORGED = {
 		},
 		wilson = {
 			revive = {
-				TITLE       = "O Cientista Frustrado",
+				TITLE       = "Suporte / Dano",
 				DESCRIPTION = "*Revive aliados 50% mais rápido.\n*Recupera mais vida de aliados revividos.\n\nEspecialidades: \nCorpo a Corpo, Dardos e Cajados.",
 			},
 		},
 		willow = {
 			bernie = {
-				TITLE       = "Bernie Builder",
+				TITLE       = "Pet Tank",
 				DESCRIPTION = "*Protegida por Bernie, o urso de pelúcia.\n*Bernie só pode ser ressussitado por Willow.\n\nEspecialidades: \nDardos e Cajados.",
 			},
 			fire = {
-				TITLE       = "A Maga Infernal",
+				TITLE       = "Dano de Fogo",
 				DESCRIPTION = "*Um Cajado Infernal extra aparecerá na batalha.\n*+10% Dano de fogo e explosivo.\n\nEspecialidades: \nDardos e Cajados.",
 			},
 		},
 		wendy = {
 			abigail = {
-				TITLE       = "A Jovem de Luto",
+				TITLE       = "Pet Dano",
 				DESCRIPTION = "*Protegida por sua irmã gêmia, Abigail.\n*Abigail é revivida automaticamente.\n\nEspecialidades: \n Dardos e Cajados.",
 			},
 			baby_ben = {
-				TITLE       = "A Babá",
+				TITLE       = "Pet Tank",
 				DESCRIPTION = "*Acompanhada de seu irmão Baby Ben.\n*Baby Ben dá escudo a aliados atingidos.\n\nEspecialidade:\nDardos e Cajados.",
 			},
 		},
 		woodie = {
 			lucy = {
-				TITLE       = "O Lenhador",
+				TITLE       = "Tank / Runner",
 				DESCRIPTION = "*Lucy retorna ao Woodie após arremessada, gerando bastante aggro.\n*Maior vel. de ataque com Lucy.\n\nEspecialidade: \nCorpo a Corpo.",
 			},
 		},
 		wolfgang = {
 			mighty = {
-				TITLE       = "O Halterofilista",
+				TITLE       = "Tank / Runner",
 				DESCRIPTION = "*Fica Poderoso quando está com pouca vida, aumentando seu ataque, defesa e velocidade de movimento por 20 segs.\n\nEspecialidade: \nCorpo a Corpo.",
 			},
 			restore = {
-				TITLE       = "O Regenerador",
+				TITLE       = "Tank com Regen",
 				DESCRIPTION = "*Tem uma pequena regeneração de vida constante.\n\nEspecialidade: \nCorpo a Corpo.",
 			},
 		},
 		wx78 = {
 			shock = {
-				TITLE       =  "O Robô Eletrificado",
+				TITLE       =  "Tank / Dano Elétrico",
 				DESCRIPTION = "*Vida Máxima aumentada para 175.\n*Dá choque nos inimigos próximos após ser atacado 3 vezes.\n*+50% de Dano Elétrico.\n\nEspecialidades: \nCorpo a Corpo e Cajados.",
 			},
 			overcharge = {
-				TITLE       = "O Robô Sobrecarregado",
+				TITLE       = "Runner / Fogo Amigo",
 				DESCRIPTION = "*Fica Sobrecarregado ao receber ataques elétricos, ganhando vida, luz e +20% Velocidade de movimento.\n*È revivido 25% mais rápido.\n\nEspecialidades: \nCorpo a Corpo e Cajados.",
 			},
 		},
 		wickerbottom = {
 			amplify = {
-				TITLE       =  "A Maga Anciã",
+				TITLE       =  "Suporte / Healer",
 				DESCRIPTION = "*Ganha uma bônus depois de causar certo dano.\n*O bônus amplifica o próximo feitiço usado.\n\nEspecialidades: \nCajados e Livros.",
 			},
 			bookers = {
-				TITLE       =  "A Bibliotecária",
+				TITLE       =  "Suporte com Livros",
 				DESCRIPTION = "*Só pode usar livros!\n*Um Livro Golem extra aparecerá na batalha.\n*+40% de Duração de Feitiços.\n*Revive aliados 25% mais rápido.\n\nEspecialidade: \nLivros.",
 			},
 		},
 		wes = {
 			aggro = {
-				TITLE       =  "A Isca Humana",
+				TITLE       =  "Runner",
 				DESCRIPTION = "*É revivido 50% mais rápido.\n*Gera menos aggro quando ataca mas é difícil perde-la dos inimigos.\n*+10% de Vel. de movimento\n\nEspecialidades: \nCorpo a Corpo, Dardos e Cajados.",
 			},
 		},
 		waxwell = {
 			shadows = {
-				TITLE       =  "O Mago Implacável",
+				TITLE       =  "Suporte / Healer",
 				DESCRIPTION = "*+10% de Redução de Recarga.\n*+10% de Duração de Feitiços.\n*+10% de Cura.\n*Causa 25% menos Dano.\n\nEspecialidades: \nCajados e Livros.",
 			},
 			granmage = {
-				TITLE       =  "O Mestre das Sombras",
+				TITLE       =  "Suporte / Dano",
 				DESCRIPTION = "*Invoca duelistas das sombras depois de causar muito dano num único alvo.\n\nEspecialidades: \nCajados e Livros.",
 			},
 		},
 		wathgrithr = {
 			battlecry = {
-				TITLE       =  "A Guerreira Nórdica",
+				TITLE       =  "Dano / Buff de Dano",
 				DESCRIPTION = "*Solta Gritos de Guerra ao causar certo dano, dando +25% dano a aliados próximos.\n*Recebe menos aggro ao atacar.\n*Receberá a Lança Espiral.\n\nEspecialidades: \nCorpo a Corpo e Dardos",
 			},
 		},
 		webber = {
 			baby_spiders = {
-				TITLE       = "O Líder das Aranhas",
+				TITLE       = "Pet Dano",
 				DESCRIPTION = "*Acompanhado pelas suas aranhas.\n*As aranhas atacam e são imortais.\n\nEspecialidade: \nDardos.",
 			},
 			tankers = {
-				TITLE       = "O Mutante",
+				TITLE       = "Tank / Runner",
 				DESCRIPTION = "*Vida Máxima aumentada para 200 \n*+10% de Vel. de movimento\n\nEspecialidades: \nCorpo a Corpo e Dardos.",
 			},
 		},
 		winona = {
 			cooldown = {
-				TITLE       =  "A Multitarefa",
+				TITLE       =  "Tank / Suporte / Healer",
 				DESCRIPTION = "*+10% de Redução de Recarga.\n\nEspecialidades: \nCorpo a Corpo, Dardos e Cajados.",
 			},
 		},
 		wortox = {
 			soul_drain = {
-				TITLE       =  "O Demônio Faminto",
+				TITLE       =  "Dano / Cura em Área",
 				DESCRIPTION = "*Cause dano e regenere sua vida e de aliados próximos.\n*Receberá as Manóplas.\n\nEspecialidade: \nCorpo a Corpo.",
 			},
 		},
 		wormwood = {
 			bloom = {
-				TITLE       =  "O Jardineiro",
+				TITLE       =  "Pet Dano / Pet Tank",
 				DESCRIPTION = "*Florece caso evite dano, ganhando Vel. de movimento e liberando esporos que enfraquecem inimigos.\n*Receberá o Dardo de Super Sementes.\n\nEspecialidade: \nDardos e Cajados.",
 			},
 		},
 		warly = {
 			spices = {
-				TITLE       = "'Lhe Falta Tômpero'",
+				TITLE       = "Healer / Bomba de Tempero",
 				DESCRIPTION = "*O Cajado de Cura é trocado pela Bomba de Tômpero que pode aplicar vários buffs em aliados e debuffs em inimigos.\n*Dá +20% de Cura.\n\nEspecialidades: \nCorpo a Corpo e Cajados.",
 			},
 			cookpot = {
-				TITLE       = "O Master Chef",
+				TITLE       = "Healer / Espátula",
 				DESCRIPTION = "*A Espátula cozinha uma comida que aumenta o dano e cura aliados.\n*O Chapéu de Chef te deixa livre enquanto a comida é preparada.\n\nEspecialidades:\nCorpo a Corpo e Cajados.",
 			},
 		},
 		wurt = {
 			wet = {
-				TITLE       = "A Sapa Cabra",
+				TITLE       = "Dano / Pet Dano",
 				DESCRIPTION = "*Pode deixar inimigos molhados, reduzindo sua Vel. de movimento e amplificando ataques elétricos.\nReceberá o Tridente.\n\nEspecialidades: \nCorpo a Corpo, Dardos, Cajados e Livros.",
 			},
 		},
 		walter = {
 			woby = {
-				TITLE       = "O Escoteiro Destemido",
+				TITLE       = "Dano / Buff de Cooldown",
 				DESCRIPTION = "*Acompanhado de sua melhor amiga, Woby.\n*Interagir com Woby dá 20% de Redução de recarga a aliados.\n*Receberá o Estilingue.\n\nEspecialidades: \nDardos e Livros.",
 			},
 		},
 		wanda = {
 			rewind = {
-				TITLE       = "A Imortal",
-				DESCRIPTION = "*Se revive sozinha ao morrer (recarga de 1 minuto).\n*+15% de Duração de Feitiços.\n*Receberá o Cajado de Portais.\n\nEspecialidades: \nCorpo a Corpo, Cajados e Livros.",
+				TITLE       = "Suporte / Healer",
+				DESCRIPTION = "*Se revive sozinha ao morrer (recarga de 1 minuto).\n*+15% de Duração de Feitiços.\n*Receberá o Relógio Amaldiçoado que volta a vida de aliados e congela inimigos.\n\nEspecialidades: \nCorpo a Corpo, Cajados e Livros.",
 			},
 			age = {
-				TITLE       = "A Anciã do Tempo",
-				DESCRIPTION = "*Perde vida sem parar.\n*Ganha até +50% de dano com baixa vida.\n*Receberá o Relógio Amaldiçoado que volta a vida de aliados e congela inimigos.\n\nEspecialidades: \nCorpo a Corpo, Cajados e Livros.",
+				TITLE       = "Suporte / Dano",
+				DESCRIPTION = "*Perde vida sem parar.\n*Ganha até +60% de dano com vida baixa.\n*Receberá o Cajado de Portais.\n\nEspecialidades: \nCorpo a Corpo, Cajados e Livros.",
 			},
 		},
 		CHOOSE  = "Escolha um Perk:",

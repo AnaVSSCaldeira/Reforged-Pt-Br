@@ -13,8 +13,8 @@ local tuning_values = TUNING.FORGE.BALLOON_REFORGED
 local function MakeBalloon(inst, caster, pos)
     local balloon = SpawnPrefab("balloon")
     balloon.Transform:SetPosition(pos:Get())
-    --balloon.components.poppable.onpopfn = onpopfn
-    --balloon.components.combat:SetDefaultDamage(TUNING.BALLOON_DAMAGE)
+    balloon.components.poppable.onpopfn = onpopfn
+    balloon.components.combat:SetDefaultDamage(TUNING.BALLOON_DAMAGE)
 end
 --------------------------------------------------------------------------
 -- Pristine Functions

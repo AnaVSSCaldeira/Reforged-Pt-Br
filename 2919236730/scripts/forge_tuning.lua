@@ -167,7 +167,7 @@ local REFORGED_TUNING = {
 		RANGE            = 17,
 		LAUNCH_DELAY     = 0.5,
 		SPIT_DELAY       = 0.25,
-		FOOD_HIT_RANGE   = 2.8,
+		FOOD_HIT_RANGE   = 2.9,
 		HORIZONTAL_SPEED = 15,
 		GRAVITY          = -20,
 		VECTOR           = {0.2, 2.5, 0},
@@ -175,7 +175,7 @@ local REFORGED_TUNING = {
 		DAMAGE_BUFF      = 1.15,
 		DEFENSE_BUFF     = 0.9,
 		REGEN_TICK_RATE  = _G.FRAMES,
-		REGEN_TICK_VALUE = 0.18, -- 15 health base heal
+		REGEN_TICK_VALUE = 0.18, -- 15 health base heal?
 	},
 	TRAP_SPIKES = {
 		DAMAGE = 40,
@@ -789,12 +789,12 @@ local REFORGED_TUNING = {
 	},
 	SPICE_BOMB = {
 		IMPACT_DURATION     = 1,
-		LINGERING_DURATION  = 1,
+		LINGERING_DURATION  = 2,
 		DURATION            = 10,
 		LINGERING_MULT      = 0.7,
-		DAMAGE              = 10,
-		COOLDOWN            = 23,
-		AOE_RADIUS 			= 1,
+		DAMAGE              = 12,
+		COOLDOWN            = 22,
+		AOE_RADIUS 			= 1.4,
 		ALT_RADIUS          = 4,--4.1, TODO double check then remove this comment
 		HORIZONTAL_SPEED    = 20,--15,
 		VECTOR              = {.25, 1, 0},
@@ -805,7 +805,7 @@ local REFORGED_TUNING = {
 		DAMAGE_TYPE         = 1, -- Physical
 		ITEM_TYPE           = "darts",
 		ENTITY_TYPE         = "WEAPONS",
-		ATTACK_RANGE        = 3,
+		ATTACK_RANGE        = 3.4,
 		HIT_RANGE           = 5,
 		ALT_ATTACK_RANGE    = 10,
 		ALT_HIT_RANGE       = 20,
@@ -861,25 +861,6 @@ local REFORGED_TUNING = {
 			LENGTH      = 6.5,
 		},
 	},
-	BALLOON = {
-		DAMAGE       = 15,
-		ALT_DAMAGE   = 25, --balloon explosion damage
-		COOLDOWN 	 = 3,
-		DAMAGE_TYPE  = 1, -- Physical
-		ITEM_TYPE    = "darts",
-
-		MAX_BALLOONS = 100,
-		AOE_RADIUS = 3,
-		AGGRO_RADIUS = 6,
-		TICK_RATE = 0.5,
-
-		RET = {
-			PREFAB      = "reticuleaoesmall",
-			PING_PREFAB = "reticuleaoesmalltarget",
-			TYPE        = "aoe",
-			LENGTH      = 7,
-		},
-	},
 	POCKETWATCH_REFORGED = {  --RELOGIO DO TEMPO
 		DAMAGE       = 25,
 		COOLDOWN     = 18,
@@ -898,7 +879,7 @@ local REFORGED_TUNING = {
 		},
 	},
 	PORTALSTAFF = {  -- Portal Staff é uma copia do Infernal Staff, ignore algumas variaveis!
-		DAMAGE          = 25,
+		DAMAGE          = 28,
 		ALT_DAMAGE      = 200,
 		ALT_CENTER_MULT = 0.25, --Damage increases as the targets get closer to the center
 		ALT_RADIUS      = 1,--4.1, TODO double check then remove this comment
@@ -924,7 +905,26 @@ local REFORGED_TUNING = {
 			},
 		},
 	},
-	BALLOON_REFORGED = {
+	BALLOON = {     -- Balão que chama a atenção
+		DAMAGE       = 15,
+		ALT_DAMAGE   = 25, --balloon explosion damage
+		COOLDOWN 	 = 3,
+		DAMAGE_TYPE  = 1, -- Physical
+		ITEM_TYPE    = "darts",
+
+		MAX_BALLOONS = 100,
+		AOE_RADIUS = 3,
+		AGGRO_RADIUS = 6,
+		TICK_RATE = 0.5,
+
+		RET = {
+			PREFAB      = "reticuleaoesmall",
+			PING_PREFAB = "reticuleaoesmalltarget",
+			TYPE        = "aoe",
+			LENGTH      = 7,
+		},
+	},
+	BALLOON_REFORGED = {     -- Balão Dagua
 		DAMAGE              = 10,
 		COOLDOWN            = 24,
 		AOE_RADIUS 			= 1,
