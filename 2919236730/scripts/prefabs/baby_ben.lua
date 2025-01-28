@@ -39,9 +39,9 @@ end
 --------------------------------------------------------------------------
 -- Pet Functions
 --------------------------------------------------------------------------
-local BASE_DURATION    = 5
-local BASE_SHIELD_MULT = 0.8
-local SHIELD_RATE = 0.2
+local BASE_DURATION    = 10
+local BASE_SHIELD_MULT = 0.5
+local SHIELD_RATE = 0.1
 local SCALE = 1
 local function UpdatePetLevel(inst, level, force_level)
     -- Only level up if the current level will change
@@ -52,8 +52,9 @@ local function UpdatePetLevel(inst, level, force_level)
         inst.components.buffable:AddBuff("pet_level", {{name = "scaler", type = "mult", val = s}})
         inst.components.scaler:ApplyScale()
         inst:SetHairStyle(inst.current_level > 1 and 2 or 1)
-        inst.shield_opts.duration = BASE_DURATION * inst.current_level
+        inst.shield_opts.duration = BASE_DURATION + 5  --BASE_DURATION * inst.current_level
         inst.shield_opts.shield_mult = math.max(1 - SHIELD_RATE * inst.current_level, 0)
+        inst.shield_opts.cooldown = 7
     end
 end
 
@@ -132,7 +133,7 @@ local function fn()
         return inst
     end
     ------------------------------------------
-    inst.shield_opts = {duration = BASE_DURATION, shield_mult = BASE_SHIELD_MULT, max_last_attacked_time = 3, max_range = 10, cooldown = 10}
+    inst.shield_opts = {duration = BASE_DURATION, shield_mult = BASE_SHIELD_MULT, max_last_attacked_time = 3, max_range = 12, cooldown = 12}
     inst.current_level  = 1
     inst.UpdatePetLevel = UpdatePetLevel
     inst.SetHairStyle   = SetHairStyle

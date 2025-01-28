@@ -299,9 +299,9 @@ STRINGS.NAMES.BATTLESTANDARD_SPEED   = "Battle Standard"
 STRINGS.NAMES.LAVAARENA_CHEFHAT = "Chapéu do Chef"
 STRINGS.NAME_DETAIL_EXTENTION.LAVAARENA_CHEFHAT = "Master Chef Buff\n+20% Red. Recarga"
 
-STRINGS.NAMES.SCORPEON_ACID = "Scorpeon Acid"
-STRINGS.NAMES.DEBUFF_FIRE   = "Fire"
-STRINGS.NAMES.DEBUFF_POISON = "Poison"
+STRINGS.NAMES.SCORPEON_ACID = "Ácido"
+STRINGS.NAMES.DEBUFF_FIRE   = "Fogo"
+STRINGS.NAMES.DEBUFF_POISON = "Veneno"
 STRINGS.NAMES.NOLIGHT       = "No Light"
 STRINGS.NAMES.GREENLIGHT    = "The Green Light"
 STRINGS.NAMES.REDLIGHT      = "The Red Light"
@@ -336,82 +336,82 @@ STRINGS.UI.WXPLOBBYPANEL.LEVEL    = "Level {val}"
 STRINGS.UI.WXPLOBBYPANEL.MULT_VAL = "{name} x{val}"
 STRINGS.UI.WXPLOBBYPANEL.ADD_VAL  = "{name} + x{val}"
 STRINGS.UI.WXPLOBBYPANEL.MUTATOR_VAL = "x{val}"
-STRINGS.UI.WXPLOBBYPANEL.TOTAL_ROUNDS_COMPLETED = "Total Rounds Completed: {rounds}"
-STRINGS.UI.WXPLOBBYPANEL.TOTAL_EXP_GAINED       = "Total Experience Gained: {exp}"
-STRINGS.UI.WXP_DETAILS.SAME_CHARACTERS        = "Same Characters" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.RANDOM_CHARACTER       = "Random Character"
-STRINGS.UI.WXP_DETAILS.RANDOM_CHARACTERS_TEAM = "Random Characters (Team)"
-STRINGS.UI.WXP_DETAILS.NO_ABILITIES      = "No Abilities Used" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.NO_ABILITIES_TEAM = "No Abilities Used (Team)" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.CONSECUTIVE_WIN   = "Unbeatable" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.PARTY_SIZE        = "Small Party" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.MOB_KILLS         = "Monster Hunter"
-STRINGS.UI.WXP_DETAILS.MOB_DAMAGE        = "Damage Mutator" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.MOB_DEFENSE       = "Defense Mutator" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.MOB_HEALTH        = "Health Mutator" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.MOB_SPEED         = "Speed Mutator" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.MOB_ATTACK_RATE   = "Attack Rate Mutator" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.MOB_SIZE          = "Size Mutator" -- TODO better string?
+STRINGS.UI.WXPLOBBYPANEL.TOTAL_ROUNDS_COMPLETED = "Rodadas Totais Completas: {rounds}"
+STRINGS.UI.WXPLOBBYPANEL.TOTAL_EXP_GAINED       = "Total de EXP Ganho: {exp}"
+STRINGS.UI.WXP_DETAILS.SAME_CHARACTERS        = "Os mesmos personagens" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.RANDOM_CHARACTER       = "Personagem Aleatório"
+STRINGS.UI.WXP_DETAILS.RANDOM_CHARACTERS_TEAM = "Personagens Aleatórios (Equipe)"
+STRINGS.UI.WXP_DETAILS.NO_ABILITIES      = "Sem Habilidades Usadas" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.NO_ABILITIES_TEAM = "Sem Habilidades Usadas (Equipe)" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.CONSECUTIVE_WIN   = "Imbatível" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.PARTY_SIZE        = "Party Pequena" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.MOB_KILLS         = "Caçador de Monstros"
+STRINGS.UI.WXP_DETAILS.MOB_DAMAGE        = "Modificação de Dano" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.MOB_DEFENSE       = "Modificação de Defesa" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.MOB_HEALTH        = "Modificação de Vida" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.MOB_SPEED         = "Modificação de Velocidade" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.MOB_ATTACK_RATE   = "Modificação de Velocidade de Ataque" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.MOB_SIZE          = "Modificação de Tamanho" -- TODO better string?
 STRINGS.UI.WXP_DETAILS.BATTLESTANDARD_EFFICIENCY = "Battlestandard Efficiency" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.NO_SLEEP        = "Insomniac"
+STRINGS.UI.WXP_DETAILS.NO_SLEEP        = "Insônia"
 STRINGS.UI.WXP_DETAILS.NO_REVIVES      = "Mortal" -- TODO better string?
 STRINGS.UI.WXP_DETAILS.NO_HUD          = "Sem HUD" -- TODO better string?
 STRINGS.UI.WXP_DETAILS.FRIENDLY_FIRE   = "Fogo Amigo" -- TODO better string?
 STRINGS.UI.WXP_DETAILS.SCRIPTS         = "Spamware" -- TODO better string?
 STRINGS.UI.WXP_DETAILS.COMMANDS        = "Hacker" -- TODO better string?
 STRINGS.UI.WXP_DETAILS.HARD_MODE       = "Modo Difícil" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.CLASSIC_RLGL    = "Classic RLGL" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.CLASSIC_RLGL    = "RLGL Clássico" -- TODO better string?
 STRINGS.UI.WXP_DETAILS.RLGL            = "RLGL" -- TODO better string?
 STRINGS.UI.WXP_DETAILS.ENDLESS         = "Infinito" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.MOB_DUPLICATOR  = "Duplicator Mutator" -- TODO better string?
-STRINGS.UI.WXP_DETAILS.JOINED_MIDMATCH = "Late Bloomer" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.MOB_DUPLICATOR  = "Modificação de Quantidade" -- TODO better string?
+STRINGS.UI.WXP_DETAILS.JOINED_MIDMATCH = "Chegou Atrasado" -- TODO better string?
 
 STRINGS.UI.DETAILEDSUMMARYSCREEN = {
 	STATS = {
 		TITLES = {
-			attack        = "Attack Stats:",
-			crowd_control = "Crowd Control Stats:",
-			defense       = "Defense Stats:",
-			healing       = "Healing Stats:",
-			other         = "Other Stats:",
+			attack        = "ATAQUE:",  --Attack Stats era o antigo...
+			crowd_control = "CONTROLE COLETIVO:", --Crowd Control Stats era o antigo...
+			defense       = "DEFESA:",
+			healing       = "CURA:",
+			other         = "OUTROS:",
 		},
 	},
-	TITLE = "Detailed Match Summary",
+	TITLE = "RESUMO DETALHADO DA PARTIDA",
 	TEAMSTATS = {
-		TITLE = "Detailed Team Stats",
-		SHOW = "View Team Stats",
-		HIDE = "Go Back to MVP Badges", -- TODO better text for this?
-		BACK = "Back",
+		TITLE = "Estatística Detalhadas do Time",
+		SHOW = "Ver Estatísticas do Time",
+		HIDE = "Voltar para pódio de MVPs", -- TODO better text for this?
+		BACK = "Voltar",
 		STATHEADERS = {
-			deaths            = "Deaths",
-			total_damagedealt = "Total Damage Dealt",
-			kills             = "Killing Blows",
-			aggroheld         = "Aggro Time (seconds)",
-			corpsesrevived    = "Allies Revived",
-			healingdone       = "Health Restored",
-			total_damagetaken = "Damage Taken",
-			attacks           = "Swings Landed",
-			turtillusflips    = "Snortoises Flipped",
-			spellscast        = "Spells Cast",
-			altattacks        = "Special Attacks Used",
-			stepcounter       = "Steps Taken",
-			blowdarts         = "Dart hits",
-			standards         = "Battle Standards Destroyed",
-			numcc             = "Enemies Immobilized",
-			guardsbroken      = "Enemy Guards Broken",
-			healingreceived   = "Healing Recieved",
-			pet_damagetaken   = "Pet Damage Taken",
-			player_damagedealt = "Player Damage Dealt",
-			player_damagetaken = "Player Damage Taken",
-			cctime             = "Seconds of Crowd Control",
-			petdeaths          = "Pet Deaths",
-			ccbroken           = "Crowd Control Broken",
-			pet_damagedealt    = "Pet Damage Dealt",
-			unknown            = "UNKNOWN",
-			parry              = "Damage Parried",
-			perfect_parry      = "Perfect Parries",
-			total_friendly_fire_damage_dealt = "Total Friendly Fire Damage Dealt",
-			total_friendly_fire_damage_taken = "Total Friendly Fire Damage Taken",
+			deaths            = "Mortes",
+			total_damagedealt = "Dano total causado",
+			kills             = "Kills",
+			aggroheld         = "Tempo de Aggro (segundos)",
+			corpsesrevived    = "Aliados Revividos",
+			healingdone       = "Vida Restaurada",
+			total_damagetaken = "Dano Tankado",
+			attacks           = "Ataques Realizados (clicks)",
+			turtillusflips    = "Snortoises Viradas",
+			spellscast        = "Magias Conjuradas",
+			altattacks        = "Ataques Especiais Usados",
+			stepcounter       = "Passos percorridos",
+			blowdarts         = "Tiros de Dardo",
+			standards         = "Estandartes de Batalha Destroidos",
+			numcc             = "Inimigos Imobilizados",
+			guardsbroken      = "Guardas de Inimigos Quebradas",
+			healingreceived   = "Cura Recebida",
+			pet_damagetaken   = "Dano Tankado (Pet)",
+			player_damagedealt = "Dano Causado (Fogo Amigo)",
+			player_damagetaken = "Dano Tankado (Fogo Amigo)",
+			cctime             = "Controle Coletivo (segundos)",
+			petdeaths          = "Mortes (Pet)",
+			ccbroken           = "Controle Coletivo Quebrado",
+			pet_damagedealt    = "Dano Causado (Pet)",
+			unknown            = "DESCONHECIDO",
+			parry              = "Dano Ignorado (Parry)",
+			perfect_parry      = "Parries Perfeitos",
+			total_friendly_fire_damage_dealt = "Dano Total Causado (Fogo Amigo)",
+			total_friendly_fire_damage_taken = "Dano Total Tankado (Fogo Amigo)",
 		},
 	},
 }
@@ -431,13 +431,13 @@ STRINGS.UI.ADMINMENU = {
 	},
 	BUTTONS = {
 		SPAWN       = "Spawn",
-		ACTIVATE    = "Activate",
-		ABILITIES   = "Abilities",
-		DESCRIPTION = "Description",
-		EQUIP       = "Equip",
-		APPLY       = "Apply",
-		ENABLE      = "Enable",
-		DISABLE     = "Disable",
+		ACTIVATE    = "Ativar",
+		ABILITIES   = "Abilidades",
+		DESCRIPTION = "Descrição",
+		EQUIP       = "Equipar",
+		APPLY       = "Aplicar",
+		ENABLE      = "Abilitar",
+		DISABLE     = "Desabilitar",
 	},
 	NO_ABILITIES = "No abilities",
 	STATS = {
@@ -502,28 +502,28 @@ STRINGS.UI.FORGEHISTORYPANEL = { -- TODO rename to LEADERBOARDPANEL?
 		MOST_RECENT           = "Recente",
 		FASTEST_TIME          = "Mais Rápido",
 		LONGEST_TIME          = "Mais Lento",
-		RUN_COUNT             = "%s of %s",
+		RUN_COUNT             = "%s de %s",
 		RUNS_TITLE            = "Partidas",
-		SORTER_TITLE          = "Sort By",
+		SORTER_TITLE          = "Filtar por",
 		NO_RUNS               = "0 Partidas Encontradas",
 	},
 	AVERAGE_STATS = {
 		TITLE                = "Average Stats",
 		WIN_RATE             = "Win Rate",
-		TOTAL_TIME           = "Total Time",
-		AVERAGE_TIME         = "Average Time",
-		FASTEST_SLOWEST_TIME = "Fastest/Slowest",
-		TOTAL_DEATHS         = "Total Deaths",
-		CHARACTER_USAGE      = "Character Usage",
+		TOTAL_TIME           = "Tempo Total",
+		AVERAGE_TIME         = "Tempo Médio",
+		FASTEST_SLOWEST_TIME = "Mais rápido/devagar",
+		TOTAL_DEATHS         = "Mortes Totais",
+		CHARACTER_USAGE      = "Uso de Personagem",
 		BUTTON               = "Toggle Average Stats",
-		MOST_PLAYED_TITLE    = "Most Played",
+		MOST_PLAYED_TITLE    = "Mais Jogado",
 	},
 	RUN = {
 		VICTORY            = "Vitória!",
 		DEFEAT             = "Derrota! :(",
 		NA                 = "N/A",
-		NONE               = "No Run Found",
-		EMPTY_LIST         = "No Forge Runs To Display!",
+		NONE               = "Nenhum Partida Achada",
+		EMPTY_LIST         = "Nenhuma Partida Para Mostrar!",
 		PLAYER_STATS_TITLE = "%s's Stats",
 		BACK_BUTTON        = "Go Back To Team Stats",
 	},
@@ -559,9 +559,9 @@ lavaarena_titles.total_friendly_fire_damage_dealt = "Traidor"
 
 local lavaarena_desc = STRINGS.UI.MVP_LOADING_WIDGET.LAVAARENA.DESCRIPTIONS
 lavaarena_desc.healingreceived    = "cura recebida"
-lavaarena_desc.pet_damagetaken    = "dano sofrido por pets"
+lavaarena_desc.pet_damagetaken    = "dano tankado por pets"
 lavaarena_desc.player_damagedealt = "dano causado"
-lavaarena_desc.player_damagetaken = "dano recebido"
+lavaarena_desc.player_damagetaken = "dano tankado"
 lavaarena_desc.cctime             = "segs de controle coletivo"
 lavaarena_desc.petdeaths          = "morte de pets"
 lavaarena_desc.ccbroken           = "quebra de controle coletivo"
@@ -571,7 +571,7 @@ lavaarena_desc.parry              = "dano defendido"
 lavaarena_desc.attack_interrupt   = "ataques interrompidos"
 lavaarena_desc.cheater            = "Eu assumo que usei hack..."
 lavaarena_desc.total_friendly_fire_damage_dealt = "dano causado em amigos"
-lavaarena_desc.total_friendly_fire_damage_taken = "dano recebido de amigos"
+lavaarena_desc.total_friendly_fire_damage_taken = "dano tankado de amigos"
 
 STRINGS.REFORGED = {
 	-----------
@@ -798,7 +798,7 @@ STRINGS.REFORGED = {
 		},
 		BABY_BEN = {
 			NAME = "Bebê Ben",
-			DESC = "Wendy's brother wants to play too!",
+			DESC = "O irmão da Wendy quer brincar também!",
 		},
 	},
 	----------------
@@ -1714,7 +1714,7 @@ STRINGS.REFORGED = {
 		willow = {
 			bernie = {
 				TITLE       = "Pet Tank",
-				DESCRIPTION = "*Protegida por Bernie, o urso de pelúcia.\n*Bernie só pode ser ressussitado por Willow.\n\nEspecialidades: \nDardos e Cajados.",
+				DESCRIPTION = "*Protegida por Bernie, o urso de pelúcia.\n*Bernie só pode ser ressussitado por Willow!\n\nEspecialidades: \nDardos e Cajados.",
 			},
 			fire = {
 				TITLE       = "Dano de Fogo",
@@ -1734,13 +1734,13 @@ STRINGS.REFORGED = {
 		woodie = {
 			lucy = {
 				TITLE       = "Tank / Runner",
-				DESCRIPTION = "*Lucy retorna ao Woodie após arremessada, gerando bastante aggro.\n*Maior vel. de ataque com Lucy.\n\nEspecialidade: \nCorpo a Corpo.",
+				DESCRIPTION = "*Woodie pode arrmessar Lucy nos inimigos, gerando bastante aggro.\n*Maior vel. de ataque com Lucy.\n\nEspecialidade: \nCorpo a Corpo.",
 			},
 		},
 		wolfgang = {
 			mighty = {
 				TITLE       = "Tank / Runner",
-				DESCRIPTION = "*Fica Poderoso quando está com pouca vida, aumentando seu ataque, defesa e velocidade de movimento por 20 segs.\n\nEspecialidade: \nCorpo a Corpo.",
+				DESCRIPTION = "*Vida Máxima aumentada para 225.\n*Fica forte quando está com 30% de vida, aumentando seu ataque, defesa e velocidade por 30 segs. (reseta com 50% HP)\n\nEspecialidade: \nCorpo a Corpo.",
 			},
 			restore = {
 				TITLE       = "Tank com Regen",
@@ -1754,7 +1754,7 @@ STRINGS.REFORGED = {
 			},
 			overcharge = {
 				TITLE       = "Runner / Fogo Amigo",
-				DESCRIPTION = "*Fica Sobrecarregado ao receber ataques elétricos, ganhando vida, luz e +20% Velocidade de movimento.\n*È revivido 25% mais rápido.\n\nEspecialidades: \nCorpo a Corpo e Cajados.",
+				DESCRIPTION = "*Fica Sobrecarregado ao receber ataques elétricos, ganhando vida, luz e +20% Velocidade de movimento.\n*É revivido 25% mais rápido.\n\nEspecialidades: \nCorpo a Corpo e Cajados.",
 			},
 		},
 		wickerbottom = {
@@ -1770,7 +1770,7 @@ STRINGS.REFORGED = {
 		wes = {
 			aggro = {
 				TITLE       =  "Runner",
-				DESCRIPTION = "*É revivido 50% mais rápido.\n*Gera menos aggro quando ataca mas é difícil perde-la dos inimigos.\n*+10% de Vel. de movimento\n\nEspecialidades: \nCorpo a Corpo, Dardos e Cajados.",
+				DESCRIPTION = "*É revivido 50% mais rápido.\n*+20% de Vel. de movimento.\n*Gera menos aggro quando ataca, mas é difícil perde-la dos inimigos.\n\nEspecialidades: \nCorpo a Corpo, Dardos e Cajados.",
 			},
 		},
 		waxwell = {
@@ -1780,19 +1780,19 @@ STRINGS.REFORGED = {
 			},
 			granmage = {
 				TITLE       =  "Suporte / Dano",
-				DESCRIPTION = "*Invoca duelistas das sombras depois de causar muito dano num único alvo.\n\nEspecialidades: \nCajados e Livros.",
+				DESCRIPTION = "*Invoca duelistas das sombras depois de causar muito dano em um único alvo.\n\nEspecialidades: \nCajados e Livros.",
 			},
 		},
 		wathgrithr = {
 			battlecry = {
 				TITLE       =  "Dano / Buff de Dano",
-				DESCRIPTION = "*Solta Gritos de Guerra ao causar certo dano, dando +25% dano a aliados próximos.\n*Recebe menos aggro ao atacar.\n*Receberá a Lança Espiral.\n\nEspecialidades: \nCorpo a Corpo e Dardos",
+				DESCRIPTION = "*Solta Gritos de Guerra a cada 8 ataques consecutivos, dando +25% dano a aliados próximos.\n*Recebe menos aggro ao atacar.\n*Receberá a Lança Espiral.\n\nEspecialidades: \nCorpo a Corpo e Dardos",
 			},
 		},
 		webber = {
 			baby_spiders = {
 				TITLE       = "Pet Dano",
-				DESCRIPTION = "*Acompanhado pelas suas aranhas.\n*As aranhas atacam e são imortais.\n\nEspecialidade: \nDardos.",
+				DESCRIPTION = "*Acompanhado pelas suas aranhas.\n*As aranhas são imortais e só atacam o seu alvo atual.\n\nEspecialidade: \nDardos.",
 			},
 			tankers = {
 				TITLE       = "Tank / Runner",
@@ -1802,7 +1802,7 @@ STRINGS.REFORGED = {
 		winona = {
 			cooldown = {
 				TITLE       =  "Tank / Suporte / Healer",
-				DESCRIPTION = "*+10% de Redução de Recarga.\n\nEspecialidades: \nCorpo a Corpo, Dardos e Cajados.",
+				DESCRIPTION = "*+10% de Redução de Recarga.\n\nEspecialidades: \nCorpo a Corpo, Dardos, Livros e Cajados.",
 			},
 		},
 		wortox = {

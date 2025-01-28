@@ -275,7 +275,7 @@ end
 -- WX-78 --
 -----------
 local function wx78_master_postinit(inst)
-	inst.components.itemtyperestrictions:SetRestrictions({"darts", "staves", "books"})
+	inst.components.itemtyperestrictions:SetRestrictions({"darts", "books"})
 end
 ------------------
 -- Wickerbottom --

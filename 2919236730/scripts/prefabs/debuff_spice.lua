@@ -102,11 +102,11 @@ local function OnAttached(inst, target)
         AddBuff(inst, target)
 
         if inst.type == "speed" then
-            target["spice_debuff_speed" .. "_timer"] = target:DoTaskInTime(inst.duration + 6, function()
+            target["spice_debuff_speed" .. "_timer"] = target:DoTaskInTime(inst.duration + 15, function()
                 inst.components.debuff:Stop()
             end)
         elseif inst.type == "def" then
-            target["spice_debuff_def" .. "_timer"] = target:DoTaskInTime(inst.duration + 4, function()
+            target["spice_debuff_def" .. "_timer"] = target:DoTaskInTime(inst.duration + 10, function()
                 inst.components.debuff:Stop()
             end)
         else
@@ -150,11 +150,11 @@ local function OnExtended(inst, target)
         end
         
         if inst.type == "speed" then
-            target["spice_debuff_speed" .. "_timer"] = target:DoTaskInTime(inst.duration + 6, function()
+            target["spice_debuff_speed" .. "_timer"] = target:DoTaskInTime(inst.duration + 15, function()
                 inst.components.debuff:Stop()
             end)
         elseif inst.type == "def" then
-            target["spice_debuff_def" .. "_timer"] = target:DoTaskInTime(inst.duration + 4, function()
+            target["spice_debuff_def" .. "_timer"] = target:DoTaskInTime(inst.duration + 10, function()
                 inst.components.debuff:Stop()
             end)
         else
@@ -198,8 +198,8 @@ local function fn()
     inst.debuffs = {
         attack  = -0.15,--0.85,
         defense = 0.15,--1.15,
-        sleep   = 10,
-        speed   = -0.15,--0.85,
+        sleep   = 12,
+        speed   = -0.25,--0.75,
     }
     inst.tick_rate = 4*FRAMES--0.1 -- of a second (for acid)
     inst.cause = "spice_regen"

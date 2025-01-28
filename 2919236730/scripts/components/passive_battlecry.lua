@@ -86,10 +86,10 @@ local PassiveBattleCry = Class(function(self, inst)
 	self.battle_cry = false
 	self.hit_count = 0
 	self.hit_count_trigger = 8
-	self.radius = 8
+	self.radius = 10
 	self.decay_time = 1
 	self.damage_mult = 1.25
-	self.store_time = 3
+	self.store_time = 6  --Acho que esse é o tempo do buff
 	self.alt_hits = 0
 	self.last_hit_time = 0
 

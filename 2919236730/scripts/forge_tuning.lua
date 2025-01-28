@@ -99,7 +99,7 @@ local REFORGED_TUNING = {
 	WURT = {
 		WET_DEBUFF_DURATION = 12,
 		WET_DEBUFF_ELECTRIC = 1.75, -- TODO better name?
-		WET_DEBUFF_MOVEMENT = 0.8, -- TODO better name?
+		WET_DEBUFF_MOVEMENT = 0.75, -- TODO better name?
 	},
 	HEALTH_ON_REVIVE = 0.20,
 
@@ -116,11 +116,11 @@ local REFORGED_TUNING = {
 	},
 	BABYSPIDER = {
 		AMOUNT        = 3,
-		ATTACK_PERIOD = 3,
-		ATTACK_RANGE  = 3, -- TODO multiply by scale? or in prefab?
-		DAMAGE        = 9,
+		ATTACK_PERIOD = 1.5,
+		ATTACK_RANGE  = 5, -- TODO multiply by scale? or in prefab?
+		DAMAGE        = 5,
 		HEALTH        = 100, -- invincible so health value does not matter
-		RUNSPEED      = 10,
+		RUNSPEED      = 16,
 		ENTITY_TYPE   = "PETS",
 	},
 	FORGE_BERNIE = {
@@ -197,7 +197,7 @@ local REFORGED_TUNING = {
 	WOBY = {
 		RUNSPEED      = 6,
 		WALKSPEED	  = 6,
-		BUFF_RANGE	  = 16,
+		BUFF_RANGE	  = 15,
 		BUFF_DURATION = 25,
 		BUFF_COOLDOWN = 36,
 		BUFF_MULT	  = 0.8,
@@ -568,8 +568,8 @@ local REFORGED_TUNING = {
 		},
 	},
 	SPIRALSPEAR = {
-		DAMAGE      = 30,
-		ALT_DAMAGE  = 75,
+		DAMAGE      = 32,
+		ALT_DAMAGE  = 90,
 		ALT_RANGE   = 16,
 		ALT_RADIUS  = 2.05, -- TODO change to 2 and test
 		ALT_STIMULI = "explosive",
@@ -622,7 +622,7 @@ local REFORGED_TUNING = {
 		DAMAGE              = 15,
 		ALT_DAMAGE          = 80,
 		PROC_DAMAGE         = 100,
-		COOLDOWN            = 5.5,
+		COOLDOWN            = 5,
 		ALT_RANGE 			= 2,
 		PASSIVE_RANGE       = 0.5,
 		HORIZONTAL_SPEED    = 25,
@@ -754,12 +754,12 @@ local REFORGED_TUNING = {
 		},
 	},
 	TELEPORT_STAFF = {  --CAJADO DE TELEPORT 
-		DAMAGE      = 25,
+		DAMAGE      = 28,
 		ALT_RANGE   = 30,
 		COOLDOWN    = 1,
 		DAMAGE_TYPE = 2, -- Magical Damage
 		SPELL_TYPES = {"utility"},
-		ITEM_TYPE   = "staves",
+		ITEM_TYPE   = "melees",
 		ENTITY_TYPE = "WEAPONS",
 		IS_STARTING_ITEM = true,
 		WEIGHT           = 1,
@@ -790,10 +790,10 @@ local REFORGED_TUNING = {
 	SPICE_BOMB = {
 		IMPACT_DURATION     = 1,
 		LINGERING_DURATION  = 2,
-		DURATION            = 10,
+		DURATION            = 12,
 		LINGERING_MULT      = 0.7,
 		DAMAGE              = 12,
-		COOLDOWN            = 22,
+		COOLDOWN            = 21,
 		AOE_RADIUS 			= 1.4,
 		ALT_RADIUS          = 4,--4.1, TODO double check then remove this comment
 		HORIZONTAL_SPEED    = 20,--15,
@@ -805,10 +805,10 @@ local REFORGED_TUNING = {
 		DAMAGE_TYPE         = 1, -- Physical
 		ITEM_TYPE           = "darts",
 		ENTITY_TYPE         = "WEAPONS",
-		ATTACK_RANGE        = 3.4,
+		ATTACK_RANGE        = 3.9,
 		HIT_RANGE           = 5,
 		ALT_ATTACK_RANGE    = 10,
-		ALT_HIT_RANGE       = 20,
+		ALT_HIT_RANGE       = 22,
 		IS_HEAL             = true,
 		WEIGHT              = 3,
 		ABILITIES           = 4,
@@ -843,16 +843,16 @@ local REFORGED_TUNING = {
 		},
 	},
 	FORGE_SLINGSHOT = {
-		DAMAGE       = 30,
-		ALT_DAMAGE   = 80,
-		COOLDOWN 	 = 18,
+		DAMAGE       = 100,
+		ALT_DAMAGE   = 200,
+		COOLDOWN 	 = 20,
 		DAMAGE_TYPE  = 1, -- Physical
 		ITEM_TYPE    = "darts",
 		ENTITY_TYPE  = "WEAPONS",
-		ATTACK_RANGE = 10,
-		HIT_RANGE    = 20,
+		ATTACK_RANGE = 12,
+		HIT_RANGE    = 24,
 		ALT_RANGE    = 30,
-		ALT_RADIUS   = 4,
+		ALT_RADIUS   = 7,
 		WEIGHT       = 1,
 		RET = {
 			PREFAB      = "reticulelongmulti",
@@ -951,9 +951,9 @@ local REFORGED_TUNING = {
 	--------------------
 	--==   Debuffs  ==-- --TODO move all debuff tunings to here
 	--------------------
-	MFD = { --marked for death
-		DURATION = 10,
-		MULT = 1.15,
+	MFD = { --walter slingshot debuff (marked for death)
+		DURATION = 15,
+		MULT = 1.20,
 	},
 	--------------------
 	--==   Equips   ==--

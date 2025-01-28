@@ -207,6 +207,7 @@ AddPerk("wendy", "baby_ben", baby_ben_fn, diff_overrides, icon, 1)
 --------------
 
 local function mighty_fn(inst)
+    inst.components.health:AddHealthBuff(inst.prefab, 25, "flat")
     inst:AddComponent("passive_mighty")
 end
 local diff_overrides = {
@@ -281,7 +282,7 @@ AddPerk("wickerbottom", "bookers", bookers_fn, diff_overrides, def_icon, 1)
 ---------
 local function aggro_fn(inst, name)
     --Revived twice as fast with half health buff
-	inst.components.locomotor:SetExternalSpeedMultiplier(inst, "tankers", 1.1)
+	inst.components.locomotor:SetExternalSpeedMultiplier(inst, "tankers", 1.2)  --Aumenta a velocidade em 20%
     inst.components.revivablecorpse:SetReviveSpeedMult(0.5)
     inst.components.buffable:AddBuff(name .. "_passive", {
         {name = "aggro_timer", val = TUNING.FORGE.WES.AGGRO_TIMER_MULT, type = "mult"},
@@ -380,7 +381,7 @@ AddPerk("webber", "baby_spiders", baby_spiders_fn, diff_overrides, def_icon, 0)
 local function tankers_fn(inst, name)
 	inst.components.health:AddHealthBuff(inst.prefab, 50, "flat")
 	inst.components.locomotor:SetExternalSpeedMultiplier(inst, "tankers", 1.1)
-	inst.components.itemtyperestrictions:SetRestrictions({"staves", "books"})
+	inst.components.itemtyperestrictions:SetRestrictions({"darts", "staves", "books"})
 end
 local tankers_over = {
     inventory = {"forginghammer", "forge_woodarmor"},

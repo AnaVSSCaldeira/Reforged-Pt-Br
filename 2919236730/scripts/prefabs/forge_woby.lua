@@ -37,6 +37,9 @@ local prefabs = {
 	"die_fx",
 }
 local tuning_values = TUNING.FORGE.WOBY
+local woby_cooldown = TUNING.FORGE.WOBY.BUFF_COOLDOWN
+local woby_duration = TUNING.FORGE.WOBY.BUFF_DURATION
+local woby_range = TUNING.FORGE.WOBY.BUFF_RANGE
 local sound_path = "dontstarve/creatures/together/pupington/"
 --------------------------------------------------------------------------
 -- Behavior Functions
@@ -79,7 +82,7 @@ end
 
 local function BuffAllies(inst)
 	local pos = inst:GetPosition()
-	local ents = TheSim:FindEntities(pos.x, 0, pos.z, tuning_values.BUFF_RANGE, {"_combat", "player"}, {"notarget", "playerghost", "INLIMBO"})
+	local ents = TheSim:FindEntities(pos.x, 0, pos.z, woby_range, {"_combat", "player"}, {"notarget", "playerghost", "INLIMBO"})
 	for i, v in ipairs(ents) do
 		if v:IsValid() and v.components.health and not v.components.health:IsDead() and v.components.debuffable then
 			v.components.debuffable:AddDebuff("buff_woby", "buff_woby")
@@ -89,9 +92,25 @@ local function BuffAllies(inst)
 		inst.SoundEmitter:PlaySound("dontstarve/creatures/together/clayhound/howl")
 	end
 	inst:SetBuffActive(false)
-	inst:DoTaskInTime(tuning_values.BUFF_COOLDOWN, function(inst)
+	inst:DoTaskInTime(woby_cooldown, function(inst)
 		inst:SetBuffActive(true)
 	end)
+end
+
+local function UpdatePetLevel(inst, level, force_level)
+    -- Only level up if the current level will change
+    if level and level ~= 0 or force_level and level ~= inst.current_level then
+        inst.current_level = force_level and level or inst.current_level + level
+        -- Update Size
+        local s = 1 + ((inst.current_level - 1)*(SCALE/5)) -- TODO need better equation, check if scaling values are correct, 1 and 1.2? it might be a 30% increase for all pets, but I can't tell if baby spiders change size or not
+        inst.components.buffable:AddBuff("pet_level", {{name = "scaler", type = "mult", val = s}})
+        inst.components.scaler:ApplyScale()
+        inst:SetHairStyle(inst.current_level > 1 and 2 or 1)
+		-- Update Stats
+		woby_range = 18
+		woby_duration = 30
+        woby_cooldown = 38
+    end
 end
 --------------------------------------------------------------------------
 -- Physics Functions
@@ -179,11 +198,14 @@ local function fn()
     if not TheWorld.ismastersim then
         return inst
     end
+	------------------------------------------
+	inst.current_level = 1
+	inst.UpdatePetLevel = UpdatePetLevel
     ------------------------------------------
 	inst.acidimmune = true
 	inst.buff_ready = false
 	------------------------------------------
-	inst:DoTaskInTime(tuning_values.BUFF_COOLDOWN, function(inst)
+	inst:DoTaskInTime(woby_cooldown, function(inst) --Antes o woby_cooldown era tuning_values.BUFF_COOLDOWN
 		inst:SetBuffActive(true)
 	end)
 	------------------------------------------
